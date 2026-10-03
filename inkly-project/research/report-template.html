@@ -1,0 +1,193 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inkly Channel Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f7f9; --bg-2:#eef0f5; --surface:#ffffff;
+  --ink:#14161c; --muted:#5f6875; --line:#e7e9ef;
+  --accent:#5b57e0; --accent-2:#8b5cf6; --accent-soft:rgba(91,87,224,.09); --on-accent:#fff;
+  --radius:18px; --pad:34px; --shadow:0 1px 3px rgba(20,22,28,.05),0 18px 40px -24px rgba(20,22,28,.28);
+  --font-ui:'Inter',system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-head:'Fraunces',Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111318; --bg-2:#0c0d11; --surface:#191c23; --ink:#eceef3; --muted:#9aa3b2; --line:#2a2e38; --accent:#8f8cff; --accent-2:#b18cff; --accent-soft:rgba(143,140,255,.12);
+}}
+*{box-sizing:border-box;margin:0}
+body{font-family:var(--font-ui);color:var(--ink);font-size:16.5px;line-height:1.62;-webkit-font-smoothing:antialiased;
+  background:radial-gradient(1000px 520px at 82% -8%,var(--accent-soft),transparent 60%),linear-gradient(180deg,var(--bg),var(--bg-2));
+  min-height:100vh;padding:44px 16px}
+.wrap{max-width:980px;margin:0 auto}
+h1,h2,h3{font-family:var(--font-head);letter-spacing:-.01em;line-height:1.15;font-weight:600}
+h3{font-size:17px;margin:18px 0 8px}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;text-transform:uppercase;letter-spacing:.16em;font-size:11.5px;font-weight:600;color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:var(--pad);margin-bottom:20px;box-shadow:var(--shadow)}
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:linear-gradient(90deg,var(--accent),var(--accent-2))}
+.hero-top{display:flex;flex-wrap:wrap;align-items:flex-start;gap:20px;margin:6px 0 22px}
+.hero-top .meta{flex:1;min-width:240px}.hero h1{font-size:38px;margin:8px 0}
+.hero .sub{color:var(--muted);font-size:16px}
+.btn-print{font-family:var(--font-ui);font-size:14px;font-weight:600;cursor:pointer;color:var(--on-accent);
+  background:linear-gradient(135deg,var(--accent),var(--accent-2));border:none;border-radius:11px;padding:12px 20px;
+  box-shadow:0 8px 20px -8px var(--accent);white-space:nowrap}
+.btn-print:hover{filter:brightness(1.06)}
+.stats{display:flex;flex-wrap:wrap;gap:12px}
+.stat{flex:1;min-width:130px;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.stat .k{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.stat .v{font-family:var(--font-head);font-size:22px;font-weight:600;margin-top:2px}
+.note{font-size:12.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:10px;padding:13px 16px;margin-bottom:24px;line-height:1.55;box-shadow:var(--shadow)}
+.sec-h{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.badge{flex:none;width:38px;height:38px;border-radius:11px;background:var(--accent-soft);color:var(--accent);
+  font-family:ui-monospace,monospace;font-weight:700;font-size:15px;display:flex;align-items:center;justify-content:center}
+.sec-h h2{font-size:22px}
+p{margin-bottom:12px}p:last-child{margin-bottom:0}.lede{font-size:17.5px}
+ul,ol{margin:6px 0 12px 20px}li{margin-bottom:7px}strong{font-weight:600}
+.tag{display:inline-block;font-family:ui-monospace,monospace;font-size:11.5px;color:var(--accent);
+  background:var(--accent-soft);border-radius:999px;padding:6px 13px;margin:4px 6px 4px 0}
+.pull{border-left:3px solid var(--accent);padding:10px 0 10px 18px;margin:14px 0;font-family:var(--font-head);font-size:17px;font-style:italic}
+.pull .src{display:block;font-family:var(--font-ui);font-size:13px;font-style:normal;color:var(--muted);margin-top:6px}
+.formula{background:linear-gradient(180deg,var(--accent-soft),transparent);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:12px}
+.formula code{font-size:13.5px;display:block;margin:6px 0;white-space:normal}
+.tbl{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+.tbl th,.tbl td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.tbl td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+.hot{color:var(--accent);font-weight:600}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:15px;margin-top:16px}
+.thumb{position:relative;border-radius:13px;overflow:hidden;border:1px solid var(--line);background:var(--bg);box-shadow:var(--shadow);transition:transform .18s ease,box-shadow .18s ease}
+.thumb:hover{transform:translateY(-3px)}
+.thumb .im{position:relative}
+.thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.thumb .views{position:absolute;right:8px;bottom:8px;background:rgba(10,12,18,.82);color:#fff;font-family:ui-monospace,monospace;font-size:11px;padding:3px 8px;border-radius:6px}
+.thumb .cap{font-size:12.5px;color:var(--muted);padding:10px 12px;line-height:1.4}.thumb .cap b{color:var(--ink)}
+@media (max-width:560px){.hero h1{font-size:30px}:root{--pad:22px}}
+@media print{
+  @page{margin:13mm}
+  body{background:#fff;color:#14161c;padding:0;font-size:12px}.btn-print{display:none!important}
+  .card{box-shadow:none!important;border:1px solid #dcdfe6!important;break-inside:avoid;background:#fff}
+  .hero::before,.badge{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .thumb{box-shadow:none!important}.gallery{grid-template-columns:repeat(3,1fr)}
+}
+</style></head>
+<body><div class="wrap">
+  <header class="card hero">
+    <div class="hero-top">
+      <div class="meta">
+        <div class="mono">Channel Deep-Dive</div>
+        <h1>@inklyHQ — Inkly</h1>
+        <div class="sub">Faceless, hand-drawn explainers that answer counter-intuitive “Why / How” survival questions · analyzed 2026-10-03</div>
+      </div>
+      <button class="btn-print" onclick="window.print()">Download as document</button>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="k">Subscribers</div><div class="v">9.47K</div></div>
+      <div class="stat"><div class="k">Views (all videos)</div><div class="v">3.07M</div></div>
+      <div class="stat"><div class="k">Videos</div><div class="v">28</div></div>
+      <div class="stat"><div class="k">Median views</div><div class="v">2.3K</div></div>
+      <div class="stat"><div class="k">Top video</div><div class="v">2.2M</div></div>
+      <div class="stat"><div class="k">Channel age</div><div class="v">~4 mo</div></div>
+    </div>
+  </header>
+
+  <div class="note">METHOD — All 28 videos were pulled from the channel's public video list (titles, views, durations, upload ages) and ranked by views against the channel median (2.3K) to find outliers. The top 12 thumbnails were downloaded and inspected directly. Chapters and descriptions were read from the top 10 watch pages; two descriptions contain the opening narration verbatim. Higgsfield video analysis captured the full narration and visuals of the #1 video scene by scene (the #2 video's analysis failed). YouTube blocked direct caption downloads from this server, so pace figures come from that one analyzed video. The channel joined May 27, 2026, so the sample is small and dominated by two hits — treat the patterns as strong signals, not laws.</div>
+
+  <section class="card"><div class="sec-h"><div class="badge">00</div><h2>Top Performers</h2></div>
+    <p class="lede">This is a <strong>two-hit channel</strong>. Two videos carry 97% of all views; everything else sits near the 2.3K median. Both hits are the same idea: <strong>desert heat + a counter-intuitive answer</strong>.</p>
+    <div class="scroll"><table class="tbl">
+      <tr><th>×Median</th><th>Views</th><th>Length</th><th>Title</th></tr>
+      %%TOPTABLE%%
+    </table></div>
+    <h3>How the format has evolved</h3>
+    <ul>
+      <li><strong>Jul (2 mo ago):</strong> ~6-min animal / food-chain questions (“Why Don't Humans Eat Predators?”).</li>
+      <li><strong>Aug (1 mo ago):</strong> 20-min ancient-Egypt deep dives — one of these became hit #2 (797K).</li>
+      <li><strong>Sep → now:</strong> locked into <strong>10–11 min</strong> heat/climate paradoxes, published almost daily, right after hit #1 (2.2M) landed.</li>
+    </ul>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">01</div><h2>Title Patterns</h2></div>
+    <p><strong>27 of 28 titles are questions ending in “?”</strong> — even ones that are grammatically statements (“Why Trench Foot Was More Dangerous Than Bullets?”). Openers: <strong>Why ×16</strong>, How ×7, What ×3, Who ×1, Do ×1. Average length: <strong>8.4 words</strong>.</p>
+    <ul>
+      <li><strong>The paradox:</strong> the title states something that sounds backwards — <em>more</em> clothes in heat, cold water making you <em>hotter</em>, spicy food keeping you <em>cool</em>. Both breakouts and the #3 video (11K) use this.</li>
+      <li><strong>Extreme number:</strong> 45°C, 50°C, Minus 40 Degree — puts a vivid stake in the title.</li>
+      <li><strong>A group of people as the subject:</strong> Desert People, Ancient Egyptians, Mongolian Nomads, Romans — not “humans” in general.</li>
+      <li><strong>“Without modern X”:</strong> Without Air Conditioning / Before Air Conditioning / In a Tent / With No Houses.</li>
+      <li><strong>“Yours” comparison:</strong> “Why Your House Is Hotter Than a Roman Villa?” pulls the viewer into the question.</li>
+      <li><strong>“Actually”:</strong> signals a myth about to be busted (“Actually Sleep”, “Actually Keeps You Cool”).</li>
+    </ul>
+    <div><span class="tag">question + ?</span><span class="tag">Why-led</span><span class="tag">paradox</span><span class="tag">extreme °C</span><span class="tag">named people group</span><span class="tag">no modern tech</span><span class="tag">ancient vs you</span></div>
+    <div class="formula"><span class="mono">Title templates</span>
+      <code>Why [People] [Do Counter-intuitive Thing] in [Extreme Condition]?</code>
+      <code>How Did [Ancient People] [Survive / Sleep] in [Number]°C Heat Without [Modern Tech]?</code>
+      <code>Why [Common Belief] Can Actually Make You [Opposite]?</code>
+      <code>Why Your [Modern Thing] Is [Worse] Than [Ancient Thing]?</code>
+    </div>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">02</div><h2>Thumbnail Analysis</h2></div>
+    <p>One locked recipe across every video:</p>
+    <ul>
+      <li><strong>Style:</strong> hand-drawn cartoon with thick black ink outlines and soft painted color (“Inkly”). <strong>No real faces, no photos.</strong></li>
+      <li><strong>Character:</strong> a recurring stick-figure mascot — round white head, huge googly eyes, simple line body. Ancient people are the same character in costume (turban, pharaoh headdress, laurel wreath).</li>
+      <li><strong>Text:</strong> top edge, <strong>2–3 words, ALL CAPS, bright yellow with a heavy black outline, always ending in “?”</strong> — a provocative fragment, never the title (“MORE CLOTHES?!”, “50°C NIGHTS?”, “HOT TEA WINS?”, “COOL SECRET?”).</li>
+      <li><strong>Emotion:</strong> extreme — the “modern” character is melting, sweating, tongue out, eyes bulging; the “ancient” one is smug, relaxed, sipping tea.</li>
+      <li><strong>Composition:</strong> a <strong>suffering-vs-smug face-off</strong> (often a split with a jagged lightning crack for “MODERN vs. ANCIENT?”), or a single sufferer with one giant prop.</li>
+      <li><strong>Props and palette:</strong> red thermometer, angry sun, sweat drops, heat squiggles, camels. Saturated orange/red for heat, cool blues for the “clever” side and for cold topics.</li>
+    </ul>
+    <div class="gallery">%%GALLERY%%</div>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">03</div><h2>Hook Structures</h2></div>
+    <p>Three opening moves, each built from short, punchy fragments:</p>
+    <h3>1 · Second-person immersion → “this was normal”</h3>
+    <div class="pull">“Picture yourself in ancient Egypt at noon in summer. The sun is directly overhead. Over a hundred degrees… No air conditioning. No ice water. No escape. This wasn't a rare brutal day. This was just summer.”<span class="src">— How Did Ancient Egyptians Survive Egypt's Brutal Heat? (opening narration, from description)</span></div>
+    <h3>2 · Correct the premise, then sharpen the question</h3>
+    <div class="pull">“You've eaten a predator. Tuna is a predator. Salmon hunts. So the question isn't why we can't eat predators — we can. The real question is why land predators almost never end up on a plate.”<span class="src">— Why Don't Humans Eat Predators? (3.9× median)</span></div>
+    <h3>3 · Name the paradox in the first chapter</h3>
+    <p>First chapters are literally titled <em>“The Counterintuitive Logic of Desert Attire”</em> (2.2M), <em>“The cold water paradox”</em> (11K), <em>“The challenge of desert heat”</em> (797K). The hook restates the backwards-sounding claim, adds a sensory picture of the heat, then promises the reason.</p>
+    <p>%%HOOKNOTES%%</p>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">04</div><h2>Script Format</h2></div>
+    <ol>
+      <li><strong>Cold open (0:00–~1:15):</strong> paradox + sensory heat picture + “the answer isn't what you think”.</li>
+      <li><strong>Set up the enemy (~1:15–3:20):</strong> name the physical forces — e.g. <em>“Identifying the Two Primary Heat Enemies”</em> (direct sun vs. hot air).</li>
+      <li><strong>Mechanism blocks (3–5 chapters):</strong> one technique per chapter, each explained with simple physics — evaporation, thermal mass, airflow, the “bellows effect”.</li>
+      <li><strong>Twist chapter near the end:</strong> a second paradox inside the first — <em>“The Mystery of Wearing Black in the Sun”</em>, <em>“Why cold can make you hotter”</em>.</li>
+      <li><strong>Close:</strong> a legacy/lesson for the modern viewer — <em>“A legacy of ingenuity”</em>, <em>“Lessons for the modern world”</em>.</li>
+    </ol>
+    <ul>
+      <li><strong>Chapters:</strong> 5–9 per video, with descriptive titles, every 1–2.5 min.</li>
+      <li><strong>Credibility layer:</strong> every description ends with an academic <strong>SOURCES</strong> block (journal papers, university press books), each with a one-line note on what it supports.</li>
+      <li><strong>Voice:</strong> calm, confident, slightly wry narrator; short declarative sentences; repetition for rhythm (“Not one trick. An entire way of life.”). No on-screen host.</li>
+      <li><strong>Calls to action:</strong> no CTA appears in the descriptions or chapter titles; the channel leans on topic pull, not asks.</li>
+    </ul>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">05</div><h2>Pacing &amp; Story Arc</h2></div>
+    <p><strong>Length:</strong> settled on 10–11 minutes (the 2.2M hit is 10:12); the 20-minute Egypt format hit once but was dropped. <strong>Upload cadence:</strong> about one video every 1–2 days since mid-September.</p>
+    <p><strong>Arc:</strong> <em>myth → stakes → mechanism → mechanism → twist → payoff for you.</em> Each chapter answers one sub-question and opens the next (“but that only works when there's wind…”), so the viewer always has an open loop.</p>
+    <p>%%PACENOTES%%</p>
+  </section>
+
+  <section class="card"><div class="sec-h"><div class="badge">06</div><h2>What Makes It Work</h2></div>
+    <p class="lede"><strong>The replicable mechanism: an “obviously wrong” survival fact about a vivid extreme, answered with simple physics, sold by a smug-vs-suffering cartoon.</strong></p>
+    <ul>
+      <li><strong>The curiosity gap is in the title itself.</strong> “More clothes in heat?” sounds wrong, so you have to click to resolve it.</li>
+      <li><strong>Heat is universal and seasonal.</strong> Every viewer has been too hot; both hits went out in August/September.</li>
+      <li><strong>The thumbnail tells the whole story in one second:</strong> modern-you suffering, the ancient person smug. The viewer wants to be the smug one.</li>
+      <li><strong>Evergreen and searchable.</strong> “Why do desert people wear more clothes” is a question people actually type.</li>
+      <li><strong>A cheap, consistent visual system</strong> (one mascot, one font treatment, flat cartoon art) makes daily uploads possible.</li>
+    </ul>
+    <div class="formula"><span class="mono">Next-video recipe</span>
+      <code>Topic: a hot/cold-climate survival paradox about a named people group.</code>
+      <code>Title: “Why [People] [Backwards Thing] in [Extreme]?” · 8 words · ends “?”</code>
+      <code>Thumbnail: suffering modern mascot vs. smug costumed mascot · 2–3-word yellow ALL-CAPS question.</code>
+      <code>Script: 10–11 min · paradox cold open · 5–7 chapters · twist near the end · sources in description.</code>
+    </div>
+  </section>
+</div></body></html>
