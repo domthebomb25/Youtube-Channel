@@ -3,7 +3,7 @@
 **Format:** Inkly structure · Watercolor Chronicle visuals · target length 8:02
 **Thumbnail text:** STILL $1.50?!
 **First 3 seconds:** spoken question + first image matching the thumbnail (hot dog under a yellow "$1.50" sign); fast cuts every 1–1.5s for the first ~5s.
-**Narration:** ~1,450 words incl. the New Coke bridge (≈ 7:50 at 185 wpm, ≈ 8:15 at 175 wpm). Final length is locked by the voiceover; small trims or speed changes will land it on 8:02.
+**Narration:** ~1,339 words. Voice: Benji (ElevenLabs) at ~1.05× speed ≈ 170 wpm → ≈ 7:52. Final length is locked by the voiceover.
 
 ---
 
@@ -17,8 +17,6 @@ Today, rent is up. Wages are up. Beef is up. Gas, bread, coffee, houses. Everyth
 
 And the Costco hot dog? Still a dollar fifty. Same price.
 
-Not on sale. Not a promotion. The same price, every single day, in every warehouse across America.
-
 And that makes absolutely no sense. Because it's not that hot dogs are cheap to make. One of Costco's top executives, the man who would later run the whole company, said they were losing money on it. He wanted to raise the price. Just a quarter. Nobody would have noticed.
 
 And your instinct says that's crazy. When something loses money, you fix it. You raise the price. That's how business works.
@@ -29,23 +27,21 @@ The answer is one of the smartest business decisions ever made. And it turns out
 
 Here's why.
 
-## [1:15] The problem — a price frozen in time
-
-To understand this, you first have to understand just how strange a dollar fifty really is.
+## [1:13] The problem — a price frozen in time
 
 Costco opened its first warehouse in 1983. Within a couple of years, a simple hot dog cart was selling a quarter-pound, all-beef hot dog with a can of soda for one dollar and fifty cents.
 
 That price has fought two enemies ever since.
 
-The first enemy is inflation. Every year, a dollar buys a little less. A price that never moves is quietly getting cheaper and cheaper in real terms. Today's dollar fifty is worth about a third of what it was in 1985.
+The first enemy is inflation. Every year, a dollar buys a little less. Today's dollar fifty is worth about a third of what it was in 1985.
 
 The second enemy is cost. Beef, buns, labor, electricity, the cups, the napkins, the mustard. Every single ingredient in that combo has gone up, some of them many times over.
 
 And here's the part that makes it even stranger. Costco didn't just hold the price. It made the deal better. The hot dog got about ten percent bigger. And the twelve-ounce can of soda turned into a twenty-ounce fountain drink with free refills.
 
-So the price stayed frozen while the cost of making it kept climbing. Year after year, that gap got wider. And eventually, someone inside Costco said what everyone was thinking.
+And eventually, someone inside Costco said what everyone was thinking.
 
-## [2:20] The showdown — "Figure it out"
+## [2:07] The showdown — "Figure it out"
 
 Craig Jelinek, who would go on to become Costco's chief executive, later told a story about going to the company's co-founder, Jim Sinegal.
 
@@ -63,7 +59,7 @@ Sinegal once described raising prices as the business equivalent of taking heroi
 
 So the price wasn't going to move. Which meant Costco had to change everything else.
 
-## [3:25] The fix — rebuild the hot dog from the ground up
+## [3:20] The fix — rebuild the hot dog from the ground up
 
 Here's where it gets clever.
 
@@ -77,11 +73,11 @@ Then there was the soda. In 2013, Costco switched its food courts from Coca-Cola
 
 And in 2025, when Costco switched back to Coca-Cola, the price still didn't budge. A dollar fifty.
 
-Every time the cost went up, Costco didn't touch the price. It attacked the cost instead. The factory. The supply chain. The contracts. Anything except the number on the sign.
+Every time costs rose, Costco attacked the cost instead. Anything except the number on the sign.
 
-But that still leaves the biggest question of all. Why go to all this trouble? Why would a giant company build entire factories to protect a hot dog?
+So why would a giant company build entire factories to protect a hot dog?
 
-## [4:40] The real product — it was never about the hot dog
+## [4:26] The real product — it was never about the hot dog
 
 The answer is that Costco isn't really in the business of selling you things.
 
@@ -93,13 +89,11 @@ And the hot dog? In 2025, Costco sold about two hundred and forty-five million h
 
 So the hot dog doesn't need to make money. It has a different job.
 
-The hot dog is a promise. It's the cheapest, simplest, most visible proof of the deal Costco makes with you: we will not squeeze you. Every time a member pays a dollar fifty for lunch, they're reminded that they're getting a fair deal. And people who believe they're getting a fair deal keep paying for the membership. Year after year.
-
-And they do. More than ninety percent of Costco members in the United States and Canada renew every year.
+The hot dog is a promise. It's the cheapest, simplest, most visible proof of the deal Costco makes with you: we will not squeeze you. Every dollar-fifty lunch reminds members they're getting a fair deal. And people who feel that keep renewing. More than ninety percent of Costco members in the United States and Canada renew every year.
 
 A hot dog that loses a little money is cheap advertising. A membership that renews for decades is the real treasure.
 
-## [5:55] The twist — the chicken that cost a fortune
+## [5:42] The twist — the chicken that cost a fortune
 
 Now this brings us to one of the strangest parts of the whole strategy. Because the hot dog isn't the only thing Costco protects like this.
 
@@ -115,7 +109,7 @@ And it's the exact same logic as the hot dog. The chicken usually sits near the 
 
 The cheap item isn't the product. It's the reason you walked through the door.
 
-## [7:05] The payoff — what the hot dog really costs
+## [6:52] The payoff — what the hot dog really costs
 
 So let's put the whole picture together, and see just how wrong our instinct was.
 
@@ -125,7 +119,7 @@ So the next time you hand over a dollar fifty and wonder how on earth they're ma
 
 You're not buying a hot dog. You're renewing your trust.
 
-## [7:42] Bridge to next video — New Coke
+## [7:28] Bridge to next video — New Coke
 
 Costco's hot dog proves that customers will love you for refusing to change.
 
