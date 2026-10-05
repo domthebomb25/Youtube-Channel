@@ -3,7 +3,7 @@
 **Format:** Inkly structure · Watercolor Chronicle visuals · target length 8:02
 **Thumbnail text:** STILL $1.50?!
 **First 3 seconds:** spoken question + first image matching the thumbnail (hot dog under a yellow "$1.50" sign); fast cuts every 1–1.5s for the first ~5s.
-**Narration:** ~1,339 words. Voice: Benji (ElevenLabs) at ~1.05× speed ≈ 170 wpm → ≈ 7:52. Final length is locked by the voiceover.
+**Narration:** ~1,402 words. Voice: Benji (ElevenLabs), natural speed ≈ 162 wpm (measured) → ≈ 8:39. Must stay ≥ 8:00 for mid-roll ads — confirm with the real voiceover length.
 
 ---
 
@@ -27,7 +27,7 @@ The answer is one of the smartest business decisions ever made. And it turns out
 
 Here's why.
 
-## [1:13] The problem — a price frozen in time
+## [1:17] The problem — a price frozen in time
 
 Costco opened its first warehouse in 1983. Within a couple of years, a simple hot dog cart was selling a quarter-pound, all-beef hot dog with a can of soda for one dollar and fifty cents.
 
@@ -41,7 +41,7 @@ And here's the part that makes it even stranger. Costco didn't just hold the pri
 
 And eventually, someone inside Costco said what everyone was thinking.
 
-## [2:07] The showdown — "Figure it out"
+## [2:14] The showdown — "Figure it out"
 
 Craig Jelinek, who would go on to become Costco's chief executive, later told a story about going to the company's co-founder, Jim Sinegal.
 
@@ -55,11 +55,11 @@ Think about that for a second. The founder of a company worth hundreds of billio
 
 But Sinegal wasn't being sentimental. He'd built Costco on a simple, almost stubborn rule. Costco caps its markup at about fourteen percent on brand-name products and fifteen percent on its own Kirkland brand. Most supermarkets mark things up far more than that.
 
-Sinegal once described raising prices as the business equivalent of taking heroin. You do it once, and then you have to do it again, and again, and again. And the next thing you know, you're not the low-price leader anymore.
+Sinegal once described raising prices as the business equivalent of taking heroin. You do it once, and then you have to do it again, and again, and again. And the next thing you know, you're not the low-price leader anymore. Raise prices once, and customers start checking. Raise them again, and they start shopping somewhere else.
 
 So the price wasn't going to move. Which meant Costco had to change everything else.
 
-## [3:20] The fix — rebuild the hot dog from the ground up
+## [3:36] The fix — rebuild the hot dog from the ground up
 
 Here's where it gets clever.
 
@@ -73,11 +73,13 @@ Then there was the soda. In 2013, Costco switched its food courts from Coca-Cola
 
 And in 2025, when Costco switched back to Coca-Cola, the price still didn't budge. A dollar fifty.
 
+Then in 2026, Costco tweaked the combo again, letting members swap the soda for a bottle of water. The price? You already know. A dollar fifty.
+
 Every time costs rose, Costco attacked the cost instead. Anything except the number on the sign.
 
 So why would a giant company build entire factories to protect a hot dog?
 
-## [4:26] The real product — it was never about the hot dog
+## [4:54] The real product — it was never about the hot dog
 
 The answer is that Costco isn't really in the business of selling you things.
 
@@ -93,11 +95,11 @@ The hot dog is a promise. It's the cheapest, simplest, most visible proof of the
 
 A hot dog that loses a little money is cheap advertising. A membership that renews for decades is the real treasure.
 
-## [5:42] The twist — the chicken that cost a fortune
+## [6:14] The twist — the chicken that cost a fortune
 
 Now this brings us to one of the strangest parts of the whole strategy. Because the hot dog isn't the only thing Costco protects like this.
 
-There's the rotisserie chicken. Five dollars, or to be exact, four ninety-nine. That price has been frozen since 2009.
+There's the rotisserie chicken. Five dollars, or to be exact, four ninety-nine. That price has been frozen since 2009. And people buy a lot of them. In fiscal 2025, Costco sold more than a hundred and fifty-seven million rotisserie chickens.
 
 And here's the astonishing part. Costco's former finance chief said the company was willing to give up thirty to forty million dollars a year in profit just to keep that chicken at four ninety-nine.
 
@@ -109,7 +111,7 @@ And it's the exact same logic as the hot dog. The chicken usually sits near the 
 
 The cheap item isn't the product. It's the reason you walked through the door.
 
-## [6:52] The payoff — what the hot dog really costs
+## [7:36] The payoff — what the hot dog really costs
 
 So let's put the whole picture together, and see just how wrong our instinct was.
 
@@ -119,7 +121,7 @@ So the next time you hand over a dollar fifty and wonder how on earth they're ma
 
 You're not buying a hot dog. You're renewing your trust.
 
-## [7:28] Bridge to next video — New Coke
+## [8:14] Bridge to next video — New Coke
 
 Costco's hot dog proves that customers will love you for refusing to change.
 
@@ -145,4 +147,6 @@ That story is right here.
 - Costco's 14% / 15% markup cap — widely reported; Yahoo Finance.
 - Rotisserie chicken at $4.99 since 2009, Richard Galanti on $30–40 million in forgone margin, and the $400–450 million Nebraska poultry complex in Fremont (opened Sept. 2019, built for up to 2 million chickens/week) — KSL / CNN, WATTAgNet, Meatingplace, Supermarket News.
 - New Coke launched April 1985 after winning blind taste tests; withdrawn within ~3 months (bridge teaser — full sourcing in the New Coke video).
+- 2026 combo update adding a bottled-water option at the same $1.50 — Axios (May 2026), Fox affiliates.
+- 157.4 million rotisserie chickens sold in fiscal 2025 — Chowhound, Tasting Table.
 - Inflation adjustment of $1.50 (1985) — U.S. Bureau of Labor Statistics CPI Inflation Calculator.
