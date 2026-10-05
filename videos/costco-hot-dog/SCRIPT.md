@@ -2,23 +2,24 @@
 
 **Format:** Inkly structure · Watercolor Chronicle visuals · target length 8:02
 **Thumbnail text:** STILL $1.50?!
+**First 3 seconds:** spoken question + first image matching the thumbnail (hot dog under a yellow "$1.50" sign); fast cuts every 1–1.5s for the first ~5s.
 **Narration:** ~1,450 words incl. the New Coke bridge (≈ 7:50 at 185 wpm, ≈ 8:15 at 175 wpm). Final length is locked by the voiceover; small trims or speed changes will land it on 8:02.
 
 ---
 
 ## [0:00] Cold open — the paradox
 
-Here's something that makes absolutely no sense when you think about it.
+Why is a Costco hot dog still a dollar fifty… forty years later?
 
 In 1985, you could walk into a Costco, hand over a dollar fifty, and walk out with a quarter-pound hot dog and a soda.
 
 Today, rent is up. Wages are up. Beef is up. Gas, bread, coffee, houses. Everything you buy costs more than it did in 1985. A dollar fifty back then is worth about four and a half dollars now.
 
-And the Costco hot dog? Still a dollar fifty. Same price. Forty years later.
+And the Costco hot dog? Still a dollar fifty. Same price.
 
 Not on sale. Not a promotion. The same price, every single day, in every warehouse across America.
 
-And it's not because hot dogs are cheap to make. One of Costco's top executives, the man who would later run the whole company, said they were losing money on it. He wanted to raise the price. Just a quarter. Nobody would have noticed.
+And that makes absolutely no sense. Because it's not that hot dogs are cheap to make. One of Costco's top executives, the man who would later run the whole company, said they were losing money on it. He wanted to raise the price. Just a quarter. Nobody would have noticed.
 
 And your instinct says that's crazy. When something loses money, you fix it. You raise the price. That's how business works.
 
