@@ -13,11 +13,11 @@ Why is a Costco hot dog still a dollar fifty… forty years later?
 
 In 1985, you could walk into a Costco, hand over a dollar fifty, and walk out with a quarter-pound hot dog and a soda.
 
-Today, rent is up. Wages are up. Beef is up. Gas, bread, coffee, houses. Everything you buy costs more than it did in 1985. A dollar fifty back then is worth about four and a half dollars now.
+Today, rent is up. Wages are up. Beef is up. Gas, bread, coffee, houses. Everything you buy costs more than it did in 1985. A dollar fifty back then is worth more than four and a half dollars now.
 
 And the Costco hot dog? Still a dollar fifty. Same price.
 
-And that makes absolutely no sense. Because it's not that hot dogs are cheap to make. One of Costco's top executives, the man who would later run the whole company, said they were losing money on it. He wanted to raise the price. Just a quarter. Nobody would have noticed.
+And that makes absolutely no sense. Because it's not that hot dogs are cheap to make. One of Costco's top executives, the man who ran the whole company for more than a decade, said they were losing money on it. He wanted to raise the price. Just a quarter. Nobody would have noticed.
 
 And your instinct says that's crazy. When something loses money, you fix it. You raise the price. That's how business works.
 
@@ -43,7 +43,7 @@ And eventually, someone inside Costco said what everyone was thinking.
 
 ## [2:14] The showdown — "Figure it out"
 
-Craig Jelinek, who would go on to become Costco's chief executive, later told a story about going to the company's co-founder, Jim Sinegal.
+Craig Jelinek, Costco's longtime chief executive, later told a story about going to the company's co-founder, Jim Sinegal.
 
 Jelinek said, "Jim, we can't keep selling this hot dog for a buck fifty. We are losing our rear ends."
 
@@ -65,9 +65,9 @@ Here's where it gets clever.
 
 For years, Costco bought its hot dogs from an outside supplier, the kosher brand Hebrew National. But supplier prices kept climbing, and by the late 2000s Costco was worried the supplier couldn't keep up with its enormous demand.
 
-So in 2009, Costco did something most companies would never do for a one-dollar-fifty item. It stopped buying hot dogs… and started making them.
+So Costco did something most companies would never do for a one-dollar-fifty item. In 2009, it dropped Hebrew National. Then it stopped buying hot dogs altogether… and started making them.
 
-It built its own hot dog factory in California, and later a second one in Illinois. No middleman. No supplier markup. The hot dog became a Kirkland Signature product, Costco's own brand. And the new dog was even a little bigger than the old one.
+It built its own hot dog plant in California, and later a second one in Illinois. No middleman. No supplier markup. The hot dog became a Kirkland Signature product, Costco's own brand. And the new dog was even a little bigger than the old one.
 
 Then there was the soda. In 2013, Costco switched its food courts from Coca-Cola to Pepsi, a deal that helped keep the combo at a dollar fifty.
 
@@ -101,7 +101,7 @@ Now this brings us to one of the strangest parts of the whole strategy. Because 
 
 There's the rotisserie chicken. Five dollars, or to be exact, four ninety-nine. That price has been frozen since 2009. And people buy a lot of them. In fiscal 2025, Costco sold more than a hundred and fifty-seven million rotisserie chickens.
 
-And here's the astonishing part. Costco's former finance chief said the company was willing to give up thirty to forty million dollars a year in profit just to keep that chicken at four ninety-nine.
+And here's the astonishing part. Costco's former finance chief said the company was willing to give up thirty to forty million dollars a year just to keep that chicken at four ninety-nine.
 
 Most companies would simply raise the price. Costco did the opposite. In 2019, it opened its own enormous chicken operation in Nebraska. A project costing more than four hundred million dollars. Farms, feed, and a processing plant built to supply up to two million chickens every single week.
 
@@ -140,13 +140,13 @@ That story is right here.
 - Costco Wholesale Corp., Form 10-K for fiscal year 2025: total revenue $275.2B, membership fees $5.32B, operating income ~$10.4B, renewal rate 92.3% (U.S. & Canada). SEC EDGAR.
 - Costco food court sales of 245.1 million hot dog and soda combos in fiscal 2025 — reported by Mashed, Chowhound and AOL from Costco's annual report.
 - Original 1985 combo (quarter-pound hot dog + 12 oz can of soda) vs. today (10% bigger hot dog + 20 oz fountain soda with refills) — KOMO News, Chowhound.
-- Craig Jelinek's account of Jim Sinegal's "Figure it out" response — Business Insider (2018), Entrepreneur.
-- Costco's switch from Hebrew National to Kirkland Signature hot dogs and its own plants in California and Illinois (2009) — Food Republic, Business Insider.
-- Costco's switch from Coca-Cola to Pepsi (2013) and back to Coca-Cola (2025) — ABC News affiliates, Reader's Digest.
+- Craig Jelinek's account of Jim Sinegal's "Figure it out" response (told to 425 Business, 2018; Jelinek was CEO 2012–2023) — Business Insider, Today, Fox Business.
+- Costco's switch from Hebrew National to Kirkland Signature hot dogs (2009) and its own hot dog plants in Tracy, California, and Morris, Illinois (second plant from 2018) — Food Republic, The Takeout, Chowhound.
+- Costco's switch from Coca-Cola to Pepsi (2013, to cut costs and protect the $1.50 price) and back to Coca-Cola (announced by CEO Ron Vachris Jan. 23, 2025; rolled out summer 2025) — ABC News affiliates, Progressive Grocer, Reader's Digest.
 - Jim Sinegal's "heroin" comparison on raising prices — as recounted by Eric Ries; Yahoo Finance.
 - Costco's 14% / 15% markup cap — widely reported; Yahoo Finance.
-- Rotisserie chicken at $4.99 since 2009, Richard Galanti on $30–40 million in forgone margin, and the $400–450 million Nebraska poultry complex in Fremont (opened Sept. 2019, built for up to 2 million chickens/week) — KSL / CNN, WATTAgNet, Meatingplace, Supermarket News.
+- Rotisserie chicken at $4.99 since 2009, Richard Galanti on being "willing to eat… $30 to $40 million a year in gross margin" (Seattle Times, 2015), and the $400–450 million Nebraska poultry complex in Fremont (opened Sept. 2019, built for up to 2 million chickens/week) — KSL / CNN, WATTAgNet, Meatingplace, Supermarket News.
 - New Coke launched April 1985 after winning blind taste tests; withdrawn within ~3 months (bridge teaser — full sourcing in the New Coke video).
-- 2026 combo update adding a bottled-water option at the same $1.50 — Axios (May 2026), Fox affiliates.
-- 157.4 million rotisserie chickens sold in fiscal 2025 — Chowhound, Tasting Table.
-- Inflation adjustment of $1.50 (1985) — U.S. Bureau of Labor Statistics CPI Inflation Calculator.
+- 2026 combo update (from April 2026) adding a 16.9 oz Kirkland Signature bottled-water option at the same $1.50 — Axios (May 2026), Boing Boing, Cheapism.
+- 157.4 million rotisserie chickens sold in fiscal 2025, per Costco's annual shareholder report — Tasting Table, AOL.
+- Inflation adjustment: $1.50 in 1985 ≈ $4.66 in 2026 (BLS CPI 107.6 → ~334) — U.S. Bureau of Labor Statistics CPI data.
