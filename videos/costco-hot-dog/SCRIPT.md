@@ -2,7 +2,7 @@
 
 **Format:** Inkly structure · Watercolor Chronicle visuals · target length 8:02
 **Thumbnail text:** STILL $1.50?!
-**Narration:** ~1,440 words (≈ 7:45 at 185 wpm, ≈ 8:10 at 175 wpm). Final length is locked by the voiceover; small trims or speed changes will land it on 8:02.
+**Narration:** ~1,450 words incl. the New Coke bridge (≈ 7:50 at 185 wpm, ≈ 8:15 at 175 wpm). Final length is locked by the voiceover; small trims or speed changes will land it on 8:02.
 
 ---
 
@@ -118,17 +118,23 @@ The cheap item isn't the product. It's the reason you walked through the door.
 
 So let's put the whole picture together, and see just how wrong our instinct was.
 
-The dollar-fifty hot dog looks like a mistake. A product that should have been repriced decades ago.
+The dollar-fifty hot dog looks like a mistake. It's not. It's a masterpiece of strategy. Costco builds factories, rewrites supplier deals, and swaps soda brands, all to keep one number frozen in place. Because that number earns something far more valuable than profit. It earns trust.
 
-But it's not a mistake. It's a masterpiece of business strategy. Costco protects the price at all costs. It builds factories, rewrites supplier deals, and swaps soda brands, all to keep one number frozen in place. Because that number earns something far more valuable than profit. It earns trust.
-
-And trust is what keeps millions of people renewing a membership, year after year after year.
-
-So the next time you're standing in a Costco food court, handing over a dollar fifty for a hot dog and a soda, and you're thinking, "How on earth are they making money on this?"
-
-Remember the truth. They're not. And they don't need to. Because you've already paid for something much bigger.
+So the next time you hand over a dollar fifty and wonder how on earth they're making money on this, remember the truth. They're not. And they don't need to.
 
 You're not buying a hot dog. You're renewing your trust.
+
+## [7:42] Bridge to next video — New Coke
+
+Costco's hot dog proves that customers will love you for refusing to change.
+
+But in 1985, the very same year that dollar-fifty hot dog was born, another American giant learned the opposite lesson the hard way. Coca-Cola changed its formula. In blind taste tests, people actually liked the new one better.
+
+And it still became one of the biggest disasters in business history.
+
+That story is right here.
+
+*[END SCREEN, last ~15s: video tile → "Why Did New Coke Fail When People Liked It More?" + subscribe button. Until that video is live, use YouTube's "Best for viewer" tile and swap it once New Coke is published — end screens can be edited after upload.]*
 
 ---
 
@@ -143,4 +149,5 @@ You're not buying a hot dog. You're renewing your trust.
 - Jim Sinegal's "heroin" comparison on raising prices — as recounted by Eric Ries; Yahoo Finance.
 - Costco's 14% / 15% markup cap — widely reported; Yahoo Finance.
 - Rotisserie chicken at $4.99 since 2009, Richard Galanti on $30–40 million in forgone margin, and the $400–450 million Nebraska poultry complex in Fremont (opened Sept. 2019, built for up to 2 million chickens/week) — KSL / CNN, WATTAgNet, Meatingplace, Supermarket News.
+- New Coke launched April 1985 after winning blind taste tests; withdrawn within ~3 months (bridge teaser — full sourcing in the New Coke video).
 - Inflation adjustment of $1.50 (1985) — U.S. Bureau of Labor Statistics CPI Inflation Calculator.

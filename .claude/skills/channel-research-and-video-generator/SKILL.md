@@ -45,7 +45,7 @@ Quick probes: `which higgsfield ffprobe yt-dlp`, `npx hyperframes --version`, `e
 3.  Deliver research as a neutral, downloadable HTML report
 4.  Offer 5–15 new titles → user picks one
 5.  Ask target script length (minutes)
-6.  Write the script in the ANALYZED CHANNEL's style
+6.  Write the script in the ANALYZED CHANNEL's style — ending with a BRIDGE TO NEXT VIDEO (+ end-screen plan)
 7.  Generate the voiceover → PLAY IT for the user → APPROVE (locks total length) — before any images
 8.  Ask animation style (3D Pixar / 2D / concept sketch / claymation / …) + optional custom style ref
 9.  Shot-list table (timestamp · VO line · image idea · prompt) → APPROVE → generate images (one every 2.5s, ASK interval) + a THUMBNAIL in the channel's style
@@ -238,6 +238,18 @@ Write the full script from the **extracted channel formula** — the reverse-eng
 > **Do not route this through any pre-existing house/brand voice engine.** The purpose is to reproduce the *analyzed channel's* style; a fixed house-voice writer would overwrite it. The analyzed channel's patterns ARE the template. Match its opening-hook template, segment cadence, retention devices, CTA placement, and words-per-minute pace.
 
 Size the script from the channel's measured words-per-minute (fallback ~150 wpm) × target minutes. Save it as `SCRIPT.md` and show it for approval before generating the voiceover.
+
+### Bridge to next video (every script ends with one)
+
+Viewers leave the moment a video *feels* over, so the last ~15–25 seconds hand them to another video instead of saying goodbye. Videos stay self-contained; they connect by **idea**, not plot — each ending opens a new question that a different video answers, so the catalog forms a loop viewers chain-watch.
+
+1. **Pick the target.** Prefer a video that is **already published**, so the end screen can link to it now. If none fits yet, bridge to the next planned video — ask the user which title is next — and note that the end screen gets updated once it's live.
+2. **Find the link.** A shared year, company, person, or idea — ideally the **opposite lesson** ("Costco won by never changing… the same year, Coca-Cola changed and lost"). Contrast pulls harder than "here's another one."
+3. **Write it inside the payoff, before any goodbye.** No "thanks for watching" or "that's it for today" before the bridge. Shape: *one line restating this video's lesson → the contrasting story's paradox in 2–3 sentences → leave it unresolved → "That story is right here."*
+4. **Budget the time.** Trim the payoff so the total runtime doesn't grow; ~60–90 words for the bridge.
+5. **Add an end-screen note** to `SCRIPT.md`: which video tile to show (or "Best for viewer" until the target is live), plus subscribe; last ~15s of the video. End screens can be edited after upload, so they can be retargeted later.
+6. **Keep it honest.** The teaser must be true and must match what the target video actually delivers — the bridge's facts get the same fact-check as the rest of the script.
+7. **Plan chains.** When suggesting titles (Step 4), point out natural chains (e.g., never-change → changed-and-lost → refused-to-change-and-died) and suggest themed playlists so playlist end screens can autoplay the next link.
 
 ---
 
@@ -462,7 +474,7 @@ VO `1.0`; per-clip foley `0.30–0.40`; sparse music `0.13` (0.22 fights the VO)
    - **Research report** → `<PROJECT>\research-report.html`
    - **Whole project folder** → `<PROJECT>\`
 
-   Where the host renders clickable file links, keep the **absolute path as the visible text** so the user can still read exactly where it lives on disk. State plainly: the video is assembled from these pieces, so they can swap any image, re-record the VO, or edit `index.html` and re-render — nothing is baked in. (In prompt-only mode, deliver the prompt pack + assembly plan instead of a rendered MP4.)
+   Where the host renders clickable file links, keep the **absolute path as the visible text** so the user can still read exactly where it lives on disk. Remind the user to add the **end screen** from the script's bridge note when uploading (and to retarget it later if the bridged video isn't live yet). State plainly: the video is assembled from these pieces, so they can swap any image, re-record the VO, or edit `index.html` and re-render — nothing is baked in. (In prompt-only mode, deliver the prompt pack + assembly plan instead of a rendered MP4.)
 
 ---
 
