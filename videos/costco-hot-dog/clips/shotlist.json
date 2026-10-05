@@ -1,0 +1,1762 @@
+[
+ {
+  "sec": 0,
+  "t0": 0.0,
+  "t1": 2.31,
+  "line": "Why is a Costco hot dog",
+  "n": 1,
+  "type": "A",
+  "idea": "Opening = approved style image: mascot grinning at the cart, big $1.50 sign",
+  "prompt": "(already generated \u2014 stickman-anchor-1)"
+ },
+ {
+  "sec": 0,
+  "t0": 2.31,
+  "t1": 4.62,
+  "line": "still a dollar fifty\u2026 forty years later?",
+  "n": 2,
+  "type": "R1",
+  "idea": "Slow push-in on the $1.50 sign; '40 YEARS' stamp slams on",
+  "prompt": "zoom on sign + free text overlay"
+ },
+ {
+  "sec": 0,
+  "t0": 4.62,
+  "t1": 8.27,
+  "line": "In 1985, you could walk into a Costco, hand over a dollar",
+  "n": 3,
+  "type": "N",
+  "idea": "1985: a crowd of stick-figure shoppers in 80s clothes (big hair, shoulder pads) walking into a big warehouse store",
+  "prompt": "1985 warehouse store entrance, stick-figure shoppers in 1980s clothes, big hair, windbreakers, flatbed carts, red stripe on the building"
+ },
+ {
+  "sec": 0,
+  "t0": 8.27,
+  "t1": 11.92,
+  "line": "fifty, and walk out with a quarter-pound hot dog and a soda.",
+  "n": 4,
+  "type": "N",
+  "idea": "Hand slides coins across the cart; gets hot dog + soda back",
+  "prompt": "close-up of a stick-figure hand handing over a dollar bill and two quarters at the hot dog cart, vendor handing back a hot dog and a soda cup"
+ },
+ {
+  "sec": 0,
+  "t0": 11.92,
+  "t1": 15.7,
+  "line": "Today, rent is up. Wages are up. Beef is up. Gas, bread, coffee, houses.",
+  "n": 5,
+  "type": "N",
+  "idea": "Mascot surrounded by price tags shooting upward: RENT, WAGES, BEEF, GAS, BREAD, COFFEE, HOUSE",
+  "prompt": "mascot standing in the middle while many price tags with up-arrows fly upward around him, worried face, rocket-like arrows"
+ },
+ {
+  "sec": 0,
+  "t0": 15.7,
+  "t1": 19.61,
+  "line": "Everything you buy costs more than it did in 1985.",
+  "n": 6,
+  "type": "N",
+  "idea": "A shopping receipt growing as long as a scroll; shopper fainting",
+  "prompt": "stick-figure shopper holding an extremely long receipt that unrolls across the floor, shocked face"
+ },
+ {
+  "sec": 0,
+  "t0": 19.61,
+  "t1": 21.96,
+  "line": "A dollar fifty back then is worth more",
+  "n": 7,
+  "type": "G",
+  "idea": "Split frame: '1985 $1.50' coin stack vs '2026 $4.66' taller stack",
+  "prompt": "free graphic: two coin stacks with labels"
+ },
+ {
+  "sec": 0,
+  "t0": 21.96,
+  "t1": 24.31,
+  "line": "than four and a half dollars now.",
+  "n": 8,
+  "type": "R7",
+  "idea": "Second coin stack grows taller; arrow up",
+  "prompt": "free graphic continues"
+ },
+ {
+  "sec": 0,
+  "t0": 24.31,
+  "t1": 27.89,
+  "line": "And the Costco hot dog? Still a dollar fifty. Same price.",
+  "n": 9,
+  "type": "N",
+  "idea": "The same $1.50 sign standing still while a calendar flips years behind it",
+  "prompt": "the hot dog cart with the big $1.50 sign, a giant wall calendar behind it flipping pages from 1985 to 2026"
+ },
+ {
+  "sec": 0,
+  "t0": 27.89,
+  "t1": 30.06,
+  "line": "And that makes absolutely no sense.",
+  "n": 10,
+  "type": "N",
+  "idea": "Mascot scratching head, big question mark",
+  "prompt": "mascot scratching his head with a giant red question mark above him, confused face, plain warm background"
+ },
+ {
+  "sec": 0,
+  "t0": 30.06,
+  "t1": 32.77,
+  "line": "Because it's not that hot dogs are cheap to make.",
+  "n": 11,
+  "type": "N",
+  "idea": "Mascot holding a hot dog like a gold bar under a magnifying glass",
+  "prompt": "mascot inspecting a hot dog with a magnifying glass, the hot dog shown with a tiny price tag dangling, skeptical eyebrows"
+ },
+ {
+  "sec": 0,
+  "t0": 32.77,
+  "t1": 35.94,
+  "line": "One of Costco's top executives, the man who",
+  "n": 12,
+  "type": "N",
+  "idea": "Introduce JELINEK: stick figure executive in navy suit and red tie at a desk",
+  "prompt": "character JELINEK: stick-figure executive with short brown hair, navy suit, red tie, sitting at an office desk with papers, warehouse visible through the office window"
+ },
+ {
+  "sec": 0,
+  "t0": 35.94,
+  "t1": 39.12,
+  "line": "ran the whole company for more than a",
+  "n": 13,
+  "type": "N",
+  "idea": "Jelinek with a 'CEO' nameplate, years flipping on a wall calendar",
+  "prompt": "JELINEK standing proudly behind a desk nameplate that reads CEO, calendar pages flying"
+ },
+ {
+  "sec": 0,
+  "t0": 39.12,
+  "t1": 42.29,
+  "line": "decade, said they were losing money on it.",
+  "n": 14,
+  "type": "N",
+  "idea": "Jelinek staring at a falling red line chart labelled HOT DOG",
+  "prompt": "JELINEK looking worried at a whiteboard chart with a red line going down, a hot dog icon at the end of the line"
+ },
+ {
+  "sec": 0,
+  "t0": 42.29,
+  "t1": 44.31,
+  "line": "He wanted to raise the price. Just a quarter.",
+  "n": 15,
+  "type": "N",
+  "idea": "Price sign with $1.50 crossed out and $1.75 chalked in",
+  "prompt": "the cart price sign with $1.50 crossed out in chalk and $1.75 written next to it"
+ },
+ {
+  "sec": 0,
+  "t0": 44.31,
+  "t1": 46.67,
+  "line": "Nobody would have noticed.",
+  "n": 16,
+  "type": "N",
+  "idea": "Shoppers walking past, oblivious, holding hot dogs",
+  "prompt": "stick-figure shoppers happily eating hot dogs and walking past, not looking at the sign"
+ },
+ {
+  "sec": 0,
+  "t0": 46.67,
+  "t1": 48.8,
+  "line": "And your instinct says that's crazy.",
+  "n": 17,
+  "type": "N",
+  "idea": "Mascot nodding: 'makes sense!' thumbs up",
+  "prompt": "mascot giving a thumbs up with a confident nod"
+ },
+ {
+  "sec": 0,
+  "t0": 48.8,
+  "t1": 52.33,
+  "line": "When something loses money, you fix it. You raise the price.",
+  "n": 18,
+  "type": "N",
+  "idea": "Mascot as a mechanic 'fixing' a broken price sign with a wrench",
+  "prompt": "mascot in a hard hat with a wrench tightening a price sign, the number going up"
+ },
+ {
+  "sec": 0,
+  "t0": 52.33,
+  "t1": 54.19,
+  "line": "That's how business works.",
+  "n": 19,
+  "type": "G",
+  "idea": "Simple formula card: LOSING MONEY \u2192 RAISE PRICE \u2713",
+  "prompt": "free graphic: formula text with check mark"
+ },
+ {
+  "sec": 0,
+  "t0": 54.19,
+  "t1": 56.9,
+  "line": "So why has one of the most successful",
+  "n": 20,
+  "type": "N",
+  "idea": "Giant warehouse store from above, crowded parking lot",
+  "prompt": "aerial view of an enormous warehouse store with a packed parking lot full of tiny cars"
+ },
+ {
+  "sec": 0,
+  "t0": 56.9,
+  "t1": 59.6,
+  "line": "retailers on Earth spent forty years refusing to charge",
+  "n": 21,
+  "type": "N",
+  "idea": "Globe with dozens of warehouse pins",
+  "prompt": "a globe covered in little warehouse-store pins, mascot pointing at it"
+ },
+ {
+  "sec": 0,
+  "t0": 59.6,
+  "t1": 62.31,
+  "line": "you one cent more for a hot dog?",
+  "n": 22,
+  "type": "N",
+  "idea": "Shopper offering one penny; cashier politely refusing",
+  "prompt": "stick-figure cashier politely pushing back a single penny with a smile, hot dog on the counter"
+ },
+ {
+  "sec": 0,
+  "t0": 62.31,
+  "t1": 65.89,
+  "line": "The answer is one of the smartest business decisions ever made.",
+  "n": 23,
+  "type": "N",
+  "idea": "Lightbulb moment: mascot with huge glowing bulb",
+  "prompt": "mascot with a huge glowing lightbulb above his head, excited face"
+ },
+ {
+  "sec": 0,
+  "t0": 65.89,
+  "t1": 70.12,
+  "line": "And it turns out the hot dog was never really the product at all.",
+  "n": 24,
+  "type": "N",
+  "idea": "Hot dog wearing a disguise / spotlight reveal: it's a ticket, not a product",
+  "prompt": "a hot dog on a stage under a spotlight, the curtain opening to reveal a membership card behind it"
+ },
+ {
+  "sec": 0,
+  "t0": 70.12,
+  "t1": 71.16,
+  "line": "Here's why.",
+  "n": 25,
+  "type": "N",
+  "idea": "Mascot leaning in to camera, finger raised: 'here's why'",
+  "prompt": "mascot leaning toward the viewer with one finger raised, knowing look"
+ },
+ {
+  "sec": 1,
+  "t0": 71.72,
+  "t1": 74.91,
+  "line": "Costco opened its first warehouse in 1983.",
+  "n": 26,
+  "type": "N",
+  "idea": "1983: the first warehouse opening, ribbon cutting",
+  "prompt": "1983 ribbon-cutting outside a single warehouse store, small crowd clapping, retro cars"
+ },
+ {
+  "sec": 1,
+  "t0": 74.91,
+  "t1": 77.59,
+  "line": "Within a couple of years, a simple hot dog",
+  "n": 27,
+  "type": "N",
+  "idea": "A lone hot dog cart outside the warehouse, 80s cars",
+  "prompt": "small hot dog cart parked outside the warehouse entrance, 1980s cars in the lot"
+ },
+ {
+  "sec": 1,
+  "t0": 77.59,
+  "t1": 80.27,
+  "line": "cart was selling a quarter-pound, all-beef hot dog with a",
+  "n": 28,
+  "type": "N",
+  "idea": "Close-up: quarter-pound all-beef hot dog, steam rising",
+  "prompt": "close-up of a big quarter-pound hot dog in a bun with mustard, steam rising, on paper wrap"
+ },
+ {
+  "sec": 1,
+  "t0": 80.27,
+  "t1": 82.95,
+  "line": "can of soda for one dollar and fifty cents.",
+  "n": 29,
+  "type": "N",
+  "idea": "Hot dog + 12 oz can of soda on the counter with $1.50 tag",
+  "prompt": "a hot dog and a plain red soda can on the cart counter with a $1.50 tag"
+ },
+ {
+  "sec": 1,
+  "t0": 82.95,
+  "t1": 85.91,
+  "line": "That price has fought two enemies ever since.",
+  "n": 30,
+  "type": "N",
+  "idea": "Boxing ring: the $1.50 sign in one corner, two shadowy opponents",
+  "prompt": "a boxing ring with the $1.50 price sign as a boxer with gloves in one corner, two shadowy opponents in the other corner"
+ },
+ {
+  "sec": 1,
+  "t0": 85.91,
+  "t1": 88.16,
+  "line": "The first enemy is inflation.",
+  "n": 31,
+  "type": "N",
+  "idea": "Opponent 1 'INFLATION': a balloon monster inflating",
+  "prompt": "a huge inflating balloon monster labelled INFLATION flexing in the boxing ring"
+ },
+ {
+  "sec": 1,
+  "t0": 88.16,
+  "t1": 90.71,
+  "line": "Every year, a dollar buys a little less.",
+  "n": 32,
+  "type": "N",
+  "idea": "A dollar bill shrinking year by year",
+  "prompt": "a dollar bill shrinking smaller and smaller in a row of four, each a bit smaller"
+ },
+ {
+  "sec": 1,
+  "t0": 90.71,
+  "t1": 95.0,
+  "line": "Today's dollar fifty is worth about a third of what it was in 1985.",
+  "n": 33,
+  "type": "G",
+  "idea": "Bar graphic: $1.50 today = 1/3 of 1985 value (pie chart)",
+  "prompt": "free graphic: pie chart one third highlighted"
+ },
+ {
+  "sec": 1,
+  "t0": 95.0,
+  "t1": 97.33,
+  "line": "The second enemy is cost.",
+  "n": 34,
+  "type": "N",
+  "idea": "Opponent 2 'COST': a giant pile of supplies stomping in",
+  "prompt": "a giant monster made of beef, buns, cups and napkins stomping into the boxing ring, labelled COST"
+ },
+ {
+  "sec": 1,
+  "t0": 97.33,
+  "t1": 100.3,
+  "line": "Beef, buns, labor, electricity, the cups, the napkins, the mustard.",
+  "n": 35,
+  "type": "N",
+  "idea": "Items flying in: beef, buns, cups, napkins, mustard bottle, lightning bolt for electricity",
+  "prompt": "beef, hot dog buns, paper cups, napkins, a mustard bottle and an electric lightning bolt flying through the air"
+ },
+ {
+  "sec": 1,
+  "t0": 100.3,
+  "t1": 102.81,
+  "line": "Every single ingredient in that combo has gone",
+  "n": 36,
+  "type": "N",
+  "idea": "Price tags on each ingredient, arrows up",
+  "prompt": "each ingredient wearing a price tag with a red arrow pointing up"
+ },
+ {
+  "sec": 1,
+  "t0": 102.81,
+  "t1": 105.33,
+  "line": "up, some of them many times over.",
+  "n": 37,
+  "type": "N",
+  "idea": "Mustard bottle with a skyrocketing tag; mascot shocked",
+  "prompt": "a mustard bottle with a huge price tag shooting up like a rocket, mascot shocked in the background"
+ },
+ {
+  "sec": 1,
+  "t0": 105.33,
+  "t1": 107.63,
+  "line": "And here's the part",
+  "n": 38,
+  "type": "N",
+  "idea": "Mascot whispering behind his hand",
+  "prompt": "mascot whispering behind his hand to the viewer, sly eyebrows"
+ },
+ {
+  "sec": 1,
+  "t0": 107.63,
+  "t1": 111.06,
+  "line": "that makes it even stranger. Costco didn't just hold the price.",
+  "n": 39,
+  "type": "N",
+  "idea": "The $1.50 sign holding firm like a shield against arrows",
+  "prompt": "the $1.50 sign held like a shield, arrows bouncing off it"
+ },
+ {
+  "sec": 1,
+  "t0": 111.06,
+  "t1": 112.21,
+  "line": "It made the deal better.",
+  "n": 40,
+  "type": "N",
+  "idea": "Gift box opening: a bigger deal",
+  "prompt": "a gift box bursting open with a hot dog and soda inside, confetti"
+ },
+ {
+  "sec": 1,
+  "t0": 112.21,
+  "t1": 114.05,
+  "line": "The hot dog got about ten percent bigger.",
+  "n": 41,
+  "type": "N",
+  "idea": "Two hot dogs side by side, newer one 10% longer, measuring tape",
+  "prompt": "two hot dogs side by side with a measuring tape, the newer one slightly longer"
+ },
+ {
+  "sec": 1,
+  "t0": 114.05,
+  "t1": 117.73,
+  "line": "And the twelve-ounce can of soda turned into",
+  "n": 42,
+  "type": "N",
+  "idea": "12 oz soda can morphing",
+  "prompt": "a small red soda can on the left with an arrow transforming it"
+ },
+ {
+  "sec": 1,
+  "t0": 117.73,
+  "t1": 121.42,
+  "line": "a twenty-ounce fountain drink with free refills.",
+  "n": 43,
+  "type": "N",
+  "idea": "Tall 20 oz fountain cup with 'refill' arrow loop",
+  "prompt": "a tall fountain soda cup with a circular refill arrow around it, soda fountain machine behind"
+ },
+ {
+  "sec": 1,
+  "t0": 121.42,
+  "t1": 125.51,
+  "line": "And eventually, someone inside Costco said what everyone was thinking.",
+  "n": 44,
+  "type": "N",
+  "idea": "Office door with a light on; someone about to knock",
+  "prompt": "an office hallway with one door ajar and light spilling out, a stick figure about to knock"
+ },
+ {
+  "sec": 2,
+  "t0": 126.04,
+  "t1": 128.85,
+  "line": "Craig Jelinek, Costco's longtime chief executive,",
+  "n": 45,
+  "type": "R12",
+  "idea": "Jelinek reintroduced with name label",
+  "prompt": "reuse Jelinek portrait + free name label 'CRAIG JELINEK \u2014 CEO 2012\u20132023'"
+ },
+ {
+  "sec": 2,
+  "t0": 128.85,
+  "t1": 131.66,
+  "line": "later told a story about going",
+  "n": 46,
+  "type": "N",
+  "idea": "Jelinek walking down a hallway holding a hot dog and a report",
+  "prompt": "JELINEK walking down an office hallway holding a hot dog in one hand and a report in the other, determined"
+ },
+ {
+  "sec": 2,
+  "t0": 131.66,
+  "t1": 134.47,
+  "line": "to the company's co-founder, Jim Sinegal.",
+  "n": 47,
+  "type": "N",
+  "idea": "Introduce SINEGAL: older stick figure with white hair and glasses at a desk",
+  "prompt": "character SINEGAL: older stick-figure man with white hair, round glasses, white shirt with sleeves rolled up, sitting at a simple desk covered in papers"
+ },
+ {
+  "sec": 2,
+  "t0": 134.47,
+  "t1": 137.69,
+  "line": "Jelinek said, \"Jim, we can't keep selling this hot dog for a buck fifty.",
+  "n": 48,
+  "type": "N",
+  "idea": "Jelinek pleading across the desk, hot dog on the desk",
+  "prompt": "JELINEK standing in front of SINEGAL's desk, pleading with open hands, a hot dog sitting on the desk between them"
+ },
+ {
+  "sec": 2,
+  "t0": 137.69,
+  "t1": 140.71,
+  "line": "We are losing our rear ends.\" He wanted",
+  "n": 49,
+  "type": "N",
+  "idea": "Jelinek showing a chart with money flying away",
+  "prompt": "JELINEK holding up a chart while dollar bills with wings fly out of a hot dog"
+ },
+ {
+  "sec": 2,
+  "t0": 140.71,
+  "t1": 143.73,
+  "line": "to raise the price, reportedly to a dollar seventy-five.",
+  "n": 50,
+  "type": "N",
+  "idea": "Jelinek holding a sign '$1.75?' hopefully",
+  "prompt": "JELINEK holding up a small sign that reads $1.75 with a hopeful smile"
+ },
+ {
+  "sec": 2,
+  "t0": 143.73,
+  "t1": 147.31,
+  "line": "And Sinegal's answer has become a business legend.",
+  "n": 51,
+  "type": "N",
+  "idea": "Sinegal slowly looking up from his papers, dramatic shadow",
+  "prompt": "SINEGAL slowly looking up from his papers over his glasses, dramatic shadow across the room"
+ },
+ {
+  "sec": 2,
+  "t0": 147.31,
+  "t1": 149.79,
+  "line": "As Jelinek told it: \"If you raise the",
+  "n": 52,
+  "type": "N",
+  "idea": "Sinegal leaning forward, intense eyes",
+  "prompt": "close-up of SINEGAL leaning forward, intense narrowed eyes, finger raised"
+ },
+ {
+  "sec": 2,
+  "t0": 149.79,
+  "t1": 152.27,
+  "line": "price of the hot dog, I will kill you.",
+  "n": 53,
+  "type": "N",
+  "idea": "Sinegal pointing, comic anger lines, Jelinek sweating",
+  "prompt": "SINEGAL pointing sternly with comic anger lines, JELINEK sweating and shrinking back"
+ },
+ {
+  "sec": 2,
+  "t0": 152.27,
+  "t1": 155.69,
+  "line": "Figure it out.\" Think about that for a second.",
+  "n": 54,
+  "type": "N",
+  "idea": "Jelinek frozen, sweat drop; big text 'FIGURE IT OUT.'",
+  "prompt": "JELINEK frozen in shock with a big sweat drop, plain dramatic background"
+ },
+ {
+  "sec": 2,
+  "t0": 155.69,
+  "t1": 159.25,
+  "line": "The founder of a company worth hundreds of billions of",
+  "n": 55,
+  "type": "N",
+  "idea": "Huge skyscraper of money behind tiny hot dog",
+  "prompt": "an enormous skyscraper made of stacked money towering over a tiny hot dog on the ground"
+ },
+ {
+  "sec": 2,
+  "t0": 159.25,
+  "t1": 162.8,
+  "line": "dollars, drawing a line in the sand\u2026 over a hot dog.",
+  "n": 56,
+  "type": "N",
+  "idea": "Sinegal drawing a line in the sand with a stick, hot dog behind him",
+  "prompt": "SINEGAL drawing a line in the sand with a stick on a beach, guarding a hot dog behind him"
+ },
+ {
+  "sec": 2,
+  "t0": 162.8,
+  "t1": 165.21,
+  "line": "But Sinegal wasn't being sentimental.",
+  "n": 57,
+  "type": "N",
+  "idea": "Sinegal calm, arms folded, not crying",
+  "prompt": "SINEGAL calm with arms folded, a tissue box beside him untouched, serious face"
+ },
+ {
+  "sec": 2,
+  "t0": 165.21,
+  "t1": 168.65,
+  "line": "He'd built Costco on a simple, almost stubborn rule.",
+  "n": 58,
+  "type": "N",
+  "idea": "Stone tablet of rules carved with a price tag",
+  "prompt": "SINEGAL standing next to a stone tablet engraved with a price tag symbol, like an old law"
+ },
+ {
+  "sec": 2,
+  "t0": 168.65,
+  "t1": 172.12,
+  "line": "Costco caps its markup at about fourteen percent on brand-name",
+  "n": 59,
+  "type": "G",
+  "idea": "Markup meter: 14% brand-name",
+  "prompt": "free graphic: gauge needle at 14%"
+ },
+ {
+  "sec": 2,
+  "t0": 172.12,
+  "t1": 175.59,
+  "line": "products and fifteen percent on its own Kirkland brand.",
+  "n": 60,
+  "type": "G",
+  "idea": "Markup meter: 15% Kirkland",
+  "prompt": "free graphic: second gauge at 15%"
+ },
+ {
+  "sec": 2,
+  "t0": 175.59,
+  "t1": 178.88,
+  "line": "Most supermarkets mark things up far more than that.",
+  "n": 61,
+  "type": "N",
+  "idea": "Rival supermarket price tags ballooning",
+  "prompt": "a regular supermarket shelf with giant inflated price tags, shoppers frowning"
+ },
+ {
+  "sec": 2,
+  "t0": 178.88,
+  "t1": 181.44,
+  "line": "Sinegal once described raising prices as",
+  "n": 62,
+  "type": "N",
+  "idea": "Sinegal giving a stern lecture at a whiteboard",
+  "prompt": "SINEGAL at a whiteboard giving a stern lecture, pointing at a drawing of a price tag with an up arrow"
+ },
+ {
+  "sec": 2,
+  "t0": 181.44,
+  "t1": 184.0,
+  "line": "the business equivalent of taking heroin.",
+  "n": 63,
+  "type": "N",
+  "idea": "A price tag with a 'DANGER' warning sign, skull-free",
+  "prompt": "a price tag with a red danger warning triangle next to it, ominous lighting"
+ },
+ {
+  "sec": 2,
+  "t0": 184.0,
+  "t1": 186.53,
+  "line": "You do it once, and then you have",
+  "n": 64,
+  "type": "N",
+  "idea": "A finger pressing a 'RAISE PRICE' button once",
+  "prompt": "a stick-figure finger pressing a big red button labelled RAISE PRICE"
+ },
+ {
+  "sec": 2,
+  "t0": 186.53,
+  "t1": 189.05,
+  "line": "to do it again, and again, and again.",
+  "n": 65,
+  "type": "N",
+  "idea": "Same button pressed again and again, multiple hands",
+  "prompt": "many stick-figure hands pressing the RAISE PRICE button over and over"
+ },
+ {
+  "sec": 2,
+  "t0": 189.05,
+  "t1": 192.72,
+  "line": "And the next thing you know, you're not the low-price leader anymore.",
+  "n": 66,
+  "type": "N",
+  "idea": "A trophy 'LOW PRICE LEADER' falling off its pedestal",
+  "prompt": "a trophy labelled LOW PRICE LEADER tipping off its pedestal and falling"
+ },
+ {
+  "sec": 2,
+  "t0": 192.72,
+  "t1": 196.37,
+  "line": "Raise prices once, and customers start checking.",
+  "n": 67,
+  "type": "N",
+  "idea": "Shopper squinting at a receipt with a magnifying glass",
+  "prompt": "stick-figure shopper squinting suspiciously at a receipt with a magnifying glass"
+ },
+ {
+  "sec": 2,
+  "t0": 196.37,
+  "t1": 200.08,
+  "line": "Raise them again, and they start shopping somewhere else.",
+  "n": 68,
+  "type": "N",
+  "idea": "Shopper walking out the door toward a rival store",
+  "prompt": "stick-figure shopper walking out of the warehouse store toward another store across the street, annoyed"
+ },
+ {
+  "sec": 2,
+  "t0": 200.08,
+  "t1": 202.23,
+  "line": "So the price wasn't going to move.",
+  "n": 69,
+  "type": "N",
+  "idea": "The $1.50 sign bolted to the ground with chains and padlocks",
+  "prompt": "the $1.50 price sign bolted to the ground with chains and padlocks"
+ },
+ {
+  "sec": 2,
+  "t0": 202.23,
+  "t1": 205.53,
+  "line": "Which meant Costco had to change everything else.",
+  "n": 70,
+  "type": "N",
+  "idea": "Mascot rolling up his sleeves, toolbox open",
+  "prompt": "mascot rolling up his sleeves next to an open toolbox, determined"
+ },
+ {
+  "sec": 3,
+  "t0": 206.05,
+  "t1": 207.53,
+  "line": "Here's where it gets clever.",
+  "n": 71,
+  "type": "N",
+  "idea": "Mascot rubbing hands together, scheming grin",
+  "prompt": "mascot rubbing his hands together with a scheming grin"
+ },
+ {
+  "sec": 3,
+  "t0": 207.53,
+  "t1": 210.29,
+  "line": "For years, Costco bought its",
+  "n": 72,
+  "type": "N",
+  "idea": "Delivery truck unloading boxes of hot dogs",
+  "prompt": "a delivery truck unloading boxes of hot dogs at the warehouse loading dock"
+ },
+ {
+  "sec": 3,
+  "t0": 210.29,
+  "t1": 213.05,
+  "line": "hot dogs from an outside supplier,",
+  "n": 73,
+  "type": "N",
+  "idea": "Supplier handshake across a table",
+  "prompt": "a supplier stick figure shaking hands with a store buyer across a table, boxes of hot dogs between them"
+ },
+ {
+  "sec": 3,
+  "t0": 213.05,
+  "t1": 215.81,
+  "line": "the kosher brand Hebrew National.",
+  "n": 74,
+  "type": "N",
+  "idea": "Generic kosher-style hot dog package (no logo)",
+  "prompt": "a plain blue hot dog package with a generic label, no brand logo, on a shelf"
+ },
+ {
+  "sec": 3,
+  "t0": 215.81,
+  "t1": 218.53,
+  "line": "But supplier prices kept climbing, and by",
+  "n": 75,
+  "type": "N",
+  "idea": "Supplier's invoice with price climbing like a ladder",
+  "prompt": "a supplier invoice with the price climbing up a ladder"
+ },
+ {
+  "sec": 3,
+  "t0": 218.53,
+  "t1": 221.24,
+  "line": "the late 2000s Costco was worried the supplier",
+  "n": 76,
+  "type": "N",
+  "idea": "Calendar '2007', worried buyer with a shrinking supply pile",
+  "prompt": "a calendar showing 2007 and a worried store buyer looking at a shrinking pile of hot dog boxes"
+ },
+ {
+  "sec": 3,
+  "t0": 221.24,
+  "t1": 223.96,
+  "line": "couldn't keep up with its enormous demand.",
+  "n": 77,
+  "type": "N",
+  "idea": "Tiny supplier truck vs. giant line of hungry customers",
+  "prompt": "a tiny delivery truck next to an enormous line of hungry customers stretching to the horizon"
+ },
+ {
+  "sec": 3,
+  "t0": 223.96,
+  "t1": 226.75,
+  "line": "So Costco did something most companies",
+  "n": 78,
+  "type": "N",
+  "idea": "Mascot with a bold idea, pointing forward",
+  "prompt": "mascot pointing forward boldly like a general, determined"
+ },
+ {
+  "sec": 3,
+  "t0": 226.75,
+  "t1": 229.53,
+  "line": "would never do for a one-dollar-fifty item.",
+  "n": 79,
+  "type": "N",
+  "idea": "Other CEOs laughing at the idea",
+  "prompt": "a group of stick-figure executives in suits laughing and pointing"
+ },
+ {
+  "sec": 3,
+  "t0": 229.53,
+  "t1": 232.12,
+  "line": "In 2009, it dropped Hebrew National.",
+  "n": 80,
+  "type": "N",
+  "idea": "Buyer tearing up the old supplier contract",
+  "prompt": "store buyer tearing a contract in half, papers flying"
+ },
+ {
+  "sec": 3,
+  "t0": 232.12,
+  "t1": 234.45,
+  "line": "Then it stopped buying hot dogs",
+  "n": 81,
+  "type": "N",
+  "idea": "Stop sign on 'BUYING'",
+  "prompt": "a hand holding up a stop sign in front of a stack of purchased hot dog boxes"
+ },
+ {
+  "sec": 3,
+  "t0": 234.45,
+  "t1": 236.79,
+  "line": "altogether\u2026 and started making them.",
+  "n": 82,
+  "type": "N",
+  "idea": "Mascot in an apron cranking a hot dog machine",
+  "prompt": "mascot in a white apron and hairnet cranking a big hot dog making machine, hot dogs popping out"
+ },
+ {
+  "sec": 3,
+  "t0": 236.79,
+  "t1": 239.31,
+  "line": "It built its own hot dog plant in",
+  "n": 83,
+  "type": "N",
+  "idea": "Factory building in California with palm trees",
+  "prompt": "a hot dog factory building with palm trees and a sunny California sky"
+ },
+ {
+  "sec": 3,
+  "t0": 239.31,
+  "t1": 241.83,
+  "line": "California, and later a second one in Illinois.",
+  "n": 84,
+  "type": "N",
+  "idea": "Second factory in Illinois with snow/cornfields; map with two pins",
+  "prompt": "a second hot dog factory in a snowy Midwest town with cornfields, a small US map in the corner with two pins"
+ },
+ {
+  "sec": 3,
+  "t0": 241.83,
+  "t1": 244.87,
+  "line": "No middleman. No supplier markup.",
+  "n": 85,
+  "type": "N",
+  "idea": "Middleman stick figure getting kicked out of the chain",
+  "prompt": "a conveyor belt from factory to store with a middleman stick figure being gently pushed off it"
+ },
+ {
+  "sec": 3,
+  "t0": 244.87,
+  "t1": 247.51,
+  "line": "The hot dog became a Kirkland",
+  "n": 86,
+  "type": "N",
+  "idea": "Hot dog packaging switching to a plain house-brand label",
+  "prompt": "a hot dog package being relabelled with a plain house-brand label, no logo text"
+ },
+ {
+  "sec": 3,
+  "t0": 247.51,
+  "t1": 250.16,
+  "line": "Signature product, Costco's own brand.",
+  "n": 87,
+  "type": "N",
+  "idea": "Hot dog with a crown: own brand",
+  "prompt": "a proud hot dog wearing a little crown on the cart counter"
+ },
+ {
+  "sec": 3,
+  "t0": 250.16,
+  "t1": 253.78,
+  "line": "And the new dog was even a little bigger than the old one.",
+  "n": 88,
+  "type": "N",
+  "idea": "New hot dog flexing next to old smaller one",
+  "prompt": "a new bigger hot dog flexing muscles next to a smaller old hot dog"
+ },
+ {
+  "sec": 3,
+  "t0": 253.78,
+  "t1": 255.36,
+  "line": "Then there was the soda.",
+  "n": 89,
+  "type": "N",
+  "idea": "Soda fountain machine spotlight",
+  "prompt": "a soda fountain machine under a spotlight"
+ },
+ {
+  "sec": 3,
+  "t0": 255.36,
+  "t1": 258.26,
+  "line": "In 2013, Costco switched its food courts",
+  "n": 90,
+  "type": "N",
+  "idea": "Food court in 2013, red cups being replaced",
+  "prompt": "a food court in 2013 with workers swapping red cups for blue cups, no logos"
+ },
+ {
+  "sec": 3,
+  "t0": 258.26,
+  "t1": 261.17,
+  "line": "from Coca-Cola to Pepsi, a deal that helped",
+  "n": 91,
+  "type": "N",
+  "idea": "Red cups out, blue cups in, handshake",
+  "prompt": "a handshake between two stick figures, one holding a red cup and one holding a blue cup, no logos"
+ },
+ {
+  "sec": 3,
+  "t0": 261.17,
+  "t1": 264.07,
+  "line": "keep the combo at a dollar fifty.",
+  "n": 92,
+  "type": "N",
+  "idea": "Combo still at $1.50, sign intact",
+  "prompt": "the hot dog combo on a tray next to the $1.50 sign, unchanged"
+ },
+ {
+  "sec": 3,
+  "t0": 264.07,
+  "t1": 266.68,
+  "line": "And in 2025, when Costco switched back",
+  "n": 93,
+  "type": "N",
+  "idea": "2025: blue cups swapped back to red",
+  "prompt": "2025 food court, workers swapping blue cups back to red cups, no logos"
+ },
+ {
+  "sec": 3,
+  "t0": 266.68,
+  "t1": 269.29,
+  "line": "to Coca-Cola, the price still didn't budge.",
+  "n": 94,
+  "type": "N",
+  "idea": "Price sign not moving even as a crane tries to lift it",
+  "prompt": "a crane trying to lift the $1.50 sign which does not budge"
+ },
+ {
+  "sec": 3,
+  "t0": 269.29,
+  "t1": 271.39,
+  "line": "A dollar fifty.",
+  "n": 95,
+  "type": "R92",
+  "idea": "$1.50 sign close-up, stamp",
+  "prompt": "reuse + free stamp '$1.50'"
+ },
+ {
+  "sec": 3,
+  "t0": 271.39,
+  "t1": 274.14,
+  "line": "Then in 2026, Costco tweaked the combo again, letting",
+  "n": 96,
+  "type": "N",
+  "idea": "2026: water bottle joining the tray",
+  "prompt": "the hot dog combo tray with a soda cup and a bottle of water side by side"
+ },
+ {
+  "sec": 3,
+  "t0": 274.14,
+  "t1": 276.89,
+  "line": "members swap the soda for a bottle of water.",
+  "n": 97,
+  "type": "N",
+  "idea": "Shopper choosing water instead of soda",
+  "prompt": "a stick-figure shopper smiling and picking the water bottle instead of the soda"
+ },
+ {
+  "sec": 3,
+  "t0": 276.89,
+  "t1": 280.19,
+  "line": "The price? You already know. A dollar fifty.",
+  "n": 98,
+  "type": "N",
+  "idea": "Mascot smirking, pointing to $1.50 sign: 'you already know'",
+  "prompt": "mascot smirking and pointing at the $1.50 sign with a knowing look"
+ },
+ {
+  "sec": 3,
+  "t0": 280.19,
+  "t1": 284.04,
+  "line": "Every time costs rose, Costco attacked the cost instead.",
+  "n": 99,
+  "type": "N",
+  "idea": "Mascot boxing a 'COST' monster away from the sign",
+  "prompt": "mascot boxing the COST monster away from the $1.50 sign"
+ },
+ {
+  "sec": 3,
+  "t0": 284.04,
+  "t1": 287.01,
+  "line": "Anything except the number on the sign.",
+  "n": 100,
+  "type": "N",
+  "idea": "Everything around the sign changes, the sign stays",
+  "prompt": "factories, trucks and cups swirling around the $1.50 sign which stays perfectly still in the center"
+ },
+ {
+  "sec": 3,
+  "t0": 287.01,
+  "t1": 289.48,
+  "line": "So why would a giant company build",
+  "n": 101,
+  "type": "N",
+  "idea": "A giant factory with a hot dog on a pedestal inside",
+  "prompt": "a giant factory with a tiny hot dog on a pedestal inside, guarded like treasure"
+ },
+ {
+  "sec": 3,
+  "t0": 289.48,
+  "t1": 291.94,
+  "line": "entire factories to protect a hot dog?",
+  "n": 102,
+  "type": "N",
+  "idea": "Mascot puzzled again",
+  "prompt": "mascot puzzled, hand on chin"
+ },
+ {
+  "sec": 4,
+  "t0": 292.42,
+  "t1": 296.2,
+  "line": "The answer is that Costco isn't really in the business of selling you things.",
+  "n": 103,
+  "type": "N",
+  "idea": "Warehouse aisles with boxes \u2014 'selling things' crossed out",
+  "prompt": "warehouse aisles full of products with a big red X stamped over them"
+ },
+ {
+  "sec": 4,
+  "t0": 296.2,
+  "t1": 300.44,
+  "line": "It's in the business of selling you a membership.",
+  "n": 104,
+  "type": "N",
+  "idea": "Glowing membership card held up like a golden ticket",
+  "prompt": "a glowing membership card held up like a golden ticket, light rays"
+ },
+ {
+  "sec": 4,
+  "t0": 300.44,
+  "t1": 303.89,
+  "line": "Look at the numbers. In fiscal 2025, Costco brought in more than",
+  "n": 105,
+  "type": "N",
+  "idea": "Mascot at a chalkboard 'LOOK AT THE NUMBERS'",
+  "prompt": "mascot at a chalkboard with a pointer, ready to teach"
+ },
+ {
+  "sec": 4,
+  "t0": 303.89,
+  "t1": 306.49,
+  "line": "five billion dollars just from membership fees.",
+  "n": 106,
+  "type": "G",
+  "idea": "$5,000,000,000 counter rolling up \u2014 'MEMBERSHIP FEES'",
+  "prompt": "free graphic: big number counter over chalkboard"
+ },
+ {
+  "sec": 4,
+  "t0": 306.49,
+  "t1": 310.14,
+  "line": "That's roughly half of the company's entire operating profit.",
+  "n": 107,
+  "type": "G",
+  "idea": "Pie chart: membership \u2248 half of operating profit",
+  "prompt": "free graphic: pie chart 50%"
+ },
+ {
+  "sec": 4,
+  "t0": 310.14,
+  "t1": 313.23,
+  "line": "Before you've bought a single item, Costco has",
+  "n": 108,
+  "type": "N",
+  "idea": "Money falling into a vault the moment a member walks in",
+  "prompt": "a shopper walking through the door while money pours into a vault before they buy anything"
+ },
+ {
+  "sec": 4,
+  "t0": 313.23,
+  "t1": 316.75,
+  "line": "already made a huge share of its money. And the hot dog?",
+  "n": 109,
+  "type": "N",
+  "idea": "Mascot holding a hot dog up curiously",
+  "prompt": "mascot holding up a hot dog curiously, eyebrow raised"
+ },
+ {
+  "sec": 4,
+  "t0": 316.75,
+  "t1": 319.44,
+  "line": "In 2025, Costco sold about two",
+  "n": 110,
+  "type": "N",
+  "idea": "Mountain of hot dogs",
+  "prompt": "an enormous mountain of hot dogs with tiny stick figures climbing it"
+ },
+ {
+  "sec": 4,
+  "t0": 319.44,
+  "t1": 322.14,
+  "line": "hundred and forty-five million hot dog combos.",
+  "n": 111,
+  "type": "G",
+  "idea": "Counter: 245 MILLION combos",
+  "prompt": "free graphic over the hot dog mountain"
+ },
+ {
+  "sec": 4,
+  "t0": 322.14,
+  "t1": 325.56,
+  "line": "That's around three hundred and sixty-seven million dollars.",
+  "n": 112,
+  "type": "G",
+  "idea": "$367 MILLION",
+  "prompt": "free graphic number"
+ },
+ {
+  "sec": 4,
+  "t0": 325.56,
+  "t1": 327.09,
+  "line": "It sounds like a lot.",
+  "n": 113,
+  "type": "N",
+  "idea": "Mascot impressed, whistling",
+  "prompt": "mascot impressed and whistling, eyes wide"
+ },
+ {
+  "sec": 4,
+  "t0": 327.09,
+  "t1": 329.83,
+  "line": "But for a company with more than two hundred and",
+  "n": 114,
+  "type": "N",
+  "idea": "Huge revenue tower vs tiny hot dog sliver",
+  "prompt": "a giant tower of money labelled revenue next to a tiny sliver labelled hot dogs"
+ },
+ {
+  "sec": 4,
+  "t0": 329.83,
+  "t1": 332.57,
+  "line": "seventy billion dollars in revenue, it's a rounding error.",
+  "n": 115,
+  "type": "G",
+  "idea": "Bar chart: $275B vs $0.37B",
+  "prompt": "free graphic bar chart"
+ },
+ {
+  "sec": 4,
+  "t0": 332.57,
+  "t1": 334.93,
+  "line": "A tiny fraction of one percent.",
+  "n": 116,
+  "type": "N",
+  "idea": "Mascot holding a magnifying glass over a tiny dot",
+  "prompt": "mascot holding a magnifying glass over a tiny dot on the ground"
+ },
+ {
+  "sec": 4,
+  "t0": 334.93,
+  "t1": 337.24,
+  "line": "So the hot dog doesn't need to make money.",
+  "n": 117,
+  "type": "N",
+  "idea": "Hot dog relaxing in a hammock, not working",
+  "prompt": "a hot dog relaxing in a hammock with sunglasses"
+ },
+ {
+  "sec": 4,
+  "t0": 337.24,
+  "t1": 338.88,
+  "line": "It has a different job.",
+  "n": 118,
+  "type": "N",
+  "idea": "Hot dog in a superhero cape",
+  "prompt": "a hot dog wearing a superhero cape, heroic pose"
+ },
+ {
+  "sec": 4,
+  "t0": 338.88,
+  "t1": 340.87,
+  "line": "The hot dog is a promise.",
+  "n": 119,
+  "type": "N",
+  "idea": "Hot dog shaking hands with a shopper: a promise",
+  "prompt": "a hot dog shaking hands with a stick-figure shopper, sealing a deal"
+ },
+ {
+  "sec": 4,
+  "t0": 340.87,
+  "t1": 343.34,
+  "line": "It's the cheapest, simplest, most visible proof of the deal",
+  "n": 120,
+  "type": "N",
+  "idea": "Hot dog under a museum spotlight as 'proof'",
+  "prompt": "a hot dog displayed in a museum glass case under a spotlight"
+ },
+ {
+  "sec": 4,
+  "t0": 343.34,
+  "t1": 345.81,
+  "line": "Costco makes with you: we will not squeeze you.",
+  "n": 121,
+  "type": "N",
+  "idea": "Wallet NOT being squeezed by a giant hand",
+  "prompt": "a giant hand gently letting go of a wallet instead of squeezing it"
+ },
+ {
+  "sec": 4,
+  "t0": 345.81,
+  "t1": 348.74,
+  "line": "Every dollar-fifty lunch reminds members",
+  "n": 122,
+  "type": "N",
+  "idea": "Members eating hot dogs at food court tables, smiling",
+  "prompt": "stick-figure members eating hot dogs at food court tables, happy"
+ },
+ {
+  "sec": 4,
+  "t0": 348.74,
+  "t1": 351.66,
+  "line": "they're getting a fair deal.",
+  "n": 123,
+  "type": "N",
+  "idea": "Thumbs up from shoppers",
+  "prompt": "group of shoppers giving thumbs up"
+ },
+ {
+  "sec": 4,
+  "t0": 351.66,
+  "t1": 354.07,
+  "line": "And people who feel that keep renewing.",
+  "n": 124,
+  "type": "N",
+  "idea": "Membership card renewing: circular arrow around the card",
+  "prompt": "a membership card with a circular renew arrow around it"
+ },
+ {
+  "sec": 4,
+  "t0": 354.07,
+  "t1": 356.76,
+  "line": "More than ninety percent of Costco members in",
+  "n": 125,
+  "type": "G",
+  "idea": "90%+ RENEW stat with stick figures, 9 of 10 highlighted",
+  "prompt": "free graphic: 10 stick icons, 9 yellow"
+ },
+ {
+  "sec": 4,
+  "t0": 356.76,
+  "t1": 359.46,
+  "line": "the United States and Canada renew every year.",
+  "n": 126,
+  "type": "N",
+  "idea": "Map of US and Canada with happy members",
+  "prompt": "a map of the United States and Canada dotted with happy stick figures holding membership cards"
+ },
+ {
+  "sec": 4,
+  "t0": 359.46,
+  "t1": 362.99,
+  "line": "A hot dog that loses a little money is cheap advertising.",
+  "n": 127,
+  "type": "N",
+  "idea": "Hot dog wearing a sandwich board 'ad'",
+  "prompt": "a hot dog wearing a sandwich-board advertisement walking on the sidewalk"
+ },
+ {
+  "sec": 4,
+  "t0": 362.99,
+  "t1": 365.9,
+  "line": "A membership that renews for decades is the real treasure.",
+  "n": 128,
+  "type": "N",
+  "idea": "Treasure chest of membership cards",
+  "prompt": "an open treasure chest overflowing with glowing membership cards"
+ },
+ {
+  "sec": 5,
+  "t0": 366.42,
+  "t1": 369.85,
+  "line": "Now this brings us to one of the strangest parts of the whole strategy.",
+  "n": 129,
+  "type": "N",
+  "idea": "Mascot dramatic, spotlight on him",
+  "prompt": "mascot in a dramatic spotlight, eyebrows raised, about to reveal a secret"
+ },
+ {
+  "sec": 5,
+  "t0": 369.85,
+  "t1": 372.75,
+  "line": "Because the hot dog isn't the",
+  "n": 130,
+  "type": "N",
+  "idea": "Hot dog standing next to a covered mystery object",
+  "prompt": "a hot dog standing next to a mysterious object covered by a sheet"
+ },
+ {
+  "sec": 5,
+  "t0": 372.75,
+  "t1": 375.64,
+  "line": "only thing Costco protects like this.",
+  "n": 131,
+  "type": "N",
+  "idea": "Sheet pulled off: rotisserie chicken",
+  "prompt": "the sheet pulled off revealing a golden rotisserie chicken in a clear container"
+ },
+ {
+  "sec": 5,
+  "t0": 375.64,
+  "t1": 379.1,
+  "line": "There's the rotisserie chicken. Five dollars, or to be exact, four ninety-nine.",
+  "n": 132,
+  "type": "N",
+  "idea": "Rotisserie chicken with $4.99 tag",
+  "prompt": "a golden rotisserie chicken in a clear plastic container with a big yellow $4.99 tag"
+ },
+ {
+  "sec": 5,
+  "t0": 379.1,
+  "t1": 382.14,
+  "line": "That price has been frozen since 2009.",
+  "n": 133,
+  "type": "N",
+  "idea": "Chicken frozen in an ice block labelled 2009",
+  "prompt": "the rotisserie chicken frozen inside a block of ice with a 2009 calendar beside it"
+ },
+ {
+  "sec": 5,
+  "t0": 382.14,
+  "t1": 383.88,
+  "line": "And people buy a lot of them.",
+  "n": 134,
+  "type": "N",
+  "idea": "Long line of shoppers each carrying a chicken",
+  "prompt": "a long line of shoppers each carrying a rotisserie chicken container"
+ },
+ {
+  "sec": 5,
+  "t0": 383.88,
+  "t1": 386.89,
+  "line": "In fiscal 2025, Costco sold more than",
+  "n": 135,
+  "type": "N",
+  "idea": "Mountain of chicken containers",
+  "prompt": "an enormous mountain of rotisserie chicken containers"
+ },
+ {
+  "sec": 5,
+  "t0": 386.89,
+  "t1": 389.9,
+  "line": "a hundred and fifty-seven million rotisserie chickens.",
+  "n": 136,
+  "type": "G",
+  "idea": "157 MILLION chickens counter",
+  "prompt": "free graphic number over the mountain"
+ },
+ {
+  "sec": 5,
+  "t0": 389.9,
+  "t1": 391.94,
+  "line": "And here's the astonishing part.",
+  "n": 137,
+  "type": "N",
+  "idea": "Mascot gasping, hands on cheeks",
+  "prompt": "mascot gasping with hands on his cheeks"
+ },
+ {
+  "sec": 5,
+  "t0": 391.94,
+  "t1": 394.75,
+  "line": "Costco's former finance chief said the company was willing",
+  "n": 138,
+  "type": "N",
+  "idea": "Introduce finance chief: stick figure with calculator and glasses",
+  "prompt": "a stick-figure finance chief with glasses and a calculator, serious"
+ },
+ {
+  "sec": 5,
+  "t0": 394.75,
+  "t1": 397.57,
+  "line": "to give up thirty to forty million dollars a",
+  "n": 139,
+  "type": "N",
+  "idea": "Money pouring out of a chicken container",
+  "prompt": "money pouring out of a rotisserie chicken container like a waterfall"
+ },
+ {
+  "sec": 5,
+  "t0": 397.57,
+  "t1": 400.38,
+  "line": "year just to keep that chicken at four ninety-nine.",
+  "n": 140,
+  "type": "N",
+  "idea": "Finance chief cheerfully waving money goodbye",
+  "prompt": "the finance chief cheerfully waving goodbye to flying money, chicken in hand"
+ },
+ {
+  "sec": 5,
+  "t0": 400.38,
+  "t1": 403.12,
+  "line": "Most companies would simply raise the price.",
+  "n": 141,
+  "type": "N",
+  "idea": "Rival store raising chicken price with a ladder",
+  "prompt": "a rival store worker on a ladder raising a chicken price tag"
+ },
+ {
+  "sec": 5,
+  "t0": 403.12,
+  "t1": 404.99,
+  "line": "Costco did the opposite.",
+  "n": 142,
+  "type": "N",
+  "idea": "Mascot doing the opposite: walking the other way",
+  "prompt": "mascot confidently walking the opposite direction from a crowd"
+ },
+ {
+  "sec": 5,
+  "t0": 404.99,
+  "t1": 407.43,
+  "line": "In 2019, it opened its own",
+  "n": 143,
+  "type": "N",
+  "idea": "Nebraska sign, fields, construction",
+  "prompt": "a road sign reading NEBRASKA next to wide green fields and construction cranes"
+ },
+ {
+  "sec": 5,
+  "t0": 407.43,
+  "t1": 409.86,
+  "line": "enormous chicken operation in Nebraska.",
+  "n": 144,
+  "type": "N",
+  "idea": "Huge chicken-processing complex, farms around",
+  "prompt": "a huge chicken-processing complex surrounded by farms and barns, aerial view"
+ },
+ {
+  "sec": 5,
+  "t0": 409.86,
+  "t1": 413.59,
+  "line": "A project costing more than four hundred million dollars.",
+  "n": 145,
+  "type": "G",
+  "idea": "$400,000,000+ counter",
+  "prompt": "free graphic number over the complex"
+ },
+ {
+  "sec": 5,
+  "t0": 413.59,
+  "t1": 416.81,
+  "line": "Farms, feed, and a processing plant built to",
+  "n": 146,
+  "type": "N",
+  "idea": "Farms, feed silos, chicken barns",
+  "prompt": "farms with feed silos and long chicken barns"
+ },
+ {
+  "sec": 5,
+  "t0": 416.81,
+  "t1": 420.03,
+  "line": "supply up to two million chickens every single week.",
+  "n": 147,
+  "type": "N",
+  "idea": "Conveyor belt of chickens, '2 MILLION / WEEK'",
+  "prompt": "a long conveyor belt of chickens inside a processing plant"
+ },
+ {
+  "sec": 5,
+  "t0": 420.03,
+  "t1": 423.29,
+  "line": "Think about that. Hundreds of millions of dollars\u2026 to protect a five-dollar chicken.",
+  "n": 148,
+  "type": "N",
+  "idea": "Giant vault vs. tiny chicken with $5 tag",
+  "prompt": "an enormous bank vault protecting a tiny rotisserie chicken with a $5 tag"
+ },
+ {
+  "sec": 5,
+  "t0": 423.29,
+  "t1": 427.09,
+  "line": "And it's the exact same logic as the hot dog.",
+  "n": 149,
+  "type": "N",
+  "idea": "Hot dog and chicken high-fiving",
+  "prompt": "the hot dog and the rotisserie chicken high-fiving"
+ },
+ {
+  "sec": 5,
+  "t0": 427.09,
+  "t1": 431.16,
+  "line": "The chicken usually sits near the back of the store.",
+  "n": 150,
+  "type": "N",
+  "idea": "Store map: chicken at the very back",
+  "prompt": "a top-down store floor plan with the chicken counter at the far back wall"
+ },
+ {
+  "sec": 5,
+  "t0": 431.16,
+  "t1": 435.22,
+  "line": "To reach it, you walk past aisle after aisle of everything else.",
+  "n": 151,
+  "type": "N",
+  "idea": "Shopper walking a long aisle past products",
+  "prompt": "a stick-figure shopper walking down a very long aisle past shelves of products"
+ },
+ {
+  "sec": 5,
+  "t0": 435.22,
+  "t1": 437.39,
+  "line": "You came in for a five-dollar chicken.",
+  "n": 152,
+  "type": "N",
+  "idea": "Shopper entering holding a shopping list 'chicken'",
+  "prompt": "a shopper entering the store holding a short shopping list"
+ },
+ {
+  "sec": 5,
+  "t0": 437.39,
+  "t1": 439.79,
+  "line": "You leave with a cart full of groceries.",
+  "n": 153,
+  "type": "N",
+  "idea": "Same shopper leaving with an overflowing cart",
+  "prompt": "the same shopper leaving with a massively overflowing shopping cart, surprised face"
+ },
+ {
+  "sec": 5,
+  "t0": 439.79,
+  "t1": 441.99,
+  "line": "The cheap item isn't the product.",
+  "n": 154,
+  "type": "N",
+  "idea": "Chicken and hot dog standing in a doorway like greeters",
+  "prompt": "the chicken and the hot dog standing at the store entrance like friendly greeters"
+ },
+ {
+  "sec": 5,
+  "t0": 441.99,
+  "t1": 443.9,
+  "line": "It's the reason you walked through the door.",
+  "n": 155,
+  "type": "N",
+  "idea": "Open door with sunlight, shoppers streaming in",
+  "prompt": "the warehouse front doors wide open with sunlight and shoppers streaming in"
+ },
+ {
+  "sec": 6,
+  "t0": 444.44,
+  "t1": 448.77,
+  "line": "So let's put the whole picture together, and see just how wrong our instinct was.",
+  "n": 156,
+  "type": "N",
+  "idea": "Mascot assembling a puzzle",
+  "prompt": "mascot fitting the last piece into a jigsaw puzzle"
+ },
+ {
+  "sec": 6,
+  "t0": 448.77,
+  "t1": 453.13,
+  "line": "The dollar-fifty hot dog looks like a mistake. It's not.",
+  "n": 157,
+  "type": "N",
+  "idea": "Hot dog in a frame labelled 'MISTAKE?' with X",
+  "prompt": "a framed picture of the hot dog with a question mark, mascot shaking head"
+ },
+ {
+  "sec": 6,
+  "t0": 453.13,
+  "t1": 454.79,
+  "line": "It's a masterpiece of strategy.",
+  "n": 158,
+  "type": "N",
+  "idea": "Hot dog as a museum masterpiece painting",
+  "prompt": "the hot dog painted as a masterpiece in a golden museum frame, visitors admiring"
+ },
+ {
+  "sec": 6,
+  "t0": 454.79,
+  "t1": 458.39,
+  "line": "Costco builds factories, rewrites supplier deals, and swaps soda",
+  "n": 159,
+  "type": "N",
+  "idea": "Montage: factory, contract, cups swapping",
+  "prompt": "a collage of a factory, a torn contract and red and blue cups"
+ },
+ {
+  "sec": 6,
+  "t0": 458.39,
+  "t1": 462.0,
+  "line": "brands, all to keep one number frozen in place.",
+  "n": 160,
+  "type": "N",
+  "idea": "The $1.50 sign frozen in a block of ice, glowing",
+  "prompt": "the $1.50 sign frozen inside a glowing block of ice"
+ },
+ {
+  "sec": 6,
+  "t0": 462.0,
+  "t1": 464.67,
+  "line": "Because that number earns something",
+  "n": 161,
+  "type": "N",
+  "idea": "Scale: profit coins vs. a glowing heart",
+  "prompt": "a balance scale with coins on one side and a glowing heart on the other, the heart side heavier"
+ },
+ {
+  "sec": 6,
+  "t0": 464.67,
+  "t1": 467.45,
+  "line": "far more valuable than profit. It earns trust.",
+  "n": 162,
+  "type": "N",
+  "idea": "Shopper and store shaking hands, glowing heart",
+  "prompt": "a stick-figure shopper and the store building shaking hands with a glowing heart between them"
+ },
+ {
+  "sec": 6,
+  "t0": 467.45,
+  "t1": 470.02,
+  "line": "So the next time you hand over a",
+  "n": 163,
+  "type": "N",
+  "idea": "Close-up hand giving $1.50",
+  "prompt": "close-up of a hand giving a dollar bill and two quarters"
+ },
+ {
+  "sec": 6,
+  "t0": 470.02,
+  "t1": 472.59,
+  "line": "dollar fifty and wonder how on earth",
+  "n": 164,
+  "type": "N",
+  "idea": "Shopper puzzling over hot dog",
+  "prompt": "a shopper looking at a hot dog with a puzzled thought bubble"
+ },
+ {
+  "sec": 6,
+  "t0": 472.59,
+  "t1": 475.82,
+  "line": "they're making money on this, remember the truth. They're not.",
+  "n": 165,
+  "type": "N",
+  "idea": "Mascot shaking head 'they're not'",
+  "prompt": "mascot shaking his head with a calm smile"
+ },
+ {
+  "sec": 6,
+  "t0": 475.82,
+  "t1": 476.78,
+  "line": "And they don't need to.",
+  "n": 166,
+  "type": "N",
+  "idea": "Mascot relaxed, arms behind head",
+  "prompt": "mascot relaxed with arms behind his head"
+ },
+ {
+  "sec": 6,
+  "t0": 476.78,
+  "t1": 478.86,
+  "line": "You're not buying a hot dog.",
+  "n": 167,
+  "type": "R1",
+  "idea": "Callback to opening cart image",
+  "prompt": "reuse opening image, slow zoom out"
+ },
+ {
+  "sec": 6,
+  "t0": 478.86,
+  "t1": 480.8,
+  "line": "You're renewing your trust.",
+  "n": 168,
+  "type": "N",
+  "idea": "Membership card glowing in hand + hot dog",
+  "prompt": "a shopper holding a glowing membership card in one hand and a hot dog in the other, smiling"
+ },
+ {
+  "sec": 7,
+  "t0": 481.36,
+  "t1": 485.64,
+  "line": "Costco's hot dog proves that customers will love you for refusing to change.",
+  "n": 169,
+  "type": "N",
+  "idea": "Hot dog sign standing firm, mascot proud",
+  "prompt": "mascot proudly standing beside the unchanged $1.50 sign"
+ },
+ {
+  "sec": 7,
+  "t0": 485.64,
+  "t1": 488.42,
+  "line": "But in 1985, the very same year that",
+  "n": 170,
+  "type": "N",
+  "idea": "1985 calendar page",
+  "prompt": "a large wall calendar showing 1985"
+ },
+ {
+  "sec": 7,
+  "t0": 488.42,
+  "t1": 491.21,
+  "line": "dollar-fifty hot dog was born, another American",
+  "n": 171,
+  "type": "N",
+  "idea": "Split screen: hot dog cart vs. soda factory",
+  "prompt": "split screen: the hot dog cart on the left, a big soda factory on the right"
+ },
+ {
+  "sec": 7,
+  "t0": 491.21,
+  "t1": 493.99,
+  "line": "giant learned the opposite lesson the hard way.",
+  "n": 172,
+  "type": "N",
+  "idea": "Soda company boardroom executives nervous",
+  "prompt": "a boardroom of nervous stick-figure soda executives around a table"
+ },
+ {
+  "sec": 7,
+  "t0": 493.99,
+  "t1": 496.63,
+  "line": "Coca-Cola changed its formula.",
+  "n": 173,
+  "type": "N",
+  "idea": "Scientist pouring a new formula, red cup (no logo)",
+  "prompt": "a stick-figure scientist pouring a bubbling new formula into a plain red soda bottle, no logo"
+ },
+ {
+  "sec": 7,
+  "t0": 496.63,
+  "t1": 500.46,
+  "line": "In blind taste tests, people actually liked the new one better.",
+  "n": 174,
+  "type": "N",
+  "idea": "Blind taste test: blindfolded tasters, thumbs up",
+  "prompt": "blindfolded stick figures in a taste test giving thumbs up to one of two plain cups"
+ },
+ {
+  "sec": 7,
+  "t0": 500.46,
+  "t1": 504.35,
+  "line": "And it still became one of the biggest disasters in business history.",
+  "n": 175,
+  "type": "N",
+  "idea": "Angry crowd with protest signs, red cup tipped over",
+  "prompt": "an angry crowd of stick figures with blank protest signs, a red soda bottle tipped over"
+ },
+ {
+  "sec": 7,
+  "t0": 504.35,
+  "t1": 506.12,
+  "line": "That story is right here.",
+  "n": 176,
+  "type": "N",
+  "idea": "Mascot pointing to the end-screen spot",
+  "prompt": "mascot pointing to the right side of the frame where a video will appear, excited"
+ }
+]
