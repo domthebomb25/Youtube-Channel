@@ -4,7 +4,7 @@
 
 ## Chosen title
 
-**Why Is a Costco Hot Dog Only $1.50?** — thumbnail: `thumbnails/still150-v2.jpg` or `only150-v2.jpg` (see compare-only-vs-still.jpg). No brand name on the thumbnail; "Costco" is in the title.
+**Why Is a Costco Hot Dog Only $1.50?** — thumbnail: **`thumbnails/warehouse-still150-v2.jpg`** (final pick). No brand logo; "COSTCO" in plain lettering.
 
 ## Earlier title + thumbnail options (for reference)
 
