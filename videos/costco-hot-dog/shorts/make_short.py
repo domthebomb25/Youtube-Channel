@@ -17,7 +17,7 @@ W, H, FPS = 1080, 1920, 30
 VID_Y = 620                      # top of the 16:9 picture (1080x608)
 CAP_Y = 1330                     # caption centre; stays above the bottom 20% UI zone
 WHITE, YEL, INK, BLUE = (255, 255, 255), (255, 214, 0), (15, 15, 15), (7, 77, 172)
-END_SEC = 4.0
+END_SEC = 5.0
 
 
 def font(s): return ImageFont.truetype(FONT, s)

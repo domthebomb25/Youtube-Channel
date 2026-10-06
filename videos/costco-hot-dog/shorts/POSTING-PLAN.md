@@ -1,6 +1,6 @@
 # Shorts / TikTok / Reels — posting plan (Costco $1.50 hot dog)
 
-All clips: 1080×1920 vertical, 36–57 s, burned-in captions, 4-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK — @TheBusinessStickHQ".
+All clips: 1080×1920 vertical, 36–57 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK — @TheBusinessStickHQ".
 
 Post the long video first. Then one clip a day, same clip on all three apps.
 
