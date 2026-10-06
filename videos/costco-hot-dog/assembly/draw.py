@@ -72,6 +72,35 @@ def paint_sign(img, spec):
     elif style == "calendar":
         f, s = fit_font("LuckiestGuy", spec["text"], bw * 0.75, bh * 0.70, stroke_frac=0.0)
         draw_text(d, (lc[0], lc[1] + bh * 0.04), spec["text"], f, fill=RED)
+    elif style == "dates":
+        # 1..days laid out in a cols x rows grid filling the box
+        cols, rows, days = spec.get("cols", 7), spec.get("rows", 5), spec.get("days", 30)
+        cw, rh = bw / cols, bh / rows
+        f = font("LuckiestGuy", int(min(cw, rh) * 0.5))
+        for i in range(days):
+            c, r = i % cols, i // cols
+            x = lc[0] - bw / 2 + cw * (c + 0.5)
+            y = lc[1] - bh / 2 + rh * (r + 0.5)
+            draw_text(d, (x, y + rh * 0.04), str(i + 1), f, fill=INK)
+    elif style == "ticket":
+        f, s = fit_font("LuckiestGuy", spec["text"], bw * 0.88, bh * 0.60)
+        draw_text(d, (lc[0], lc[1] + bh * 0.04), spec["text"], f, fill=(92, 58, 8))
+    elif style in ("money", "money_up"):
+        arrow = style == "money_up"
+        f, s = fit_font("LuckiestGuy", "$", bw * (0.45 if arrow else 0.8), bh * (0.70 if arrow else 0.88), stroke_frac=0.06)
+        tw, th, _, _ = text_size(d, "$", f, s)
+        gap = bw * 0.06
+        aw = min(bw * 0.32, th * 0.62) if arrow else 0
+        total = tw + (gap + aw if arrow else 0)
+        x = lc[0] - total / 2
+        draw_text(d, (x + tw / 2, lc[1] + bh * 0.04), "$", f, fill=GREEN, stroke=s, stroke_fill=INK)
+        if arrow:
+            ax, ah = x + tw + gap, th * 0.9
+            top, bot = lc[1] - ah / 2, lc[1] + ah / 2
+            head = ah * 0.42
+            pts = [(ax + aw / 2, top), (ax + aw, top + head), (ax + aw * 0.68, top + head),
+                   (ax + aw * 0.68, bot), (ax + aw * 0.32, bot), (ax + aw * 0.32, top + head), (ax, top + head)]
+            d.polygon(pts, fill=RED, outline=INK, width=max(2, int(s * 0.8)))
     else:
         f, s = fit_font("LuckiestGuy", spec["text"], bw * 0.80, bh * 0.66, stroke_frac=0.05)
         draw_text(d, (lc[0], lc[1] + bh * 0.04), spec["text"], f, fill=RED, stroke=s, stroke_fill=INK)
