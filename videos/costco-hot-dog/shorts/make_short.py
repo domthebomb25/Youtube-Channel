@@ -156,10 +156,13 @@ def main():
         if g:
             d = ImageDraw.Draw(bg)
             txt = [w[0].upper() for w in g]
-            widths = [d.textlength(w + " ", font=cap_f) for w in txt]
-            x = (W - sum(widths) + d.textlength(" ", font=cap_f)) / 2
+            cf = cap_f
+            while sum(d.textlength(w + " ", font=cf) for w in txt) > W - 100 and cf.size > 50:
+                cf = font(cf.size - 4)
+            widths = [d.textlength(w + " ", font=cf) for w in txt]
+            x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
             for w, wd, (_, a, b) in zip(txt, widths, g):
-                outlined(d, (x, CAP_Y), w, cap_f, YEL if a - 0.05 <= t <= b + 0.05 else WHITE, anchor="lm")
+                outlined(d, (x, CAP_Y), w, cf, YEL if a - 0.05 <= t <= b + 0.05 else WHITE, anchor="lm")
                 x += wd
         wr.stdin.write(bg.convert("RGB").tobytes())
     rd.stdout.close(); rd.wait()
