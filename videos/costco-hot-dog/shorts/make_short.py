@@ -91,12 +91,42 @@ def cut(segs, out):
     lst.unlink()
 
 
+EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+
+
+def emoji_img(ch, size):
+    f = ImageFont.truetype(EMOJI_FONT, 109)
+    im = Image.new("RGBA", (150, 150), (0, 0, 0, 0))
+    ImageDraw.Draw(im).text((10, 10), ch, font=f, embedded_color=True)
+    im = im.crop(im.getbbox())
+    return im.resize((int(im.width * size / im.height), size), Image.LANCZOS)
+
+
 def static_layers(title):
     top = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(top)
-    f1 = fit(title[0], W - 120, 110); f2 = fit(title[1], W - 120, 110)
-    outlined(d, (W / 2, 330), title[0], f1, WHITE)
-    outlined(d, (W / 2, 330 + f1.size * 1.05), title[1], f2, YEL)
+    if len(title) == 2:
+        f1 = fit(title[0], W - 120, 110); f2 = fit(title[1], W - 120, 110)
+        outlined(d, (W / 2, 330), title[0], f1, WHITE)
+        outlined(d, (W / 2, 330 + f1.size * 1.05), title[1], f2, YEL)
+        return top
+    # 3+ lines; a trailing emoji (non-ASCII last char) is drawn in colour
+    colours = [WHITE, YEL, WHITE, YEL]
+    lines = []
+    for t in title:
+        emo = t[-1] if ord(t[-1]) > 0x2000 else None
+        lines.append((t[:-1].rstrip() if emo else t, emo))
+    fs = min(fit(t + (" XX" if e else ""), W - 100, 96).size for t, e in lines)
+    f = font(fs)
+    y = 590 - (len(lines) - 1) * fs * 1.05 - fs * 0.55
+    for i, (t, e) in enumerate(lines):
+        tw = d.textlength(t, font=f); ew = int(fs * 1.1) if e else 0
+        x = (W - tw - (ew + 16 if e else 0)) / 2
+        outlined(d, (x, y), t, f, colours[i], anchor="lm")
+        if e:
+            em = emoji_img(e, int(fs * 1.05))
+            top.alpha_composite(em, (int(x + tw + 16), int(y - em.height / 2)))
+        y += fs * 1.05
     return top
 
 
