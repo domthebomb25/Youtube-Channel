@@ -2,6 +2,7 @@
 
 usage: python3 build.py [--only 1,2,3] [--jobs 4] [--no-concat] [--concat-only]
 Outputs (in assembly/out/): shots/shotNNN.mp4, video.mp4 (1080p), preview-720p.mp4
+--final: shots-final/ and final.mp4 (~10 Mbps H.264 High, AAC 320k 48 kHz) for upload
 """
 import argparse
 import json
@@ -67,11 +68,15 @@ def build_still(n):
 
 
 ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", str(FPS * 2)]
+# --final: upload master, ~10 Mbps H.264 High (YouTube's recommended 8-12 Mbps for 1080p30)
+ENC_FINAL = ["-c:v", "libx264", "-preset", "medium", "-b:v", "10M", "-maxrate", "12M", "-bufsize", "20M",
+             "-profile:v", "high", "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", str(FPS // 2), "-bf", "2"]
+SHOTS = "shots"
 
 
 def render_graphic(n, frames):
     dur = frames / FPS
-    out = OUT / "shots" / f"shot{n:03d}.mp4"
+    out = OUT / SHOTS / f"shot{n:03d}.mp4"
     proc = subprocess.Popen(
         ["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{draw.W}x{draw.H}",
          "-r", str(FPS), "-i", "-", *ENC, str(out)], stdin=subprocess.PIPE)
@@ -85,7 +90,7 @@ def render_graphic(n, frames):
 
 def render_still(n, idx, frames):
     still = build_still(n)
-    out = OUT / "shots" / f"shot{n:03d}.mp4"
+    out = OUT / SHOTS / f"shot{n:03d}.mp4"
     z, x, y = motion_expr(n, idx)
     fc = f"[0]zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s=1920x1080:fps={FPS},setsar=1[bg]"
     args = ["ffmpeg", "-loglevel", "error", "-y", "-i", str(still)]
@@ -114,7 +119,12 @@ def main():
     ap.add_argument("--jobs", type=int, default=4)
     ap.add_argument("--no-concat", action="store_true")
     ap.add_argument("--concat-only", action="store_true")
+    ap.add_argument("--final", action="store_true", help="render the ~10 Mbps upload master to out/final.mp4")
     a = ap.parse_args()
+    global ENC, SHOTS
+    if a.final:
+        ENC, SHOTS = ENC_FINAL, "shots-final"
+        (OUT / SHOTS).mkdir(parents=True, exist_ok=True)
     for d in ["stills", "labels", "shots"]:
         (OUT / d).mkdir(parents=True, exist_ok=True)
     sl = shots()
@@ -126,12 +136,17 @@ def main():
     if a.no_concat or only:
         return
     lst = OUT / "concat.txt"
-    lst.write_text("".join(f"file 'shots/shot{s['n']:03d}.mp4'\n" for s in sl))
+    lst.write_text("".join(f"file '{SHOTS}/shot{s['n']:03d}.mp4'\n" for s in sl))
     total = sum(s["frames"] for s in sl) / FPS
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst),
                     "-i", str(ROOT / "clips/voiceover.mp3"), "-filter_complex", "[1:a]apad[a]",
-                    "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
-                    "-t", f"{total:.3f}", "-movflags", "+faststart", str(OUT / "video.mp4")], check=True)
+                    "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac",
+                    *(["-b:a", "320k", "-ar", "48000"] if a.final else ["-b:a", "192k"]),
+                    "-t", f"{total:.3f}", "-movflags", "+faststart",
+                    str(OUT / ("final.mp4" if a.final else "video.mp4"))], check=True)
+    if a.final:
+        print("total", round(total, 2), "s")
+        return
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(OUT / "video.mp4"), "-vf", "scale=1280:720",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "26", "-c:a", "aac", "-b:a", "128k",
                     "-movflags", "+faststart", str(OUT / "preview-720p.mp4")], check=True)
