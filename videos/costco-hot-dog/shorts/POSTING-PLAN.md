@@ -1,6 +1,6 @@
 # Shorts / TikTok / Reels — posting plan (Costco $1.50 hot dog)
 
-All clips: 1080×1920 vertical, 36–57 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK — @TheBusinessStickHQ".
+All clips: 1080×1920 vertical, 36–57 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK — @TheBusinessStick".
 
 Post the long video first. Then one clip a day, same clip on all three apps.
 
@@ -18,5 +18,5 @@ Post the long video first. Then one clip a day, same clip on all three apps.
 
 - **YouTube Shorts:** set **Related video** to the full Costco video (this adds a clickable link to it). Title = the caption's first sentence.
 - **TikTok / Instagram:** put the YouTube channel link in your bio; say "link in bio" in a comment if you like.
-- Same handle everywhere: **@TheBusinessStickHQ**.
+- Same handle everywhere: **@TheBusinessStick**.
 - Reply to comments in the first hour after posting.
