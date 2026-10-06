@@ -2,7 +2,11 @@
 
 **Final video:** `final/costco-hot-dog-final-1080p.mp4` — 1920×1080, 30 fps, H.264 + AAC, 8:19 (narration 8:07 + 12 s end-screen hold). Over 8:00, so mid-roll ads can be turned on.
 
-## Title + thumbnail pairs (pick one pair)
+## Chosen title
+
+**Why Is a Costco Hot Dog Only $1.50?** — thumbnail: `thumbnails/still150-v2.jpg` or `only150-v2.jpg` (see compare-only-vs-still.jpg). No brand name on the thumbnail; "Costco" is in the title.
+
+## Earlier title + thumbnail options (for reference)
 
 | # | Title | Thumbnail | Best for |
 |---|---|---|---|
