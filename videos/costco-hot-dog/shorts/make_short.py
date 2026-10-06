@@ -48,6 +48,23 @@ def words_for(segs):
     return out, off
 
 
+MERGE = [(("nineteen", "eighty", "three"), "1983"), (("nineteen", "eighty", "five"), "1985"),
+         (("two", "thousand", "nine"), "2009"), (("twenty", "thirteen"), "2013"), (("twenty", "nineteen"), "2019"),
+         (("twenty", "twenty", "five"), "2025"), (("twenty", "twenty", "six"), "2026"), (("s",), "2000s")]
+
+
+def tidy(words):
+    out, i = [], 0
+    while i < len(words):
+        for seq, rep in MERGE:
+            n = len(seq)
+            if tuple(w[0] for w in words[i:i + n]) == seq:
+                out.append((rep, words[i][1], words[i + n - 1][2])); i += n; break
+        else:
+            out.append(words[i]); i += 1
+    return out
+
+
 def groups(words, maxn=3):
     gs, cur = [], []
     for i, w in enumerate(words):
@@ -61,12 +78,12 @@ def groups(words, maxn=3):
 def cut(segs, out):
     parts = []
     for i, (a, b) in enumerate(segs):
-        p = out.parent / f"_seg{i}.mp4"
+        p = out.parent / f"{out.stem}_seg{i}.mp4"
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{a:.3f}", "-i", str(SRC), "-t", f"{b - a:.3f}",
                         "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-r", str(FPS),
                         "-c:a", "pcm_s16le", "-ar", "48000", "-ac", "2", str(p.with_suffix(".mov"))], check=True)
         parts.append(p.with_suffix(".mov"))
-    lst = out.parent / "_list.txt"
+    lst = out.parent / f"{out.stem}_list.txt"
     lst.write_text("".join(f"file '{p.name}'\n" for p in parts))
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst),
                     "-c", "copy", str(out)], check=True)
@@ -105,7 +122,7 @@ def main():
     seg = outdir / f"_{spec['name']}-src.mp4"
     cut(spec["segments"], seg)
     words, total = words_for(spec["segments"])
-    gs = groups(words)
+    gs = groups(tidy(words))
     top = static_layers(spec["title"])
     endimg = np.asarray(end_card(spec["end"]))
     cap_f = font(92)
