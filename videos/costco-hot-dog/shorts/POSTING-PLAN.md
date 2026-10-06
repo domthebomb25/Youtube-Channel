@@ -1,6 +1,6 @@
 # Shorts / TikTok / Reels — posting plan (Costco $1.50 hot dog)
 
-All clips: 1080×1920 vertical, 36–57 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK — @TheBusinessStickHQ".
+All clips: 1080×1920 vertical, 31–59 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK HQ — @TheBusinessStickHQ".
 
 Post the long video first. Then one clip a day, same clip on all three apps.
 
@@ -10,9 +10,9 @@ Post the long video first. Then one clip a day, same clip on all three apps.
 | 2 | `clip3-real-money-maker.mp4` | Costco doesn't need the hot dog to make money. Here's why 👇 #costco #business #money |
 | 3 | `clip5-factories.mp4` | Costco built its own factories… for a $1.50 hot dog 🌭 #costco #business #hotdog |
 | 4 | `clip2-chicken.mp4` | The $1.50 hot dog isn't the only thing Costco protects 🍗 #costco #rotisseriechicken #business |
-| 5 | `clip4-heroin.mp4` | Why Costco's co-founder refused to raise prices 💊 #costco #business #pricing |
-| 6 | `clip6-soda-swaps.mp4` | Coke → Pepsi → Coke… and the price never moved 🥤 #costco #business #hotdog |
-| 7 | `clip7-forty-years.mp4` | 40 years later… still $1.50?! 🤯 #costco #inflation #hotdog |
+| 5 | `clip4-heroin.mp4` | Why Costco won't raise the price of its $1.50 hot dog 🌭 #costco #business #hotdog |
+| 6 | `clip6-soda-swaps.mp4` | Costco's $1.50 hot dog combo has switched sodas twice 🥤 Did you notice? #costco #hotdog #funfact |
+| 7 | `clip7-forty-years.mp4` | The two enemies the Costco hot dog has fought for 40 years 🌭 #costco #inflation #hotdog |
 
 ## When uploading
 
