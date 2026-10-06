@@ -254,7 +254,7 @@ def g_formula(t, dur):
     draw_text(d, (W / 2, 420), "LOSING MONEY", f, fill=RED)
     a = ease((t - 0.3) / 0.4)
     if a > 0:
-        draw_text(d, (W / 2, 590), "↓", font("LuckiestGuy", 130), fill=INK)
+        draw_text(d, (W / 2, 600), "↓", font("DejaVuSans", 130), fill=INK)
     if t > 0.7:
         draw_text(d, (W / 2, 780), "RAISE THE PRICE", f, fill=GREEN)
     if t > 1.1:

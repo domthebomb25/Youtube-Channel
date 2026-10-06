@@ -35,9 +35,11 @@ SIGNS = {
 }
 
 # Reused shots: (source image, signs from that source apply too)
-REUSE = {2: 1, 45: 12, 95: 92, 108: 152, 167: 1}
+REUSE = {2: 1, 45: 12, 95: 92, 108: 152, 167: 1,
+         301: 48, 302: 14, 303: 51, 304: 53}  # 301-304: new cold open (v2 script)
 
 LABELS = {
+    304: [dict(kind="big", text="\u201cI WILL KILL YOU.\u201d", pos=(0.5, 0.86))],
     2:   [dict(kind="stamp", text="40 YEARS", pos=(0.70, 0.30))],
     3:   [dict(kind="year", text="1985")],
     12:  [dict(kind="name", text="CRAIG JELINEK", sub="Costco CEO, 2012–2023")],
@@ -81,6 +83,7 @@ MOTION = {
     95: dict(kind="focus", at=(0.70, 0.42), z0=1.1, z1=1.6),
     167: "out",
     176: "hold",
+    304: "in",
 }
 
 GRAPHICS = {7, 8, 19, 33, 59, 60, 106, 107, 111, 112, 115, 125, 136, 145}
