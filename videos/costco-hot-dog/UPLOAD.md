@@ -10,7 +10,7 @@
 
 | # | Title | Thumbnail | Best for |
 |---|---|---|---|
-| **3 ★ recommended** | **Costco's Founder Threatened to 'Kill' Over a $1.50 Hot Dog** | `thumbnails/thumb3-dont-you-dare.jpg` — angry founder pointing at you, "DON'T YOU DARE." + $1.50 sign | Curiosity / clicks. The video pays this off at **0:11**, so viewers who click get what they came for right away (good for retention). |
+| **3 ★ recommended** | **Costco's Co-Founder Threatened to 'Kill' Over a $1.50 Hot Dog** | `thumbnails/thumb3-dont-you-dare.jpg` — angry co-founder pointing at you, "DON'T YOU DARE." + $1.50 sign | Curiosity / clicks. The video pays this off at **0:11**, so viewers who click get what they came for right away (good for retention). |
 | 1 | Why Costco Will Never Raise the Price of Its $1.50 Hot Dog | `thumbnails/thumb1-still-150.jpg` — shocked mascot, "STILL $1.50?! SINCE 1985" | Search — matches what people type ("costco hot dog price"). Safest, Inkly-style "Why…" title. |
 | 2 | Costco Loses Money on Its $1.50 Hot Dog… On Purpose | `thumbnails/thumb2-on-purpose.jpg` — smirking mascot, crashing red arrow, "LOSING MONEY ON PURPOSE?!" | The business-strategy angle; promises the twist (membership). |
 
