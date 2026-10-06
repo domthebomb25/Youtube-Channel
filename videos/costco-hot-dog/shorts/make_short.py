@@ -17,7 +17,7 @@ W, H, FPS = 1080, 1920, 30
 VID_Y = 620                      # top of the 16:9 picture (1080x608)
 CAP_Y = 1330                     # caption centre; stays above the bottom 20% UI zone
 WHITE, YEL, INK, BLUE = (255, 255, 255), (255, 214, 0), (15, 15, 15), (7, 77, 172)
-END_SEC = 3.0
+END_SEC = 4.0
 
 
 def font(s): return ImageFont.truetype(FONT, s)
@@ -113,6 +113,8 @@ def end_card(lines):
     d = ImageDraw.Draw(img)
     outlined(d, (W / 2, 330), lines[0], fit(lines[0], W - 120, 120), WHITE)
     outlined(d, (W / 2, 470), lines[1], fit(lines[1], W - 160, 100), YEL)
+    if len(lines) > 2:
+        outlined(d, (W / 2, 575), lines[2], fit(lines[2], W - 200, 70), WHITE)
     return img.convert("RGB")
 
 
