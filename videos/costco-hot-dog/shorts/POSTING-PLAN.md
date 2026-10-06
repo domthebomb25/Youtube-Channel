@@ -2,7 +2,7 @@
 
 All clips: 1080×1920 vertical, 31–59 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK HQ — @TheBusinessStickHQ".
 
-Post the long video first. Then one clip a day, same clip on all three apps.
+Post the long video first (day 0). Then one clip a day for 6 days, same clip on all three apps. Day 7 = next long video.
 
 | Day | File | Caption (paste) |
 |---|---|---|
@@ -11,8 +11,9 @@ Post the long video first. Then one clip a day, same clip on all three apps.
 | 3 | `clip5-factories.mp4` | Costco built its own factories… for a $1.50 hot dog 🌭 #costco #business #hotdog |
 | 4 | `clip2-chicken.mp4` | The $1.50 hot dog isn't the only thing Costco protects 🍗 #costco #rotisseriechicken #business |
 | 5 | `clip4-heroin.mp4` | Why Costco won't raise the price of its $1.50 hot dog 🌭 #costco #business #hotdog |
-| 6 | `clip6-soda-swaps.mp4` | Did you know Costco's $1.50 hot dog combo has switched soda brands twice 🥤 #costco #hotdog #funfact |
-| 7 | `clip7-forty-years.mp4` | The two enemies the Costco hot dog has fought for 40 years 🌭 #costco #inflation #hotdog |
+| 6 | `clip6-brilliant.mp4` | The Costco hot dog isn't just a cheap snack. It's the most brilliant $1.50 in business 🌭 #costco #business #hotdog |
+| spare | `clip7-forty-years.mp4` | The two enemies the Costco hot dog has fought for 40 years 🌭 #costco #inflation #hotdog |
+| spare | `clip6-soda-swaps.mp4` | Did you know Costco's $1.50 hot dog combo has switched soda brands twice 🥤 #costco #hotdog #funfact |
 
 ## When uploading
 
