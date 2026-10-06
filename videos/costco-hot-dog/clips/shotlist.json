@@ -112,8 +112,8 @@
  {
   "sec": 0,
   "t0": 27.24,
-  "t1": 30.5,
-  "line": "And the Costco hot dog? Still a dollar fifty.",
+  "t1": 32.34,
+  "line": "And the Costco hot dog? Still a dollar fifty. Your instinct says that's crazy.",
   "n": 9,
   "type": "N",
   "idea": "The same $1.50 sign standing still while a calendar flips years behind it",
@@ -121,29 +121,9 @@
  },
  {
   "sec": 0,
-  "t0": 30.5,
-  "t1": 32.34,
-  "line": "Your instinct says that's crazy.",
-  "n": 17,
-  "type": "N",
-  "idea": "Mascot nodding: 'makes sense!' thumbs up",
-  "prompt": "mascot giving a thumbs up with a confident nod"
- },
- {
-  "sec": 0,
   "t0": 32.34,
-  "t1": 36.17,
-  "line": "When something loses money, you raise the price.",
-  "n": 18,
-  "type": "N",
-  "idea": "Mascot as a mechanic 'fixing' a broken price sign with a wrench",
-  "prompt": "mascot in a hard hat with a wrench tightening a price sign, the number going up"
- },
- {
-  "sec": 0,
-  "t0": 36.17,
   "t1": 37.6,
-  "line": "That's how business works.",
+  "line": "When something loses money, you raise the price. That's how business works.",
   "n": 19,
   "type": "G",
   "idea": "Simple formula card: LOSING MONEY \u2192 RAISE PRICE \u2713",

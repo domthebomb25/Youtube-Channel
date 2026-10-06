@@ -252,12 +252,14 @@ def g_formula(t, dur):
     header(d, "THE NORMAL RULE")
     f = font("LuckiestGuy", 104)
     draw_text(d, (W / 2, 420), "LOSING MONEY", f, fill=RED)
-    a = ease((t - 0.3) / 0.4)
+    # beats scale with shot length so the card follows the narration
+    t_arrow, t_raise, t_check = (0.3, 0.7, 1.1) if dur < 2 else (dur * 0.33, dur * 0.38, dur * 0.75)
+    a = ease((t - t_arrow) / 0.4)
     if a > 0:
         draw_text(d, (W / 2, 600), "↓", font("DejaVuSans", 130), fill=INK)
-    if t > 0.7:
+    if t > t_raise:
         draw_text(d, (W / 2, 780), "RAISE THE PRICE", f, fill=GREEN)
-    if t > 1.1:
+    if t > t_check:
         draw_text(d, (1650, 780), "✔", font("DejaVuSans", 140) if (FONTS / "DejaVuSans.ttf").exists() else f, fill=GREEN)
     return img
 
