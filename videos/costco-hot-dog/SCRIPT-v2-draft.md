@@ -5,7 +5,7 @@
 **Format:** Inkly structure · Stickman visuals · target length 8:02+
 **Thumbnail text:** STILL $1.50?!
 **First 3 seconds:** spoken question + first image matching the thumbnail (hot dog under a yellow "$1.50" sign); fast cuts every 1–1.5s for the first ~5s.
-**Narration:** ~1,360 words · Voice: Benji (ElevenLabs via Higgsfield), natural speed · **Estimated voiceover length: ~8:12** (was 8:26) + 12s end-screen hold = ~8:24 video — still clears the 8:00 mid-roll minimum. Timestamps marked ~ are estimates until re-recorded.
+**Narration:** ~1,350 words · Voice: Benji (ElevenLabs via Higgsfield), natural speed · **Estimated voiceover length: ~8:08** (was 8:26) + 12s end-screen hold = ~8:20 video — still clears the 8:00 mid-roll minimum. Timestamps marked ~ are estimates until re-recorded.
 
 ---
 
@@ -45,9 +45,7 @@ And here's the part that makes it even stranger. Costco didn't just hold the pri
 
 And eventually, someone inside Costco said what everyone was thinking.
 
-## [~1:48] The showdown — "Figure it out"  ✏️ CHANGED (first line added)
-
-✏️ Remember that conversation from the start? Here's how it actually went.
+## [~1:48] The showdown — "Figure it out"
 
 Craig Jelinek, Costco's longtime chief executive, later told a story about going to the company's co-founder, Jim Sinegal.
 
@@ -65,7 +63,7 @@ Sinegal once described raising prices as the business equivalent of taking heroi
 
 So the price wasn't going to move. Which meant Costco had to change everything else.
 
-## [~3:12] The fix — rebuild the hot dog from the ground up
+## [~3:08] The fix — rebuild the hot dog from the ground up
 
 Here's where it gets clever.
 
@@ -85,7 +83,7 @@ Every time costs rose, Costco attacked the cost instead. Anything except the num
 
 So why would a giant company build entire factories to protect a hot dog?
 
-## [~4:38] The real product — it was never about the hot dog
+## [~4:34] The real product — it was never about the hot dog
 
 The answer is that Costco isn't really in the business of selling you things.
 
@@ -101,7 +99,7 @@ The hot dog is a promise. It's the cheapest, simplest, most visible proof of the
 
 A hot dog that loses a little money is cheap advertising. A membership that renews for decades is the real treasure.
 
-## [~5:52] The twist — the chicken that cost a fortune
+## [~5:48] The twist — the chicken that cost a fortune
 
 Now this brings us to one of the strangest parts of the whole strategy. Because the hot dog isn't the only thing Costco protects like this.
 
@@ -117,7 +115,7 @@ And it's the exact same logic as the hot dog. The chicken usually sits near the 
 
 The cheap item isn't the product. It's the reason you walked through the door.
 
-## [~7:10] The payoff — what the hot dog really costs
+## [~7:06] The payoff — what the hot dog really costs
 
 So let's put the whole picture together, and see just how wrong our instinct was.
 
@@ -127,7 +125,7 @@ So the next time you hand over a dollar fifty and wonder how on earth they're ma
 
 You're not buying a hot dog. You're renewing your trust.
 
-## [~7:47] Bridge to next video — New Coke
+## [~7:43] Bridge to next video — New Coke
 
 Costco's hot dog proves that customers will love you for refusing to change.
 
