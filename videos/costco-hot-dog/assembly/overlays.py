@@ -17,12 +17,13 @@ SIGNS = {
           dict(center=(0.560, 0.358), size=(0.110, 0.115), rot=5, text="$", style="money"),
           dict(center=(0.735, 0.566), size=(0.093, 0.154), text="$", style="money"),
           dict(center=(0.890, 0.328), size=(0.105, 0.116), text="$", style="money")],
-    37:  [dict(center=(0.488, 0.195), size=(0.17, 0.13), rot=8, text="$", style="money")],
+    37:  [dict(center=(0.489, 0.219), size=(0.20, 0.15), rot=8, text="$", style="money")],
     63:  [dict(center=(0.175, 0.536), size=(0.20, 0.21), rot=1, text="$", style="money_up")],
     74:  [dict(center=(0.338, 0.628), size=(0.23, 0.28), rot=3, text="$", style="money_up")],
     99:  [dict(center=(0.474, 0.462), size=(0.22, 0.40), text="$", style="money_up")],
     100: [dict(center=(0.505, 0.423), size=(0.31, 0.33), rot=1, text="$1.50", **PRICE)],
     104: [dict(center=(0.526, 0.430), size=(0.24, 0.16), rot=15, text="MEMBERSHIP", style="ticket")],
+    143: [dict(center=(0.314, 0.367), size=(0.33, 0.30), rot=-2, text="NEBRASKA", style="highway")],
     69:  [dict(rect=(0.255, 0.150, 0.635, 0.660), text="$1.50", **PRICE)],
     92:  [dict(rect=(0.570, 0.160, 0.835, 0.685), text="$1.50", **PRICE)],
     94:  [dict(center=(0.330, 0.560), size=(0.20, 0.30), rot=-22, text="$1.50", **PRICE)],
@@ -34,7 +35,7 @@ SIGNS = {
 }
 
 # Reused shots: (source image, signs from that source apply too)
-REUSE = {2: 1, 45: 12, 95: 92, 167: 1}
+REUSE = {2: 1, 45: 12, 95: 92, 108: 152, 167: 1}
 
 LABELS = {
     2:   [dict(kind="stamp", text="40 YEARS", pos=(0.70, 0.30))],
@@ -59,9 +60,9 @@ LABELS = {
     93:  [dict(kind="year", text="2025"), dict(kind="tag", text="BACK TO COKE")],
     95:  [dict(kind="stamp", text="STILL $1.50", pos=(0.30, 0.30))],
     96:  [dict(kind="year", text="2026"), dict(kind="tag", text="+ WATER OPTION")],
+    108: [dict(kind="paid", text="MEMBERSHIP PAID", pos=(0.30, 0.15))],
     133: [dict(kind="year", text="SINCE 2009")],
     138: [dict(kind="name", text="RICHARD GALANTI", sub="Costco's former CFO")],
-    143: [dict(kind="tag", text="FREMONT, NEBRASKA")],
     144: [dict(kind="tag", text="OPENED 2019")],
     147: [dict(kind="tag", text="UP TO 2 MILLION / WEEK")],
     148: [dict(kind="sticker", text="$4.99", pos=(0.49, 0.40))],

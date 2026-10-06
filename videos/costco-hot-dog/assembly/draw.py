@@ -82,6 +82,9 @@ def paint_sign(img, spec):
             x = lc[0] - bw / 2 + cw * (c + 0.5)
             y = lc[1] - bh / 2 + rh * (r + 0.5)
             draw_text(d, (x, y + rh * 0.04), str(i + 1), f, fill=INK)
+    elif style == "highway":
+        f, s = fit_font("Anton", spec["text"], bw * 0.86, bh * 0.50)
+        draw_text(d, lc, spec["text"], f, fill=WHITE)
     elif style == "ticket":
         f, s = fit_font("LuckiestGuy", spec["text"], bw * 0.88, bh * 0.60)
         draw_text(d, (lc[0], lc[1] + bh * 0.04), spec["text"], f, fill=(92, 58, 8))
@@ -158,6 +161,17 @@ def label_layer(specs):
             box = (cx - w / 2 - 30, cy - h / 2 - 24, cx + w / 2 + 30, cy + h / 2 + 24)
             rounded_box(d, box, YELLOW, width=6, r=16)
             draw_text(d, (cx, cy + 3), t, f, fill=RED)
+        elif k == "paid":
+            f = font("LuckiestGuy", 70)
+            ck = font("DejaVuSans", 70)
+            w, h, _, _ = text_size(d, t, f)
+            cw, _, _, _ = text_size(d, "\u2714", ck)
+            cx, cy = sp["pos"][0] * W, sp["pos"][1] * H
+            tw = w + 24 + cw
+            box = (cx - tw / 2 - 40, cy - h / 2 - 30, cx + tw / 2 + 40, cy + h / 2 + 30)
+            rounded_box(d, box, GREEN)
+            draw_text(d, (cx - tw / 2, cy + 4), t, f, fill=WHITE, anchor="lm")
+            draw_text(d, (cx + tw / 2 - cw, cy + 2), "\u2714", ck, fill=WHITE, anchor="lm")
         elif k == "stamp":
             f = font("LuckiestGuy", 130)
             layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
