@@ -24,3 +24,9 @@ Day 7 = next video day (new long video + its best clip).
 - **TikTok / Instagram:** put the YouTube channel link in your bio; say "link in bio" in a comment if you like.
 - Same handle everywhere: **@TheBusinessStickHQ**.
 - Reply to comments in the first hour after posting.
+
+## Per-app wording (full ready-to-paste text in docs-pdf/Posting-Plan.pdf)
+
+- **YouTube Shorts title:** caption sentence + hashtags (max 100 characters; drop hashtags from the end if longer).
+- **TikTok:** caption sentence + "Full story: link in bio" + hashtags + #businesstok.
+- **Instagram (+ Facebook via "Share to Facebook"):** caption sentence + "Full story: link in bio" + hashtags.
