@@ -1,6 +1,6 @@
 # Shorts / TikTok / Reels — posting plan (Costco $1.50 hot dog)
 
-All clips: 1080×1920 vertical, 31–59 s, burned-in captions, 5-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK HQ — @TheBusinessStickHQ".
+All clips: 1080×1920 vertical, 28–56 s, burned-in captions, 2-second end card "FULL STORY ON YOUTUBE — THE BUSINESS STICK HQ — @TheBusinessStickHQ".
 
 Weekly rhythm: one long video + one clip every day (7 clips per week).
 Video day: post the full YouTube video first, then the day's clip a few hours later. Same clip on all three apps.
