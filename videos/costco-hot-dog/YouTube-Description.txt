@@ -1,27 +1,3 @@
-# Upload kit — Costco $1.50 hot dog
-
-**Final video:** `final/costco-hot-dog-final-1080p.mp4` — 1920×1080, 30 fps, H.264 + AAC, 8:19 (narration 8:07 + 12 s end-screen hold). Over 8:00, so mid-roll ads can be turned on.
-
-## Chosen title
-
-**Why Is a Costco Hot Dog Only $1.50?** — thumbnail: **`thumbnails/warehouse-still150-v2.jpg`** (final pick). No brand logo; "COSTCO" in plain lettering.
-
-## Earlier title + thumbnail options (for reference)
-
-| # | Title | Thumbnail | Best for |
-|---|---|---|---|
-| **3 ★ recommended** | **Costco's Co-Founder Threatened to 'Kill' Over a $1.50 Hot Dog** | `thumbnails/thumb3-dont-you-dare.jpg` — angry co-founder pointing at you, "DON'T YOU DARE." + $1.50 sign | Curiosity / clicks. The video pays this off at **0:11**, so viewers who click get what they came for right away (good for retention). |
-| 1 | Why Costco Will Never Raise the Price of Its $1.50 Hot Dog | `thumbnails/thumb1-still-150.jpg` — shocked mascot, "STILL $1.50?! SINCE 1985" | Search — matches what people type ("costco hot dog price"). Safest, Inkly-style "Why…" title. |
-| 2 | Costco Loses Money on Its $1.50 Hot Dog… On Purpose | `thumbnails/thumb2-on-purpose.jpg` — smirking mascot, crashing red arrow, "LOSING MONEY ON PURPOSE?!" | The business-strategy angle; promises the twist (membership). |
-
-Title rules used: under 60 characters, "Costco" + "$1.50 hot dog" in every title for search, thumbnail text adds to the title instead of repeating it, ≤ 4 big words on the thumbnail so it reads on a phone.
-
-If YouTube Studio shows **Test & compare** for your channel, upload all three thumbnails and let YouTube pick the winner.
-
-## Description (paste)
-
-Also saved as `YouTube-Description.txt` for easy copying.
-
 Why is a Costco hot dog still $1.50 after 40 years? A top Costco executive once pushed to raise the price — and co-founder Jim Sinegal's answer became business legend: "If you raise the price of the hot dog, I will kill you."
 
 Here's the real reason the price never moves (it was never about the hot dog).
@@ -56,14 +32,3 @@ Sources
 This video is for entertainment and education. It is not sponsored by or affiliated with Costco.
 
 #Costco #BusinessStories #HotDog
-
-## Tags
-costco hot dog, costco $1.50 hot dog, costco hot dog price, why costco hot dog is 1.50, costco business strategy, costco membership, costco rotisserie chicken, jim sinegal, craig jelinek, business stories, loss leader, costco food court, costco hot dog combo, why costco hot dog is cheap, the business stick
-
-## After upload
-- **Captions:** upload `captions/costco-hot-dog-english.srt` (Subtitles → Upload file → With timing).
-- **Pinned comment:** "If Costco raised the hot dog to $2, would you still buy it? 🌭👇 (Sources for everything in this video are in the description.)"
-- **End screen** (last ~12 s): video tile on the right side where the mascot points + subscribe button. Until the New Coke video is live, use "Best for viewer" and swap it later.
-- Turn on **mid-roll ads** (video is over 8:00); let YouTube place them automatically for now.
-- Optional: add quiet background music from YouTube Studio → Audio Library.
-- Check **Analytics → Audience retention** after 48 hours; the first 30 seconds is where to look first.
