@@ -20,14 +20,14 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 - **AI label: ON** · Trial reel: **OFF** · Share to Facebook: **OFF** (Facebook posted separately)
 - Topics: Business / Education only if offered, otherwise blank
 - Original-audio pop-up → **Share** (not "Turn off and share")
-- **Series (Parts):** while posting Part N, Link a reel → Part N-1; then edit Part N-1 → Link a reel → Part N (forward link). Skip if not offered.
+- **Series (Parts):** Part 1 → Link a reel → Part 2 (edit Part 1 after Part 2 is up). Parts 2–6 → Link a reel → Part 1 (set while posting). The next Part is reached via the profile (end cards say "WATCH PART X · ON MY PAGE").
 
 ## Facebook Reels
 - **Switch to the Page first** (not the personal profile)
 - + → Reel → **no music / text / filters**
 - Caption + hashtags (no #businesstok)
 - Audience: **Public** · **AI label: ON** · Trial: **OFF** · Remix: **On** · Topics: blank unless Business/Education
-- **Series (Parts):** copy the new Part's link (Share → Copy link), comment it on the previous Part as the Page ("Part N is here 👉 link") and pin that comment.
+- **Series (Parts):** pinned comment as the Page — on Part 1: "Part 2 is here 👉 [link]"; on Parts 2–6: "Start from the beginning 👉 [Part 1 link]" (Share → Copy link).
 - **Earn money: ON** (Content Monetization; finish payout setup in Professional dashboard → Monetization)
 
 ## YouTube Shorts
