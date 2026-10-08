@@ -1,4 +1,4 @@
-# Channel description — The Business Stick
+# Channel description — The Business Stick HQ
 
 The surprising stories behind the world's biggest businesses, told simply with stick figures.
 
