@@ -26,6 +26,7 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 - + → Reel → **no music / text / filters**
 - Caption + hashtags (no #businesstok)
 - Audience: **Public** · **AI label: ON** · Trial: **OFF** · Remix: **On** · Topics: blank unless Business/Education
+- **Earn money: ON** (Content Monetization; finish payout setup in Professional dashboard → Monetization)
 
 ## YouTube Shorts
 - YouTube app → + → Create a Short → **don't trim** (Shorts can be up to 3 min; if it cuts to 1 min, upload from studio.youtube.com)
