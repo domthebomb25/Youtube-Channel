@@ -33,6 +33,7 @@ Day 7 = next video day (new long video + its best clip).
 
 ## TikTok "Parts" series (TikTok only, 2nd post of the day)
 
-Full video cut into 6 parts (`parts/send/partN-of-6.mp4`), each >1 min, ending on a cliffhanger with a "PART N TOMORROW · FOLLOW SO YOU DON'T MISS IT" end card (Part 6 ends with the YouTube end card).
+Full video cut into 6 parts (`parts/send/partN-of-6.mp4`), each >1 min, ending on a cliffhanger with a "WATCH PART N · ON MY PAGE" end card (Part 6: "NEW STORY EVERY WEEK · THE BUSINESS STICK HQ").
+First video: all 6 parts posted on TikTok on one day, 30–60 min apart, Parts 1–3 pinned. From the next video on: 1 part a day.
 Clip ~12–2 PM on all 4 apps; Part ~7–9 PM on TikTok. Day 1 = Part 1 … Day 6 = Part 6.
 Rule for future videos: max 7 parts so each series finishes inside its week; never mix two series on one day.
