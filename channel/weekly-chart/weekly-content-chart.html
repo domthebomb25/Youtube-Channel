@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weekly Content Chart</title>
+<style>
+  @page { size: 11in 8.5in; margin: 0; }
+  :root {
+    --ink: #1d1d1f; --muted: #6b6b70; --line: #e3e3e6; --bg: #ffffff; --soft: #f6f6f7;
+    --long: #d64545; --parts: #e07b24; --hook: #2f6fde; --slide: #1f9d6b; --emo: #9b4fd1; --intro: #c9a100;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Inter", "DejaVu Sans", sans-serif; }
+  .page { width: 11in; height: 8.5in; padding: 0.35in 0.5in; display: flex; flex-direction: column; }
+  header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 14px; }
+  h1 { margin: 0; font-size: 28px; letter-spacing: -0.5px; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .handle { font-size: 13px; color: var(--muted); text-align: right; }
+  table { width: 100%; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
+  th, td { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: center; vertical-align: middle; }
+  thead th { font-size: 12px; font-weight: 700; padding-bottom: 9px; border-bottom: 2px solid var(--ink); }
+  thead th .where { display: block; font-weight: 400; color: var(--muted); font-size: 10px; margin-top: 3px; line-height: 1.3; }
+  thead th .dot { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+  th.day { width: 1.2in; text-align: left; }
+  tbody th.day { font-size: 15px; }
+  tbody th.day small { display: block; font-weight: 400; color: var(--muted); font-size: 10.5px; margin-top: 2px; }
+  td.n { width: 0.7in; font-weight: 700; font-size: 14px; color: var(--muted); }
+  .chip { display: inline-block; width: 100%; padding: 6px 4px; border-radius: 8px; color: #fff;
+    font-weight: 700; font-size: 12px; line-height: 1.2; }
+  .chip small { display: block; font-weight: 500; font-size: 10px; opacity: .92; margin-top: 2px; }
+  .empty { color: #c4c4c8; font-size: 16px; }
+  tr.day0 th.day, tr.day0 td { background: #fff4f2; }
+  tr.day6 th.day, tr.day6 td { background: #fffbe8; }
+  tr.loop td, tr.loop th { border-bottom: none; padding-top: 8px; }
+  .loopbar { background: var(--ink); color: #fff; border-radius: 8px; padding: 8px 14px; font-weight: 700;
+    font-size: 13px; text-align: left; }
+  tfoot td, tfoot th { border-bottom: none; border-top: 2px solid var(--ink); font-size: 12px; font-weight: 700; padding-top: 9px; }
+  tfoot th { text-align: left; }
+  .bg-long { background: var(--long); } .bg-parts { background: var(--parts); } .bg-hook { background: var(--hook); }
+  .bg-slide { background: var(--slide); } .bg-emo { background: var(--emo); } .bg-intro { background: var(--intro); }
+  .notes { margin-top: 12px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; font-size: 11px; color: var(--ink); }
+  .notes div { background: var(--soft); border-radius: 8px; padding: 10px 12px; line-height: 1.45; }
+  .notes b { display: block; margin-bottom: 3px; font-size: 11.5px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>Weekly Content Plan</h1>
+      <div class="sub">One long video a week → everything else promotes it. Day 7 = next Day 0, then repeat.</div>
+    </div>
+    <div class="handle"><b>The Business Stick HQ</b><br>@TheBusinessStickHQ · thebusinessstickhq</div>
+  </header>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="day">Day</th>
+        <th><span class="dot bg-long"></span>Long-form video<span class="where">YouTube</span></th>
+        <th><span class="dot bg-parts"></span>Video in parts<span class="where">TikTok</span></th>
+        <th><span class="dot bg-hook"></span>Hook promo clip<span class="where">Shorts · TikTok · Reels/FB</span></th>
+        <th><span class="dot bg-slide"></span>Hook slideshow<span class="where">TikTok · Instagram/FB carousel</span></th>
+        <th><span class="dot bg-emo"></span>Emotional short<span class="where">Shorts · TikTok · Reels/FB</span></th>
+        <th><span class="dot bg-intro"></span>Channel intro video<span class="where">Shorts · TikTok · Reels/FB</span></th>
+        <th class="n">Posts</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="day0">
+        <th class="day">Day 0<small>Video day</small></th>
+        <td><span class="chip bg-long">New video<small>post first</small></span></td>
+        <td><span class="chip bg-parts">Parts 1–6<small>all parts</small></span></td>
+        <td><span class="chip bg-hook">Hook clip #1<small>“new video out”</small></span></td>
+        <td class="empty">—</td>
+        <td class="empty">—</td>
+        <td class="empty">—</td>
+        <td class="n">8</td>
+      </tr>
+      <tr>
+        <th class="day">Day 1</th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #2</span></td>
+        <td><span class="chip bg-slide">Slideshow #1<small>business info</small></span></td>
+        <td><span class="chip bg-emo">Emotional #1<small>relatable</small></span></td>
+        <td class="empty">—</td>
+        <td class="n">3</td>
+      </tr>
+      <tr>
+        <th class="day">Day 2</th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #3</span></td>
+        <td><span class="chip bg-slide">Slideshow #2<small>business info</small></span></td>
+        <td><span class="chip bg-emo">Emotional #2<small>relatable</small></span></td>
+        <td class="empty">—</td>
+        <td class="n">3</td>
+      </tr>
+      <tr>
+        <th class="day">Day 3</th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #4</span></td>
+        <td><span class="chip bg-slide">Slideshow #3<small>business info</small></span></td>
+        <td><span class="chip bg-emo">Emotional #3<small>relatable</small></span></td>
+        <td class="empty">—</td>
+        <td class="n">3</td>
+      </tr>
+      <tr>
+        <th class="day">Day 4</th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #5</span></td>
+        <td><span class="chip bg-slide">Slideshow #4<small>business info</small></span></td>
+        <td><span class="chip bg-emo">Emotional #4<small>relatable</small></span></td>
+        <td class="empty">—</td>
+        <td class="n">3</td>
+      </tr>
+      <tr>
+        <th class="day">Day 5</th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #6</span></td>
+        <td><span class="chip bg-slide">Slideshow #5<small>business info</small></span></td>
+        <td><span class="chip bg-emo">Emotional #5<small>relatable</small></span></td>
+        <td class="empty">—</td>
+        <td class="n">3</td>
+      </tr>
+      <tr class="day6">
+        <th class="day">Day 6<small>Wrap-up</small></th>
+        <td class="empty">—</td><td class="empty">—</td>
+        <td><span class="chip bg-hook">Hook clip #7</span></td>
+        <td><span class="chip bg-slide">Slideshow #6<small>business info</small></span></td>
+        <td class="empty">—</td>
+        <td><span class="chip bg-intro">Intro video<small>last + upcoming video</small></span></td>
+        <td class="n">3</td>
+      </tr>
+      <tr class="loop">
+        <td colspan="8"><div class="loopbar">↻ Day 7 = Day 0 — post the new long-form video and start the cycle again</div></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Per week</th>
+        <td>1</td><td>6 parts</td><td>7</td><td>6</td><td>5</td><td>1</td><td class="n" style="color:var(--ink)">26</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="notes">
+    <div><b>Hook clips &amp; parts</b>Cut from the week’s long video. Every hook clip ends on the “Full story on YouTube” end card. Shorts: set Related video → the long video.</div>
+    <div><b>Slideshows &amp; emotional shorts</b>Standalone business content — not tied to the week’s video. Slideshow: hook on slide 1, one fact per slide. Emotional: a moment people in business relate to.</div>
+    <div><b>Intro video (Day 6)</b>“New here?” intro + this week’s video + next week’s video. Ends with Follow / Subscribe so new viewers are ready for Day 7.</div>
+  </div>
+</div>
+</body>
+</html>
