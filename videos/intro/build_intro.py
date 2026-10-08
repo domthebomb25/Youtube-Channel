@@ -1,6 +1,6 @@
 """Build the vertical channel intro (TikTok/Reels/Shorts) from Costco stills + narration.mp3.
 
-usage: python3 build_intro.py   ->  intro-the-business-stick-hq.mp4
+usage: python3 build_intro.py [name ...]   ->  <name>.mp4 for each title in TITLES (default: all)
 """
 import json, subprocess, sys
 from pathlib import Path
@@ -56,24 +56,41 @@ def src_video():
     return src
 
 
+TITLES = {
+    "intro-the-business-stick-hq": ["NEW HERE?", "HERE'S WHAT THIS", "CHANNEL IS ABOUT 👇"],
+    "intro-a-nobody-tells-you": ["THE BUSINESS STORIES", "NOBODY TELLS YOU 🤫"],
+    "intro-b-explained-simply": ["BUSINESS SECRETS,", "EXPLAINED SIMPLY ✏"],
+    "intro-c-brands-you-know": ["THE STORIES BEHIND", "THE BRANDS YOU KNOW 🏢"],
+}
+
+
 def main():
-    m.SRC = src_video()
+    names = sys.argv[1:] or list(TITLES)
+    src = src_video()
+    from multiprocessing import Pool
+    with Pool(len(names)) as pool:
+        pool.starmap(render, [(n, src) for n in names])
+    src.unlink()
+
+
+def render(name, src):
+    m.SRC = src
     wt = json.load(open(HERE / "word_timing.json"))
     m.words_for = lambda segs: ([(w, a, b) for w, a, b in wt if a < segs[0][1]], segs[0][1])
     m.END_SEC = round(NARR - CARD_AT + TAIL, 2)
-    spec = {"name": "intro-the-business-stick-hq", "segments": [[0, CARD_AT]],
-            "title": ["NEW HERE?", "HERE'S WHAT THIS", "CHANNEL IS ABOUT 👇"],
+    spec = {"name": name, "segments": [[0, CARD_AT]], "title": TITLES[name],
             "end": ["THE BUSINESS STICK HQ", "NEW STORY EVERY WEEK", "@TheBusinessStickHQ"]}
-    (HERE / "_spec.json").write_text(json.dumps(spec))
-    sys.argv = ["make_short.py", str(HERE / "_spec.json")]
+    sp = HERE / f"_spec-{name}.json"
+    sp.write_text(json.dumps(spec))
+    sys.argv = ["make_short.py", str(sp)]
     m.main()
-    raw = HERE / f"{spec['name']}.mp4"; tmp = HERE / "_noaudio.mp4"; raw.rename(tmp)
+    raw = HERE / f"{name}.mp4"; tmp = HERE / f"_noaudio-{name}.mp4"; raw.rename(tmp)
     total = CARD_AT + m.END_SEC
     # full narration over the whole thing (the short builder only carries audio up to the card)
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(tmp), "-i", str(AUD), "-map", "0:v", "-map", "1:a",
                     "-af", f"apad,atrim=0:{total:.2f},afade=t=out:st={total - 0.2:.2f}:d=0.2", "-c:v", "copy",
                     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(raw)], check=True)
-    for p in (tmp, HERE / "_spec.json", m.SRC): p.unlink()
+    for p in (tmp, sp): p.unlink()
     print(raw, round(total, 2), "s")
 
 

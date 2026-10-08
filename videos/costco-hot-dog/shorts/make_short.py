@@ -105,7 +105,7 @@ def emoji_img(ch, size):
 def static_layers(title):
     top = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(top)
-    if len(title) == 2:
+    if len(title) == 2 and all(ord(t[-1]) < 0x2000 for t in title):
         f1 = fit(title[0], W - 120, 110); f2 = fit(title[1], W - 120, 110)
         outlined(d, (W / 2, 330), title[0], f1, WHITE)
         outlined(d, (W / 2, 330 + f1.size * 1.05), title[1], f2, YEL)
