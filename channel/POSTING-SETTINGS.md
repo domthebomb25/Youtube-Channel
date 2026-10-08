@@ -27,7 +27,7 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 - + → Reel → **no music / text / filters**
 - Caption + hashtags (no #businesstok)
 - Audience: **Public** · **AI label: ON** · Trial: **OFF** · Remix: **On** · Topics: blank unless Business/Education
-- **Series (Parts):** pinned comment as the Page — on Part 1: "Part 2 is here 👉 [link]"; on Parts 2–6: "Start at Part 1 👉 [Part 1 link]" (Share → Copy link).
+- **Series (Parts):** pinned comment as the Page — on Parts 2–6: "Start at Part 1 👉 [Part 1 link]" (Share → Copy link); on Part 1: "Part 2 is on my page 👉 @The Business Stick HQ" (tag the Page).
 - **Earn money: ON** (Content Monetization; finish payout setup in Professional dashboard → Monetization)
 
 ## YouTube Shorts
