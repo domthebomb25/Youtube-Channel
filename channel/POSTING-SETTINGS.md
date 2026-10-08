@@ -11,7 +11,7 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 - **AI-generated content: ON** (realistic AI voice)
 - **Identify similar products: OFF** (no TikTok Shop tags)
 - Visual search: **On**
-- **Series (Parts):** Profile → ⋯ on the video → Add to playlist → one playlist per series (e.g. "Costco $1.50 Hot Dog"), Parts in order. If playlists aren't unlocked: comment on the previous Part "Part N is up on my page 👉"; after the series, pin intro + Part 1 + Part 2.
+- **Series (Parts):** (playlists not unlocked yet on this new account — skip; re-check in a few weeks) Profile → ⋯ on the video → Add to playlist → one playlist per series (e.g. "Costco $1.50 Hot Dog"), Parts in order. If playlists aren't unlocked: comment on the previous Part "Part N is up on my page 👉"; after the series, pin intro + Part 1 + Part 2.
 
 ## Instagram Reels
 - + → REEL → **no music / text / stickers / filters**
