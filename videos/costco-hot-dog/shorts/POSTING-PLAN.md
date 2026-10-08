@@ -30,3 +30,9 @@ Day 7 = next video day (new long video + its best clip).
 - **YouTube Shorts title:** caption sentence + hashtags (max 100 characters; drop hashtags from the end if longer).
 - **TikTok:** caption sentence + "Full story: link in bio" + hashtags + #businesstok.
 - **Instagram (+ Facebook via "Share to Facebook"):** caption sentence + "Full story: link in bio" + hashtags.
+
+## TikTok "Parts" series (TikTok only, 2nd post of the day)
+
+Full video cut into 6 parts (`parts/send/partN-of-6.mp4`), each >1 min, ending on a cliffhanger with a "PART N TOMORROW · FOLLOW SO YOU DON'T MISS IT" end card (Part 6 ends with the YouTube end card).
+Clip ~12–2 PM on all 4 apps; Part ~7–9 PM on TikTok. Day 1 = Part 1 … Day 6 = Part 6.
+Rule for future videos: max 7 parts so each series finishes inside its week; never mix two series on one day.
