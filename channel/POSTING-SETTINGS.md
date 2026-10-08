@@ -36,6 +36,7 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 - Public · **Not made for kids** · **Altered/synthetic content (AI use): No** (cartoons; narrator isn't a real person)
 - **Related video: the matching full video** (every Short, every time — Parts too; Shorts are not chained to each other)
 - Comments: On
+- Category: optional (not always shown for Shorts) — set once in Studio → Settings → Upload defaults → Advanced → Category: Education
 
 ## YouTube long video
 - See docs-pdf/YouTube-Upload-Guide.pdf (Altered content: No, captions .srt, end screen, Related playlist, schedule).
