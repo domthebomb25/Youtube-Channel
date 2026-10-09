@@ -40,3 +40,26 @@ Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the or
 
 ## YouTube long video
 - See docs-pdf/YouTube-Upload-Guide.pdf (Altered content: No, captions .srt, end screen, Related playlist, schedule).
+
+## Slideshow days (Days 1–5) — extra steps
+Files: `videos/costco-hot-dog/slideshows/dayN-*/` — `tiktok/` slides, `instagram/` slides, `dayN-*.mp4` silent video.
+
+**TikTok photo slideshow**
+- + → Upload → **Photo** tab → select the tiktok slides **in order (01 → last)** → Next
+- **Add sound**: Trending → pick an instrumental / quiet track → volume ~30–50%
+- Caption + hashtags (incl. #businesstok) · then the TikTok settings above (AI-generated content ON, Identify similar products OFF…)
+
+**Instagram carousel** (feed post, not a Reel)
+- + → **Post** → tap the multi-select icon → select the instagram slides **in order** → Next
+- **Add music**: look for ↗ trending tracks → instrumental/quiet → volume ~30–50%
+- Caption + hashtags · **AI label ON** · Share to Facebook OFF
+
+**Facebook Reels (video version)** — post from the **phone** if possible
+- Switch to the Page → + → Reel → pick `dayN-*.mp4` → **Music** (♪) → Trending / For you → instrumental → volume ~30–50%
+- Then the Facebook settings above (AI label ON, Public, Remix On…). Computer: "Add music" in the reel editor, or Meta Business Suite → Create reel.
+
+**YouTube Shorts (video version)** — post from the **phone app** (music only works there)
+- + → Create a Short → pick `dayN-*.mp4` → **Add sound** (♪) → Trending → instrumental → Volume ~30–50%
+- Then the Shorts settings above (Not made for kids, Altered content No, **Related video: the full video**).
+
+Music rules: only use the apps' built-in libraries (no outside songs added to the file); instrumental, upbeat or "curious"; keep one consistent style.
