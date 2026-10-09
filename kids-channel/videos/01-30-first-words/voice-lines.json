@@ -1,0 +1,502 @@
+[
+ {
+  "type": "TALK",
+  "text": "Hi friends! It's me, Miss Poppy! Can you wave hi? Hiii!",
+  "id": 0
+ },
+ {
+  "type": "TALK",
+  "text": "Today we're going to say lots of words together. Are you ready? Let's go!",
+  "id": 1
+ },
+ {
+  "type": "TALK",
+  "text": "Our first word is\u2026 hi! Hi! Can you say hi?",
+  "id": 2
+ },
+ {
+  "type": "TALK",
+  "text": "Hi! You did it!",
+  "id": 3
+ },
+ {
+  "type": "VO",
+  "text": "Who gives the best hugs?",
+  "id": 4
+ },
+ {
+  "type": "TALK",
+  "text": "Mama! Mmm-ma-ma. Lips together \u2014 mmm. Can you say mama?",
+  "id": 5
+ },
+ {
+  "type": "TALK",
+  "text": "Mama! Great job!",
+  "id": 6
+ },
+ {
+  "type": "VO",
+  "text": "Up, up, up!",
+  "id": 7
+ },
+ {
+  "type": "TALK",
+  "text": "Dada! Da-da. Can you say dada?",
+  "id": 8
+ },
+ {
+  "type": "TALK",
+  "text": "Dada! Yay!",
+  "id": 9
+ },
+ {
+  "type": "VO",
+  "text": "Peekaboo! Who's that?",
+  "id": 10
+ },
+ {
+  "type": "TALK",
+  "text": "Baby! B-b-baby. Can you say baby?",
+  "id": 11
+ },
+ {
+  "type": "TALK",
+  "text": "Baby! Good job!",
+  "id": 12
+ },
+ {
+  "type": "VO",
+  "text": "The duck is leaving. What do we say?",
+  "id": 13
+ },
+ {
+  "type": "TALK",
+  "text": "Bye-bye! Can you wave and say bye-bye?",
+  "id": 14
+ },
+ {
+  "type": "TALK",
+  "text": "Bye-bye, duck! You did it!",
+  "id": 15
+ },
+ {
+  "type": "TALK",
+  "text": "Let's look in my toy box! What's inside? Hmm\u2026",
+  "id": 16
+ },
+ {
+  "type": "VO",
+  "text": "Look! Bounce, bounce!",
+  "id": 17
+ },
+ {
+  "type": "TALK",
+  "text": "It's a ball! Ball. Can you say ball? B-b-ball!",
+  "id": 18
+ },
+ {
+  "type": "TALK",
+  "text": "Ball! Great job!",
+  "id": 19
+ },
+ {
+  "type": "VO",
+  "text": "Vroom, vroom!",
+  "id": 20
+ },
+ {
+  "type": "TALK",
+  "text": "Car! Car goes vroom! Can you say car?",
+  "id": 21
+ },
+ {
+  "type": "TALK",
+  "text": "Car! Vroom, vroom! Yay!",
+  "id": 22
+ },
+ {
+  "type": "VO",
+  "text": "Open\u2026 shhh\u2026 let's read!",
+  "id": 23
+ },
+ {
+  "type": "TALK",
+  "text": "Book! B-b-book. Can you say book?",
+  "id": 24
+ },
+ {
+  "type": "TALK",
+  "text": "Book! You're so smart!",
+  "id": 25
+ },
+ {
+  "type": "VO",
+  "text": "Pop! Pop! Pop!",
+  "id": 26
+ },
+ {
+  "type": "TALK",
+  "text": "Bubbles! Can you say bubbles? Buh-buh-bubbles!",
+  "id": 27
+ },
+ {
+  "type": "TALK",
+  "text": "Bubbles! Pop, pop!",
+  "id": 28
+ },
+ {
+  "type": "VO",
+  "text": "Up, up, up\u2026 uh-oh!",
+  "id": 29
+ },
+ {
+  "type": "TALK",
+  "text": "Block! Can you say block?",
+  "id": 30
+ },
+ {
+  "type": "TALK",
+  "text": "Block! Good job!",
+  "id": 31
+ },
+ {
+  "type": "TALK",
+  "text": "You're doing so good! Let's stand up and wiggle! Wiggle, wiggle, wiggle\u2026 and stop!",
+  "id": 32
+ },
+ {
+  "type": "TALK",
+  "text": "Let's visit the farm! Who lives on the farm?",
+  "id": 33
+ },
+ {
+  "type": "VO",
+  "text": "Woof, woof!",
+  "id": 34
+ },
+ {
+  "type": "TALK",
+  "text": "Dog! The dog says woof! Can you say dog?",
+  "id": 35
+ },
+ {
+  "type": "TALK",
+  "text": "Dog! Woof, woof! Yay!",
+  "id": 36
+ },
+ {
+  "type": "VO",
+  "text": "Meow!",
+  "id": 37
+ },
+ {
+  "type": "TALK",
+  "text": "Cat! The cat says meow. Can you say cat?",
+  "id": 38
+ },
+ {
+  "type": "TALK",
+  "text": "Cat! Meow! Good job!",
+  "id": 39
+ },
+ {
+  "type": "VO",
+  "text": "Moooo!",
+  "id": 40
+ },
+ {
+  "type": "TALK",
+  "text": "Cow! Round lips \u2014 oooh. Moo! Can you say cow?",
+  "id": 41
+ },
+ {
+  "type": "TALK",
+  "text": "Cow! Moo! You did it!",
+  "id": 42
+ },
+ {
+  "type": "VO",
+  "text": "Quack, quack!",
+  "id": 43
+ },
+ {
+  "type": "TALK",
+  "text": "Duck! Can you say duck?",
+  "id": 44
+ },
+ {
+  "type": "TALK",
+  "text": "Duck! Quack, quack! Great job!",
+  "id": 45
+ },
+ {
+  "type": "VO",
+  "text": "Swim, swim, swim!",
+  "id": 46
+ },
+ {
+  "type": "TALK",
+  "text": "Fish! Can you make fish lips? Fishy face! Can you say fish?",
+  "id": 47
+ },
+ {
+  "type": "TALK",
+  "text": "Fish! So silly! Good job!",
+  "id": 48
+ },
+ {
+  "type": "TALK",
+  "text": "I'm getting hungry! Are you hungry? Let's eat!",
+  "id": 49
+ },
+ {
+  "type": "VO",
+  "text": "Mmm, milk!",
+  "id": 50
+ },
+ {
+  "type": "TALK",
+  "text": "Milk! Mmm-milk. Lips together \u2014 mmm. Can you say milk?",
+  "id": 51
+ },
+ {
+  "type": "TALK",
+  "text": "Milk! Yum!",
+  "id": 52
+ },
+ {
+  "type": "VO",
+  "text": "Crunch!",
+  "id": 53
+ },
+ {
+  "type": "TALK",
+  "text": "Apple! Can you say apple?",
+  "id": 54
+ },
+ {
+  "type": "TALK",
+  "text": "Apple! Crunch, crunch! Yay!",
+  "id": 55
+ },
+ {
+  "type": "VO",
+  "text": "Peel, peel, peel!",
+  "id": 56
+ },
+ {
+  "type": "TALK",
+  "text": "Banana! Ba-na-na. Can you say banana?",
+  "id": 57
+ },
+ {
+  "type": "TALK",
+  "text": "Banana! Great job!",
+  "id": 58
+ },
+ {
+  "type": "VO",
+  "text": "Munch, munch!",
+  "id": 59
+ },
+ {
+  "type": "TALK",
+  "text": "Cookie! Can you say cookie?",
+  "id": 60
+ },
+ {
+  "type": "TALK",
+  "text": "Cookie! Yummy! Good job!",
+  "id": 61
+ },
+ {
+  "type": "VO",
+  "text": "Open wide!",
+  "id": 62
+ },
+ {
+  "type": "TALK",
+  "text": "Eat! Can you pretend to eat? Num, num, num! Can you say eat?",
+  "id": 63
+ },
+ {
+  "type": "TALK",
+  "text": "Eat! Num, num! You did it!",
+  "id": 64
+ },
+ {
+  "type": "TALK",
+  "text": "Wow, twenty words! Let's clap! Clap, clap, clap!",
+  "id": 65
+ },
+ {
+  "type": "VO",
+  "text": "Uh-oh, no more bubbles\u2026 do you want more?",
+  "id": 66
+ },
+ {
+  "type": "TALK",
+  "text": "More! Can you say more? Mmm-more!",
+  "id": 67
+ },
+ {
+  "type": "TALK",
+  "text": "More! Here are more bubbles! Yay!",
+  "id": 68
+ },
+ {
+  "type": "VO",
+  "text": "Up, up, up!",
+  "id": 69
+ },
+ {
+  "type": "TALK",
+  "text": "Up! Can you reach up high? Can you say up?",
+  "id": 70
+ },
+ {
+  "type": "TALK",
+  "text": "Up! Great job!",
+  "id": 71
+ },
+ {
+  "type": "VO",
+  "text": "Ready\u2026 set\u2026",
+  "id": 72
+ },
+ {
+  "type": "TALK",
+  "text": "Go! Can you say go? Ready, set\u2026",
+  "id": 73
+ },
+ {
+  "type": "TALK",
+  "text": "Go! Choo choo! You did it!",
+  "id": 74
+ },
+ {
+  "type": "VO",
+  "text": "No more food\u2026 what do we say?",
+  "id": 75
+ },
+ {
+  "type": "TALK",
+  "text": "All done! Hands up \u2014 all done! Can you say all done?",
+  "id": 76
+ },
+ {
+  "type": "TALK",
+  "text": "All done! Good job!",
+  "id": 77
+ },
+ {
+  "type": "VO",
+  "text": "Aww!",
+  "id": 78
+ },
+ {
+  "type": "TALK",
+  "text": "Hug! Can you give yourself a big hug? Can you say hug?",
+  "id": 79
+ },
+ {
+  "type": "TALK",
+  "text": "Hug! I love hugs! Good job!",
+  "id": 80
+ },
+ {
+  "type": "VO",
+  "text": "Hop, hop!",
+  "id": 81
+ },
+ {
+  "type": "TALK",
+  "text": "Shoe! Shh-oe. Can you say shoe?",
+  "id": 82
+ },
+ {
+  "type": "TALK",
+  "text": "Shoe! Great job!",
+  "id": 83
+ },
+ {
+  "type": "VO",
+  "text": "Boing!",
+  "id": 84
+ },
+ {
+  "type": "TALK",
+  "text": "Hat! Can you say hat?",
+  "id": 85
+ },
+ {
+  "type": "TALK",
+  "text": "Hat! So silly! Yay!",
+  "id": 86
+ },
+ {
+  "type": "VO",
+  "text": "Splish, splash!",
+  "id": 87
+ },
+ {
+  "type": "TALK",
+  "text": "Bath! Can you say bath?",
+  "id": 88
+ },
+ {
+  "type": "TALK",
+  "text": "Bath! Splish, splash! Good job!",
+  "id": 89
+ },
+ {
+  "type": "VO",
+  "text": "Shhh\u2026 it's nighttime.",
+  "id": 90
+ },
+ {
+  "type": "TALK",
+  "text": "Moon! Round lips \u2014 oooh. Moon. Can you say moon?",
+  "id": 91
+ },
+ {
+  "type": "TALK",
+  "text": "Moon! Beautiful! Good job!",
+  "id": 92
+ },
+ {
+  "type": "VO",
+  "text": "Teddy is sleepy\u2026",
+  "id": 93
+ },
+ {
+  "type": "TALK",
+  "text": "Night-night! Can you say night-night?",
+  "id": 94
+ },
+ {
+  "type": "TALK",
+  "text": "Night-night, teddy! You did it \u2014 thirty words!",
+  "id": 95
+ },
+ {
+  "type": "TALK",
+  "text": "Wow! You said SO many words today! Let's say a few again, super fast!",
+  "id": 96
+ },
+ {
+  "type": "VO",
+  "text": "Ball! Dog! Milk! Up! Moon!",
+  "id": 97
+ },
+ {
+  "type": "TALK",
+  "text": "You are amazing! I'm so proud of you!",
+  "id": 98
+ },
+ {
+  "type": "TALK",
+  "text": "Hey\u2026 do you remember the cow? What does the cow say? Moooo! And the duck? Quack, quack! I know a place with LOTS of animals\u2026 and they make SO many funny sounds! Let's go find them together. Come on \u2014 it's right here!",
+  "id": 99
+ }
+]
