@@ -10,7 +10,7 @@ Every line has a tag that says how it gets made (and what it costs):
 | Tag | What's on screen | Made with |
 |---|---|---|
 | **[TALK]** | Miss Poppy close-up, mouth moving with her words | MiniMax lip-sync (the cheaper version we tested) |
-| **[SHOW]** | The toy / animal / object, moving — you only *hear* Miss Poppy | Cheap animation (Grok Lite) |
+| **[SHOW]** | The toy / animal / object, moving on its own — **no narration** (sound effects / music only) | Cheap animation (Grok Lite) |
 | **[WAIT]** | Miss Poppy smiling and waiting so your child can say the word (no talking) | Cheap animation |
 | **[REUSE]** | Hello song, goodbye song, "Good job!" cheers, confetti — made once, used in every video | Made once in video 1 |
 
@@ -43,26 +43,26 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 **[REUSE]** cheer
 
 ### 2. MAMA 👩
-**[SHOW]** A soft heart floats up from a picture of a mama hugging a baby. *VO:* "Who gives the best hugs?"
+**[SHOW]** A soft heart floats up from a picture of a mama hugging a baby. *(no narration — setup line "Who gives the best hugs?" pending your A/B choice)*
 **[TALK]** "Mama! Mmm-ma-ma. Lips together — mmm. Can you say mama?"
 **[WAIT]**
 **[TALK]** "Mama! Great job!"
 
 ### 3. DADA 👨
-**[SHOW]** A dada lifts a baby up high — wheee! *VO:* "Up, up, up!"
+**[SHOW]** A dada lifts a baby up high — wheee! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Dada! Da-da. Can you say dada?"
 **[WAIT]**
 **[TALK]** "Dada! Yay!"
 **[REUSE]** cheer
 
 ### 4. BABY 👶
-**[SHOW]** A giggling baby peeks out from a blanket — peekaboo! *VO:* "Peekaboo! Who's that?"
+**[SHOW]** A giggling baby peeks out from a blanket — peekaboo! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Baby! B-b-baby. Can you say baby?"
 **[WAIT]**
 **[TALK]** "Baby! Good job!"
 
 ### 5. BYE-BYE 👋
-**[SHOW]** A little duck waves its wing and waddles away. *VO:* "The duck is leaving. What do we say?"
+**[SHOW]** A little duck waves its wing and waddles away. *(no narration — setup line "The duck is leaving. What do we say?" pending your A/B choice)*
 **[TALK]** "Bye-bye! Can you wave and say bye-bye?"
 **[WAIT]**
 **[TALK]** "Bye-bye, duck! You did it!"
@@ -75,33 +75,33 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 **[TALK]** "Let's look in my toy box! What's inside? Hmm…"
 
 ### 6. BALL 🔴
-**[SHOW]** A red ball pops out of the toy box and bounces. *VO:* "Look! Bounce, bounce!"
+**[SHOW]** A red ball pops out of the toy box and bounces. *(no narration — toy/animal moves on its own)*
 **[TALK]** "It's a ball! Ball. Can you say ball? B-b-ball!"
 **[WAIT]**
 **[TALK]** "Ball! Great job!"
 **[REUSE]** cheer
 
 ### 7. CAR 🚗
-**[SHOW]** A little red car zooms across the rug. *VO:* "Vroom, vroom!"
+**[SHOW]** A little red car zooms across the rug. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Car! Car goes vroom! Can you say car?"
 **[WAIT]**
 **[TALK]** "Car! Vroom, vroom! Yay!"
 
 ### 8. BOOK 📖
-**[SHOW]** A picture book opens by itself; pages flip. *VO:* "Open… shhh… let's read!"
+**[SHOW]** A picture book opens by itself; pages flip. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Book! B-b-book. Can you say book?"
 **[WAIT]**
 **[TALK]** "Book! You're so smart!"
 **[REUSE]** cheer
 
 ### 9. BUBBLES 🫧
-**[SHOW]** Bubbles float up and go *pop, pop, pop*. *VO:* "Pop! Pop! Pop!"
+**[SHOW]** Bubbles float up and go *pop, pop, pop*. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Bubbles! Can you say bubbles? Buh-buh-bubbles!"
 **[WAIT]**
 **[TALK]** "Bubbles! Pop, pop!"
 
 ### 10. BLOCK 🧱
-**[SHOW]** Colorful blocks stack up… up… and fall down — crash! *VO:* "Up, up, up… uh-oh!"
+**[SHOW]** Colorful blocks stack up… up… and fall down — crash! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Block! Can you say block?"
 **[WAIT]**
 **[TALK]** "Block! Good job!"
@@ -117,33 +117,33 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 **[TALK]** "Let's visit the farm! Who lives on the farm?"
 
 ### 11. DOG 🐶
-**[SHOW]** A puppy wags its tail. *VO:* "Woof, woof!"
+**[SHOW]** A puppy wags its tail. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Dog! The dog says woof! Can you say dog?"
 **[WAIT]**
 **[TALK]** "Dog! Woof, woof! Yay!"
 
 ### 12. CAT 🐱
-**[SHOW]** A kitten stretches and yawns. *VO:* "Meow!"
+**[SHOW]** A kitten stretches and yawns. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Cat! The cat says meow. Can you say cat?"
 **[WAIT]**
 **[TALK]** "Cat! Meow! Good job!"
 **[REUSE]** cheer
 
 ### 13. COW 🐮
-**[SHOW]** A cow chews grass, looks up. *VO:* "Moooo!"
+**[SHOW]** A cow chews grass, looks up. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Cow! Round lips — oooh. Moo! Can you say cow?"
 **[WAIT]**
 **[TALK]** "Cow! Moo! You did it!"
 
 ### 14. DUCK 🦆
-**[SHOW]** A little duck splashes in a pond. *VO:* "Quack, quack!"
+**[SHOW]** A little duck splashes in a pond. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Duck! Can you say duck?"
 **[WAIT]**
 **[TALK]** "Duck! Quack, quack! Great job!"
 **[REUSE]** cheer
 
 ### 15. FISH 🐠
-**[SHOW]** An orange fish swims and blows bubbles. *VO:* "Swim, swim, swim!"
+**[SHOW]** An orange fish swims and blows bubbles. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Fish! Can you make fish lips? Fishy face! Can you say fish?"
 **[WAIT]**
 **[TALK]** "Fish! So silly! Good job!"
@@ -156,33 +156,33 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 **[TALK]** "I'm getting hungry! Are you hungry? Let's eat!"
 
 ### 16. MILK 🥛
-**[SHOW]** A cup of milk, a little splash. *VO:* "Mmm, milk!"
+**[SHOW]** A cup of milk, a little splash. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Milk! Mmm-milk. Lips together — mmm. Can you say milk?"
 **[WAIT]**
 **[TALK]** "Milk! Yum!"
 
 ### 17. APPLE 🍎
-**[SHOW]** A shiny red apple spins; someone takes a bite — crunch! *VO:* "Crunch!"
+**[SHOW]** A shiny red apple spins; someone takes a bite — crunch! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Apple! Can you say apple?"
 **[WAIT]**
 **[TALK]** "Apple! Crunch, crunch! Yay!"
 **[REUSE]** cheer
 
 ### 18. BANANA 🍌
-**[SHOW]** A banana peels itself, one piece at a time. *VO:* "Peel, peel, peel!"
+**[SHOW]** A banana peels itself, one piece at a time. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Banana! Ba-na-na. Can you say banana?"
 **[WAIT]**
 **[TALK]** "Banana! Great job!"
 
 ### 19. COOKIE 🍪
-**[SHOW]** A cookie on a plate — munch, munch, crumbs! *VO:* "Munch, munch!"
+**[SHOW]** A cookie on a plate — munch, munch, crumbs! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Cookie! Can you say cookie?"
 **[WAIT]**
 **[TALK]** "Cookie! Yummy! Good job!"
 **[REUSE]** cheer
 
 ### 20. EAT 🥄
-**[SHOW]** A spoon scoops yummy food. *VO:* "Open wide!"
+**[SHOW]** A spoon scoops yummy food. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Eat! Can you pretend to eat? Num, num, num! Can you say eat?"
 **[WAIT]**
 **[TALK]** "Eat! Num, num! You did it!"
@@ -196,33 +196,33 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 ## PART 5 — Little words that help (words 21–25)
 
 ### 21. MORE ➕
-**[SHOW]** Bubbles stop… then more bubbles come! *VO:* "Uh-oh, no more bubbles… do you want more?"
+**[SHOW]** Bubbles stop… then more bubbles come! *(no narration — setup line "Uh-oh, no more bubbles… do you want more?" pending your A/B choice)*
 **[TALK]** "More! Can you say more? Mmm-more!"
 **[WAIT]**
 **[TALK]** "More! Here are more bubbles! Yay!"
 
 ### 22. UP ⬆️
-**[SHOW]** A red balloon floats up, up, up into the sky. *VO:* "Up, up, up!"
+**[SHOW]** A red balloon floats up, up, up into the sky. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Up! Can you reach up high? Can you say up?"
 **[WAIT]**
 **[TALK]** "Up! Great job!"
 **[REUSE]** cheer
 
 ### 23. GO 🟢
-**[SHOW]** A toy train waits… then goes — choo choo! *VO:* "Ready… set…"
+**[SHOW]** A toy train waits… then goes — choo choo! *(no narration — setup line "Ready… set…" pending your A/B choice)*
 **[TALK]** "Go! Can you say go? Ready, set…"
 **[WAIT]**
 **[TALK]** "Go! Choo choo! You did it!"
 
 ### 24. ALL DONE 🙌
-**[SHOW]** A plate, all empty and clean. *VO:* "No more food… what do we say?"
+**[SHOW]** A plate, all empty and clean. *(no narration — setup line "No more food… what do we say?" pending your A/B choice)*
 **[TALK]** "All done! Hands up — all done! Can you say all done?"
 **[WAIT]**
 **[TALK]** "All done! Good job!"
 **[REUSE]** cheer
 
 ### 25. HUG 🤗
-**[SHOW]** A teddy bear opens its arms for a big hug. *VO:* "Aww!"
+**[SHOW]** A teddy bear opens its arms for a big hug. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Hug! Can you give yourself a big hug? Can you say hug?"
 **[WAIT]**
 **[TALK]** "Hug! I love hugs! Good job!"
@@ -233,33 +233,33 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 ## PART 6 — Things around us (words 26–30)
 
 ### 26. SHOE 👟
-**[SHOW]** Two little shoes hop across the floor. *VO:* "Hop, hop!"
+**[SHOW]** Two little shoes hop across the floor. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Shoe! Shh-oe. Can you say shoe?"
 **[WAIT]**
 **[TALK]** "Shoe! Great job!"
 
 ### 27. HAT 🎩
-**[SHOW]** A sunny yellow hat bounces onto a teddy bear's head. *VO:* "Boing!"
+**[SHOW]** A sunny yellow hat bounces onto a teddy bear's head. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Hat! Can you say hat?"
 **[WAIT]**
 **[TALK]** "Hat! So silly! Yay!"
 **[REUSE]** cheer
 
 ### 28. BATH 🛁
-**[SHOW]** A rubber duck floats in bubbly bath water — splash! *VO:* "Splish, splash!"
+**[SHOW]** A rubber duck floats in bubbly bath water — splash! *(no narration — toy/animal moves on its own)*
 **[TALK]** "Bath! Can you say bath?"
 **[WAIT]**
 **[TALK]** "Bath! Splish, splash! Good job!"
 
 ### 29. MOON 🌙
-**[SHOW]** A sleepy moon rises in a starry sky. *VO:* "Shhh… it's nighttime."
+**[SHOW]** A sleepy moon rises in a starry sky. *(no narration — toy/animal moves on its own)*
 **[TALK]** "Moon! Round lips — oooh. Moon. Can you say moon?"
 **[WAIT]**
 **[TALK]** "Moon! Beautiful! Good job!"
 **[REUSE]** cheer
 
 ### 30. NIGHT-NIGHT 😴
-**[SHOW]** A teddy bear yawns and snuggles into bed. *VO:* "Teddy is sleepy…"
+**[SHOW]** A teddy bear yawns and snuggles into bed. *(no narration — setup line "Teddy is sleepy…" pending your A/B choice)*
 **[TALK]** "Night-night! Can you say night-night?"
 **[WAIT]**
 **[TALK]** "Night-night, teddy! You did it — thirty words!"
@@ -270,7 +270,7 @@ show it → name it slowly → "Can you say ___?" → **wait 3 seconds** → say
 ## 9:00 — Review + goodbye
 
 **[TALK]** "Wow! You said SO many words today! Let's say a few again, super fast!"
-**[SHOW]** Quick pictures pop up one after another: ball, dog, milk, up, moon. *VO:* "Ball! Dog! Milk! Up! Moon!"
+**[SHOW]** Quick pictures pop up one after another: ball, dog, milk, up, moon. *(no narration — review line "Ball! Dog! Milk! Up! Moon!" pending your choice)*
 **[TALK]** "You are amazing! I'm so proud of you!"
 
 **Bridge to the next video** (keeps kids watching — no goodbye until after this):
