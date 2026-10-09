@@ -1,4 +1,6 @@
-# Host character: locked look
+# Miss Poppy (host of "Miss Poppy's Playroom"): locked look
+
+Channel: **Miss Poppy's Playroom** · Host name used in titles: **Miss Poppy**
 
 Reference images (always attach as image references in Higgsfield):
 - `images/character-sheet-turnaround.png` (Higgsfield job 419391b1-559c-4f87-b622-e6d976f73162)
