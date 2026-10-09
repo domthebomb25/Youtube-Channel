@@ -47,3 +47,8 @@ Rule for future videos: max 7 parts so each series finishes inside its week; nev
 | 6 | 1 clip (4 apps) + weekly intro/teaser video: recap of this week's story + tomorrow's new video (4 apps) |
 
 Clips/Parts/slideshows are built from the long video's images (free); the Day-6 teaser needs a short narration (~1 credit).
+
+## Slideshows (Days 1–5) — `videos/costco-hot-dog/slideshows/dayN-*/`
+`tiktok/` = 1080x1920 photo-mode slides · `instagram/` = 1080x1350 carousel · `dayN-*.mp4` = silent video for Facebook Reels + YouTube Shorts (add music in-app).
+Day 1 then-vs-now · Day 2 five things · Day 3 the math · Day 4 chicken secret · Day 5 would you raise it?
+Rebuild: `python3 build_slides.py [day]`.
