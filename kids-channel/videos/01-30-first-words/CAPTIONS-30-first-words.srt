@@ -1,0 +1,407 @@
+1
+00:00:00,200 --> 00:00:26,000
+♪ Hello, hello, hello to you! Hello, hello, I'm happy to see you! Wave hello, wave hello — let's play and learn, here we go! ♪
+
+2
+00:00:26,733 --> 00:00:34,733
+Hi friends! It's me, Miss Poppy! Can you wave hi? Hiii!
+
+3
+00:00:38,133 --> 00:00:46,133
+Today we're going to say lots of words together. Are you ready? Let's go!
+
+4
+00:00:46,133 --> 00:00:56,277
+Our first word is… hi! Hi! Can you say hi?
+
+5
+00:00:59,277 --> 00:01:04,461
+Hi! You did it!
+
+6
+00:01:04,761 --> 00:01:06,753
+Who gives the best hugs?
+
+7
+00:01:07,961 --> 00:01:18,105
+Mama! Mmm-ma-ma. Lips together — mmm. Can you say mama?
+
+8
+00:01:21,105 --> 00:01:26,289
+Mama! Great job!
+
+9
+00:01:26,589 --> 00:01:29,949
+Up, up, up!
+
+10
+00:01:31,056 --> 00:01:38,352
+Dada! Da-da. Can you say dada?
+
+11
+00:01:41,356 --> 00:01:46,540
+Dada! Yay!
+
+12
+00:01:46,840 --> 00:01:52,096
+Peekaboo! Who's that?
+
+13
+00:01:53,207 --> 00:01:59,799
+Baby! B-b-baby. Can you say baby?
+
+14
+00:02:02,807 --> 00:02:07,991
+Baby! Good job!
+
+15
+00:02:08,291 --> 00:02:12,635
+The duck is leaving. What do we say?
+
+16
+00:02:13,735 --> 00:02:21,735
+Bye-bye! Can you wave and say bye-bye?
+
+17
+00:02:24,735 --> 00:02:29,919
+Bye-bye, duck! You did it!
+
+18
+00:02:29,919 --> 00:02:36,511
+Let's look in my toy box! What's inside? Hmm…
+
+19
+00:02:36,819 --> 00:02:40,683
+Look! Bounce, bounce!
+
+20
+00:02:41,561 --> 00:02:48,857
+It's a ball! Ball. Can you say ball? B-b-ball!
+
+21
+00:02:51,861 --> 00:02:57,045
+Ball! Great job!
+
+22
+00:02:57,345 --> 00:03:00,105
+Vroom, vroom!
+
+23
+00:03:01,087 --> 00:03:08,383
+Car! Car goes vroom! Can you say car?
+
+24
+00:03:11,387 --> 00:03:16,571
+Car! Vroom, vroom! Yay!
+
+25
+00:03:16,871 --> 00:03:22,127
+Open… shhh… let's read!
+
+26
+00:03:23,237 --> 00:03:30,533
+Book! B-b-book. Can you say book?
+
+27
+00:03:33,537 --> 00:03:40,129
+Book! You're so smart!
+
+28
+00:03:40,437 --> 00:03:43,557
+Pop! Pop! Pop!
+
+29
+00:03:44,671 --> 00:03:51,263
+Bubbles! Can you say bubbles? Buh-buh-bubbles!
+
+30
+00:03:54,271 --> 00:03:59,455
+Bubbles! Pop, pop!
+
+31
+00:03:59,755 --> 00:04:04,051
+Up, up, up… uh-oh!
+
+32
+00:04:05,155 --> 00:04:10,339
+Block! Can you say block?
+
+33
+00:04:13,339 --> 00:04:18,523
+Block! Good job!
+
+34
+00:04:18,523 --> 00:04:30,779
+You're doing so good! Let's stand up and wiggle! Wiggle, wiggle, wiggle… and stop!
+
+35
+00:04:33,789 --> 00:04:38,973
+Let's visit the farm! Who lives on the farm?
+
+36
+00:04:39,273 --> 00:04:42,033
+Woof, woof!
+
+37
+00:04:43,140 --> 00:04:51,140
+Dog! The dog says woof! Can you say dog?
+
+38
+00:04:54,140 --> 00:04:59,324
+Dog! Woof, woof! Yay!
+
+39
+00:04:59,624 --> 00:05:02,144
+Meow!
+
+40
+00:05:03,257 --> 00:05:11,257
+Cat! The cat says meow. Can you say cat?
+
+41
+00:05:14,257 --> 00:05:19,441
+Cat! Meow! Good job!
+
+42
+00:05:19,741 --> 00:05:20,917
+Moooo!
+
+43
+00:05:22,941 --> 00:05:30,941
+Cow! Round lips — oooh. Moo! Can you say cow?
+
+44
+00:05:33,941 --> 00:05:39,125
+Cow! Moo! You did it!
+
+45
+00:05:39,425 --> 00:05:42,209
+Quack, quack!
+
+46
+00:05:43,325 --> 00:05:48,509
+Duck! Can you say duck?
+
+47
+00:05:51,509 --> 00:05:56,693
+Duck! Quack, quack! Great job!
+
+48
+00:05:56,993 --> 00:06:00,329
+Swim, swim, swim!
+
+49
+00:06:01,429 --> 00:06:11,573
+Fish! Can you make fish lips? Fishy face! Can you say fish?
+
+50
+00:06:14,573 --> 00:06:19,757
+Fish! So silly! Good job!
+
+51
+00:06:19,757 --> 00:06:29,197
+I'm getting hungry! Are you hungry? Let's eat!
+
+52
+00:06:29,497 --> 00:06:32,281
+Mmm, milk!
+
+53
+00:06:33,397 --> 00:06:45,653
+Milk! Mmm-milk. Lips together — mmm. Can you say milk?
+
+54
+00:06:48,664 --> 00:06:53,848
+Milk! Yum!
+
+55
+00:06:54,148 --> 00:06:56,668
+Crunch!
+
+56
+00:06:57,781 --> 00:07:02,965
+Apple! Can you say apple?
+
+57
+00:07:05,965 --> 00:07:12,557
+Apple! Crunch, crunch! Yay!
+
+58
+00:07:12,865 --> 00:07:16,225
+Peel, peel, peel!
+
+59
+00:07:17,332 --> 00:07:23,924
+Banana! Ba-na-na. Can you say banana?
+
+60
+00:07:26,932 --> 00:07:32,116
+Banana! Great job!
+
+61
+00:07:32,416 --> 00:07:35,536
+Munch, munch!
+
+62
+00:07:36,649 --> 00:07:41,833
+Cookie! Can you say cookie?
+
+63
+00:07:44,833 --> 00:07:51,425
+Cookie! Yummy! Good job!
+
+64
+00:07:51,733 --> 00:07:54,493
+Open wide!
+
+65
+00:07:55,600 --> 00:08:03,600
+Eat! Can you pretend to eat? Num, num, num! Can you say eat?
+
+66
+00:08:06,600 --> 00:08:13,192
+Eat! Num, num! You did it!
+
+67
+00:08:13,200 --> 00:08:22,640
+Wow, twenty words! Let's clap! Clap, clap, clap!
+
+68
+00:08:25,940 --> 00:08:32,708
+Uh-oh, no more bubbles… do you want more?
+
+69
+00:08:33,808 --> 00:08:40,400
+More! Can you say more? Mmm-more!
+
+70
+00:08:43,408 --> 00:08:50,704
+More! Here are more bubbles! Yay!
+
+71
+00:08:51,008 --> 00:08:54,344
+Up, up, up!
+
+72
+00:08:55,444 --> 00:09:02,036
+Up! Can you reach up high? Can you say up?
+
+73
+00:09:05,044 --> 00:09:10,228
+Up! Great job!
+
+74
+00:09:10,528 --> 00:09:13,288
+Ready… set…
+
+75
+00:09:14,394 --> 00:09:20,986
+Go! Can you say go? Ready, set…
+
+76
+00:09:23,994 --> 00:09:31,290
+Go! Choo choo! You did it!
+
+77
+00:09:31,594 --> 00:09:37,330
+No more food… what do we say?
+
+78
+00:09:38,430 --> 00:09:47,870
+All done! Hands up — all done! Can you say all done?
+
+79
+00:09:50,870 --> 00:09:56,054
+All done! Good job!
+
+80
+00:09:56,354 --> 00:09:58,634
+Aww!
+
+81
+00:09:59,734 --> 00:10:07,030
+Hug! Can you give yourself a big hug? Can you say hug?
+
+82
+00:10:10,034 --> 00:10:16,626
+Hug! I love hugs! Good job!
+
+83
+00:10:16,934 --> 00:10:19,694
+Hop, hop!
+
+84
+00:10:20,801 --> 00:10:27,393
+Shoe! Shh-oe. Can you say shoe?
+
+85
+00:10:30,401 --> 00:10:35,585
+Shoe! Great job!
+
+86
+00:10:35,885 --> 00:10:38,309
+Boing!
+
+87
+00:10:39,418 --> 00:10:44,602
+Hat! Can you say hat?
+
+88
+00:10:47,602 --> 00:10:52,786
+Hat! So silly! Yay!
+
+89
+00:10:53,086 --> 00:10:55,846
+Splish, splash!
+
+90
+00:10:56,953 --> 00:11:03,545
+Bath! Can you say bath?
+
+91
+00:11:06,553 --> 00:11:11,737
+Bath! Splish, splash! Good job!
+
+92
+00:11:12,037 --> 00:11:16,333
+Shhh… it's nighttime.
+
+93
+00:11:17,437 --> 00:11:25,437
+Moon! Round lips — oooh. Moon. Can you say moon?
+
+94
+00:11:28,437 --> 00:11:33,621
+Moon! Beautiful! Good job!
+
+95
+00:11:33,921 --> 00:11:37,281
+Teddy is sleepy…
+
+96
+00:11:38,388 --> 00:11:45,684
+Night-night! Can you say night-night?
+
+97
+00:11:48,688 --> 00:11:55,280
+Night-night, teddy! You did it — thirty words!
+
+98
+00:11:55,288 --> 00:12:05,432
+Wow! You said SO many words today! Let's say a few again, super fast!
+
+99
+00:12:05,732 --> 00:12:10,028
+Ball! Dog! Milk! Up! Moon!
+
+100
+00:12:10,328 --> 00:12:17,624
+You are amazing! I'm so proud of you!
+
+101
+00:12:17,628 --> 00:12:47,132
+Hey… do you remember the cow? What does the cow say? Moooo! And the duck? Quack, quack! I know a place with LOTS of animals… and they make SO many funny sounds! Let's go find them together. Come on — it's right here!
+
+102
+00:12:47,332 --> 00:13:12,632
+♪ Goodbye, goodbye, it's time to go! Goodbye, goodbye, I love you so! Wave bye-bye, wave bye-bye — see you soon, my friend, bye-bye! ♪
