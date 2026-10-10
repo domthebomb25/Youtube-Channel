@@ -21,3 +21,15 @@
 
 Spares: why you can't just walk in and buy a Rolex · Oprah turned down a paycheck to own her show.
 Double-check numbers before each script.
+
+## More unique ideas (Oct 10 2026) — verify facts before scripting
+1. Pepsi briefly owned one of the world's biggest navies (1989 Soviet deal, paid in warships)
+2. Southwest settled a slogan lawsuit with an arm-wrestling match ("Malice in Dallas", 1992)
+3. American Airlines saved ~$40K a year by removing ONE olive from salads (1987)
+4. Why Japan has hundreds of Kit Kat flavors ("Kitto Katsu" = "you'll surely win")
+5. Heinz "57" means nothing (founder just liked the numbers 5 and 7)
+6. Coca-Cola still uses coca leaves — and only one US company may legally import them
+7. Why Toblerone took the Matterhorn off its box (2023, "Swissness" rules)
+8. PEZ was invented to help people quit smoking (Austria, 1927)
+9. Bubble Wrap was supposed to be wallpaper (1957)
+10. Burger King's 1-cent Whopper you could only unlock near a McDonald's (Whopper Detour, 2018)
