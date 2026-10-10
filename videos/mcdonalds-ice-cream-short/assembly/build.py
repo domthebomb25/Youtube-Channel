@@ -53,7 +53,6 @@ TEXT = [
     (35.27, 37.75, ["THE FTC 🔍"], m.WHITE),
     (37.75, 43.99, ["2024:", "REPAIRS UNLOCKED"], m.YEL),
     (45.65, 47.11, ["JUST CLEANING? 🫧"], m.WHITE),
-    (NARR, NARR + END_SEC, ["BROKEN OR", "CLEANING? 👇"], m.YEL),
 ]
 DISPLAY = {"ftc": "FTC"}
 
