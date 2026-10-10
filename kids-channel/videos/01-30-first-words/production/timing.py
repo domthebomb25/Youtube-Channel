@@ -32,7 +32,7 @@ def ts(s): return f"{int(s // 3600):02d}:{int(s % 3600 // 60):02d}:{int(s % 60):
 srt = []
 lyrics = {"hello": "♪ Hello, hello, hello to you! Hello, hello, I'm happy to see you! Wave hello, wave hello — let's play and learn, here we go! ♪",
           "bye": "♪ Goodbye, goodbye, it's time to go! Goodbye, goodbye, I love you so! Wave bye-bye, wave bye-bye — see you soon, my friend, bye-bye! ♪"}
-srt.append((0.2, 26.0, lyrics["hello"]))
+srt.append((1.2, 23.0, lyrics["hello"]))
 for i, s, sp in speech: srt.append((s, s + sp, TEXT[i]))
 srt.append((CH[-1][0] + 0.2, CH[-1][0] + 25.5, lyrics["bye"]))
 open("../CAPTIONS-30-first-words.srt", "w").write("\n".join(f"{k + 1}\n{ts(a)} --> {ts(b)}\n{txt}\n" for k, (a, b, txt) in enumerate(srt)))
