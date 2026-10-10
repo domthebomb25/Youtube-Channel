@@ -186,7 +186,7 @@ while k <= hi:
     else:
         kind = e[2]
         if kind == "SONG placeholder":
-            if k == 0: seg_sung([("songs/hello3-1.mp4", 12.5), ("songs/hello3-2.mp4", 11.26)], out)
+            if k == 0: seg_sung([("songs/hello4-1.mp4", 12.5), ("songs/hello4-2.mp4", 11.26)], out)
             else: seg_sung([("songs/bye-1.mp4", 13.05), ("songs/bye-2-bright.mp4", 12.95)], out, fade=1.5)
             segs.append((out, "song"))
         elif kind.startswith("SHOW"):
