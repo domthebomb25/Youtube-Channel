@@ -44,7 +44,7 @@ SHAKE = {14.35: 0.35, 32.02: 0.40}          # time -> duration of a quick shake 
 
 # (t0, t1, [lines], top colour[, y]) — big on-screen text near the top
 TEXT = [
-    (0.00, 3.80, ["ALWAYS BROKEN? 🍦"], m.YEL, 185),    # on the menu boards, above the alarm light
+    (0.00, 3.80, ["ALWAYS BROKEN?"], m.YEL, 185),    # on the menu boards, above the alarm light
     (11.17, 13.26, ["UP TO 4 HOURS ⏳"], m.YEL),
     (14.22, 15.36, ["LOCKED 🔒"], RED),
     (15.47, 18.37, ["ERROR CODES"], m.WHITE),
