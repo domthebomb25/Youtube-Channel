@@ -50,8 +50,15 @@
 - Blockbuster filed for bankruptcy in **2010**, ten years later. ✅
 - Netflix is worth **hundreds of billions** today. ✅
 
-## Title & caption
+## Title, description & SEO (keywords from vidIQ, Oct 2026)
 
-- **YouTube Short title:** You had the chance to buy Netflix for $50 million… #business #netflix #blockbuster
-- **TikTok / Instagram / Facebook caption:** Would you have bought it? 🤔 #business #netflix #blockbuster #businesstok
-- **Related video (YouTube):** set to your best-performing Short (per the posting settings).
+Main keyword: **blockbuster vs netflix** (~34K searches/month, up 283%, low competition 29/100).
+
+- **YouTube title (vidIQ score 88/100):** You had the chance to buy Netflix for $50 million… (Blockbuster vs Netflix) #business
+- **YouTube description:**
+  Blockbuster vs Netflix: in 2000, Blockbuster had the chance to buy Netflix for just $50 million… and said no. Ten years later, Blockbuster was bankrupt. Would you have bought it? 🤔
+  #blockbustervsnetflix #businessstory #netflix
+- **YouTube tags:** blockbuster vs netflix, netflix vs blockbuster, how netflix killed blockbuster, netflix vs blockbuster case study, blockbuster netflix, blockbuster, netflix, reed hastings, business stories, business case study, the business stick hq
+- **TikTok caption:** Blockbuster could've bought Netflix for $50 million… would you have? 🤔 Blockbuster vs Netflix #blockbustervsnetflix #businessstory #business #netflix #businesstok
+- **Instagram / Facebook caption:** Blockbuster could've bought Netflix for $50 million… would you have? 🤔 Blockbuster vs Netflix #blockbustervsnetflix #businessstory #business #netflix
+- **Related video (YouTube):** the Costco full video (your only long video).
