@@ -1,6 +1,6 @@
 # LEGO Tires Short — "The world's biggest tire maker is… LEGO"
 
-**Format:** Sounds dumb until you hear why · ~40 s · Vertical 9:16 · Voice: Benji
+**Format:** Sounds dumb until you hear why · ~49 s (narration 47 s) · Vertical 9:16 · Voice: Benji
 **Hook template:** "This might surprise you…" (channel/HOOK-TEMPLATES.md)
 
 | Time | Narration | On-screen text |
@@ -30,3 +30,13 @@ Sources: Safelite "The World's Largest Tire Manufacturer May Surprise You" · Eu
 ## Visual notes
 - No LEGO logos or printed brand names in images (say "LEGO" in narration only); toy bricks/tires drawn generic.
 - Hook (animated, 4 s): stick-figure tire-shop worker proudly presenting a giant real car tire… a tiny toy tire rolls past and steals the spotlight.
+
+## Title, description & captions
+- **YouTube title:** The world's biggest tire maker is… LEGO?! 🛞 #lego #business
+- **YouTube description:** LEGO makes more tires than any real tire company: 300+ million a year, and a Guinness World Record. Did you know? 🤯 #lego #funfacts #businessstory
+  Sources: Guinness World Records (via Safelite, European Rubber Journal)
+- **YouTube tags:** lego tires, lego biggest tire manufacturer, lego world record, lego facts, biggest tire company, business stories, the business stick hq
+- **TikTok caption:** The world's biggest tire maker is… LEGO?! 🛞 #lego #funfacts #businessstory #business #businesstok
+- **Instagram / Facebook caption:** The world's biggest tire maker is… LEGO?! 🛞 #lego #funfacts #businessstory #business
+- **Related video (YouTube):** Costco full video.
+- **Cover:** cover.png (text inside the 3:4 profile-grid crop).
