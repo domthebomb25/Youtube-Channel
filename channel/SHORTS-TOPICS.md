@@ -33,3 +33,15 @@ Double-check numbers before each script.
 8. PEZ was invented to help people quit smoking (Austria, 1927)
 9. Bubble Wrap was supposed to be wallpaper (1957)
 10. Burger King's 1-cent Whopper you could only unlock near a McDonald's (Whopper Detour, 2018)
+
+## Big-brand ideas everyone knows (Oct 10 2026) — verify facts before scripting
+1. Apple's third co-founder sold his 10% for $800 (Ron Wayne, 1976)
+2. Nike's swoosh logo cost $35 (Carolyn Davidson, 1971)
+3. Mickey Mouse exists because Walt Disney lost his first star (Oswald the Lucky Rabbit, 1928)
+4. YouTube started as a video dating site
+5. Doritos were born at Disneyland (Casa de Fritos)
+6. M&M's were made for soldiers (melt-proof candy, WWII)
+7. LEGO makes more tires than any tire company
+8. Amazon was almost called "Relentless" (relentless.com still goes to Amazon)
+9. McDonald's Hula Burger vs the Filet-O-Fish (1962)
+10. The Game Boy that survived a bombing (Gulf War, displayed at Nintendo NY)
