@@ -36,7 +36,7 @@ SHOTS = [
     (31.52, "img11", "in"),
     (35.06, "img12", "right"),
     (37.75, "img13", "in"),
-    (43.99, "img3", {"z0": 1.25, "z1": 1.55, "at": (0.62, 0.40)}),   # back on the machine: "might just be cleaning"
+    (43.99, "img3", {"z0": 1.25, "z1": 1.55, "at": (0.52, 0.36)}),   # back on the machine: "might just be cleaning"
     (47.11, "img14", "in"),
     (NARR, "img14", "hold"),                                          # end beat
 ]
