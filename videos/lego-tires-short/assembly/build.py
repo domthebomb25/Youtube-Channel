@@ -44,7 +44,7 @@ SHAKE = {5.64: 0.35, 24.10: 0.30}          # "LEGO" reveal, "381 million"
 
 # (t0, t1, [lines], top colour[, y, font size]) — big on-screen text near the top
 TEXT = [
-    (0.00, 3.07, ["BIGGEST TIRE MAKER?"], m.YEL, 1185, 110),   # over his legs: face, big tire and tiny tire stay clear
+    (0.00, 3.07, ["WORLD'S #1 TIRE MAKER?"], m.YEL, 360, 104),   # between the top and his head, inside every app's safe area
     (5.47, 7.05, ["LEGO?!"], RED, 170),             # above his head, face stays clear
     (19.52, 22.69, ["300,000,000+", "TIRES A YEAR"], m.YEL),
     (24.10, 26.26, ["381 MILLION", "IN 2010"], m.YEL),

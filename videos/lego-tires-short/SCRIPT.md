@@ -5,7 +5,7 @@
 
 | Time | Narration | On-screen text |
 |---|---|---|
-| 0:00 | **This might surprise you. The biggest tire maker in the world isn't Michelin. It isn't Goodyear.** | BIGGEST TIRE MAKER? |
+| 0:00 | **This might surprise you. The biggest tire maker in the world isn't Michelin. It isn't Goodyear.** | WORLD'S #1 TIRE MAKER? |
 | 0:05 | It's LEGO. | LEGO?! |
 | 0:07 | Think about it. Cars, trucks, tractors, race cars, even spaceships… | |
 | 0:11 | almost every set with wheels needs tiny rubber tires. And LEGO sells a LOT of sets. | |
