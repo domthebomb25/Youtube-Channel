@@ -145,6 +145,18 @@ def seg_song(song, clips, out, length=None, fade=2.0):
         for c in clips: ins += ["-stream_loop", "2", "-i", c]
     ff(*ins, "-i", song, "-filter_complex", fc, "-map", "[v]", "-map", "[au]", *ENC, out)
 
+def seg_sung(clips, out, fade=0.6):
+    """songs Miss Poppy sings (lip-synced clips keep their own audio so the mouth stays in sync)"""
+    # each clip is trimmed to the length of its piece of the song so the song never pauses at the join
+    d = sum(t for _, t in clips)
+    ins = []
+    for c, _ in clips: ins += ["-i", c]
+    fc = "".join(f"[{k}:v]{V},trim=0:{t},setpts=PTS-STARTPTS[v{k}];[{k}:a]atrim=0:{t},asetpts=PTS-STARTPTS,{A}[a{k}];"
+                 for k, (_, t) in enumerate(clips))
+    fc += "".join(f"[v{k}][a{k}]" for k in range(len(clips))) + f"concat=n={len(clips)}:v=1:a=1[cv][ca];"
+    fc += f"[cv]fade=t=out:st={d - 0.6:.3f}:d=0.6[v];[ca]afade=t=out:st={d - fade:.3f}:d={fade}[au]"
+    ff(*ins, "-filter_complex", fc, "-map", "[v]", "-map", "[au]", *ENC, out)
+
 def xfade(a, b, out):
     off = dur(a) - 0.4
     ff("-i", a, "-i", b, "-filter_complex",
@@ -174,8 +186,8 @@ while k <= hi:
     else:
         kind = e[2]
         if kind == "SONG placeholder":
-            if k == 0: seg_song("music/hello-song.wav", ["extra/extra-201.mp4", "extra/extra-202.mp4"], out)
-            else: seg_song("music/goodbye-song.wav", ["extra/extra-203.mp4", "extra/extra-204.mp4"], out, length=26.0)
+            if k == 0: seg_sung([("songs/hello-1.mp4", 13.55), ("songs/hello-2.mp4", 13.17)], out)
+            else: seg_sung([("songs/bye-1.mp4", 13.05), ("songs/bye-2.mp4", 12.95)], out, fade=1.5)
             segs.append((out, "song"))
         elif kind.startswith("SHOW"):
             seg_show("extra/extra-205.mp4" if prev_line == 32 else "extra/extra-206.mp4", 3.0, out)
