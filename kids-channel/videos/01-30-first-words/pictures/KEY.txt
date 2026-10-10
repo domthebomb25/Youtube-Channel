@@ -1,0 +1,65 @@
+ 1. 0:00  P_intro_5fingers Hello song
+ 2. 0:26  P_intro          Hi friends! It's me, Miss Poppy! Can you wave hi? Hiii!
+ 3. 0:46  P_hi             Our first word is… hi! Hi! Can you say hi?
+ 4. 1:04  O_mama           Who gives the best hugs?
+ 5. 1:07  P_mama           Mama! Mmm-ma-ma. Lips together — mmm. Can you say mama?
+ 6. 1:26  O_dada           Up, up, up!
+ 7. 1:31  P_dada           Dada! Da-da. Can you say dada?
+ 8. 1:46  O_baby           Peekaboo! Who's that?
+ 9. 1:53  P_baby           Baby! B-b-baby. Can you say baby?
+10. 2:07  O_bye            The duck is leaving. What do we say?
+11. 2:13  P_bye            Bye-bye! Can you wave and say bye-bye?
+12. 2:29  frame-toybox     Let's look in my toy box! What's inside? Hmm…
+13. 2:36  frame-ball       Look! Bounce, bounce!
+14. 2:41  hold-frame-ball  It's a ball! Ball. Can you say ball? B-b-ball!
+15. 2:57  frame-car        Vroom, vroom!
+16. 3:01  P_car            Car! Car goes vroom! Can you say car?
+17. 3:16  O_book           Open… shhh… let's read!
+18. 3:23  P_book           Book! B-b-book. Can you say book?
+19. 3:40  O_bubbles        Pop! Pop! Pop!
+20. 3:44  P_bubbles        Bubbles! Can you say bubbles? Buh-buh-bubbles!
+21. 3:59  O_block          Up, up, up… uh-oh!
+22. 4:05  P_block          Block! Can you say block?
+23. 4:18  P_wiggle         You're doing so good! Let's stand up and wiggle! Wiggle, wiggle, wiggle… and stop!
+24. 4:33  P_farm           Let's visit the farm! Who lives on the farm?
+25. 4:38  O_dog            Woof, woof!
+26. 4:43  P_dog            Dog! The dog says woof! Can you say dog?
+27. 4:59  O_cat            Meow!
+28. 5:03  P_cat            Cat! The cat says meow. Can you say cat?
+29. 5:19  O_cow            Moooo!
+30. 5:22  P_cow            Cow! Round lips — oooh. Moo! Can you say cow?
+31. 5:39  O_duck           Quack, quack!
+32. 5:43  P_duck           Duck! Can you say duck?
+33. 5:56  O_fish           Swim, swim, swim!
+34. 6:01  P_fish           Fish! Can you make fish lips? Fishy face! Can you say fish?
+35. 6:19  P_food           I'm getting hungry! Are you hungry? Let's eat!
+36. 6:29  O_milk           Mmm, milk!
+37. 6:33  P_milk           Milk! Mmm-milk. Lips together — mmm. Can you say milk?
+38. 6:53  O_apple          Crunch!
+39. 6:57  P_apple          Apple! Can you say apple?
+40. 7:12  O_banana         Peel, peel, peel!
+41. 7:17  P_banana         Banana! Ba-na-na. Can you say banana?
+42. 7:32  O_cookie         Munch, munch!
+43. 7:36  P_cookie         Cookie! Can you say cookie?
+44. 7:51  O_eat            Open wide!
+45. 7:55  P_eat            Eat! Can you pretend to eat? Num, num, num! Can you say eat?
+46. 8:13  P_clap           Wow, twenty words! Let's clap! Clap, clap, clap!
+47. 8:50  O_up             Up, up, up!
+48. 8:55  P_up             Up! Can you reach up high? Can you say up?
+49. 9:10  O_go             Ready… set…
+50. 9:14  P_go             Go! Can you say go? Ready, set…
+51. 9:31  O_alldone        No more food… what do we say?
+52. 9:38  P_alldone        All done! Hands up — all done! Can you say all done?
+53. 9:56  O_hug            Aww!
+54. 9:59  P_hug            Hug! Can you give yourself a big hug? Can you say hug?
+55. 10:16  O_shoe           Hop, hop!
+56. 10:20  P_shoe           Shoe! Shh-oe. Can you say shoe?
+57. 10:35  O_hat            Boing!
+58. 10:39  P_hat            Hat! Can you say hat?
+59. 10:52  O_bath           Splish, splash!
+60. 10:56  P_bath           Bath! Can you say bath?
+61. 11:11  O_moon           Shhh… it's nighttime.
+62. 11:17  P_moon           Moon! Round lips — oooh. Moon. Can you say moon?
+63. 11:33  O_night          Teddy is sleepy…
+64. 11:38  P_night          Night-night! Can you say night-night?
+65. 11:55  P_outro          Wow! You said SO many words today! Let's say a few again, super fast!
