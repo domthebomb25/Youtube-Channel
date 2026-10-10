@@ -42,9 +42,9 @@ SHOTS = [
 ]
 SHAKE = {14.35: 0.35, 32.02: 0.40}          # time -> duration of a quick shake (LOCKED, sued)
 
-# (t0, t1, [lines], top colour[, y]) — big on-screen text near the top
+# (t0, t1, [lines], top colour[, y, font size]) — big on-screen text near the top
 TEXT = [
-    (0.00, 3.80, ["ALWAYS BROKEN?"], m.YEL, 185),    # on the menu boards, above the alarm light
+    (0.00, 3.80, ["ALWAYS BROKEN?"], m.YEL, 274, 104),   # in the gap between the menu boards and the alarm light
     (11.17, 13.26, ["UP TO 4 HOURS ⏳"], m.YEL),
     (14.22, 15.36, ["LOCKED 🔒"], RED),
     (15.47, 18.37, ["ERROR CODES"], m.WHITE),
@@ -92,10 +92,10 @@ def view(img, motion, p):
     return img.transform((W, H), Image.EXTENT, (x, y, x + cw, y + ch), Image.BICUBIC)
 
 
-def title_layer(lines, top, y0=None):
+def title_layer(lines, top, y0=None, size=130):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
-    fs = min(m.fit(t, W - 140, 130).size for t in lines)
+    fs = min(m.fit(t, W - 140, size).size for t in lines)
     f = m.font(fs)
     y = TITLE_Y if y0 is None else y0
     for i, t in enumerate(lines):
