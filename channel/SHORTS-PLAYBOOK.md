@@ -56,7 +56,7 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 "Day N of the 30-day plan: make 6 Shorts. Read channel/SHORTS-PLAYBOOK.md and CLAUDE.md first. Pick topics from SHORTS-TOPICS.md, verify facts, show me all 6 scripts for approval, quote credits."
 
 ## Open items as of Oct 10
-- Credit balance 838.8 (started the day at 1,236). ~286 credits were spent by something that is NOT this workflow ("MiniMax H3 Max" video jobs and some 1.5-credit GPT images, Oct 10 10:47-14:01). User should check other chats/tabs/apps using the same Higgsfield login.
+- Credit balance was 838.8 on Oct 10 (started the day at 1,236). The extra ~286 credits ("MiniMax H3 Max" jobs) were the user's own edits on another video, not a problem. Always re-check `balance` at the start of each day.
 - Cost per Short with hook ~11.5 credits (voice 2.25 + images 3.5 + hook 6). 180 Shorts with hooks ~2,070; images-only ~6 each. Decide hook-vs-no-hook per Short to fit the balance.
 - McDonald's Short posted with no description/tags as a test and showed zero views; tags/captions were supplied afterward.
 - Reusable `tools/make_short.py` (one JSON config per Short instead of copying build.py) would cut tokens per Short a lot; worth building on Day 1 and testing on the LEGO Short.
