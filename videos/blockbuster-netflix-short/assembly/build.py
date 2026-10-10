@@ -18,7 +18,7 @@ HOOK = ROOT / "clips/hook.mp4"
 NARR = 40.20
 END_SEC = 2.3
 CAP_Y = 1330
-TITLE_Y = 300
+TITLE_Y = 470   # keep top text inside the 3:4 profile-grid crop (y 240-1680)
 
 # (start, image, motion); image "hook" plays the animated clip. Cuts land on word timings.
 SHOTS = [
