@@ -1,10 +1,7 @@
 # Miss Poppy's Playroom: plan & preferences
 
-## Shorts
-- Use the 4-second animation style (~11 credits per Short) the user liked after video 1.
-
 ## Video topics (from the vidIQ research)
-1. ✅ 30 First Words for Toddlers | Learn to Talk with Miss Poppy | Toddler Learning Video (posted)
+1. ✅ 30 First Words for Toddlers | Learn to Talk with Miss Poppy | Toddler Learning Video (final render done, edits pending)
 2. Baby's First Words with Miss Poppy | Say Mama, Dada, Ball! | Baby Learning Video
 3. Learn to Talk with Miss Poppy | Speech Practice for Toddlers | First Words & Songs
 4. First 50 Words for Babies & Toddlers | Learn with Miss Poppy
