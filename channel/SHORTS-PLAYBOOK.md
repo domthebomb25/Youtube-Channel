@@ -5,7 +5,7 @@ Written Oct 10 2026 from the first long chat. A new chat has NO memory of that c
 ## Goal
 **6 YouTube Shorts per day for 30 days (180 total).** The user opens a NEW chat each day. Channel: The Business Stick HQ
 (@TheBusinessStickHQ). Shorts-only strategy (no long-form for now). Aim: grow + monetize (1,000 subs + 10M Shorts views/90 days, or 500 subs + 3M for the lower tier).
-Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders under `videos/`). Costco long video exists (use as "Related video").
+Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders under `videos/`), plus Day 01: Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (folders under `shorts/day01/`). Costco long video exists (use as "Related video" on every YouTube Short).
 
 ## User rules (non-negotiable)
 - **Quote the credit cost and wait for OK before spending Higgsfield credits** (also in CLAUDE.md). Check `balance` at the start of each day.
@@ -60,3 +60,36 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 - Cost per Short with hook ~11.5 credits (voice 2.25 + images 3.5 + hook 6). 180 Shorts with hooks ~2,070; images-only ~6 each. Decide hook-vs-no-hook per Short to fit the balance.
 - McDonald's Short posted with no description/tags as a test and showed zero views; tags/captions were supplied afterward.
 - Reusable `tools/make_short.py` (one JSON config per Short instead of copying build.py) would cut tokens per Short a lot; worth building on Day 1 and testing on the LEGO Short.
+
+## Lessons from Day 01 (Oct 11)
+- Style reference: don't use the Costco anchor (red-stripe background leaks). Use a plain-background earlier shot as reference ("art style only, not background"). Max ~7 images per batch; resubmit stalled batches.
+- Use `shorts/day01/build_short.py <slug>` (per-short `assembly/config.py` with NARR, SHOTS, TEXT) instead of copying build.py. Pocketsphinx needs a SUB entry for out-of-vocab words (e.g. pequod).
+- Storyboard sheets with A/B/C options side by side let the user pick fast.
+
+## STATUS AFTER DAY 01 (Oct 11 2026) — read this to continue
+**Done and posted-ready (4 of the day's 6; the other 2 were not made, so Day 02 should make 6 plus ideally 2 catch-up = 8, or just 6 if credits are tight):**
+| # | Short | Format | Hook (first 3-5 s, animated) | Length |
+|---|---|---|---|---|
+| 1 | Starbucks named after Moby Dick | Weird fact -> real reason | "Did you know ___ exists thanks to ___?" | 29 s |
+| 2 | Bubble Wrap was wallpaper | Sounds dumb until it's genius | "Pause for a second... ___?" | 33 s |
+| 3 | Kleenex wasn't made for noses | Sounds dumb until it's genius | "You're not going to agree with this..." | 34 s |
+| 4 | Mountain Dew wasn't meant to be a soda | Weird fact | "Nobody talks about this..." (no on-screen title) | 28 s |
+Earlier (Day 0): Blockbuster (47 s CEO format), McDonald's ice cream machine (49 s), LEGO tires (47 s). All 7 Shorts are posted/ready on YT/TikTok/IG/FB. McDonald's had zero views when posted with no description/tags (test); always use title + description + tags from now on.
+
+**Day-01 production flow that worked (copy it):**
+1. User pasted 4 scripts; I quoted cost; user approved. Voiceovers (Benji) 1.35-1.8 credits each; 12 images per Short at 0.25 = 3 credits (shorter Shorts = 12 images, not 14-15); 4 s hook 6 credits. ~11 credits per Short with hook.
+2. Storyboard sheet per Short (PIL contact sheet: 4 columns, shot number + narration caption under each image) sent via SendUserFile. Where the user wants choices, show 3 options side by side (A red / B blue / C green borders) in one sheet and ask for letters. The user then lists fixes; fixes cost 0.25 each.
+3. Hook clips from the shot-1 image (Kling std, sound off, 4 s). Check a frame strip, then render.
+4. `shorts/day01/build_short.py <slug>` renders from `<slug>/assembly/config.py` (NARR, SHOTS list of (start, image, motion), TEXT list of (t0, t1, [lines], color, y, size)) + `word_timing.json` from pocketsphinx (`assembly/align.py` + `script.txt`, numbers spelled out, add `SUB` entries for words the dictionary lacks e.g. pequod). Year words merge into digits on captions. Hook is stretched to the first cut. Cut times come from word_timing.json (cut on the first word of each narration beat). Titles on hook at y=300 size 100, inside safe area. Render takes ~3-5 min for 4 in parallel; files come out 20-26 MB (under the 30 MB send limit).
+5. Covers/thumbnails: IG/FB/TikTok cover = chosen image with 2-line title text (yellow line 1, white line 2) at y~1500 (lower middle, inside 3:4 crop, not over faces; Starbucks used smaller text at y~1590). YouTube thumbnail = no-text version. For thumbnails ask the user to pick from 2 generated options per Short (0.25 each). Thumbnail prompts: close-up, shocked/smirking stickman, one strong focal prop, vivid contrast background, "no text".
+6. Then give posting text: YouTube title (<=100 chars + 2 hashtags), description (facts + sources named, not invented URLs), tags, TikTok caption (with #businesstok), IG/FB caption (without). Then step-by-step posting for the app the user asks for, including every setting from POSTING-SETTINGS.md.
+
+**Image rules learned (user feedback):** style reference = a plain-background earlier shot (not the Costco anchor) with "art style only, not background"; keep character outfits consistent between shots; founders/people consistent across shots; props/text must be right (sign says OPEN); no emojis unless asked; characters need all body parts; keep original real-world layout right; user may want 3 options for a hero shot; every shot must match its narration line. Remove shots the user calls unnecessary (e.g. a 1 s shot) and let the hook run longer instead.
+
+**Voice rules:** narration approved by user line by line; keep honest wording ("As the story goes", "thanks to", no unverified claims); numbers spelled out for the voice and shown as digits on screen.
+
+**Credits:** balance was 808.95 before the Day-01 hooks; spent 24 (hooks) + 2 (thumbnails) -> about 783 (re-check with `balance`). vidIQ account out of credits (keyword tools cost 5).
+
+**Topic pool:** `channel/SHORTS-TOPICS.md`. Used so far: Blockbuster, McDonald's ice cream machine, LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (the user supplied the last four scripts). Remaining ideas: Pepsi navy, Southwest arm-wrestle, American Airlines olive, Kit Kat Japan, Heinz 57, Coca-Cola coca leaves, Toblerone Matterhorn, PEZ smoking, Burger King Whopper Detour, Apple Ron Wayne, Nike swoosh $35, Oswald/Mickey, YouTube dating site, Doritos Disneyland, M&M's soldiers, Amazon "Relentless", Game Boy bombing, Arizona 99 cents, Tic Tac 0 calories, IKEA maze, 50 Cent Vitaminwater, Dolly Parton/Elvis, Hollister dark stores, Michael Jackson Beatles songs. Prefer everyday brands the user's audience knows. Hook templates: `channel/HOOK-TEMPLATES.md` (rotate).
+
+**Day 02 start:** user says "Day 2: make 6 Shorts" (or 8). Do: read this file + CLAUDE.md, run `balance`, pick topics, WebSearch-verify each (2 searches), write all scripts at once for approval (user may paste his own scripts instead), quote credits, wait for OK, then follow the flow above. Use `shorts/day02/<slug>/`, copy `shorts/day01/build_short.py` and the per-short `assembly/` files as the template (media is gitignored; the container is ephemeral so scripts/configs must be in git).
