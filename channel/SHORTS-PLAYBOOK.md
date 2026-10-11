@@ -60,3 +60,8 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 - Cost per Short with hook ~11.5 credits (voice 2.25 + images 3.5 + hook 6). 180 Shorts with hooks ~2,070; images-only ~6 each. Decide hook-vs-no-hook per Short to fit the balance.
 - McDonald's Short posted with no description/tags as a test and showed zero views; tags/captions were supplied afterward.
 - Reusable `tools/make_short.py` (one JSON config per Short instead of copying build.py) would cut tokens per Short a lot; worth building on Day 1 and testing on the LEGO Short.
+
+## Lessons from Day 01 (Oct 11)
+- Style reference: don't use the Costco anchor (red-stripe background leaks). Use a plain-background earlier shot as reference ("art style only, not background"). Max ~7 images per batch; resubmit stalled batches.
+- Use `shorts/day01/build_short.py <slug>` (per-short `assembly/config.py` with NARR, SHOTS, TEXT) instead of copying build.py. Pocketsphinx needs a SUB entry for out-of-vocab words (e.g. pequod).
+- Storyboard sheets with A/B/C options side by side let the user pick fast.
