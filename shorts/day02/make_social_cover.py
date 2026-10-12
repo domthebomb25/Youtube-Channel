@@ -8,7 +8,7 @@ sys.path.insert(0, str(HERE.parent.parent / "videos/costco-hot-dog/shorts"))
 import make_short as m
 TITLES = {"kitkat-japan": ["JAPAN'S LUCKY", "KIT KAT"], "southwest-arm-wrestle": ["THE ARM-WRESTLING", "LAWSUIT"],
           "amazon-relentless": ["RELENTLESS.COM", "GOES TO AMAZON?"], "popsicle-eleven-year-old": ["AN 11-YEAR-OLD", "INVENTED THIS"],
-          "movie-popcorn": ["WHY POPCORN", "COSTS SO MUCH"], "gatorade-gators": ["NAMED AFTER A", "FOOTBALL TEAM"]}
+          "movie-popcorn": ["WHY POPCORN", "COSTS SO MUCH"], "gatorade-gators": ["GATORADE NAMED", "AFTER A FOOTBALL TEAM"]}
 W, H = 1080, 1920
 im = Image.open(HERE / slug / "thumbnail.png").convert("RGB")
 s = max(W / im.width, H / im.height)
