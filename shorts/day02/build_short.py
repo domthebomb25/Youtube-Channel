@@ -25,6 +25,10 @@ TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seve
 def merge_years(ws):
     out, i = [], 0
     while i < len(ws):
+        if ws[i][0] == "nineteen" and i + 2 < len(ws) and ws[i + 1][0] == "oh" and ws[i + 2][0] in ONES:
+            out.append((str(1900 + ONES[ws[i + 2][0]]), ws[i][1], ws[i + 2][2])); i += 3; continue
+        if ws[i][0] == "two" and i + 2 < len(ws) and ws[i + 1][0] == "thousand" and ws[i + 2][0] in ONES:
+            out.append((str(2000 + ONES[ws[i + 2][0]]), ws[i][1], ws[i + 2][2])); i += 3; continue
         if ws[i][0] == "nineteen" and i + 1 < len(ws):
             n, a, b = ws[i + 1][0], ws[i][1], ws[i + 1][2]
             if n == "forties":
