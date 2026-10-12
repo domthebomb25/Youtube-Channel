@@ -6,3 +6,4 @@
 | Oct 10 | videos/mcdonalds-ice-cream-short | Why the McDonald's ice cream machine is ALWAYS broken | ~19 |
 | Oct 10 | videos/lego-tires-short | The world's biggest tire maker is… LEGO?! | ~12 |
 - 2026-10-11 Day 01: starbucks-moby-dick, bubble-wrap-wallpaper, kleenex-not-for-noses, mountain-dew-moonshine (~29-34 s each, ~11 credits each incl. hook). Folder: shorts/day01/<slug>/. Renderer: shorts/day01/build_short.py <slug> with assembly/config.py.
+- 2026-10-12 Day 02: kitkat-japan, southwest-arm-wrestle, amazon-relentless, popsicle-eleven-year-old, movie-popcorn, gatorade-gators (28.9-37.4 s, ~75.7 credits total incl. edits, hooks, thumbnails). Folder: shorts/day02/<slug>/. Renderer: shorts/day02/build_short.py <slug>; covers: make_cover.py <slug>; posting text: shorts/day02/POSTING-TEXT.md.
