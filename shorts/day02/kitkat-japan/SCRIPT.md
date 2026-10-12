@@ -1,0 +1,6 @@
+# Kit Kat Japan
+
+Hook: This might surprise you…
+Title on hook: JAPAN'S LUCKY KIT KAT
+
+This might surprise you. Japan has a huge range of Kit Kat flavors, like matcha, purple yam, even wasabi. It all started with a name. In Japanese, Kit Kat sounds like "kitto katsu," which means "you will surely win." So students began eating them for luck before big exams. Nestlé Japan says its sales jump every January, exam season. That's the popular explanation, anyway. A candy bar turned into a good luck charm, and the flavors followed.
