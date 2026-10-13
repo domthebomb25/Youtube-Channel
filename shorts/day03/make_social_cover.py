@@ -9,9 +9,9 @@ import make_short as m
 TITLES = {"kitkat-japan": ["JAPAN'S LUCKY", "KIT KAT"], "southwest-arm-wrestle": ["THE ARM-WRESTLING", "LAWSUIT"],
           "amazon-relentless": ["RELENTLESS.COM", "GOES TO AMAZON?"], "popsicle-eleven-year-old": ["AN 11-YEAR-OLD", "INVENTED THIS"],
           "movie-popcorn": ["WHY POPCORN", "COSTS SO MUCH"], "gatorade-gators": ["GATORADE NAMED", "AFTER A FOOTBALL TEAM"],
-          "chip-bag-nitrogen": ["CHIP BAGS ARE", "MOSTLY NITROGEN"], "coke-contour-bottle": ["COKE'S BOTTLE", "LOOKS LIKE A POD"],
-          "crumbl-weekly-menu": ["CRUMBL'S MENU", "KEEPS CHANGING"], "hollister-dim-lights": ["WHY HOLLISTER", "WAS SO DARK"],
-          "dubai-chocolate": ["ONE BAR SPARKED", "A PISTACHIO RUSH"], "airplane-window-hole": ["THAT TINY HOLE", "IN YOUR WINDOW"]}
+          "chip-bag-nitrogen": ["THE SHOCKING SECRET", "OF CHIP BAGS"], "coke-contour-bottle": ["THE GENIUS OF", "COKE'S BOTTLE"],
+          "crumbl-weekly-menu": ["CRUMBL'S SECRET", "MARKETING TACTIC"], "hollister-dim-lights": ["WHY DOES HOLLISTER", "DIM THE LIGHTS?"],
+          "dubai-chocolate": ["WHO CREATED", "DUBAI CHOCOLATE"], "airplane-window-hole": ["AIRPLANE'S SECRET", "WINDOW HOLE"]}
 W, H = 1080, 1920
 im = Image.open(HERE / slug / (f"thumbnail-{opt}.png" if opt else "thumbnail.png")).convert("RGB")
 s = max(W / im.width, H / im.height)
