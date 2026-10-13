@@ -45,3 +45,7 @@ Double-check numbers before each script.
 8. Amazon was almost called "Relentless" (relentless.com still goes to Amazon)
 9. McDonald's Hula Burger vs the Filet-O-Fish (1962)
 10. The Game Boy that survived a bombing (Gulf War, displayed at Nintendo NY)
+
+## Used on Day 03 (Oct 13 2026)
+Chip bag nitrogen, Coke contour bottle, Crumbl weekly menu, Hollister dim lights, Dubai chocolate (pistachio rush), airplane window breather hole.
+Left from the vidIQ outlier research (verify before scripting): Pocky bare handle, Chobani closed factory, Panasonic lamp socket, Oreo vs Hydrox, Big Mac inventor, Rhode $1B sale, grocery misting, airplane food taste (cabin pressure), Costco membership profit, Labubu blind boxes, why fast food skips hot dogs, Pepsi Challenge, receipt thermal paper, self-checkout rollbacks, Guinness Book, Michelin Guide, McDonald's Monopoly fraud, Visa Fresno mailing, Marlboro, Listerine halitosis, Pixar sale, UPS no left turns, Samsung dried fish, Adidas/Puma.
