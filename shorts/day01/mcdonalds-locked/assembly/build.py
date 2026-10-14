@@ -15,7 +15,7 @@ import make_short as m  # noqa: E402  (fonts, outlined text, caption grouping)
 W, H, FPS = 1080, 1920, 30
 AUD = ROOT / "voice_final.mp3"
 HOOK = ROOT / "clips/hook.mp4"
-NARR = 33.52
+NARR = 31.14
 CAP_Y = 1330
 TITLE_Y = 470   # keep top text inside the 3:4 profile-grid crop (y 240-1680)
 RED = (235, 50, 40)
@@ -23,17 +23,17 @@ RED = (235, 50, 40)
 # (start, image, motion); "hook" plays the animated clip. Cuts land on word timings.
 SHOTS = [
     (0.00, "hook", None),
-    (2.93, "img02", "in"),
-    (6.85, "img03", "out"),
-    (9.82, "img04", "in"),
-    (14.09, "img05", "left"),
-    (18.83, "img06", "in"),
-    (22.42, "img07", "right"),
-    (25.36, "img08", "in"),
-    (28.91, "img09", "out"),
-    (30.91, "img10", "in"),
+    (3.14, "img02", "in"),
+    (6.86, "img03", "out"),
+    (9.77, "img04", "in"),
+    (12.35, "img05", "left"),
+    (16.68, "img06", "in"),
+    (20.02, "img07", "right"),
+    (23.01, "img08", "in"),
+    (26.68, "img09", "out"),
+    (28.73, "img10", "in"),
 ]
-PUNCH_AT = 2.27      # "locked" starts here (word_timing.json)
+PUNCH_AT = 2.48      # "locked" starts here (word_timing.json)
 PUNCH_LEN = 0.20     # zoom punch length
 SHAKE_LEN = 0.40     # camera shake length
 
@@ -41,7 +41,7 @@ SHAKE_LEN = 0.40     # camera shake length
 TEXT = []   # no big on-screen titles: captions (voiceover words) only
 
 MERGE = [(("four", "hour"), "4-HOUR"), (("one", "hundred", "fifty", "one"), "151"),
-         (("six", "hundred", "twenty", "five", "dollars"), "$625"), (("three", "hundred", "dollars"), "$300"),
+         (("three", "hundred", "dollars"), "$300"),
          (("nine", "hundred", "million", "dollars"), "$900 MILLION"), (("fifteen",), "15")]
 
 
