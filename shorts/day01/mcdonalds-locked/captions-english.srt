@@ -1,0 +1,43 @@
+1
+00:00:00,070 --> 00:00:02,250
+The McDonald's ice cream machine isn't broken.
+
+2
+00:00:02,300 --> 00:00:03,090
+It's locked.
+
+3
+00:00:03,140 --> 00:00:06,810
+Every night it runs a four-hour heat cycle up to 151 degrees.
+
+4
+00:00:06,860 --> 00:00:09,720
+If that cycle fails, it locks until a tech comes.
+
+5
+00:00:09,770 --> 00:00:12,300
+Franchisees lose a lot of money every day it's down.
+
+6
+00:00:12,350 --> 00:00:16,630
+Only Taylor techs can unlock it, for over $300 per fifteen minutes.
+
+7
+00:00:16,680 --> 00:00:19,970
+So startup Kytch built a device that shows what's wrong on your phone.
+
+8
+00:00:20,020 --> 00:00:22,960
+McDonald's told owners to remove it, citing safety risks.
+
+9
+00:00:23,010 --> 00:00:26,630
+Kytch says that's false, and sued for $900 million.
+
+10
+00:00:26,680 --> 00:00:28,680
+McDonald's calls the claims meritless.
+
+11
+00:00:28,730 --> 00:00:31,190
+So next time it says broken… it might just be locked.
