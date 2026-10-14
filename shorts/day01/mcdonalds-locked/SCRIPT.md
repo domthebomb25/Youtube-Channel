@@ -1,6 +1,6 @@
 # McDonald's ice cream machine, "It's locked" (remake) — 33.5 s, stickman style, voice Benji
 
-Hook: animated 0-3.5 s (Kling, start image = images/img01), then 9 stills. No music, no end text.
+Hook: animated 0-2.9 s, closed-mouth frown (expressions only, no talking); big text ISN'T BROKEN. IT'S LOCKED.; 0.2 s zoom punch + camera shake on the word 'locked' at 2.27 s. Hook: (Kling, start image = images/img01), then 9 stills. No music, no end text.
 
 ## Narration (final, user-approved)
 The McDonald's ice cream machine isn't broken. It's locked. Every night it runs a four-hour heat cycle up to 151 degrees. If that cycle fails, it locks until a tech comes. Federal agencies say that can cost $625 a day in lost sales. Only Taylor techs can unlock it, for over $300 per fifteen minutes, the agencies say. So startup Kytch built a device that shows what's wrong on your phone. McDonald's told owners to remove it, citing safety risks. Kytch says that's false, and sued for $900 million. McDonald's calls the claims meritless. So next time it says broken… it might just be locked.
