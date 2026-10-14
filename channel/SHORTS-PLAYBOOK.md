@@ -5,7 +5,7 @@
 Written Oct 10 2026 from the first long chat. A new chat has NO memory of that chat; this file is the memory.
 
 ## Goal
-**6 YouTube Shorts per day for 30 days (180 total).** The user opens a NEW chat each day. Channel: The Business Stick HQ
+**1 YouTube Short per day for 30 days (30 total) — SUPERSEDES the old 6-per-day plan. Each day = the single best video possible, with the best possible SEO.** The user opens a NEW chat each day. Channel: The Business Stick HQ
 (@TheBusinessStickHQ). Shorts-only strategy (no long-form for now). Aim: grow + monetize (1,000 subs + 10M Shorts views/90 days, or 500 subs + 3M for the lower tier).
 Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders under `videos/`), plus Day 01: Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (folders under `shorts/day01/`). Costco long video exists (use as "Related video" on every YouTube Short).
 
@@ -69,7 +69,7 @@ See the paste block the user keeps; essentials: "Day N of the 30-day plan: make 
 - Storyboard sheets with A/B/C options side by side let the user pick fast.
 
 ## CURRENT STATUS (last updated after Day 01, Oct 11 2026; the day's chat must update this block at the end of its day) — read this to continue
-**Done and posted-ready (4 of the day's 6; the other 2 were not made, so Day 02 should make 6 plus ideally 2 catch-up = 8, or just 6 if credits are tight):**
+**Done and posted-ready (4 of the day's 6; the other 2 were not made, so the plan is now 1 Short per day):**
 | # | Short | Format | Hook (first 3-5 s, animated) | Length |
 |---|---|---|---|---|
 | 1 | Starbucks named after Moby Dick | Weird fact -> real reason | "Did you know ___ exists thanks to ___?" | 29 s |
@@ -94,13 +94,24 @@ Earlier (Day 0): Blockbuster (47 s CEO format), McDonald's ice cream machine (49
 
 **Topic pool:** `channel/SHORTS-TOPICS.md`. Used so far: Blockbuster, McDonald's ice cream machine, LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (the user supplied the last four scripts). Remaining ideas: Pepsi navy, Southwest arm-wrestle, American Airlines olive, Kit Kat Japan, Heinz 57, Coca-Cola coca leaves, Toblerone Matterhorn, PEZ smoking, Burger King Whopper Detour, Apple Ron Wayne, Nike swoosh $35, Oswald/Mickey, YouTube dating site, Doritos Disneyland, M&M's soldiers, Amazon "Relentless", Game Boy bombing, Arizona 99 cents, Tic Tac 0 calories, IKEA maze, 50 Cent Vitaminwater, Dolly Parton/Elvis, Hollister dark stores, Michael Jackson Beatles songs. Prefer everyday brands the user's audience knows. Hook templates: `channel/HOOK-TEMPLATES.md` (rotate).
 
-**Any-day start:** user says "Day N: make 6 Shorts" (add catch-up Shorts if the log shows a shortfall). Do: read this file + CLAUDE.md + `channel/SHORTS-LOG.md`, run Higgsfield `balance`, then do the TOPIC SOURCING below, verify, write all scripts at once for approval (the user may paste his own scripts instead), quote credits, wait for OK, then follow the flow above. Use `shorts/dayNN/<slug>/`; copy `shorts/day01/build_short.py` and a per-short `assembly/` (align.py, script.txt, config.py) as the template (media is gitignored and the container is ephemeral, so scripts/configs must be committed). At the end of the day: append to `channel/SHORTS-LOG.md`, update this STATUS block, commit + push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
+**Any-day start:** user says "Day N: make today's Short" (ONE Short per day). Do: read this file + CLAUDE.md + `channel/SHORTS-LOG.md`, run Higgsfield `balance`, then do the TOPIC SOURCING below, verify, write all scripts at once for approval (the user may paste his own scripts instead), quote credits, wait for OK, then follow the flow above. Use `shorts/dayNN/<slug>/`; copy `shorts/day01/build_short.py` and a per-short `assembly/` (align.py, script.txt, config.py) as the template (media is gitignored and the container is ephemeral, so scripts/configs must be committed). At the end of the day: append to `channel/SHORTS-LOG.md`, update this STATUS block, commit + push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
+
+## ONE-SHORT-PER-DAY QUALITY MODE (user decision Oct 14 2026)
+The user posts ONE Short a day and wants the best possible video + SEO. Spend the saved effort/credits on quality: show 2-3 options for hook image, thumbnail and title; regenerate weak images (0.25 each); redo the hook clip once if the motion is bad (quote cost first); check every frame; verify every number twice. Credits go much further (about 10-20 per day vs 60+), so never skimp on options.
+
+## SEO CHECKLIST (do for the day's Short, using vidIQ; report vidIQ credits used)
+1. Keyword research (`vidiq_keyword_research`) on the topic: pick one primary keyword + 3-5 secondary; note volume/competition; prefer phrases people actually search ("why is X", "X origin", "X history", "X secret").
+2. Titles: write 5-8 candidates (<=100 chars, primary keyword early, a number or curiosity gap, honest to the video), score them (`vidiq_score_title` / `vidiq_generate_titles`), recommend the top 1 and give 2 runners-up.
+3. Description: first 1-2 lines carry the primary keyword and the payoff (they show in search); 2-4 sentences of facts; sources by name (no invented URLs); 3-5 relevant hashtags; "Related video" note. Tags: primary + secondary keywords + competitor-outlier tags from `vidiq_similar_videos` / `vidiq_outliers`.
+4. Thumbnail/cover: 2-3 options; vidIQ `vidiq_score_thumbnail` if worthwhile; text only where the cover needs it (IG/FB/TikTok), no text on YouTube thumbnail.
+5. Per-platform captions (TikTok with #businesstok; IG/FB without), pinned-comment idea (a question that invites replies), and the Related video (Costco) on YouTube.
+6. Never make claims about guaranteed reach; give vidIQ evidence only.
 
 ## TOPIC SOURCING (user rule, every day): ideas come from vidIQ trending searches
 1. Check `vidiq_balance` first (free call). vidIQ tools cost credits (keyword/title tools ~5 each). The user bought the monthly subscription on Oct 13 2026: 2,008 credits then (renewable plan of 2,000, resets about the 10th of each month). Spend what the research needs, report credits used. If the balance is ever empty, say so and ask before falling back to WebSearch (state clearly that the list is not vidIQ-based).
 2. Use vidIQ (`vidiq_trending_videos`, `vidiq_trend_categories`, `vidiq_outliers`, `vidiq_keyword_research`, `vidiq_youtube_search`; check what is available) to find the top TRENDING business / brand-origin / "hidden story behind a company or product" searches and outlier Shorts right now. Focus: everyday brands and products anyone recognizes, surprising origin facts, marketing tricks, product design secrets, surprising numbers. Avoid the saturated founder legends (FedEx, Kodak, Airbnb, Nokia, KFC, Nintendo, Play-Doh).
 3. Generate the TOP 10 ideas vidIQ surfaces, ranked, each with: working title, one-line hook, search/trend evidence (volume, views of outliers), and the format (weird fact / sounds dumb until it's genius / you're the company).
 4. NEVER repeat a video already made: compare every idea against `channel/SHORTS-LOG.md`, the "Made so far" list above and the folders under `videos/` and `shorts/`. Drop duplicates and near-duplicates (same company + same angle) and replace them until 10 fresh ideas remain.
-5. Show the 10 to the user, who picks the day's 6 (or says "use your top 6"). Then WebSearch-verify each chosen fact (2 searches max each) before scripting, and keep only claims the sources support.
+5. Show the 10 to the user, who picks the day's 6 (or says "use your top pick"). Then WebSearch-verify each fact in the chosen idea (2 searches max each) before scripting, and keep only claims the sources support.
 6. Append unused ideas to `channel/SHORTS-TOPICS.md` with the date, and mark used ones.
 

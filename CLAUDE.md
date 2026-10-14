@@ -9,7 +9,7 @@ Trial reel OFF, Related video on every YouTube Short, etc.). Keep it step-by-ste
 - User prefers PDFs over .md for documents.
 - Weekly formula and per-day captions: `videos/costco-hot-dog/shorts/POSTING-PLAN.md`.
 
-## 30-day Shorts plan (6 per day)
+## 30-day Shorts plan (1 per day, best possible quality + SEO; see ONE-SHORT-PER-DAY and SEO CHECKLIST in the playbook)
 READ `channel/SHORTS-PLAYBOOK.md` at the start of every chat. It has the workflow, tool recipe, credit math, user rules and QA checklist. Do not spend credits without quoting the cost first.
 
 - Video ideas ALWAYS come from vidIQ trending searches: generate the top 10 ideas, never repeating a video already made (check channel/SHORTS-LOG.md). Details: TOPIC SOURCING in channel/SHORTS-PLAYBOOK.md.
