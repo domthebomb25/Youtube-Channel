@@ -13,4 +13,4 @@ Trial reel OFF, Related video on every YouTube Short, etc.). Keep it step-by-ste
 READ `channel/SHORTS-PLAYBOOK.md` at the start of every chat. It has the workflow, tool recipe, credit math, user rules and QA checklist. Do not spend credits without quoting the cost first.
 
 - Video ideas ALWAYS come from vidIQ trending searches: generate the top 10 ideas, never repeating a video already made (check channel/SHORTS-LOG.md). Details: TOPIC SOURCING in channel/SHORTS-PLAYBOOK.md.
-- Every Short MUST follow `channel/VIDEO-TEMPLATE.md` (the user's 10/10 template: 10 images, 31-34 s, Pixar 3D style, payoff hook + loop ending). It overrides older format notes.
+- Every Short MUST follow `channel/VIDEO-TEMPLATE.md` (the user's 10/10 template: 10 images, 31-34 s, STICKMAN style (not Pixar), payoff hook + loop ending). It overrides older format notes.
