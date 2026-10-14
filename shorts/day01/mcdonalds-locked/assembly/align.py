@@ -4,7 +4,7 @@ from pathlib import Path
 from pocketsphinx import Decoder
 HERE = Path(__file__).resolve().parent
 raw = HERE / "n.raw"
-subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(HERE.parent / "voice_tight.mp3"),
+subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", str(HERE.parent / "voice_final.mp3"),
                 "-ar", "16000", "-ac", "1", "-f", "s16le", str(raw)], check=True)
 TEXT = open(HERE / "script.txt").read()
 words = re.sub(r"[^a-z' ]", " ", TEXT.lower()).split()
