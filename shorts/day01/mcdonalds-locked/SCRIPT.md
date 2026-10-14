@@ -19,3 +19,5 @@ The McDonald's ice cream machine isn't broken. It's locked. Every night it runs 
 
 ## Credits so far
 Voice 1.95 + 10 images 2.5 + 1 regenerated image 0.25 = 4.7. Hook clip (6) pending approval.
+
+## Hook v3 (Oct 14): worker inspects the machine (OUT OF ORDER sign taped on), padlock appears at ~2.4 s on 'locked' with zoom punch + shake. Clip: clips/hook.mp4 (3 s, Kling, start image images/hook_inspect_sign2.png, 4.5 credits). Older hooks kept as clips/hook_v*.mp4 (local only).
