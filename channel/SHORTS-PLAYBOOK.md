@@ -26,8 +26,8 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 - Quality bar for monetization review: every Short = original script, original visuals, different story. Never near-duplicates.
 
 ## Token-lean daily workflow (batch, don't chat back and forth)
-1. Read this file + `balance`. Pick today's 6 topics from `SHORTS-TOPICS.md` (mix formats and hook templates).
-2. WebSearch-verify each (2 searches max each). Write 6 scripts (narration + on-screen text). **Show all 6 at once for one approval.**
+1. Read this file + `balance`. Pick today's ONE topic (from the vidIQ top-10 list, see TOPIC SOURCING).
+2. WebSearch-verify each (2 searches max each). Write the script (narration + on-screen text). **Show the script (and 2 alternate hook lines) for approval.**
 3. Quote total credits; get OK. Generate 6 narrations + 6x14 images in batches (see limits), build 6 storyboards, show them (one sheet per Short).
 4. Apply the user's image fixes (0.25 credits each), then make the 6 hook clips, render, send videos + covers.
 5. Give posting text (title, description, tags, captions) for all 6 in one message. Commit scripts. Say what to do tomorrow.
@@ -55,7 +55,7 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 - Existing folders under `videos/` hold committed media from Day 0; leave them.
 
 ## Day starter (the user pastes this in each new chat)
-See the paste block the user keeps; essentials: "Day N of the 30-day plan: make 6 Shorts. Read channel/SHORTS-PLAYBOOK.md and CLAUDE.md first. Source ideas from vidIQ trending searches (top 10, no repeats of videos we made), verify facts, show scripts for approval, quote credits."
+See the paste block the user keeps; essentials: "Day N of the 30-day plan: make today's ONE Short. Read channel/SHORTS-PLAYBOOK.md and CLAUDE.md first. Source ideas from vidIQ trending searches (top 10, no repeats of videos we made), verify facts, show scripts for approval, quote credits."
 
 ## Open items as of Oct 10
 - Credit balance was 838.8 on Oct 10 (started the day at 1,236). The extra ~286 credits ("MiniMax H3 Max" jobs) were the user's own edits on another video, not a problem. Always re-check `balance` at the start of each day.
@@ -69,7 +69,7 @@ See the paste block the user keeps; essentials: "Day N of the 30-day plan: make 
 - Storyboard sheets with A/B/C options side by side let the user pick fast.
 
 ## CURRENT STATUS (last updated after Day 01, Oct 11 2026; the day's chat must update this block at the end of its day) — read this to continue
-**Done and posted-ready (4 of the day's 6; the other 2 were not made, so the plan is now 1 Short per day):**
+**Done and posted-ready (Day 01 made 4; the plan is now 1 Short per day):**
 | # | Short | Format | Hook (first 3-5 s, animated) | Length |
 |---|---|---|---|---|
 | 1 | Starbucks named after Moby Dick | Weird fact -> real reason | "Did you know ___ exists thanks to ___?" | 29 s |
@@ -112,6 +112,6 @@ The user posts ONE Short a day and wants the best possible video + SEO. Spend th
 2. Use vidIQ (`vidiq_trending_videos`, `vidiq_trend_categories`, `vidiq_outliers`, `vidiq_keyword_research`, `vidiq_youtube_search`; check what is available) to find the top TRENDING business / brand-origin / "hidden story behind a company or product" searches and outlier Shorts right now. Focus: everyday brands and products anyone recognizes, surprising origin facts, marketing tricks, product design secrets, surprising numbers. Avoid the saturated founder legends (FedEx, Kodak, Airbnb, Nokia, KFC, Nintendo, Play-Doh).
 3. Generate the TOP 10 ideas vidIQ surfaces, ranked, each with: working title, one-line hook, search/trend evidence (volume, views of outliers), and the format (weird fact / sounds dumb until it's genius / you're the company).
 4. NEVER repeat a video already made: compare every idea against `channel/SHORTS-LOG.md`, the "Made so far" list above and the folders under `videos/` and `shorts/`. Drop duplicates and near-duplicates (same company + same angle) and replace them until 10 fresh ideas remain.
-5. Show the 10 to the user, who picks the day's 6 (or says "use your top pick"). Then WebSearch-verify each fact in the chosen idea (2 searches max each) before scripting, and keep only claims the sources support.
+5. Show the 10 to the user, who picks the day's 1 (or says "use your top pick"). Then WebSearch-verify each fact in the chosen idea (2 searches max each) before scripting, and keep only claims the sources support.
 6. Append unused ideas to `channel/SHORTS-TOPICS.md` with the date, and mark used ones.
 
