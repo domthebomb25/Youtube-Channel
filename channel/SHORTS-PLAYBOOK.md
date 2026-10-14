@@ -1,5 +1,7 @@
 # Shorts playbook — read this first in every new chat
 
+**FORMAT RULE (overrides everything below about image count, length, style and structure): follow `channel/VIDEO-TEMPLATE.md` (the user's 10/10 template: 31-34 s, 10 images = 1 animated hook + 9 static, Pixar 3D style, payoff hook + loop ending) for every new Short. Day 0 / Day 01 Shorts used the older stickman format.**
+
 Written Oct 10 2026 from the first long chat. A new chat has NO memory of that chat; this file is the memory.
 
 ## Goal
