@@ -38,18 +38,7 @@ PUNCH_LEN = 0.20     # zoom punch length
 SHAKE_LEN = 0.40     # camera shake length
 
 # (t0, t1, [lines], colours, y, size) big on-screen text
-TEXT = [
-    (0.00, 2.93, ["ISN'T BROKEN.", "IT'S LOCKED."], [m.WHITE, m.YEL], 1035, 116),   # below the face, over the shirt
-    (2.93, 6.85, ["151° EVERY NIGHT"], [m.YEL], 300, 112),
-    (6.85, 9.82, ["IF IT FAILS: LOCKED"], [RED], 300, 112),
-    (9.82, 14.09, ["UP TO $625 A DAY"], [m.YEL], 1150, 112),
-    (14.09, 18.83, ["$300+ PER 15 MIN"], [m.WHITE], 1150, 112),
-    (18.83, 22.42, ["KYTCH"], [m.YEL]),
-    (22.42, 25.36, ["TOLD TO REMOVE IT"], [RED]),
-    (25.36, 28.91, ["$900,000,000"], [m.YEL], 290, 104),
-    (28.91, 30.91, ["MERITLESS?"], [m.WHITE]),
-    (30.91, 33.52, ["BROKEN… OR LOCKED?"], [m.YEL], 300, 104),
-]
+TEXT = []   # no big on-screen titles: captions (voiceover words) only
 
 MERGE = [(("four", "hour"), "4-HOUR"), (("one", "hundred", "fifty", "one"), "151"),
          (("six", "hundred", "twenty", "five", "dollars"), "$625"), (("three", "hundred", "dollars"), "$300"),
