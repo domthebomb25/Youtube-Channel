@@ -28,9 +28,9 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 ## Token-lean daily workflow (batch, don't chat back and forth)
 1. Read this file + `balance`. Pick today's ONE topic (from the vidIQ top-10 list, see TOPIC SOURCING).
 2. WebSearch-verify each (2 searches max each). Write the script (narration + on-screen text). **Show the script (and 2 alternate hook lines) for approval.**
-3. Quote total credits; get OK. Generate 6 narrations + 6x14 images in batches (see limits), build 6 storyboards, show them (one sheet per Short).
-4. Apply the user's image fixes (0.25 credits each), then make the 6 hook clips, render, send videos + covers.
-5. Give posting text (title, description, tags, captions) for all 6 in one message. Commit scripts. Say what to do tomorrow.
+3. Quote total credits; get OK. Generate the narration + 10 images (per VIDEO-TEMPLATE.md) in batches (see limits), build the storyboard, show it.
+4. Apply the user's image fixes (0.25 credits each), then make the hook clip, render, send the video + covers.
+5. Run the SEO CHECKLIST and give posting text (title options + pick, description, tags, captions). Commit scripts. Say what to do tomorrow.
 
 ## Tech recipe (all proven)
 - **Voice:** `generate_audio` model `text2speech_v2`, variant `elevenlabs`, voice_type `preset`, voice_id `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` (Benji). ~2.25 credits for 45 s. Get exact cost with `get_cost:true`.
