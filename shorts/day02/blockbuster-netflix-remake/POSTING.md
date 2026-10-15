@@ -1,10 +1,12 @@
 # Day 02 posting text: Blockbuster vs Netflix (Oct 15 2026)
 
-Video: blockbuster-netflix-remake.mp4 (34.6 s). YouTube thumbnail: thumbs/YOUTUBE-THUMBNAIL-FINAL.png (thumbnail 2, no text). Covers: cover1 (IG/FB/TikTok).
+Video: blockbuster-netflix-remake.mp4 (34.6 s). YouTube thumbnail: thumbs/YOUTUBE-THUMBNAIL-FINAL.png (thumbnail 2 with text: BLOCKBUSTER VS NETFLIX / $50M MISTAKE). Covers: cover1 (IG/FB/TikTok).
 Related video on YouTube: the Costco long video.
 
 ## YouTube title (vidIQ short-form score)
-- PICK (93): Why Blockbuster Didn't Buy Netflix for $50 Million
+- PICK (93): Blockbuster vs Netflix: Why Blockbuster Didn't Buy It for $50M
+- 93: Why Blockbuster Didn't Buy Netflix for $50M | Blockbuster vs Netflix
+- 93: Why Blockbuster Didn't Buy Netflix for $50 Million
 - 88: Why Blockbuster Failed: It Could Have Bought Netflix for $50M
 - 86: Blockbuster vs Netflix: They Could Have Bought It for $50M
 - 86: Blockbuster could have bought Netflix for $50M... and said no
