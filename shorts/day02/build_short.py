@@ -18,6 +18,7 @@ W, H, FPS = 1080, 1920, 30
 CAP_Y = 1330
 NARR, END_SEC = C.NARR, getattr(C, "END_SEC", 0.6)
 SHOTS, TEXT, SHAKE = C.SHOTS, C.TEXT, getattr(C, "SHAKE", {})
+CAP_YS = getattr(C, "CAP_YS", [])   # [(t0, t1, y)] move the word captions for a time window
 ONES = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9}
 TENS = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90}
 
@@ -114,6 +115,7 @@ def main():
         g = next((g for g in gs if g[0][1] - 0.05 <= t <= g[-1][2] + 0.25), None) if t < NARR else None
         if g:
             d = ImageDraw.Draw(fr)
+            cy_ = next((y for a_, b_, y in CAP_YS if a_ <= t < b_), CAP_Y)
             txt = [w[0].upper() for w in g]
             cf = cap_f
             while sum(d.textlength(w + " ", font=cf) for w in txt) > W - 100 and cf.size > 50:
@@ -121,7 +123,7 @@ def main():
             widths = [d.textlength(w + " ", font=cf) for w in txt]
             x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
             for w, wd, (_, a, b) in zip(txt, widths, g):
-                m.outlined(d, (x, CAP_Y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
+                m.outlined(d, (x, cy_), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
                 x += wd
         fr = fr.convert("RGB")
         if preview:

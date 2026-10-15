@@ -9,3 +9,5 @@ TEXT = [(0.0, 3.65, ["$50 MILLION"], YEL, 300, 120),
         (24.98, 27.62, ["SEPT 2010"], YEL, 300, 120),
         (27.62, 30.71, ["HUNDREDS OF", "BILLIONS"], YEL, 300, 110),
         (30.71, 34.6, ["$50 MILLION"], YEL, 300, 120)]
+# shot 4: captions moved up to the free table area so they do not cover the envelope
+CAP_YS = [(8.9, 14.63, 780)]
