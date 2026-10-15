@@ -15,6 +15,7 @@ def shake_env(t):
     return 0.5 + 0.5 * math.cos(math.pi * (t - TAPER0) / (TEND - TAPER0))
 
 def head_shake(im, dx, ang):
+    # returns (frame with face features shifted, head interior mask)
     white = (im.min(axis=2) > 236)
     lab, n = ndi.label(white)
     sizes = ndi.sum(white, lab, range(1, n + 1))
@@ -44,7 +45,39 @@ def head_shake(im, dx, ang):
     f2 = cv2.warpAffine(feat, Mtx, (im.shape[1], im.shape[0]), flags=cv2.INTER_LINEAR) / 255.0
     f2 = f2 * Min
     out = base.astype(np.float32) * (1 - f2[..., None])
-    return np.clip(out, 0, 255).astype(np.uint8)
+    return np.clip(out, 0, 255).astype(np.uint8), M
+
+
+HEAD_K = 0.18    # head translation as a fraction of the face-feature shift
+HEAD_ANG = 3.2   # head tilt (deg) about the neck, same direction as the face turn
+
+def head_move(orig, shaken, M, hdx, hang):
+    """Move the whole head (outline + face) in sync with the face shake. orig = frame before the shake."""
+    H = cv2.dilate(M.astype(np.uint8), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (59, 59))).astype(bool)
+    ys, xs = np.where(M)
+    cx, cy = xs.mean(), ys.mean()
+    R = (ys.max() - ys.min()) / 2.0
+    h, w = orig.shape[:2]
+    y0, y1, x0, x1 = max(0, ys.min() - 60), min(h, ys.max() + 60), max(0, xs.min() - 60), min(w, xs.max() + 60)
+    mask_ip = cv2.dilate(H[y0:y1, x0:x1].astype(np.uint8) * 255, np.ones((13, 13), np.uint8))
+    # protect the envelope: treat it as unknown while inpainting (so red does not smear), then paste it back on top
+    envi = T.find_env(orig)
+    prot = np.zeros((h, w), np.uint8)
+    if envi is not None:
+        lab_full, idx = envi[6], envi[5]
+        prot = cv2.dilate((lab_full == idx).astype(np.uint8), np.ones((11, 11), np.uint8))
+        mask_ip = np.maximum(mask_ip, cv2.dilate(prot[y0:y1, x0:x1], np.ones((9, 9), np.uint8)) * 255)
+    bg = orig.copy()
+    bg[y0:y1, x0:x1] = cv2.inpaint(orig[y0:y1, x0:x1], mask_ip, 9, cv2.INPAINT_TELEA)
+    alpha = cv2.GaussianBlur(H.astype(np.float32), (0, 0), 1.2)
+    Mt = cv2.getRotationMatrix2D((cx, cy + R), hang, 1.0)
+    Mt[0, 2] += hdx
+    spr = cv2.warpAffine(shaken, Mt, (w, h), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+    al = cv2.warpAffine(alpha, Mt, (w, h), flags=cv2.INTER_LINEAR)
+    out = bg.astype(np.float32) * (1 - al[..., None]) + spr.astype(np.float32) * al[..., None]
+    out = np.clip(out, 0, 255).astype(np.uint8)
+    out[prot.astype(bool)] = orig[prot.astype(bool)]
+    return out
 
 BAD = {85: [84, 86], 89: [88], 90: [88, 91]}   # tag detection fails -> union of neighbours' tag masks (shifted)
 
@@ -72,7 +105,9 @@ def main(src_dir, out_dir, n_frames=97):
         e = shake_env(t)
         if e > 0:
             s = math.sin(2 * math.pi * (t - T0) / PERIOD)
-            im = head_shake(im, -A * e * s, 5.0 * e * s)
+            fdx, fang = -A * e * s, 5.0 * e * s
+            shaken, M = head_shake(im, fdx, fang)
+            im = head_move(im, shaken, M, HEAD_K * fdx, HEAD_ANG * e * s)
         cv2.imwrite(f'{out_dir}/{n:03d}.png', im)
 
 if __name__ == '__main__':
