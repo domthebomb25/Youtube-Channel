@@ -113,11 +113,7 @@ def main(src_dir, out_dir, n_frames=97):
             mix = im.astype(np.float32).copy()
             mix[Min] = im[Min] * (1 - w) + lf[Min] * w
             mix = np.clip(mix, 0, 255).astype(np.uint8)
-            # head bobs back on every "ha" (mouth open = head up/tilted back)
-            bob = -9.0 * (o - 0.6) / 0.4 * w
-            tilt = -2.6 * (o - 0.6) / 0.4 * w
-            sway = 3.0 * math.sin(2 * math.pi * (t - T0) / BEAT / 2) * w
-            im = H.head_move(im, mix, M, sway, tilt, bob)
+            im = mix   # head stays still; only the face changes
         else:
             im = out
         cv2.imwrite(f'{out_dir}/{n:03d}.png', im)
