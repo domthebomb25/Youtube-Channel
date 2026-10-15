@@ -80,8 +80,10 @@ def main():
     gs = m.groups(merge_years([tuple(w) for w in words]))
     titles = [(t[0], t[1], title_layer(t[2], t[3], t[4], t[5])) for t in TEXT]
     imgs = {n: load(n) for _, n, _ in SHOTS if n != "hook"}
+    hook_dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0",
+                                     str(ROOT / "clips/hook.mp4")], capture_output=True, check=True).stdout)
     hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / "clips/hook.mp4"), "-vf",
-                           f"setpts=PTS*{SHOTS[1][0]}/4.04,scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
+                           f"setpts=PTS*{SHOTS[1][0]}/{hook_dur},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     hook = [Image.frombuffer("RGB", (W, H), hook[i:i + W * H * 3]) for i in range(0, len(hook), W * H * 3)]
     cap_f = m.font(92)
