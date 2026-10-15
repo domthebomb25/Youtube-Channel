@@ -51,7 +51,7 @@ def head_shake(im, dx, ang):
 HEAD_K = 0.18    # head translation as a fraction of the face-feature shift
 HEAD_ANG = 3.2   # head tilt (deg) about the neck, same direction as the face turn
 
-def head_move(orig, shaken, M, hdx, hang):
+def head_move(orig, shaken, M, hdx, hang, hdy=0.0):
     """Move the whole head (outline + face) in sync with the face shake. orig = frame before the shake."""
     H = cv2.dilate(M.astype(np.uint8), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (59, 59))).astype(bool)
     ys, xs = np.where(M)
@@ -72,6 +72,7 @@ def head_move(orig, shaken, M, hdx, hang):
     alpha = cv2.GaussianBlur(H.astype(np.float32), (0, 0), 1.2)
     Mt = cv2.getRotationMatrix2D((cx, cy + R), hang, 1.0)
     Mt[0, 2] += hdx
+    Mt[1, 2] += hdy
     spr = cv2.warpAffine(shaken, Mt, (w, h), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
     al = cv2.warpAffine(alpha, Mt, (w, h), flags=cv2.INTER_LINEAR)
     out = bg.astype(np.float32) * (1 - al[..., None]) + spr.astype(np.float32) * al[..., None]
