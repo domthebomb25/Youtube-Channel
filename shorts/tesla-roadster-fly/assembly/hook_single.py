@@ -1,6 +1,6 @@
 """Hook from ONE clip (the fly-over clip): slanted Anton text, FLY? in red (3x, red glow, shaking "?"), rocket SFX + bass hit on the slam.
 
-usage: python3 hook_single.py CLIP SFX OUT.mp4
+usage: python3 hook_single.py CLIP SFX OUT.mp4 [BENJI.mp3]   (voice: "...can" at 0 s, "FLY?" cut in at the slam)
 """
 import math, subprocess, sys, tempfile
 from pathlib import Path
@@ -11,12 +11,13 @@ W, H, FPS, DUR = v.W, v.H, v.FPS, 3.0
 RED = (235, 40, 35, 255)
 v.BLUE = (255, 40, 30)           # glow colour used by viral_hook.glow()
 SFX_TRIM = 0.35                  # the AI sound starts ~0.4 s in; the car is on screen from 0 s
-SLAM1, SLAM2 = 1.15, 1.45        # small line, then FLY? (lands with the big flare)
+SLAM1, SLAM2 = 0.55, 1.45        # small line, then FLY? (lands with the big flare)
 TXT_Y = 1430                     # over his legs and the dust; face and the car stay clear
 
 
 def main():
     clip, sfx, out = sys.argv[1:4]
+    voice = sys.argv[4] if len(sys.argv) > 4 else None
     src = v.frames(clip, 0.0, DUR + 0.1)
     tmp = Path(tempfile.mkdtemp(dir=Path(out).parent))
     boom = tmp / "boom.wav"
@@ -24,10 +25,20 @@ def main():
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "lavfi", "-i",
                     "aevalsrc='0.9*sin(2*PI*(35*t+75*(1-exp(-9*t))/9))*exp(-6*t)':d=0.6:s=48000", str(boom)], check=True)
     ms = int(SLAM2 * 1000)
+    if voice:
+        # Benji: "The Tesla Roadster can..." [0.72 s pause] "FLY?"  -> drop the pause so FLY? lands on the slam
+        ins = ["-i", voice]
+        fc = (f"[1:a]volume=0.6,afade=t=out:st={DUR - 0.3}:d=0.3[a1];[2:a]adelay={ms}|{ms},volume=1.2[a2];"
+              f"[3:a]atrim=0:1.40,afade=t=out:st=1.35:d=0.05,volume=1.4[v1];"
+              f"[3:a]atrim=2.17:2.75,asetpts=PTS-STARTPTS,adelay={ms - 40}|{ms - 40},volume=1.5[v2];"
+              f"[a1][a2][v1][v2]amix=inputs=4:duration=first:normalize=0,atrim=0:{DUR}[a]")
+    else:
+        ins = []
+        fc = (f"[1:a]volume=1.0,afade=t=out:st={DUR - 0.3}:d=0.3[a1];[2:a]adelay={ms}|{ms},volume=1.2[a2];"
+              f"[a1][a2]amix=inputs=2:duration=first:normalize=0,atrim=0:{DUR}[a]")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-                           "-r", str(FPS), "-i", "-", "-ss", str(SFX_TRIM), "-i", sfx, "-i", str(boom), "-filter_complex",
-                           f"[1:a]volume=1.0,afade=t=out:st={DUR - 0.3}:d=0.3[a1];[2:a]adelay={ms}|{ms},volume=1.2[a2];"
-                           f"[a1][a2]amix=inputs=2:duration=first:normalize=0,atrim=0:{DUR}[a]",
+                           "-r", str(FPS), "-i", "-", "-ss", str(SFX_TRIM), "-i", sfx, "-i", str(boom), *ins,
+                           "-filter_complex", fc,
                            "-map", "0:v", "-map", "[a]", "-t", str(DUR), "-c:v", "libx264", "-preset", "slow", "-crf", "16",
                            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", out],
                           stdin=subprocess.PIPE)
