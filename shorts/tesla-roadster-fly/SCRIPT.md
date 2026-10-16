@@ -16,3 +16,6 @@ Build: `cd assembly && python3 hook_single.py CLIP SFX OUT.mp4`
 Benji voice for the hook ("The Tesla Roadster can... FLY?", text2speech_v2 elevenlabs) = 0.15 cr. Mixed with `hook_single.py CLIP SFX OUT.mp4 BENJI.mp3` (pause cut so FLY? lands on the slam at 1.45 s).
 
 ## FINAL (Oct 16): hook-single-benji.mp4 (3 s) + event recording in layout A, 44 s, 30 fps. Cover = frame at 2.0 s ("FLY?" text). Concat done with ffmpeg (hook fps->30, audio 48 kHz stereo).
+
+## FIX (Oct 16): footage crop was cutting off the HUD data circles (downforce/pitch/altitude at the bottom of the strip).
+Real footage strip in the screen recording = y 696-1349, full width. Now crop=1180:660:0:692, placed at y=440 in the 1080x1920 frame (above the Shorts right-side buttons / bottom caption zone). LESSON: measure crop bounds over the WHOLE recording (max brightness per row), not just the first second.

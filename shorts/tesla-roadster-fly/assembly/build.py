@@ -13,7 +13,7 @@ import make_short as m  # noqa: E402  (fonts + outlined text)
 W, H, FPS = 1080, 1920, 30
 HOOK_SEC = 2.2
 TOP_Y = 800                       # clear sky between the flying car and his head; inside every app's safe area
-CROP = "crop=1180:572:0:698"      # the footage strip inside the screen recording
+CROP = "crop=1180:660:0:692"      # the footage strip inside the screen recording
 RED = (235, 50, 40)
 
 
@@ -55,7 +55,7 @@ def main():
         print(out); return
 
     fc = (f"[0:v]{CROP},split[a][b];[a]scale=-2:{H},crop={W}:{H},boxblur=30:5,eq=brightness=-0.15[bg];"
-          f"[b]scale={W}:-2[fg];[bg][fg]overlay=0:(H-h)/2,fps={FPS},format=yuv420p[v];"
+          f"[b]scale={W}:-2[fg];[bg][fg]overlay=0:440,fps={FPS},format=yuv420p[v];"
           f"[0:a]aresample=48000,aformat=channel_layouts=stereo[a]")
     main_seg = Path(out).with_suffix(".main.mp4")
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", rec, "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
