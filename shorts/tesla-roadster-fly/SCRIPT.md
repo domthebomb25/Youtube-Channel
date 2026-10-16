@@ -14,3 +14,5 @@ Build: `python3 assembly/viral_hook.py CLIP1 CLIP2 CLIP3 SFX OUT.mp4` (Anton sla
 Uses the shot-2 clip (kling3_0, 716x1280, 3 s) alone: slanted Anton text, FLY? in RED, rocket SFX (trimmed 0.35 s) + synthetic sub boom on the slam. No extra credits.
 Build: `cd assembly && python3 hook_single.py CLIP SFX OUT.mp4`
 Benji voice for the hook ("The Tesla Roadster can... FLY?", text2speech_v2 elevenlabs) = 0.15 cr. Mixed with `hook_single.py CLIP SFX OUT.mp4 BENJI.mp3` (pause cut so FLY? lands on the slam at 1.45 s).
+
+## FINAL (Oct 16): hook-single-benji.mp4 (3 s) + event recording in layout A, 44 s, 30 fps. Cover = frame at 2.0 s ("FLY?" text). Concat done with ffmpeg (hook fps->30, audio 48 kHz stereo).
