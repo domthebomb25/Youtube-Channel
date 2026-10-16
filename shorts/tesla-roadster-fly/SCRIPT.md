@@ -9,3 +9,7 @@ Caveats: 0-60 claims differ between sources (do not quote numbers); production d
 ## Viral 3 s hook (3 shots + rocket SFX)
 Images: 3 key stills (gpt_image_2_5, dark bg) + shot-3 eye fix = 1.0 cr. Clips: 3 x kling3_0 std 3 s = 13.5 cr. SFX: mirelo_text_to_audio 3 s = 0.75 cr. Total ~15.25.
 Build: `python3 assembly/viral_hook.py CLIP1 CLIP2 CLIP3 SFX OUT.mp4` (Anton slanted text, FLY? 3x with blue glow, shaking ?, chromatic aberration, shake, snap zoom, loop melt).
+
+## Hook from the single fly-over clip (user's pick)
+Uses the shot-2 clip (kling3_0, 716x1280, 3 s) alone: slanted Anton text, FLY? in RED, rocket SFX (trimmed 0.35 s) + synthetic sub boom on the slam. No extra credits.
+Build: `cd assembly && python3 hook_single.py CLIP SFX OUT.mp4`
