@@ -55,7 +55,7 @@
   "45": "f516f52a-ce35-4d67-bc2e-402abcc499a8",
   "46": "7c7749e3-1af8-4ac0-8758-9dbe646e385a",
   "47": "7dda6e53-2d6f-4ceb-960b-30ca7d0607ff",
-  "48": "0023a810-1729-4ae5-a7a6-3a16a44c9e39",
+  "48": "a1d01cf4-90be-44f4-ba2b-fa618c8c90f3",
   "49": "f50d4e6a-c1ff-41be-8348-4b02d9b1dde6"
  },
  "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite.",
