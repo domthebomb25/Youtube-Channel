@@ -56,7 +56,17 @@
   "46": "7c7749e3-1af8-4ac0-8758-9dbe646e385a",
   "47": "7dda6e53-2d6f-4ceb-960b-30ca7d0607ff",
   "48": "a1d01cf4-90be-44f4-ba2b-fa618c8c90f3",
-  "49": "f50d4e6a-c1ff-41be-8348-4b02d9b1dde6"
+  "49": "f50d4e6a-c1ff-41be-8348-4b02d9b1dde6",
+  "50": "d2237e8c-3711-451f-b4a7-18aebea5db2b",
+  "51": "c5bcc000-98ad-4862-be0b-f8e8f0af5a0f",
+  "52": "97877390-20f3-4ab2-9cec-7428383dcc84",
+  "53": "0cf97660-a37b-444c-95cd-a04e83ec9770",
+  "54": "af59e95d-7181-4d16-8b31-402301742e3c",
+  "55": "4ae67cbd-9329-462e-b0c7-bf282dc46ee2",
+  "56": "254beec5-9bb3-4532-a464-9605b127043c",
+  "57": "25db95ce-3edc-4bf4-bf36-5f4a9d572c7f",
+  "58": "64d30fcd-769a-44a8-9dc7-77b623789241",
+  "59": "d5f54441-3566-4ef8-ae6e-c0b376f86773"
  },
  "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite.",
  "shot10_car_panel_job": "6d6d2c8d-112e-478d-9d74-72f1378e722f",
