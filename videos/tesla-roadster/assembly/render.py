@@ -20,6 +20,7 @@ def img(n):
     if n == 50: return "fix7/shot50.png"
     if n in (87, 88): return f"fix10/shot{n}.png"
     if n == 99: return "fix11/shot99.png"
+    if n == 100: return "fix12/shot100.png"
     if n == 80: return "batch8/shot80.png"
     if 70 <= n <= 79: return f"batch7/real{n}.png"
     if n >= 90: return f"batch9/shot{n:03d}.png"
