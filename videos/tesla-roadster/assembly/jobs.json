@@ -90,5 +90,11 @@
   "32": "$50,000 in the circled box",
   "36": "$250,000 in the circled box",
   "37": "$250,000 (top middle) + RESERVATION (bottom middle) on the gold plaque"
- }
+ },
+ "shot64_options": {
+  "A": "f182b2bc-cb42-4c55-8bd6-448b8b9252ae",
+  "B": "0a2028c3-92a8-486a-9764-9264f8750671",
+  "C": "cde28e9e-06a1-475f-86d7-5755c256c825"
+ },
+ "shot64_old_calendar_job": "4ea18fb6-846e-4f74-8dba-7d35601907b8"
 }
