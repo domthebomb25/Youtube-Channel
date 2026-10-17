@@ -18,12 +18,12 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 1:** Last frame of the hook, "FLY?" stamped over with "YES... BUT". Slow zoom.
 
 ## 0:15-0:50 — What actually happened
-**VO:** "On Thursday, October 15th, at a SpaceX facility in Texas, Tesla finally showed the new Roadster, nearly nine years after the first one. They drove it up a ramp and launched it over a row of other Tesla vehicles. It spun in mid-air and landed using thrusters. Elon Musk said it can, quote, 'basically fly like a rocket.' To be fair, that's a jump with a rocket landing, not sustained flight. But it's the closest a car has come."
+**VO:** "On Thursday, October 15th, at a SpaceX facility in Texas, Tesla finally showed the new Roadster, nearly nine years after the first one. They drove it up a ramp and launched it over a row of other Tesla vehicles. It spun in mid-air and landed using thrusters. Elon Musk said it can, quote, 'basically fly like a rocket.' To be fair, that's a jump with a rocket landing, not sustained flight."
 **Image 2:** Stickman crowd at night, spotlights, big curved ramp, smoke.
 **Image 3:** Side view, white sports car upside down in mid-air, blue thruster flames, row of cartoon cars below.
 
 ## 0:50-1:45 — How it works (Tesla's claims)
-**VO:** "So how does a car jump like that? Tesla says it's cold-gas thrusters, the same idea SpaceX uses on its rockets. Big carbon-fiber tanks of compressed air sit behind the seats. Press a button and it dumps the pressure out of the nozzles. The demo car had ten of them. Reports disagree on the tank size, so I won't give you a number. The steering is a yoke, and Tesla claims the top version hits sixty miles an hour in under six-tenths of a second. On stage, the run they showed was 0.81. And only the top trim gets the full thruster setup. The base Performance version reportedly has none."
+**VO:** "So how does a car jump like that? Tesla says it's cold-gas thrusters, the same idea SpaceX uses on its rockets. Compressed air from big carbon-fiber tanks shoots out of nozzles. One report says the demo car had ten of them, but tank sizes are reported differently, so I won't give you a number. The steering is a yoke, and Tesla claims the top version hits sixty miles an hour in under six-tenths of a second. On stage, they showed a run of 0.81, after timer problems, and Tesla's own numbers shifted afterward. And only the top trim gets the full thruster setup. The base Performance version reportedly has none."
 **Image 4:** Stickman-style cutaway of a sports car, two cylinders behind the seats, arrows to nozzles. (No Tesla patent look, no logo.)
 **Image 5:** Stickman inside a car with a yoke steering wheel, big screen, red ambient light.
 **Image 6:** Spec card (text drawn by renderer): "0-60: UNDER 0.59 S (TESLA CLAIM) · TOP SPEED: 230+ MPH · RANGE: 300+ MILES"
@@ -34,13 +34,13 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 8:** Stickman reservation page drawn from scratch: three tiers, circled prices. (No real screenshot.)
 
 ## 2:15-4:00 — The deposit machine
-**VO:** "Tesla lists three versions. Performance: a fifty thousand dollar reservation. Thrust: two hundred fifty thousand. Rocket: invite only. Production is targeted for 2028, with no final price announced. So you pay now and wait. Here's the catch. The fifty grand is a five thousand dollar card charge, then a forty-five thousand dollar wire. Tesla's terms say it doesn't hold that money in escrow, and doesn't pay you interest on it. Now, I'm making up numbers here to show scale. Imagine just two thousand people put down fifty thousand. That's a hundred million dollars. Imagine a thousand more put down two hundred fifty thousand. That's two hundred fifty million. Three hundred fifty million, held for years, interest free. To be clear, I don't know how many people reserved. And on paper it's not revenue. It's a liability Tesla owes back if you cancel. But it's still cash in Tesla's account. Accountants call that float."
+**VO:** "Tesla lists three versions. Performance: a fifty thousand dollar reservation. Thrust: two hundred fifty thousand. Rocket: invite only. Production is targeted for 2028, with no final price announced. So you pay now and wait. Here's the catch. The fifty grand is a five thousand dollar card charge, then a forty-five thousand dollar wire. In its past filings, Tesla has said it doesn't hold reservation money in escrow or pay interest on it. Now, I'm making up numbers here to show scale. Imagine just two thousand people put down fifty thousand. That's a hundred million dollars. Imagine a thousand more put down two hundred fifty thousand. That's two hundred fifty million. Three hundred fifty million, held for years, interest free. To be clear, I don't know how many people reserved. And on paper it's not revenue. It's a liability Tesla owes back if you cancel. But it's still cash in Tesla's account. Accountants call that float."
 **Image 9:** Calculator: "2,000 x $50,000 = $100,000,000", label "MADE-UP EXAMPLE".
 **Image 10:** "1,000 x $250,000 = $250,000,000", same label.
 **Image 11:** Big "$350,000,000" with "IF THESE NUMBERS WERE REAL" underneath, stickman CEO with a money-bag, no real likeness.
 
 ## 4:00-5:00 — They've done this before
-**VO:** "And they've done this before. In 2017, Tesla took the same fifty and two hundred fifty thousand dollar deposits for the first Roadster promise, with production due in 2020. Nine years later, some people are still waiting. YouTuber Marques Brownlee said getting his fifty thousand back was a pain. Sam Altman, who reserved in 2018, tried to cancel last year, and Musk said the refund was processed. The system works for Tesla, because the money comes in years before the car does."
+**VO:** "And they've done this before. In 2017, Tesla took similar fifty and two hundred fifty thousand dollar deposits for the Roadster promise, with production due in 2020. Nearly nine years later, some people are still waiting. YouTuber Marques Brownlee said cancelling was a pain, and at first Tesla told him he'd only get forty-five thousand back. Sam Altman, who reserved in 2018, tried to cancel last year, and Musk said the refund was processed. The system works for Tesla, because the money comes in years before the car does."
 **Image 12:** Split screen: left "2017 PROMISE" old red sports car, right "2026 REVEAL" white sports car, text "SAME DEPOSITS. 9 YEARS LATER."
 **Image 13:** Stickman at a desk with a calendar, "2018" torn to "2026", holding a refund form. (No tweet screenshot.)
 
@@ -67,7 +67,8 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 - "Kickflip" -> "spun in mid-air". No trim assigned to the stage jump (not confirmed).
 - All real screenshots, tweet and likenesses replaced by stickman drawings.
 
-## Still to verify before recording
-- Exact venue (McGregor vs. Waco) — kept as "SpaceX facility in Texas".
-- Musk quote wording — confirm in a primary clip/transcript.
-- Brownlee and Altman refund wording — one more source each.
+## Fact-check results (Oct 17)
+Verified by multiple outlets: Oct 15 event at a SpaceX Texas site; ramp launch over five other Tesla vehicles; mid-air roll and cold-gas thruster landing; Musk quote ("altitude control thrusters and main thrusters in the rear, so it can basically fly like a rocket"); trims (Performance $50k, Thrust $250k, Rocket invite-only); Tesla claims under 1.6 / 0.9 / 0.59 s; 0.81 s live run (timer problems); production 2028; flight features "not approved for public road use"; $5k card + $45k wire, refundable until a purchase agreement; Q3 2026 deliveries 486,532 (beat consensus, down 2.1% YoY); BYD outsold Tesla in Europe early 2026 (includes hybrids).
+Corrected: "ten thrusters" and tank size are single-source / conflicting (600 L vs 200 L); "no escrow / no interest" is from Tesla's past SEC filings, NOT confirmed on the 2026 reservation terms; Altman refund is Musk's claim, not independently confirmed; Brownlee was first told $45k, later got the $5k too.
+Cut: "closest a car has come", "press a button and it dumps the pressure" (unsourced).
+Still unconfirmed: exact venue (Waco vs. McGregor, kept as "a SpaceX facility in Texas"); which trim did the jump; the base "Roadster" vs. three-trim wording (one source lists four options).
