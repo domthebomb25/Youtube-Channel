@@ -23,7 +23,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 3:** Side view, white sports car upside down in mid-air, blue thruster flames, row of cartoon cars below.
 
 ## 0:50-1:45 — How it works (Tesla's claims)
-**VO:** "Let's get this out of the way - HOW does it fly? Tesla says it's cold-gas thrusters, the same idea SpaceX uses on its rockets. Compressed air from big carbon-fiber tanks located behind the seats shoots out of nozzles. There is a yoke wheel, seats that say ROADSTER and a screen showing the giant tank. Tesla claims the top version can go 0-60mph in under one second, and the live demo showed 0.81 seconds. And only the top trim gets the full thruster setup. The base Performance version reportedly has none."
+**VO:** "Let's get this out of the way - HOW does it fly? Tesla says it's cold-gas thrusters, the same idea SpaceX uses on its rockets. Compressed air from big carbon-fiber tanks located behind the seats shoots out of the nozzles. The Performance and Thrust models have two seats, while the Rocket Roadster only has one seat. There is a yoke wheel with a compact bucket seat designed to tightly lock you in place. That is why it can go 0-60mph in under one second. And only the top trim gets the full thruster setup. The base Performance version reportedly has none. It is still a top of the line electric vehicle, just without rocket thrusters."
 **Image 4:** Stickman-style cutaway of a sports car, two cylinders behind the seats, arrows to nozzles. (No Tesla patent look, no logo.)
 **Image 5:** Stickman inside a car with a yoke steering wheel, big screen, red ambient light.
 **Image 6:** Spec card (text drawn by renderer): "0-60: UNDER 0.59 S (TESLA CLAIM) · TOP SPEED: 230+ MPH · RANGE: 300+ MILES"
