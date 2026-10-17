@@ -1,0 +1,351 @@
+1
+00:00:00,300 --> 00:00:02,900
+Tesla's new car can fly.
+
+2
+00:00:04,000 --> 00:00:04,820
+Yes.
+
+3
+00:00:04,850 --> 00:00:06,900
+Tesla's new car can fly.
+
+4
+00:00:07,320 --> 00:00:09,090
+And that's not even the genius part.
+
+5
+00:00:09,650 --> 00:00:13,370
+Tesla didn't just build a flying
+car to sell you a flying car.
+
+6
+00:00:13,790 --> 00:00:15,380
+They built it to print money.
+
+7
+00:00:15,820 --> 00:00:16,860
+Let me show you how.
+
+8
+00:00:17,550 --> 00:00:22,620
+On Thursday, October 15th, at a SpaceX
+facility in Texas, Tesla finally showed the
+
+9
+00:00:22,620 --> 00:00:27,270
+new Roadster, nearly nine years
+after it was pitched in 2017.
+
+10
+00:00:27,270 --> 00:00:30,910
+They drove it up a ramp and launched
+it over a row of other Tesla vehicles.
+
+11
+00:00:31,200 --> 00:00:33,950
+It spun in mid-air and
+landed using thrusters.
+
+12
+00:00:34,330 --> 00:00:39,700
+Elon Musk said it can, quote, 'basically
+fly like a rocket.' So how does it fly?
+
+13
+00:00:40,050 --> 00:00:44,900
+Tesla says it's cold-gas thrusters, the
+same idea SpaceX uses on its rockets.
+
+14
+00:00:45,230 --> 00:00:49,310
+Compressed air from big carbon-fiber
+tanks behind the seats shoots out of the
+
+15
+00:00:49,310 --> 00:00:50,160
+nozzles.
+
+16
+00:00:50,370 --> 00:00:51,600
+There's a yoke wheel.
+
+17
+00:00:51,940 --> 00:00:56,100
+The Rocket is a one-seater, while the
+Performance and Thrust are two-seaters.
+
+18
+00:00:56,100 --> 00:00:58,830
+And only the top trim gets
+the full thruster setup.
+
+19
+00:00:59,200 --> 00:01:01,970
+The base Performance
+version reportedly has none.
+
+20
+00:01:02,280 --> 00:01:04,420
+But how it flies is the easy question.
+
+21
+00:01:04,800 --> 00:01:08,480
+The better question is why build a
+car that flies for a few seconds?
+
+22
+00:01:08,980 --> 00:01:11,290
+That answer is right
+on Tesla's own website.
+
+23
+00:01:11,810 --> 00:01:15,450
+The Performance model costs fifty
+thousand dollars per reservation.
+
+24
+00:01:15,710 --> 00:01:20,110
+Five thousand up front, then a forty five
+thousand dollar wire within ten days.
+
+25
+00:01:20,380 --> 00:01:21,790
+That's the road ready one.
+
+26
+00:01:22,320 --> 00:01:26,250
+The Thrust model costs two hundred and
+fifty thousand dollars per reservation.
+
+27
+00:01:26,600 --> 00:01:30,470
+That's the limited one that
+does 0-60 in 0.81 seconds.
+
+28
+00:01:30,690 --> 00:01:31,670
+And the Rocket?
+
+29
+00:01:31,940 --> 00:01:33,000
+Invite only.
+
+30
+00:01:33,350 --> 00:01:35,480
+You can't reserve it even
+if you have the money.
+
+31
+00:01:35,860 --> 00:01:36,990
+Now here's the kicker.
+
+32
+00:01:37,140 --> 00:01:39,790
+Production doesn't start until 2028.
+
+33
+00:01:39,790 --> 00:01:43,340
+So you pay TODAY, you MIGHT
+get a car in TWO YEARS.
+
+34
+00:01:43,840 --> 00:01:45,040
+Now let's do the math.
+
+35
+00:01:45,280 --> 00:01:47,830
+Say two thousand people
+reserve the Performance.
+
+36
+00:01:48,020 --> 00:01:49,830
+That's one hundred million dollars.
+
+37
+00:01:50,140 --> 00:01:53,340
+Say one thousand die-hard
+fans reserve the Thrust.
+
+38
+00:01:53,460 --> 00:01:55,180
+That's two hundred and fifty million.
+
+39
+00:01:55,530 --> 00:01:57,590
+Three hundred and fifty million dollars.
+
+40
+00:01:57,860 --> 00:02:01,810
+If that were real, Tesla would be sitting
+on that much of its customers' money,
+
+41
+00:02:01,810 --> 00:02:05,350
+possibly interest free, for
+a car that doesn't exist yet.
+
+42
+00:02:05,860 --> 00:02:07,700
+That's what I mean by printing money.
+
+43
+00:02:07,940 --> 00:02:09,020
+No bank loan.
+
+44
+00:02:09,060 --> 00:02:10,040
+No interest.
+
+45
+00:02:10,100 --> 00:02:11,720
+No giving up Tesla stock.
+
+46
+00:02:11,940 --> 00:02:15,030
+Just fans giving Tesla
+a free loan for 2 years.
+
+47
+00:02:15,460 --> 00:02:16,920
+And they've done this before.
+
+48
+00:02:17,360 --> 00:02:22,390
+In 2017, Tesla took similar fifty and two
+hundred fifty thousand dollar deposits for
+
+49
+00:02:22,390 --> 00:02:26,200
+the Roadster promise, with
+production due in 2020.
+
+50
+00:02:26,200 --> 00:02:29,310
+Nearly nine years later, some
+people are still waiting.
+
+51
+00:02:29,680 --> 00:02:32,350
+Sam Altman reserved back in 2018.
+
+52
+00:02:32,350 --> 00:02:36,410
+He tried to cancel last year, had trouble
+doing it, and it turned into an online
+
+53
+00:02:36,410 --> 00:02:37,650
+feud with Musk.
+
+54
+00:02:38,070 --> 00:02:40,530
+Accountants call this
+business strategy a float.
+
+55
+00:02:40,980 --> 00:02:42,500
+So why fly it this week?
+
+56
+00:02:43,030 --> 00:02:45,040
+Tesla's sales have been under pressure.
+
+57
+00:02:45,240 --> 00:02:49,330
+BYD has been outselling Tesla in Europe,
+although its numbers include plug-in
+
+58
+00:02:49,330 --> 00:02:50,220
+hybrids.
+
+59
+00:02:50,480 --> 00:02:54,820
+And Tesla's third-quarter deliveries, about
+four hundred eighty-six thousand, beat
+
+60
+00:02:54,820 --> 00:02:58,900
+analyst expectations, but were still
+down two percent from a year ago.
+
+61
+00:02:59,360 --> 00:03:03,090
+When your everyday cars aren't exciting
+anyone, you build one that makes every news
+
+62
+00:03:03,090 --> 00:03:07,640
+channel say 'Tesla is the future
+again.' That's called a halo product.
+
+63
+00:03:07,900 --> 00:03:09,040
+Ferrari does it.
+
+64
+00:03:09,190 --> 00:03:13,400
+Almost nobody buys the flagship, but
+it makes the normal cars feel special.
+
+65
+00:03:13,850 --> 00:03:15,840
+Most people will never own the Rocket.
+
+66
+00:03:16,070 --> 00:03:19,620
+But now the car in your driveway feels
+like it comes from the rocket company.
+
+67
+00:03:19,930 --> 00:03:22,270
+So, can Tesla's new car fly?
+
+68
+00:03:22,740 --> 00:03:24,020
+Technically, yes.
+
+69
+00:03:24,220 --> 00:03:28,130
+Real SpaceX thrusters, real
+flight, and real results.
+
+70
+00:03:28,410 --> 00:03:30,120
+But the flight lasts seconds.
+
+71
+00:03:30,260 --> 00:03:32,060
+The deposits last years.
+
+72
+00:03:32,280 --> 00:03:36,700
+Tesla built a reason for you to hand
+over fifty thousand dollars, years early.
+
+73
+00:03:37,120 --> 00:03:39,330
+That's Tesla's greatest marketing stunt.
+
+74
+00:03:39,550 --> 00:03:43,580
+And if my math is even close, it just
+printed them hundreds of millions of dollars
+
+75
+00:03:43,580 --> 00:03:44,540
+in one night.
+
+76
+00:03:45,110 --> 00:03:49,180
+So, would you put fifty thousand dollars
+down for a car you might have to wait years
+
+77
+00:03:49,180 --> 00:03:49,810
+for?
+
+78
+00:03:50,020 --> 00:03:51,330
+Tell me in the comments.
