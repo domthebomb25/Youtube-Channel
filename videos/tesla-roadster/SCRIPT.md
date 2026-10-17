@@ -14,7 +14,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Visual:** `hook-stage-v2.mp4` as is. Whoosh + bass hit if not already in the file.
 
 ## 0:02.6-0:15 — Payoff + promise
-**VO:** "Yes. Tesla's new car can fly. Sort of. And that's not even the genius part. Tesla didn't build a flying car to sell you a flying car. They built it to get paid years before it exists."
+**VO:** "Yes. Tesla's new car can fly. Sort of. And that's not even the genius part. Tesla didn't build a flying car to sell you a flying car. They built it to print money."
 **Image 1:** Last frame of the hook, "FLY?" stamped over with "YES... BUT". Slow zoom.
 
 ## 0:15-0:50 — What actually happened
@@ -34,7 +34,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 8:** Stickman reservation page drawn from scratch: three tiers, circled prices. (No real screenshot.)
 
 ## 2:15-4:00 — The deposit machine
-**VO:** "Tesla lists three versions. Performance: a fifty thousand dollar reservation. Thrust: two hundred fifty thousand. Rocket: invite only. Production is targeted for 2028, with no final price announced. So you pay now and wait. Here's the catch. The fifty grand is a five thousand dollar card charge, then a forty-five thousand dollar wire. In its past filings, Tesla has said it doesn't hold reservation money in escrow or pay interest on it. Now, I'm making up numbers here to show scale. Imagine just two thousand people put down fifty thousand. That's a hundred million dollars. Imagine a thousand more put down two hundred fifty thousand. That's two hundred fifty million. Three hundred fifty million, held for years, interest free. To be clear, I don't know how many people reserved. And on paper it's not revenue. It's a liability Tesla owes back if you cancel. But it's still cash in Tesla's account. Accountants call that float."
+**VO:** "Tesla lists three versions. Performance: a fifty thousand dollar reservation. Thrust: two hundred fifty thousand. Rocket: invite only. Production is targeted for 2028, with no final price announced. So you pay now and wait. Here's the catch. The fifty grand is a five thousand dollar card charge, then a forty-five thousand dollar wire. In its past filings, Tesla has said it doesn't hold reservation money in escrow or pay interest on it. Now, I'm making up numbers here to show scale. Imagine just two thousand people put down fifty thousand. That's a hundred million dollars. Imagine a thousand more put down two hundred fifty thousand. That's two hundred fifty million. Three hundred fifty million, held for years, interest free. To be clear, I don't know how many people reserved. And on paper it's not revenue. It's a liability Tesla owes back if you cancel. But it's still cash in Tesla's account. Accountants call that float. And that's what I meant by printing money. Not profit. A free loan from the fans."
 **Image 9:** Calculator: "2,000 x $50,000 = $100,000,000", label "MADE-UP EXAMPLE".
 **Image 10:** "1,000 x $250,000 = $250,000,000", same label.
 **Image 11:** Big "$350,000,000" with "IF THESE NUMBERS WERE REAL" underneath, stickman CEO with a money-bag, no real likeness.
