@@ -7,7 +7,9 @@
   "user_example_scene_media": "dc1a7df3-69c2-4557-a067-f0f21c3caea2",
   "voiceover_job": "50ba82b6-fcb1-4a4c-9e0f-5c0d0803ec62",
   "red_gt_cartoon_job": "aec2ec80-0357-4078-838a-85ffe18c9f61",
-  "user_red_gt_photo_media": "890f9170-6a1c-4e14-bdbe-5153e0d65f58"
+  "user_red_gt_photo_media": "890f9170-6a1c-4e14-bdbe-5153e0d65f58",
+  "white_sedan_cartoon_job": "18dd7c54-5b5d-401e-9e1d-514c1fda5d3e",
+  "user_white_sedan_photo_media": "0f07e248-c58f-49fd-8eea-84c469d73616"
  },
  "approved_or_generated_shots": {
   "2": "d774277f-1f95-4f0a-8f49-4360452f6dfb",
@@ -93,11 +95,11 @@
   "81": "f544e963-ac8f-4952-9433-be44be2eec08",
   "82": "a56913cf-9372-4451-877a-9a26400b83ec",
   "83": "648732bc-a19e-4034-83ba-94a5df42457f",
-  "84": "eed23a78-7bda-45a6-a561-c01784a17126",
-  "85": "6e40d0a3-cf9f-45a4-8723-590c6637df35",
+  "84": "324c19b8-24fd-4acb-b583-81069bfe331e",
+  "85": "9b1ba141-c804-4d75-b642-c57a9e36b3a3",
   "86": "fa7efc59-229f-48e9-a79b-76f01801e371",
-  "87": "64077b30-ecc5-46c2-80e1-9cdb4f71fae6",
-  "88": "959749df-8f52-4148-9a1f-8224a79db8ac",
+  "87": "4e17e88f-5230-4bd5-85ad-7871687e093c",
+  "88": "282babc4-5e49-4ee7-8d8e-bf738d02376b",
   "89": "35a41a40-4764-4524-9ca9-c6a885b40fe1"
  },
  "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite. Shots 71-80 mapping corrected after an off-by-one slip (see chat).",
@@ -126,5 +128,9 @@
   "78A": "2e8416dc-f4bd-48b2-88e8-4dba08102e27",
   "78B": "8d87cea4-174f-40b7-b6c3-684d0c48730c",
   "78C": "192cdf90-c7a1-4e98-bada-e6b97a88d7ba"
+ },
+ "unused_red_gt_edit_jobs": {
+  "84": "eed23a78-7bda-45a6-a561-c01784a17126",
+  "85": "6e40d0a3-cf9f-45a4-8723-590c6637df35"
  }
 }
