@@ -1,0 +1,31 @@
+{
+ "refs": {
+  "car_front_job": "5107377c-d64b-4fc4-944a-4249cdca36d3",
+  "car_rear_job": "eaaa1fd0-8e60-4426-abc6-adb901d3749a",
+  "car_side_job": "92c2d0a8-9431-4b3f-a7c0-2da8b884378e",
+  "mascot_anchor_media": "2b0db06d-a086-4dcc-9ccb-cbd3415680b4",
+  "user_example_scene_media": "dc1a7df3-69c2-4557-a067-f0f21c3caea2",
+  "voiceover_job": "50ba82b6-fcb1-4a4c-9e0f-5c0d0803ec62"
+ },
+ "approved_or_generated_shots": {
+  "2": "d774277f-1f95-4f0a-8f49-4360452f6dfb",
+  "3": "59d890ed-8f17-477e-baa4-d7bdccb10a9f",
+  "5": "d59fd4a9-bb2a-4169-9a9b-481be8f85048",
+  "9": "b49da422-d4ce-4374-a8d3-4fe9094b86bb",
+  "11": "9240e744-d7c1-4a28-936e-5e7c47b3f60b",
+  "12": "ceec9eff-3fb9-4fa2-aac5-541fdaa5d23c",
+  "13": "afe5fd2b-9f1a-4dbf-b618-a59035f972d3",
+  "14": "87c9b0ac-0b16-4a5f-8338-793e16c9999c",
+  "4": "0fbf66be-e92b-49c0-8ab7-61d5eef296aa",
+  "6": "920dae4f-cb04-4e2e-812f-e07fed5c269c",
+  "7": "632dfb3d-03e3-4d48-ab09-a9a427658270",
+  "8": "32eee9d3-f22f-49cb-b75d-1486a738c9be",
+  "10": "9c36dde7-6cf9-4a5e-a781-1b6fb1a7cf8c",
+  "15": "e7fe4570-6afe-4d7f-98df-33b1b9e17b71",
+  "16": "1613e41a-3504-4bda-81a3-2a5ddbaced34",
+  "17": "e74cc7ec-53d9-4340-8fb2-7ce3accd38ad",
+  "18": "670b8ca4-bf36-4b22-85e9-72d4e9d69977",
+  "19": "e9f88d52-ec57-43f5-8ff9-b217d45c7e0b"
+ },
+ "note": "Shot 1 = free freeze-frame of hook. Status of each shot's approval is tracked in chat."
+}
