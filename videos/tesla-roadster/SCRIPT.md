@@ -14,7 +14,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Visual:** `hook-stage-v2.mp4` as is. Whoosh + bass hit if not already in the file.
 
 ## 0:02.6-0:15 — Payoff + promise
-**VO:** "Yes. Tesla's new car can fly. And that's not even the genius part. Tesla didn't build a flying car to sell you a flying car. They built it to print money."
+**VO:** "Yes. Tesla's new car can fly. And that's not even the genius part. Tesla didn't just build a flying car to sell you a flying car. They built it to print money."
 **Image 1:** Last frame of the hook, "FLY?" stamped over with "YES... BUT". Slow zoom.
 
 ## 0:15-0:50 — What actually happened
