@@ -25,7 +25,8 @@
   "16": "1613e41a-3504-4bda-81a3-2a5ddbaced34",
   "17": "e74cc7ec-53d9-4340-8fb2-7ce3accd38ad",
   "18": "670b8ca4-bf36-4b22-85e9-72d4e9d69977",
-  "19": "e9f88d52-ec57-43f5-8ff9-b217d45c7e0b"
+  "19": "e9f88d52-ec57-43f5-8ff9-b217d45c7e0b",
+  "1": "dade71e0-3fcf-4a44-b302-9df3c67e8986"
  },
- "note": "Shot 1 = free freeze-frame of hook. Status of each shot's approval is tracked in chat."
+ "note": "Hook file hook-stage-v2.mp4 (2.6 s) plays first; shot 1 image plays 2.6-5.2 s. Approval status is tracked in chat."
 }

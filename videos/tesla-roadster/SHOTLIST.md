@@ -5,7 +5,7 @@ On-screen text is drawn by the renderer, never by the image model. No logos, bad
 
 | # | Video time | Len | Narration | Image idea | On-screen text |
 |---|---|---|---|---|---|
-| 1 | 0:02.6-0:05.2 | 2.6s | Yes. Tesla's new car can fly. | FREEZE: last frame of hook-stage-v2.mp4 (no credits) | YES. |
+| 1 | 0:02.6-0:05.2 | 2.6s | Yes. Tesla's new car can fly. | Roadster flying high above a night stage with blue thrusters and a smoke trail, nose left; mascot at bottom-left looking up with arms raised, huge smile (plays 2.6-5.2 s, right after the 2.6 s hook file) | YES. |
 | 2 | 0:05.2-0:08.3 | 3.1s | And that's not even the genius part. | Mascot lifts one finger with a smug grin, dark navy stage, glowing question mark behind him | NOT THE GENIUS PART |
 | 3 | 0:08.3-0:10.0 | 1.7s | Tesla didn't just build a flying car... | Sleek white sports car with blue thrusters hovering above a showroom turntable, mascot holding it like a toy | FLYING CAR |
 | 4 | 0:10.0-0:12.0 | 2.0s | ...to sell you a flying car. | Mascot as slick car salesman in front of the hovering car, jingling keys, big fake smile |  |
