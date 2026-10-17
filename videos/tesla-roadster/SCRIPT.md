@@ -40,7 +40,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 11:** Big "$350,000,000" with "IF THESE NUMBERS WERE REAL" underneath, stickman CEO with a money-bag, no real likeness.
 
 ## 4:00-5:00 — They've done this before
-**VO:** "And they've done this before. In 2017, Tesla took similar fifty and two hundred fifty thousand dollar deposits for the Roadster promise, with production due in 2020. Nearly nine years later, some people are still waiting. YouTuber Marques Brownlee said cancelling was a pain, and at first Tesla told him he'd only get forty-five thousand back. Sam Altman, who reserved in 2018, tried to cancel last year, and Musk said the refund was processed. The system works for Tesla, because the money comes in years before the car does."
+**VO:** "No bank loan. No interest. No giving up Tesla stock. Just fans giving Tesla a free loan for 2 years. And they've done this before. In 2017, Tesla took similar fifty and two hundred fifty thousand dollar deposits for the Roadster promise, with production due in 2020. Nearly nine years later, some people are still waiting. Sam Altman reserved back in 2018. He eventually tried to cancel last year but had difficulty doing so which led to an online feud between him and Musk. But that is a story for another time. Accountants call it a float, I call it the greatest money printer in car history."
 **Image 12:** Split screen: left "2017 PROMISE" old red sports car, right "2026 REVEAL" white sports car, text "SAME DEPOSITS. 9 YEARS LATER."
 **Image 13:** Stickman at a desk with a calendar, "2018" torn to "2026", holding a refund form. (No tweet screenshot.)
 
