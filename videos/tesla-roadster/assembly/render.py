@@ -33,17 +33,17 @@ ends = starts[1:] + [shots.END + shots.HOOK]
 work = f"{T}/render_{W}"; shutil.rmtree(work, ignore_errors=True); os.makedirs(work)
 def clip(i):
     n = i + 1; dur = ends[i] - starts[i]; fr = max(2, round(dur * FPS)); dur = fr / FPS
-    z = f"min(1+0.06*on/{fr},1.06)" if i % 2 == 0 else f"max(1.06-0.06*on/{fr},1)"
-    vf = (f"scale={W*2}:-2:flags=lanczos,zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+    z = f"min(1+0.04*on/{fr},1.04)" if i % 2 == 0 else f"max(1.04-0.04*on/{fr},1)"
+    vf = (f"scale={7680}:-2:flags=lanczos,zoompan=z='{z}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
           f":d={fr}:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p")
     p = f"{work}/c{n:03d}.mp4"
     subprocess.run(["ffmpeg","-v","error","-y","-i",f"{T}/{img(n)}","-vf",vf,"-frames:v",str(fr),
-                    "-c:v","libx264","-crf","18" if W>=1920 else "26","-preset","fast","-r",str(FPS),p],check=True)
+                    "-c:v","libx264","-crf","18" if W>=1920 else "16","-preset","medium","-tune","animation","-r",str(FPS),p],check=True)
     return p, fr
 with ThreadPoolExecutor(max_workers=os.cpu_count()) as ex: res = list(ex.map(clip, range(len(S))))
 hook = f"{work}/hook.mp4"
 subprocess.run(["ffmpeg","-v","error","-y","-i",f"{T}/hook_v9_youtube_1080p_rocket.mp4","-an","-vf",f"scale={W}:{H},fps={FPS},setsar=1,format=yuv420p",
-                "-c:v","libx264","-crf","18" if W>=1920 else "26","-preset","fast","-t","4.0",hook],check=True)
+                "-c:v","libx264","-crf","18" if W>=1920 else "16","-preset","medium","-tune","animation","-t","4.0",hook],check=True)
 with open(f"{work}/list.txt","w") as f:
     f.write(f"file '{hook}'\n"); [f.write(f"file '{p}'\n") for p,_ in res]
 subprocess.run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",f"{work}/list.txt","-i",f"{T}/hook_v9_youtube_1080p_rocket.mp4","-i",f"{T}/voiceover.mp3",
