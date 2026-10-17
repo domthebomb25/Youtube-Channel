@@ -76,9 +76,20 @@
   "66": "aa8fdaad-0607-455d-af8e-a67573d4d146",
   "67": "ddaf8616-7784-4634-845d-4de1faa1575b",
   "68": "b6d5efa8-3b1e-405f-b760-b8ff42be8e69",
-  "69": "870f9537-389a-4060-8436-5aebd259b6a2"
+  "69": "870f9537-389a-4060-8436-5aebd259b6a2",
+  "70": "1a6f5fb9-7bc5-4a9f-be62-55210105eece",
+  "71": "210d6537-3495-49b4-aa33-47c2a38ebe87",
+  "72": "5189b15d-3834-4584-b9d7-9df99caaa9c6",
+  "73": "10460ec5-9fd3-4516-9099-77002a30d465",
+  "74": "629918c7-277e-414f-98d9-03b2b8930096",
+  "75": "c645888f-3ac3-4f23-a2a0-b38916f917c4",
+  "76": "7e3659f7-07b1-4ce0-aa6d-f61fd8e5d163",
+  "77": "e013450d-dfad-439a-b1f3-5b40fa8be5ff",
+  "78": "87788e38-3320-433b-ae8b-02985c067b92",
+  "79": "13035f05-cc57-4626-9c17-5ee3b32155dc",
+  "80": "0cbd5670-9c9b-44e5-b9b2-c1efc2054478"
  },
- "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite.",
+ "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite. Shots 71-80 mapping corrected after an off-by-one slip (see chat).",
  "shot10_car_panel_job": "6d6d2c8d-112e-478d-9d74-72f1378e722f",
  "user_red_roadster_photo_media": "0e6d785f-b519-4b7b-932f-b28134af49b2",
  "unused_accidental_fix_jobs": {
