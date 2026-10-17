@@ -16,7 +16,7 @@
   "12": "ceec9eff-3fb9-4fa2-aac5-541fdaa5d23c",
   "13": "afe5fd2b-9f1a-4dbf-b618-a59035f972d3",
   "14": "87c9b0ac-0b16-4a5f-8338-793e16c9999c",
-  "4": "0fbf66be-e92b-49c0-8ab7-61d5eef296aa",
+  "4": "a20a4def-9637-4f93-84f8-8aba38493041",
   "6": "920dae4f-cb04-4e2e-812f-e07fed5c269c",
   "7": "632dfb3d-03e3-4d48-ab09-a9a427658270",
   "8": "32eee9d3-f22f-49cb-b75d-1486a738c9be",
@@ -28,5 +28,11 @@
   "19": "e9f88d52-ec57-43f5-8ff9-b217d45c7e0b",
   "1": "dade71e0-3fcf-4a44-b302-9df3c67e8986"
  },
- "note": "Hook file hook-stage-v2.mp4 (2.6 s) plays first; shot 1 image plays 2.6-5.2 s. Approval status is tracked in chat."
+ "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite.",
+ "shot10_car_panel_job": "6d6d2c8d-112e-478d-9d74-72f1378e722f",
+ "user_red_roadster_photo_media": "0e6d785f-b519-4b7b-932f-b28134af49b2",
+ "unused_accidental_fix_jobs": {
+  "shot10_concept_car": "d830eb53-e819-4e28-81bf-93a7033b0d15",
+  "shot17_plain_bg": "ec7640f1-0944-4c95-abc6-8f569ba8861f"
+ }
 }
