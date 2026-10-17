@@ -37,10 +37,10 @@
   "27": "f0b9541c-67f4-40f4-87f7-2fd5f6028242",
   "28": "fa6e0996-bc2c-44bd-8a50-7101ca40a776",
   "29": "407a5c9b-ddd1-4191-a18e-b5496193a7da",
-  "30": "43c90a17-2828-4bfa-a878-fc65fa408f2b",
+  "30": "c4c8689e-ce0f-4c46-ba55-f690bf3ad719",
   "31": "b1fd1a38-be7f-4f43-ae7c-3ca4d429ce28",
-  "32": "696a285c-905b-47b7-8dcf-e19a49d08795",
-  "33": "8b5379f3-4fa6-4308-b3b8-a612d511852f",
+  "32": "599faba3-7bf0-4eb6-ac00-c76db8c39182",
+  "33": "e59d9356-c8d5-456d-ab12-73b007ae267f",
   "34": "3ba94810-b637-47a2-8007-db723d50643a",
   "35": "bfa33fa0-7664-4103-81d5-3d96d2044243",
   "36": "17808b88-4f5e-4e47-baba-7524f449f299",
@@ -55,5 +55,10 @@
   "shot10_concept_car": "d830eb53-e819-4e28-81bf-93a7033b0d15",
   "shot17_plain_bg": "ec7640f1-0944-4c95-abc6-8f569ba8861f"
  },
- "background_rule": "No store/warehouse/Costco-like backgrounds. Reuse only backgrounds already made in this video: blue-curtain stage (shot 2), showroom turntable (shot 3), orange sunburst (shot 5), black beams sky (shot 13), blueprint grid (shot 20), night stars (shot 29), dark stage floor w/ red edge lights (shot 12)."
+ "background_rule": "No store/warehouse/Costco-like backgrounds. Reuse only backgrounds already made in this video: blue-curtain stage (shot 2), showroom turntable (shot 3), orange sunburst (shot 5), black beams sky (shot 13), blueprint grid (shot 20), night stars (shot 29), dark stage floor w/ red edge lights (shot 12).",
+ "text_overlays_added_by_renderer": {
+  "32": "$50,000 in the circled box",
+  "36": "$250,000 in the circled box",
+  "37": "$250,000 (top middle) + RESERVATION (bottom middle) on the gold plaque"
+ }
 }
