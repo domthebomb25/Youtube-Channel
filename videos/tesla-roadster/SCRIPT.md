@@ -18,7 +18,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 1:** Last frame of the hook, "FLY?" stamped over with "YES... BUT". Slow zoom.
 
 ## 0:15-0:50 — What actually happened
-**VO:** "On Thursday, October 15th, at a SpaceX facility in Texas, Tesla finally showed the new Roadster, nearly nine years after the first one. They drove it up a ramp and launched it over a row of other Tesla vehicles. It spun in mid-air and landed using thrusters. Elon Musk said it can, quote, 'basically fly like a rocket.' To be fair, that's a jump with a rocket landing, not sustained flight."
+**VO:** "On Thursday, October 15th, at a SpaceX facility in Texas, Tesla finally showed the new Roadster, nearly nine years after it was pitched in 2017. They drove it up a ramp and launched it over a row of other Tesla vehicles. It spun in mid-air and landed using thrusters. Elon Musk said it can, quote, 'basically fly like a rocket.'"
 **Image 2:** Stickman crowd at night, spotlights, big curved ramp, smoke.
 **Image 3:** Side view, white sports car upside down in mid-air, blue thruster flames, row of cartoon cars below.
 
