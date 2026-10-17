@@ -43,11 +43,11 @@ def clip(i):
     return p, fr
 with ThreadPoolExecutor(max_workers=os.cpu_count()) as ex: res = list(ex.map(clip, range(len(S))))
 hook = f"{work}/hook.mp4"
-subprocess.run(["ffmpeg","-v","error","-y","-i",f"{T}/hook_v9_youtube_1080p_rocket.mp4","-an","-vf",f"scale={W}:{H},fps={FPS},setsar=1,format=yuv420p",
+subprocess.run(["ffmpeg","-v","error","-y","-i",f"{T}/tesla-hook-16x9-rocket.mp4","-an","-vf",f"scale={W}:{H},fps={FPS},setsar=1,format=yuv420p",
                 "-c:v","libx264","-crf","18" if W>=1920 else "16","-preset","medium","-tune","animation","-t","4.0",hook],check=True)
 with open(f"{work}/list.txt","w") as f:
     f.write(f"file '{hook}'\n"); [f.write(f"file '{p}'\n") for p,_ in res]
-subprocess.run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",f"{work}/list.txt","-i",f"{T}/hook_v9_youtube_1080p_rocket.mp4","-i",f"{T}/voiceover.mp3",
+subprocess.run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",f"{work}/list.txt","-i",f"{T}/tesla-hook-16x9-rocket.mp4","-i",f"{T}/voiceover.mp3",
   "-filter_complex","[1:a]aresample=48000,aformat=channel_layouts=stereo,apad=whole_dur=4[h];[2:a]aresample=48000,aformat=channel_layouts=stereo,adelay=4000|4000[v];[h][v]amix=inputs=2:normalize=0:duration=longest,alimiter=limit=0.95[a]",
   "-map","0:v","-map","[a]","-c:v","copy","-c:a","aac","-b:a","192k","-ar","48000","-movflags","+faststart",out],check=True)
 print("done", out)
