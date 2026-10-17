@@ -87,7 +87,16 @@
   "77": "3b30e696-ded0-45f4-be71-75e30ffcdfa9 (option A)",
   "78": "3b30e696-ded0-45f4-be71-75e30ffcdfa9 (same image as 77 + renderer labels 2025 / 2026 / 2%)",
   "79": "13035f05-cc57-4626-9c17-5ee3b32155dc",
-  "80": "0cbd5670-9c9b-44e5-b9b2-c1efc2054478"
+  "80": "0cbd5670-9c9b-44e5-b9b2-c1efc2054478",
+  "81": "f544e963-ac8f-4952-9433-be44be2eec08",
+  "82": "a56913cf-9372-4451-877a-9a26400b83ec",
+  "83": "648732bc-a19e-4034-83ba-94a5df42457f",
+  "84": "324c19b8-24fd-4acb-b583-81069bfe331e",
+  "85": "9b1ba141-c804-4d75-b642-c57a9e36b3a3",
+  "86": "fa7efc59-229f-48e9-a79b-76f01801e371",
+  "87": "64077b30-ecc5-46c2-80e1-9cdb4f71fae6",
+  "88": "959749df-8f52-4148-9a1f-8224a79db8ac",
+  "89": "35a41a40-4764-4524-9ca9-c6a885b40fe1"
  },
  "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite. Shots 71-80 mapping corrected after an off-by-one slip (see chat).",
  "shot10_car_panel_job": "6d6d2c8d-112e-478d-9d74-72f1378e722f",
