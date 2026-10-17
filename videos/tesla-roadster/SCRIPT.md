@@ -29,7 +29,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 6:** Spec card (text drawn by renderer): "0-60: UNDER 0.59 S (TESLA CLAIM) · TOP SPEED: 230+ MPH · RANGE: 300+ MILES"
 
 ## 1:45-2:15 — The real question
-**VO:** "But that's the easy question. The better question is: why build a car that jumps for a few seconds? The answer is the reservation page."
+**VO:** "But that is the easy question. The better question is why build a car that jumps for a few seconds? That answer is right on Tesla's own website."
 **Image 7:** Business Stick character confused, question marks, text "WHY BUILD IT?"
 **Image 8:** Stickman reservation page drawn from scratch: three tiers, circled prices. (No real screenshot.)
 
