@@ -114,7 +114,7 @@
   "100": "cb730efa-ca11-4c85-8f6f-8ac709459dd1",
   "101": "d61fc738-ccac-4959-942e-6efc589125d3"
  },
- "note": "Hook file plays first (2.6 s); shot 1 image plays 2.6-5.2 s. Shot 7 and shot 10 calendars are drawn by calendar_draw.py (exact dates), not generated. Shot 10 = car panel job + calendar composite. Shots 71-80 mapping corrected after an off-by-one slip (see chat).",
+ "note": "Hook plays first (4.0 s, v9); shot 1 image plays 4.0-6.6 s; all shot times = narration time + 4.0. Shot 7 and 10 calendars drawn by calendar_draw.py. Shots 71-80 mapping corrected after an off-by-one slip.",
  "shot10_car_panel_job": "6d6d2c8d-112e-478d-9d74-72f1378e722f",
  "user_red_roadster_photo_media": "0e6d785f-b519-4b7b-932f-b28134af49b2",
  "unused_accidental_fix_jobs": {
@@ -145,5 +145,6 @@
   "84": "eed23a78-7bda-45a6-a561-c01784a17126",
   "85": "6e40d0a3-cf9f-45a4-8723-590c6637df35"
  },
- "shot99_old_crossroads_job": "ace059e1-ed51-493d-bf42-59bc46014feb"
+ "shot99_old_crossroads_job": "ace059e1-ed51-493d-bf42-59bc46014feb",
+ "hook_file": "hook-stage-v9.mp4 (user upload, 1080x1920, 4.0 s, mono 44.1k); YouTube-formatted 16:9 render: hook_v9_youtube_1080p.mp4. Replaces hook-stage-v2.mp4 (2.6 s)."
 }

@@ -1,6 +1,6 @@
 # (narration start s, VO words on screen, image idea, overlay text drawn by renderer)
 SHOTS = [
-(0.0,"Yes. Tesla's new car can fly.","Roadster flying high above a night stage with blue thrusters and a smoke trail, nose left; mascot at bottom-left looking up with arms raised, huge smile (plays 2.6-5.2 s, right after the 2.6 s hook file)","YES."),
+(0.0,"Yes. Tesla's new car can fly.","Roadster flying high above a night stage with blue thrusters and a smoke trail, nose left; mascot at bottom-left looking up with arms raised, huge smile (plays 4.0-6.6 s, right after the 4.0 s hook file hook-stage-v9.mp4)","YES."),
 (2.6,"And that's not even the genius part.","Mascot lifts one finger with a smug grin, dark navy stage, glowing question mark behind him","NOT THE GENIUS PART"),
 (5.7,"Tesla didn't just build a flying car...","Sleek white sports car with blue thrusters hovering above a showroom turntable, mascot holding it like a toy","FLYING CAR"),
 (7.4,"...to sell you a flying car.","Mascot as slick car salesman in front of the hovering car, jingling keys, big fake smile",""),
@@ -103,4 +103,4 @@ SHOTS = [
 (225.8,"Tell me in the comments.","Mascot pointing down at a pile of comment bubbles","COMMENT BELOW"),
 ]
 END = 227.08
-HOOK = 2.6
+HOOK = 4.0
