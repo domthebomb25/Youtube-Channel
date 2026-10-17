@@ -50,7 +50,7 @@ Every number is either "Tesla claims", a past promise, or a labeled hypothetical
 **Image 15:** Pyramid: top "ROCKET (invite only)", middle "THRUST / PERFORMANCE", bottom "THE CARS YOU ACTUALLY BUY", arrow "HALO MAKES THE BOTTOM FEEL SPECIAL".
 
 ## 6:30-8:00 — Answer the thumbnail
-**VO:** "So, can Tesla's new car fly? Technically, yes. Real SpaceX thrusters, real flight, and real results. But the flight lasts seconds. The money printer lasts years. This isn't just Tesla's next car. This is Tesla's greatest marketing stunt. And it just printed them over a quarter of a billion dollars in one night."
+**VO:** "So, can Tesla's new car fly? Technically, yes. Real SpaceX thrusters, real flight, and real results. But the flight lasts seconds. The money printer lasts years. This isn't just Tesla's next car. This is Tesla's greatest marketing stunt. And if my math is even close, it just printed them hundreds of millions of dollars in one night."
 **Image 16:** Own thumbnail full screen, green stamp "ANSWERED: YES, BUT..."
 **Image 17:** Stickman Roadster hovering over a calendar marked 2028, Business Stick character with mouth open, yellow tie. Text: "THE JUMP IS REAL. THE MONEY IS REALER."
 **Image 18:** End screen: "WATCH MY SHORT" / "SUBSCRIBE".
