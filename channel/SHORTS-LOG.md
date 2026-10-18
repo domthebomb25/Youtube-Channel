@@ -5,4 +5,4 @@
 | Oct 10 | videos/blockbuster-netflix-short | You had the chance to buy Netflix for $50 million… | ~11.3 |
 | Oct 10 | videos/mcdonalds-ice-cream-short | Why the McDonald's ice cream machine is ALWAYS broken | ~19 |
 | Oct 10 | videos/lego-tires-short | The world's biggest tire maker is… LEGO?! | ~12 |
-| Oct 18 | shorts/day01/tesla-roadster-deposit | I Reserved Tesla's $250K Thruster Car — Here's Where My Money Goes (in progress: voice + 12 images done, hook clip pending) | ~5.1 so far |
+| Oct 18 | shorts/day01/tesla-roadster-deposit | I Reserved Tesla's $250K Thruster Car — Here's Where My Money Goes | ~18.1 (voice 2.1, 40 images 10.0, hook 6) |
