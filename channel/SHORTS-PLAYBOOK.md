@@ -12,7 +12,7 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 ## User rules (non-negotiable)
 - **Quote the credit cost and wait for OK before spending Higgsfield credits** (also in CLAUDE.md). Check `balance` at the start of each day.
 - Every posting instruction must include **every setting in `channel/POSTING-SETTINGS.md`** (AI label ON, Identify similar products OFF, Trial reel OFF, Related video on every Short, etc.). Simple, step-by-step, iPhone first.
-- Hooks start from `channel/HOOK-TEMPLATES.md`. Rotate them; don't repeat the same hook two videos in a row.
+- **HOOK RULE (user decision Oct 18 2026): the PAYOFF is the hook.** Do NOT use the old hook-template phrases ("Did you know...", "Have you ever noticed...", "This might surprise you...", "Nobody talks about this...", "Pause for a second...", etc.; `channel/HOOK-TEMPLATES.md` is retired). The first spoken line states the ending/payoff directly: company + the shocking thing + a number when there is one ("Blockbuster could have bought Netflix for $50M"). A viewer must know what the video is about, and why it matters, within the first 3 seconds. The on-screen hook text and the first image/animation show that same payoff. No throat-clearing intro words before it. Titles and covers reuse the same payoff.
 - **No music in the video** (user decided). **No end text** unless asked. No emojis in the big hook text unless asked.
 - User prefers PDFs over .md for documents they read.
 - Facts must be **verified with sources** (WebSearch) before scripting; never claim unverified things; keep honest caveats in the script. Put 1-2 source links at the bottom of the YouTube description only.
@@ -72,10 +72,10 @@ See the paste block the user keeps; essentials: "Day N of the 30-day plan: make 
 **Done and posted-ready (Day 01 made 4; the plan is now 1 Short per day):**
 | # | Short | Format | Hook (first 3-5 s, animated) | Length |
 |---|---|---|---|---|
-| 1 | Starbucks named after Moby Dick | Weird fact -> real reason | "Did you know ___ exists thanks to ___?" | 29 s |
-| 2 | Bubble Wrap was wallpaper | Sounds dumb until it's genius | "Pause for a second... ___?" | 33 s |
-| 3 | Kleenex wasn't made for noses | Sounds dumb until it's genius | "You're not going to agree with this..." | 34 s |
-| 4 | Mountain Dew wasn't meant to be a soda | Weird fact | "Nobody talks about this..." (no on-screen title) | 28 s |
+| 1 | Starbucks named after Moby Dick | Weird fact -> real reason | old template phrase (retired) | 29 s |
+| 2 | Bubble Wrap was wallpaper | Sounds dumb until it's genius | old template phrase (retired) | 33 s |
+| 3 | Kleenex wasn't made for noses | Sounds dumb until it's genius | old template phrase (retired) | 34 s |
+| 4 | Mountain Dew wasn't meant to be a soda | Weird fact | old template phrase (retired; no on-screen title) | 28 s |
 Earlier (Day 0): Blockbuster (47 s CEO format), McDonald's ice cream machine (49 s), LEGO tires (47 s). All 7 Shorts are posted/ready on YT/TikTok/IG/FB. McDonald's had zero views when posted with no description/tags (test); always use title + description + tags from now on.
 
 **Day-01 production flow that worked (copy it):**
@@ -92,7 +92,7 @@ Earlier (Day 0): Blockbuster (47 s CEO format), McDonald's ice cream machine (49
 
 **Credits:** balance was 808.95 before the Day-01 hooks; spent 24 (hooks) + 2 (thumbnails) -> about 783 (re-check with `balance`). vidIQ: subscribed Oct 13, 2,008 credits at that time (check `vidiq_balance`).
 
-**Topic pool:** `channel/SHORTS-TOPICS.md`. Used so far: Blockbuster, McDonald's ice cream machine, LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (the user supplied the last four scripts). Remaining ideas: Pepsi navy, Southwest arm-wrestle, American Airlines olive, Kit Kat Japan, Heinz 57, Coca-Cola coca leaves, Toblerone Matterhorn, PEZ smoking, Burger King Whopper Detour, Apple Ron Wayne, Nike swoosh $35, Oswald/Mickey, YouTube dating site, Doritos Disneyland, M&M's soldiers, Amazon "Relentless", Game Boy bombing, Arizona 99 cents, Tic Tac 0 calories, IKEA maze, 50 Cent Vitaminwater, Dolly Parton/Elvis, Hollister dark stores, Michael Jackson Beatles songs. Prefer everyday brands the user's audience knows. Hook templates: `channel/HOOK-TEMPLATES.md` (rotate).
+**Topic pool:** `channel/SHORTS-TOPICS.md`. Used so far: Blockbuster, McDonald's ice cream machine, LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew (the user supplied the last four scripts). Remaining ideas: Pepsi navy, Southwest arm-wrestle, American Airlines olive, Kit Kat Japan, Heinz 57, Coca-Cola coca leaves, Toblerone Matterhorn, PEZ smoking, Burger King Whopper Detour, Apple Ron Wayne, Nike swoosh $35, Oswald/Mickey, YouTube dating site, Doritos Disneyland, M&M's soldiers, Amazon "Relentless", Game Boy bombing, Arizona 99 cents, Tic Tac 0 calories, IKEA maze, 50 Cent Vitaminwater, Dolly Parton/Elvis, Hollister dark stores, Michael Jackson Beatles songs. Prefer everyday brands the user's audience knows. Hooks: payoff-first (see HOOK RULE), not template phrases.
 
 **Any-day start:** user says "Day N: make today's Short" (ONE Short per day). Do: read this file + CLAUDE.md + `channel/SHORTS-LOG.md`, run Higgsfield `balance`, then do the TOPIC SOURCING below, verify, write all scripts at once for approval (the user may paste his own scripts instead), quote credits, wait for OK, then follow the flow above. Use `shorts/dayNN/<slug>/`; copy `shorts/day01/build_short.py` and a per-short `assembly/` (align.py, script.txt, config.py) as the template (media is gitignored and the container is ephemeral, so scripts/configs must be committed). At the end of the day: append to `channel/SHORTS-LOG.md`, update this STATUS block, commit + push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
 

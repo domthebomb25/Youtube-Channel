@@ -10,6 +10,7 @@
 ## STRUCTURE (3 PARTS)
 
 ### PART 1 — PAYOFF HOOK [0-1.5s] ANIMATED
+(The payoff IS the hook: no template phrases or intro words; the viewer must know what the video is about within 3 seconds.)
 - Line: tell the ending first. Format: "[Company] [did X shocking thing]".
 - Example: "Blockbuster could have bought Netflix for $50M"
 - Must include a number + the payoff.
