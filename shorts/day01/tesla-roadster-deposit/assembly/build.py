@@ -14,8 +14,8 @@ import make_short as m  # noqa: E402  (fonts, outlined text, caption grouping)
 W, H, FPS = 1080, 1920, 30
 AUD = ROOT / "clips/voiceover.mp3"
 HOOK = ROOT / "clips/hook.mp4"
-HOOK_LEN = 3.64   # clip is 4.04 s; first 0.4 s trimmed so the bag is already moving at frame 0
-NARR = 43.55
+HOOK_LEN = 3.84   # clip is 4.04 s; first 0.2 s trimmed so the bag is already moving at frame 0
+NARR = 42.11
 END_SEC = 0.8
 CAP_Y = 1580   # lower third, still inside the 3:4 grid crop (y 240-1680)
 TITLE_Y = 290   # inside the 3:4 profile-grid crop (y 240-1680)
@@ -42,15 +42,15 @@ SHOTS = [
     (t_of("no", 1), "V57", "in"),                                     # 5
     (t_of("no", 3), "V59", "in"),                                     # 5b
     (t_of("multiply", 1), "V50", "in"),                               # 6
-    (t_of("equals", 1), "V51", "in"),                                 # 6b
+    (t_of("that", 3), "V51", "in"),                                 # 6b
     (t_of("before", 1), "V55", ZOOM(1.0, 1.35, (0.40, 0.45))),         # 7
     (t_of("they", 2), "V61", "in"),                                   # 8
     (t_of("deposits", 1), "V63t", "in"),                              # 8b  $50,000 / $250,000
-    (t_of("car", 2), "V66", ZOOM(1.0, 1.3, (0.5, 0.42))),             # 8c
+    (t_of("still", 1), "V66", ZOOM(1.0, 1.3, (0.5, 0.42))),             # 8c
     (t_of("that's", 1), "V60", ZOOM(1.0, 1.3, (0.5, 0.42))),         # 9
     (t_of("that's", 2), "V5", "in"),                                  # 9b
     (t_of("would", 1), "V17", "in"),                                  # 10
-    (t_of("that", 2), "V17", ZOOM(1.0, 1.35, (0.5, 0.45))),           # 10b punch-in on "that won't exist for years?"
+    (t_of("that", 4), "V17", ZOOM(1.0, 1.35, (0.5, 0.45))),           # 10b punch-in on "that won't exist for years?"
 ]
 TOTAL_END = NARR + END_SEC
 
@@ -58,8 +58,8 @@ TOTAL_END = NARR + END_SEC
 TEXT = [
     (0.00, 3.8, ["POV: YOU JUST GAVE", "TESLA $250,000"], m.YEL),
     (3.8, t_of("tesla", 2), ["FREE LOAN TO TESLA"], m.YEL),
-    (t_of("they", 2), t_of("car", 2), ["2017"], m.YEL),
-    (t_of("car", 2), t_of("that's", 1), ["2026"], m.YEL),
+    (t_of("they", 2), t_of("still", 1), ["2017"], m.YEL),
+    (t_of("still", 1), t_of("that's", 1), ["2026"], m.YEL),
     (t_of("that's", 2), t_of("would", 1), ["MONEY PRINTER"], m.YEL),
 ]
 
@@ -121,7 +121,7 @@ def main():
     gs = m.groups(merge(words), maxn=2)
     titles = [(t[0], t[1], title_layer(t[2], t[3], *t[4:])) for t in TEXT]
     imgs = {n: load(n) for _, n, _ in SHOTS if n != "hook"}
-    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "0.4", "-i", str(HOOK), "-vf",
+    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "0.2", "-i", str(HOOK), "-vf",
                            f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     hook = [Image.frombuffer("RGB", (W, H), hook[i:i + W * H * 3]) for i in range(0, len(hook), W * H * 3)]
