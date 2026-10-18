@@ -108,6 +108,7 @@ def title_layer(lines, top, y0=None, size=92):
     y = TITLE_Y if y0 is None else y0
     for i, t in enumerate(lines):
         tw = d.textlength(t, font=f)
+        d.rounded_rectangle(((W - tw) / 2 - 30, y - fs * 0.72, (W + tw) / 2 + 30, y + fs * 0.72), 26, fill=(0, 0, 0, 140))
         m.outlined(d, ((W - tw) / 2, y), t, f, top if i == 0 else m.WHITE, anchor="lm")
         y += fs * 1.08
     return lay
@@ -141,6 +142,8 @@ def main():
         t0, name, mo = SHOTS[k]
         if name == "hook":
             fr = hook[min(i, len(hook) - 1)].copy()
+            if t < 1.3:   # immediate camera movement: quick zoom-out from the money bag
+                fr = view(fr, ZOOM(1.35, 1.0, (0.5, 0.55)), t / 1.3)
         else:
             fr = view(imgs[name], mo, (t - t0) / (starts[k + 1] - t0))
         fr = fr.convert("RGBA")
@@ -156,6 +159,11 @@ def main():
                 cf = m.font(cf.size - 4)
             widths = [d.textlength(w + " ", font=cf) for w in txt]
             x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
+            bw = int(sum(widths) - d.textlength(" ", font=cf) + 60)
+            bh = int(cf.size * 1.5)
+            box = Image.new("RGBA", (bw, bh), (0, 0, 0, 0))
+            ImageDraw.Draw(box).rounded_rectangle((0, 0, bw - 1, bh - 1), 24, fill=(0, 0, 0, 140))
+            fr.alpha_composite(box, (int(x - 30), int(CAP_Y - bh / 2)))
             for w, wd, (_, a, b) in zip(txt, widths, g):
                 m.outlined(d, (x, CAP_Y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
                 x += wd
