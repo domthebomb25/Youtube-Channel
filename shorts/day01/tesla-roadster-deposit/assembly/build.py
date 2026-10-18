@@ -17,8 +17,8 @@ HOOK = ROOT / "clips/hook.mp4"
 HOOK_LEN = 4.04
 NARR = 43.55
 END_SEC = 0.8
-CAP_Y = 1330
-TITLE_Y = 300   # inside the 3:4 profile-grid crop (y 240-1680)
+CAP_Y = 1580   # lower third, still inside the 3:4 grid crop (y 240-1680)
+TITLE_Y = 290   # inside the 3:4 profile-grid crop (y 240-1680)
 
 WORDS = json.load(open(HERE / "word_timing.json"))
 
@@ -60,7 +60,6 @@ TEXT = [
     (t_of("they", 2), t_of("car", 2), ["2017"], m.YEL),
     (t_of("car", 2), t_of("that's", 1), ["2026"], m.YEL),
     (t_of("that's", 2), t_of("would", 1), ["MONEY PRINTER"], m.YEL),
-    (t_of("would", 1), TOTAL_END, ["WOULD YOU?"], m.YEL, 1580),
 ]
 
 
@@ -101,7 +100,7 @@ def view(img, motion, p):
     return img.transform((W, H), Image.EXTENT, (x, y, x + cw, y + ch), Image.BICUBIC)
 
 
-def title_layer(lines, top, y0=None, size=120):
+def title_layer(lines, top, y0=None, size=92):
     lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(lay)
     fs = min(m.fit(t, W - 140, size).size for t in lines)
@@ -117,14 +116,14 @@ def title_layer(lines, top, y0=None, size=120):
 def main():
     preview = "--preview" in sys.argv
     words = [(w, a, b) for w, a, b in WORDS]
-    gs = m.groups(merge(words))
+    gs = m.groups(merge(words), maxn=2)
     titles = [(t[0], t[1], title_layer(t[2], t[3], *t[4:])) for t in TEXT]
     imgs = {n: load(n) for _, n, _ in SHOTS if n != "hook"}
     hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(HOOK), "-vf",
                            f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     hook = [Image.frombuffer("RGB", (W, H), hook[i:i + W * H * 3]) for i in range(0, len(hook), W * H * 3)]
-    cap_f = m.font(92)
+    cap_f = m.font(70)
     total = TOTAL_END
     nfr = int(round(total * FPS))
     ow, oh = (540, 960) if preview else (W, H)
