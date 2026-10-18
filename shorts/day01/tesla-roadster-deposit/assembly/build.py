@@ -14,7 +14,7 @@ import make_short as m  # noqa: E402  (fonts, outlined text, caption grouping)
 W, H, FPS = 1080, 1920, 30
 AUD = ROOT / "clips/voiceover.mp3"
 HOOK = ROOT / "clips/hook.mp4"
-HOOK_LEN = 4.04
+HOOK_LEN = 3.64   # clip is 4.04 s; first 0.4 s trimmed so the bag is already moving at frame 0
 NARR = 43.55
 END_SEC = 0.8
 CAP_Y = 1580   # lower third, still inside the 3:4 grid crop (y 240-1680)
@@ -56,7 +56,8 @@ TOTAL_END = NARR + END_SEC
 
 # (t0, t1, [lines], colour[, y, font size]) — big top text
 TEXT = [
-    (0.00, t_of("tesla", 2), ["FREE LOAN TO TESLA"], m.YEL),
+    (0.00, 3.8, ["POV: YOU JUST GAVE", "TESLA $250,000"], m.YEL),
+    (3.8, t_of("tesla", 2), ["FREE LOAN TO TESLA"], m.YEL),
     (t_of("they", 2), t_of("car", 2), ["2017"], m.YEL),
     (t_of("car", 2), t_of("that's", 1), ["2026"], m.YEL),
     (t_of("that's", 2), t_of("would", 1), ["MONEY PRINTER"], m.YEL),
@@ -120,7 +121,7 @@ def main():
     gs = m.groups(merge(words), maxn=2)
     titles = [(t[0], t[1], title_layer(t[2], t[3], *t[4:])) for t in TEXT]
     imgs = {n: load(n) for _, n, _ in SHOTS if n != "hook"}
-    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(HOOK), "-vf",
+    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "0.4", "-i", str(HOOK), "-vf",
                            f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     hook = [Image.frombuffer("RGB", (W, H), hook[i:i + W * H * 3]) for i in range(0, len(hook), W * H * 3)]
