@@ -14,7 +14,7 @@ import make_short as m  # noqa: E402  (fonts, outlined text, caption grouping)
 W, H, FPS = 1080, 1920, 30
 AUD = ROOT / "clips/voiceover.mp3"
 HOOK = ROOT / "clips/hook.mp4"
-HOOK_LEN = 3.84   # clip is 4.04 s; first 0.2 s trimmed so the bag is already moving at frame 0
+HOOK_LEN = 3.64   # clip is 4.04 s; first 0.4 s trimmed so the bag is already moving at frame 0
 NARR = 42.11
 END_SEC = 0.8
 CAP_Y = 1580   # lower third, still inside the 3:4 grid crop (y 240-1680)
@@ -121,7 +121,7 @@ def main():
     gs = m.groups(merge(words), maxn=2)
     titles = [(t[0], t[1], title_layer(t[2], t[3], *t[4:])) for t in TEXT]
     imgs = {n: load(n) for _, n, _ in SHOTS if n != "hook"}
-    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "0.2", "-i", str(HOOK), "-vf",
+    hook = subprocess.run(["ffmpeg", "-loglevel", "error", "-ss", "0.4", "-i", str(HOOK), "-vf",
                            f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS}",
                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     hook = [Image.frombuffer("RGB", (W, H), hook[i:i + W * H * 3]) for i in range(0, len(hook), W * H * 3)]
