@@ -111,6 +111,8 @@ Keep 2-3 slots a week open for timely stories (a brand in the news: recall, pric
 
 Findings (Oct 19, 7 Shorts, small sample): Shorts holding 57-61% got ~1,200 views; those at 48-53% mostly got 100-300. People watch ~25 s regardless of length, so cutting to 28-30 s should lift % viewed to 90%+. Nobody is looping yet (best 61%). Swipe-away data still needed (Studio -> Analytics -> Engagement -> Viewed vs swiped away).
 
+Swipe-away data (Studio Advanced mode, Oct 17 export, "Stayed to watch" = did not swipe away at the start): Costco threat 60.6%, business stories 52.6%, Tesla Roadster 45.2%, Tesla fly 44.8%, McDonald's 78.5% (only 105 reached), Costco money maker 48.0%, Relentless 24.3%, Blockbuster 44.4% (only 8 reached, 98.6% avg viewed). Channel total: 51.2% avg viewed, 50.2% stayed to watch, ~1 view per viewer (no rewatching yet). Conclusions: (1) about half of viewers swipe away at the start, so the hook is the biggest lever; target 60%+ stayed to watch (70%+ is common creator advice, not official). (2) McDonald's and Blockbuster had good retention but almost no distribution, so don't judge them on percentages. (3) Views come in bursts then drop (test group pattern). (4) Loops are untested. Check this table in Studio -> Analytics -> Advanced mode -> Content (add "Stayed to watch" and "Unique reach").
+
 ## Open items (Oct 19)
 - Studio retention screenshots (best 2-3 and worst 2 Shorts) -> fill the table above and confirm where viewers leave.
 - Confirm hook credit budget, and set up the SFX pack + SFX mixing in `build.py`.
