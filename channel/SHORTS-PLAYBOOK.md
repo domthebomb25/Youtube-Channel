@@ -28,7 +28,11 @@ Goal: keep the viewer engaged as much as possible. The video opens with its own 
 - First 1-4 s = an ANIMATED clip of the payoff image (the reveal itself), with big top text stating it plainly (e.g. "PEPSI HAD A NAVY"). No filler intro, no "Stop scrolling" / "Nobody talks about this" lead-ins, no hook templates.
 - Then the story explains HOW/WHY, building toward the full answer. The viewer stays to see the setup that leads to the payoff.
 - Write the payoff line first, then script the rest around it. Show the user 2-3 payoff options per script.
-- Loop ending: the last line flows back into the payoff so the Short replays seamlessly.
+- **Invisible loop (user rule, Oct 19):** viewers must not realize the video restarted; they should think it still has more to say.
+  - Words: the last narration line is an unfinished lead-in whose natural next words ARE the opening payoff line (e.g. ends "...the reason is simple:" -> restart "Costco built its own chicken farm..."). The opener must still stand alone for first-time viewers.
+  - Visual: the final shot is the same image as shot 1 (payoff image), so the cut back to the animated hook is seamless.
+  - Text/captions: the big payoff text is already on screen in the last second and shows from frame 0 with no fade-in/pop; captions run straight on.
+  - Audio/timing: no music; cut the last word tight with no trailing silence; no fade-out, no end text, no end card; the first word starts at frame 0.
 - Titles state the payoff as a short claim (no hashtags/emoji/"POV" in the title).
 
 ## Token-lean daily workflow (batch, don't chat back and forth)
