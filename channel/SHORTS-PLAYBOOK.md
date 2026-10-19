@@ -66,10 +66,11 @@ YouTube shows a Short to a small test group first. It mainly judges: (1) viewed 
 - **Length: 25-35 s default.** Longer (up to ~45 s) only when a trending topic needs it. Log the length every time and compare average % viewed.
 - 1080x1920, voice Benji, a new picture every 2-3 s (about 10-14 images), word-by-word yellow captions, big top text on key beats, an animated hook clip, no still image ever fully static (small zoom/shake at every cut).
 - Story formats: "You're the company" (viewer is the CEO, problem, would-you-do-it, reveal name) and "Sounds dumb until it's genius" (weird fact -> real reason). Add new formats as tests prove them.
-- Prefer everyday brands (Costco, McDonald's, Dollar Tree...), product-design secrets, marketing tricks, surprising numbers. Founder legends (FedEx, Kodak, Airbnb, Nokia, KFC, Nintendo, Play-Doh) are overused.
+- **Winning topic type (proven by our own data, Oct 19): a "WTF fact" about a big, well-known brand that shocks people** (Costco co-founder threatening an exec over a $1.50 hot dog, Tesla Roadster "can fly"). Default to this. Quiet name-origin stories and old founder legends (Relentless.com, Blockbuster, FedEx, Kodak, Airbnb, Nokia, KFC, Nintendo, Play-Doh) underperformed; avoid unless the twist is truly shocking.
+- Brand must be one almost everyone knows (Pepsi, McDonald's, Apple, Nike, Tesla, Costco, LEGO, Disney...). The shock must be true and verifiable.
 
 ## Idea gate (score each 1-5; only make topics that score high)
-1. Everyday brand/object the viewer already knows.
+1. Big, famous brand/object almost everyone knows, AND the fact is shocking ("wtf") enough to make a stranger say "no way."
 2. One surprising number or "why" that fits in the first sentence.
 3. The whole story fits in one line.
 4. Shareable: would a viewer send it to someone?
