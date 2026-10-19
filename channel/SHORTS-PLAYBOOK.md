@@ -12,6 +12,13 @@ Data (Oct 19): ~half of viewers swipe away at the start, almost nobody rewatches
 - Big on-screen text with the key number/claim in the first 2 s. Sound effect on the first cut (whoosh/hit).
 - Write 3 hook options per topic and choose the one a non-fan would stop for. Ask: "Would I stop scrolling for this if I had never heard of this company?"
 
+### Motion-from-frame-0 rules (vidIQ pre-publish forecast on the Tesla loan Short, Oct 19: "first 2 seconds are the biggest opportunity")
+- **Action immediately and constant movement.** Nothing static: the visual must change or move from frame 0 and keep changing at least every ~1 s in the first 3 s. A still opening image with the first change at 1.3 s was flagged as weak. Trim dead time so the action/text change lands with the first spoken word.
+- **Hook clip prompt** must describe motion that is already happening at frame 0 (camera already moving, subject mid-action) and continuous for all 4 s. No slow fade-in, no "establishing" frame.
+- **Hook text must be specific, not generic.** Bad: "POV YOU". Good: "POV: You just gave Tesla $250K" or "SODA FOR SUBMARINES." State the payoff or the stakes in the text itself, on screen at 0 s.
+- Every later image also gets motion from its first frame (zoom/pan/shake), never a hold.
+- Tip: run the finished video through vidIQ's pre-publish forecast (in Studio, before posting) and fix what it flags in the first 2 s. Treat the forecast as a hint, not truth (it predicted 92-1,676 for a channel whose Shorts typically reach ~1,200).
+
 ### 2. Engaging transitions (3 s to end) — a reason to stay at every cut
 - A new picture and a new motion every 2-3 s; no static frames (zoom/shake/slide at each cut).
 - **Bridge lines** that open the next beat before the last one ends: "But here's the catch...", "That's when it got worse.", "And nobody saw it coming." Every beat ends on a hook for the next.
@@ -36,6 +43,7 @@ Avoid a "follow for part 2" cliffhanger: it fights the loop and looks like bait;
 
 ### Before-render checklist (all must be yes)
 - [ ] Payoff is in the first line AND the first image; a stranger would stop for it.
+- [ ] Motion from frame 0 (no static opening), hook text is specific, first change lands with the first word.
 - [ ] 25-35 s (longer only for a trending topic).
 - [ ] A bridge line or reveal at least every ~8 s; every cut has motion + SFX.
 - [ ] Loop line written; last image matches first.
