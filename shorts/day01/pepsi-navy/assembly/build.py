@@ -20,7 +20,9 @@ HOOK = MEDIA / "hook7.mp4"              # one continuous 4 s animated hook (fixe
 PLAIN = os.environ.get("PLAIN_HOOK") == "1"       # no SFX / shake / bursts / flash / punch-in on the hook
 HOOK_ONLY = os.environ.get("HOOK_ONLY") == "1"    # render just the first seconds
 TOTAL = 4.6 if HOOK_ONLY else 33.45               # narration ends 33.28 on the unfinished loop line
-CAP_Y = 1450                     # below the faces, above the bottom UI zone
+CAP_Y_BOT, CAP_Y_TOP = 1500, 300  # captions go where they cover nothing important (per shot, see CAPPOS)
+CAPPOS = {"hook": "bot", "new03": "top", "rubles_new": "bot", "img05": "bot", "img06": "top", "img07": "top",
+          "img08": "bot", "img09": "top", "img10": "bot", "s10_new": "bot", "s1": "bot"}
 TITLE_Y = 330
 RED = (235, 50, 40)
 SLOT = (0.375, 0.49)             # coin slot position in the hook frame (fraction of W, H)
@@ -46,16 +48,10 @@ SHAKE = {23.88: 0.35, 26.80: 0.25}
 
 # (t0, t1, [lines], top colour[, y, font size]) big on-screen text; kept off faces
 TEXT = [
-    (0.00, 4.09, ["PAID IN WARSHIPS"], m.YEL, TITLE_Y, 118),
-    (4.09, 5.35, ["1989"], m.YEL, 300, 150),
-    (8.49, 9.78, ["WORTHLESS ABROAD"], m.WHITE, 330, 104),
-    (13.22, 17.31, ["17 SUBMARINES", "+ 3 WARSHIPS"], m.YEL, 330, 104),
-    (19.68, 22.00, ["DISARMING THE SOVIETS", "FASTER THAN AMERICA?"], m.WHITE, 280, 88),
-    (22.80, 23.88, ["THE CATCH"], RED, 330, 130),
-    (27.98, 31.50, ["6TH BIGGEST NAVY?", "LEGEND."], m.YEL, 1080, 100),
+    (0.00, 4.09, ["PAID IN WARSHIPS"], m.YEL, TITLE_Y, 118),      # the only header: the payoff, from frame 0
 ]
 CUTS = [s[0] for s in SHOTS[1:]]
-THUDS = [13.22, 22.80, 31.00]
+THUDS = []                                   # voice only: no hit sounds
 
 
 def merge_years(words):
@@ -203,10 +199,10 @@ def main():
     clip = [Image.frombuffer("RGB", (W, H), raw[i:i + W * H * 3]) for i in range(0, len(raw), W * H * 3)]
     bursts = burst(520)
     mix = make_audio()
-    cap_f = m.font(92)
+    cap_f = m.font(76)
     nfr = int(round(TOTAL * FPS))
     ow, oh = (540, 960) if preview else (W, H)
-    out = MEDIA / ("pepsi-hook-plain.mp4" if HOOK_ONLY else "pepsi-preview2-540p.mp4" if preview else "pepsi-navy-short.mp4")
+    out = MEDIA / ("pepsi-hook-plain.mp4" if HOOK_ONLY else "pepsi-preview4-540p.mp4" if preview else "pepsi-navy-short.mp4")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}",
                            "-r", str(FPS), "-i", "-", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", str(mix),
                            "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
@@ -233,12 +229,13 @@ def main():
             d = ImageDraw.Draw(fr)
             txt = [w[0].upper() for w in g]
             cf = cap_f
-            while sum(d.textlength(w + " ", font=cf) for w in txt) > W - 100 and cf.size > 50:
+            while sum(d.textlength(w + " ", font=cf) for w in txt) > W - 160 and cf.size > 44:
                 cf = m.font(cf.size - 4)
             widths = [d.textlength(w + " ", font=cf) for w in txt]
             x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
+            cy = CAP_Y_TOP if CAPPOS.get(name, "bot") == "top" else CAP_Y_BOT
             for w, wd, (_, a, b) in zip(txt, widths, g):
-                m.outlined(d, (x, CAP_Y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
+                m.outlined(d, (x, cy), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
                 x += wd
         fr = fr.convert("RGB")
         if preview:
