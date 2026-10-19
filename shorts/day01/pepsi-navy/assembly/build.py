@@ -21,7 +21,7 @@ PLAIN = os.environ.get("PLAIN_HOOK") == "1"       # no SFX / shake / bursts / fl
 HOOK_ONLY = os.environ.get("HOOK_ONLY") == "1"    # render just the first seconds
 TOTAL = 4.6 if HOOK_ONLY else 33.45               # narration ends 33.28 on the unfinished loop line
 CAP_Y_BOT, CAP_Y_TOP = 1500, 300  # captions go where they cover nothing important (per shot, see CAPPOS)
-CAPPOS = {"hook": "bot", "new03": "top", "rubles_new": "bot", "img05": "bot", "img06": "top", "img07": "top",
+CAPPOS = {"hook": "bot", "new03": "top", "rubles_new": 690, "img05": "bot", "img06": "top", "img07": "top",
           "img08": "bot", "img09": "top", "img10": "bot", "s10_new": "bot", "s1": "bot"}
 TITLE_Y = 330
 RED = (235, 50, 40)
@@ -202,7 +202,7 @@ def main():
     cap_f = m.font(76)
     nfr = int(round(TOTAL * FPS))
     ow, oh = (540, 960) if preview else (W, H)
-    out = MEDIA / ("pepsi-hook-plain.mp4" if HOOK_ONLY else "pepsi-preview4-540p.mp4" if preview else "pepsi-navy-short.mp4")
+    out = MEDIA / ("pepsi-hook-plain.mp4" if HOOK_ONLY else "pepsi-preview5-540p.mp4" if preview else "pepsi-navy-short.mp4")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}",
                            "-r", str(FPS), "-i", "-", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", str(mix),
                            "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
@@ -233,7 +233,8 @@ def main():
                 cf = m.font(cf.size - 4)
             widths = [d.textlength(w + " ", font=cf) for w in txt]
             x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
-            cy = CAP_Y_TOP if CAPPOS.get(name, "bot") == "top" else CAP_Y_BOT
+            pos = CAPPOS.get(name, "bot")
+            cy = pos if isinstance(pos, (int, float)) else (CAP_Y_TOP if pos == "top" else CAP_Y_BOT)
             for w, wd, (_, a, b) in zip(txt, widths, g):
                 m.outlined(d, (x, cy), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
                 x += wd
