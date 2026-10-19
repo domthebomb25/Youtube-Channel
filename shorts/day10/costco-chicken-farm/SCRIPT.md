@@ -2,18 +2,18 @@
 
 **Title:** Costco Built a Chicken Farm to Keep Its Chicken $4.99?
 **Payoff hook (option A):** COSTCO BUILT ITS OWN CHICKEN FARM… TO KEEP THE $4.99 PRICE
-**Length:** 25-30 s, voice Benji, no music, no end text, loops.
+**Length:** 25-30 s (est. ~29-30 s, 78 spoken words), voice Benji, no music, no end text, invisible loop.
 
-## Narration (~78 words; numbers spelled out)
-1. Costco built its own chicken farm… just to keep this chicken at four ninety-nine.
-2. Costco's cooked chicken has cost four ninety-nine since two thousand nine.
+## Narration (numbers spelled out for alignment)
+1. Costco built its own chicken farm… to keep this chicken at four ninety-nine.
+2. Costco's rotisserie chicken has cost four ninety-nine since two thousand nine.
 3. It loses money on it. Millions.
-4. But people come for the chicken, then fill their carts.
-5. When chicken got pricier, Costco built its own farm and plant in Nebraska in twenty sixteen.
-6. Now it raises part of its own chicken to keep the price low.
-7. That's why Costco built its own chicken farm.   (loops into line 1)
+4. But the price keeps people coming back.
+5. When chicken costs got pricier, Costco built its own chicken farm in Nebraska in twenty sixteen.
+6. It raises its own chickens and keeps the price at four ninety-nine.
+7. And the reason it's still four ninety-nine is simple…   (unfinished; restarts into line 1)
 
-## Shots (11 new images + loop repeat; a new picture every ~2.5-3 s, hook up to 4 s)
+## Shots (11 new images + loop repeat; new picture every ~2.5-3 s, hook up to 4 s)
 | Line | Shot | Image | Top text |
 |---|---|---|---|
 | 1 | 1 | PAYOFF (animated hook): mascot exec in front of chicken barn, holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
@@ -27,11 +27,14 @@
 | 5 | 9 | Nebraska farm and plant | NEBRASKA |
 | 6 | 10 | Chickens growing in the barns | |
 | 6 | 11 | Chicken -> truck -> store shelf, still tagged "4.99" | |
-| 7 | 12 | Repeat of shot 1 (loop frame) | |
+| 7 | 12 | Repeat of shot 1 (loop frame), payoff text already on screen | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
+
+## Invisible loop
+Line 7 ends on "simple…" and cuts instantly; line 1 starts on frame 0, so it reads as one sentence: "the reason it's still $4.99 is simple… Costco built its own chicken farm to keep this chicken at $4.99." Last image = shot 1; payoff text on screen in the last second and from frame 0 (no fade-in); no trailing silence, fade or end card.
 
 ## Verified facts (WebSearch Oct 19 2026)
 - $4.99 since 2009 (briefly raised in 2008). Loss leader. Former CFO, 2015 earnings call: holding the price costs multiple millions; exact loss NOT public (don't quote $30-40M).
-- 2016: Costco created Lincoln Premium Poultry; Nebraska farm + Fremont plant. Covers only PART of supply (line 6 says "part").
+- 2016: Costco created Lincoln Premium Poultry; Nebraska farm + Fremont plant. Covers only PART of Costco's supply; sources disagree how much. Line 6 "raises its own chickens" is true but could be heard as "all"; safer option: "some of its own chickens".
 - Don't link Sinegal's hot dog story to the chicken; no back-of-store claim.
 
 ## Credits (quote, don't spend until OK)
