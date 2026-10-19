@@ -46,6 +46,12 @@ def main():
     tt = base(src)
     lines(tt, [("0 TO 100", m.YEL, 112), ("IN ONE WEEK", m.WHITE, 112)], 270)
     tt.convert("RGB").save(OUT / "cover-tiktok.png")
+    # optional 2nd arg: happy cake thumbnail with text over the cake body (clear of face, candles and thumbs up)
+    if len(sys.argv) > 2:
+        hp = base(sys.argv[2])
+        lines(hp, [("THANK YOU FOR", m.WHITE, 120), ("100 FOLLOWERS", m.YEL, 150)], 1470)
+        hp.convert("RGB").save(OUT / "thumbnail-happy-cake-text.png")
+        hp.convert("RGB").crop((0, 240, W, 1680)).resize((540, 720)).save(OUT / "_grid-check-happy.png")
     # check preview: what the 3:4 profile grid shows of the Instagram cover
     ig.convert("RGB").crop((0, 240, W, 1680)).resize((540, 720)).save(OUT / "_grid-check.png")
     print(sorted(p.name for p in OUT.iterdir()))
