@@ -25,11 +25,22 @@ Data (Oct 19): ~half of viewers swipe away at the start, almost nobody rewatches
 - No goodbye, no "follow for more", no end card. The voice stops on the loop line, so it flows straight back into the hook.
 - Target: avg % viewed over 100%, more than 1 view per viewer.
 
+### Extras (added Oct 19)
+1. **First frame counts:** voice starts on frame 0, no fade-in/intro/silence; the very first frame already shows the payoff (it is what viewers see while swiping).
+2. **Rewatch layer:** hide one detail in the images (a number, a prop, a joke) that people only catch on the second watch.
+3. **Captions are part of the hook:** highlight the payoff words of the first line (bigger/colored) so it works with the sound off.
+4. **Write for shares:** include a line someone would forward to a specific person ("send this to the friend who...").
+5. **Stranger test before spending hook credits:** show the first image for 2 s to 2-3 people ("what's this video about?"); if they can't tell, change it.
+6. **Title = second hook:** same payoff or a curiosity line, brand name in it.
+Avoid a "follow for part 2" cliffhanger: it fights the loop and looks like bait; build series from the format instead.
+
 ### Before-render checklist (all must be yes)
 - [ ] Payoff is in the first line AND the first image; a stranger would stop for it.
 - [ ] 25-35 s (longer only for a trending topic).
 - [ ] A bridge line or reveal at least every ~8 s; every cut has motion + SFX.
 - [ ] Loop line written; last image matches first.
+- [ ] Frame 0 shows the payoff, voice starts at frame 0, payoff words highlighted in captions.
+- [ ] Rewatch detail and a share line included; stranger test done on the hook image.
 - [ ] Facts verified; QA checklist below passed.
 
 ## Goal and strategy
@@ -95,7 +106,7 @@ Keep 2-3 slots a week open for timely stories (a brand in the news: recall, pric
 - Free test: Google Flow gives 50 credits/day (~7 four-second clips) but the user runs it by hand; Claude can write the prompts.
 
 ## Posting and testing
-- Post time: use Studio's "when your viewers are on YouTube" chart.
+- **Post every day at 9:00 AM** (user's local time, same time daily so the algorithm learns the schedule; new channel). Don't change it unless data says otherwise.
 - Pin a comment that asks a question. Reply to comments within the first hour; turn good comment questions into follow-up Shorts. Keep the Related video link on every Short.
 - Title and description carry a clear keyword (brand name, number).
 - Series identity: keep the same character and look; repeat formats that work so viewers subscribe for more.
