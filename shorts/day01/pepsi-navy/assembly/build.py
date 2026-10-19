@@ -124,7 +124,6 @@ def make_audio():
     mix = np.zeros(n, dtype=np.float64)
     mix[:min(n, len(voice))] += voice[:n]
     sfx = np.zeros(n)
-    for t in CUTS[1:]: _add(sfx, whoosh(rng), t - 0.12)
     for t in THUDS: _add(sfx, thud(rng), t)
     mix += sfx
     mix = np.clip(mix, -0.98, 0.98)
