@@ -17,7 +17,9 @@ import make_short as m  # noqa: E402  (fonts, outlined text, caption grouping)
 W, H, FPS, SR = 1080, 1920, 30, 48000
 AUD = MEDIA / "voice_final.mp3"
 HOOK = MEDIA / "hook4.mp4"
-TOTAL = 33.45                    # narration ends 33.28 on the unfinished loop line
+PLAIN = os.environ.get("PLAIN_HOOK") == "1"       # no SFX / shake / bursts / flash / punch-in on the hook
+HOOK_ONLY = os.environ.get("HOOK_ONLY") == "1"    # render just the first seconds
+TOTAL = 4.6 if HOOK_ONLY else 33.45               # narration ends 33.28 on the unfinished loop line
 CAP_Y = 1450                     # below the faces, above the bottom UI zone
 TITLE_Y = 330
 RED = (235, 50, 40)
@@ -29,8 +31,8 @@ SWALLOW, CLIP_AFTER, CAN_AT, HAND_AT = 2.25, 2.85, 3.00, 3.55
 # (start, image, motion); "hook" = animated clip handled in code. Cuts land just before the words.
 SHOTS = [
     (0.00, "hook", None),
-    (CAN_AT, "s3_eyes", {"z0": 1.14, "z1": 1.04, "at": (0.38, 0.62)}),     # can in bin, mascot reaches (punch-in)
-    (HAND_AT, "s4_fixed", {"z0": 1.0, "z1": 1.12, "at": (0.58, 0.5)}),     # hand-off
+    (CAN_AT, "s3_eyes", {"z0": 1.0, "z1": 1.05, "at": (0.38, 0.62)} if PLAIN else {"z0": 1.14, "z1": 1.04, "at": (0.38, 0.62)}),
+    (HAND_AT, "s4_fixed", {"z0": 1.0, "z1": 1.05, "at": (0.58, 0.5)} if PLAIN else {"z0": 1.0, "z1": 1.12, "at": (0.58, 0.5)}),
     (4.09, "new03", "in"),
     (7.80, "rubles_new", "right"),
     (9.78, "img05", "in"),
@@ -42,7 +44,7 @@ SHOTS = [
     (26.80, "s10_new", {"z0": 1.0, "z1": 1.12, "at": (0.5, 0.42)}),
     (31.95, "s1", "in"),                                                  # same picture as the hook -> seamless loop
 ]
-SHAKE = {CAN_AT: 0.30, HAND_AT: 0.18, 23.88: 0.35, 26.80: 0.25}
+SHAKE = {23.88: 0.35, 26.80: 0.25} if PLAIN else {CAN_AT: 0.30, HAND_AT: 0.18, 23.88: 0.35, 26.80: 0.25}
 
 # (t0, t1, [lines], top colour[, y, font size]) big on-screen text; kept off faces
 TEXT = [
@@ -124,10 +126,11 @@ def make_audio():
     mix = np.zeros(n, dtype=np.float64)
     mix[:min(n, len(voice))] += voice[:n]
     sfx = np.zeros(n)
-    for t in (0.40, 0.95, 1.50, 1.95): _add(sfx, clank(rng), t)          # sub jamming into the slot
-    _add(sfx, boom(rng), SWALLOW)                                          # swallowed
-    _add(sfx, clunk(rng), CAN_AT)                                          # can lands in the bin
-    _add(sfx, pop(rng), HAND_AT)                                           # hand-off
+    if not PLAIN:
+        for t in (0.40, 0.95, 1.50, 1.95): _add(sfx, clank(rng), t)      # sub jamming into the slot
+        _add(sfx, boom(rng), SWALLOW)                                      # swallowed
+        _add(sfx, clunk(rng), CAN_AT)                                      # can lands in the bin
+        _add(sfx, pop(rng), HAND_AT)                                       # hand-off
     for t in CUTS[2:]: _add(sfx, whoosh(rng), t - 0.12)
     for t in THUDS: _add(sfx, thud(rng), t)
     mix += sfx
@@ -198,6 +201,8 @@ def hook_frame(clip, t, bursts):
     else:
         src = CLIP_AFTER + (t - SWALLOW)
     fr = clip[min(int(src * FPS), len(clip) - 1)].copy()
+    if PLAIN:
+        return fr
     if t < SWALLOW:
         p = t / SWALLOW
         z = 1 + 0.12 * p
@@ -239,7 +244,7 @@ def main():
     cap_f = m.font(92)
     nfr = int(round(TOTAL * FPS))
     ow, oh = (540, 960) if preview else (W, H)
-    out = MEDIA / ("pepsi-preview-540p.mp4" if preview else "pepsi-navy-short.mp4")
+    out = MEDIA / ("pepsi-hook-plain.mp4" if HOOK_ONLY else "pepsi-preview-540p.mp4" if preview else "pepsi-navy-short.mp4")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}",
                            "-r", str(FPS), "-i", "-", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", str(mix),
                            "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium",
