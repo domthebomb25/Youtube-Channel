@@ -3,6 +3,35 @@
 Started Oct 19 2026. Replaces v1 (kept at `channel/archive/SHORTS-PLAYBOOK-v1.md`). A new chat has NO memory of earlier chats; this file is the memory.
 Update it whenever a test teaches us something (see "Post-mortem log").
 
+## THE TEMPLATE — every Short has these three parts (no exceptions)
+Data (Oct 19): ~half of viewers swipe away at the start, almost nobody rewatches, and watched time is ~25 s whatever the length. So: stop the swipe, keep them moving, then make them replay.
+
+### 1. Payoff hook (0-3 s) — for people who did NOT plan to watch this topic
+- Lead with the result, in one line, spoken and shown: a surprising number, an absurd claim, or a "you" stake (money lost, a price, a secret). Make it understandable to someone who has never heard of the brand.
+- First image = the payoff, one clear subject, extreme scale/contrast/impossible object. Test it on a stranger: sound off, can they tell what's happening and want the answer?
+- Big on-screen text with the key number/claim in the first 2 s. Sound effect on the first cut (whoosh/hit).
+- Write 3 hook options per topic and choose the one a non-fan would stop for. Ask: "Would I stop scrolling for this if I had never heard of this company?"
+
+### 2. Engaging transitions (3 s to end) — a reason to stay at every cut
+- A new picture and a new motion every 2-3 s; no static frames (zoom/shake/slide at each cut).
+- **Bridge lines** that open the next beat before the last one ends: "But here's the catch...", "That's when it got worse.", "And nobody saw it coming." Every beat ends on a hook for the next.
+- **Escalate:** each beat raises the stakes or the surprise (bigger number, bigger twist). Put a reveal/twist/number every ~6-8 s, where drop-off usually happens.
+- **Visual transitions:** whip pan, zoom-through, match-cut (object in one image becomes the next), scale reveal (zoom out to show it's huge). Sound effect on each transition, quiet under the voice.
+- No filler: cut anything that doesn't raise a question or answer one.
+
+### 3. Loop ending — the Short replays seamlessly
+- Last line finishes the sentence/idea that the hook line starts (hook: "This mistake cost $50 billion." end: "...and that's the mistake that cost $50 billion.").
+- Last image visually matches the first image so the replay looks continuous.
+- No goodbye, no "follow for more", no end card. The voice stops on the loop line, so it flows straight back into the hook.
+- Target: avg % viewed over 100%, more than 1 view per viewer.
+
+### Before-render checklist (all must be yes)
+- [ ] Payoff is in the first line AND the first image; a stranger would stop for it.
+- [ ] 25-35 s (longer only for a trending topic).
+- [ ] A bridge line or reveal at least every ~8 s; every cut has motion + SFX.
+- [ ] Loop line written; last image matches first.
+- [ ] Facts verified; QA checklist below passed.
+
 ## Goal and strategy
 - Channel: The Business Stick HQ (@TheBusinessStickHQ). Shorts only. Stickman business stories.
 - **ONE strong YouTube Short per day** (changed from 6/day on Oct 19). Quality and learning over volume. Same story also goes to TikTok / Instagram / Facebook.
