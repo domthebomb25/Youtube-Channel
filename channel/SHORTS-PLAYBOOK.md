@@ -97,11 +97,19 @@ Keep 2-3 slots a week open for timely stories (a brand in the news: recall, pric
 - Existing folders under `videos/` hold committed media from Day 0; leave them.
 
 ## Post-mortem log (fill in 48 h after posting)
-| Date | Topic | Hook type | Length | 3-s retention (viewed vs swiped) | Avg % viewed | Views at 7 days | Lesson |
-|---|---|---|---|---|---|---|---|
-| Oct 10 | Blockbuster/Netflix | | ~48 s | | | | |
-| Oct 10 | McDonald's ice cream | | ~48 s | | | | |
-| Oct 10 | LEGO tires | | ~48 s | | | | |
+| Date | Topic | Length | Views (Oct 19) | Avg watched | Avg % viewed | Lesson |
+|---|---|---|---|---|---|---|
+| Oct 16 | Tesla Roadster can FLY | 45 s | 1,320 | 0:27 | 61.3% | Best retention + views; everyday brand + curiosity title |
+| Oct 7 | Costco co-founder threatened exec ($1.50 hot dog) | 47 s | 1,164 | 0:28 | 61.4% | Highest like rate (48 likes) |
+| Oct 8 | "Business stories nobody tells you" | 23 s | 1,261 | 0:13 | 57.0% | Short (23 s) matched the 45 s ones |
+| Oct 17 | Tesla "car that can fly?" | 48 s | 1,210 | 0:23 | 48.3% | Near-duplicate of Oct 16 topic; avoid repeats |
+| Oct 14 | McDonald's ice cream locked | 32 s | 280 | 0:15 | 49.3% | |
+| Oct 9 | Costco real money maker | 52 s | 211 | 0:25 | 48.3% | |
+| Oct 13 | Relentless.com / Amazon name | 38 s | 103 | 0:20 | 53.4% | Name-story topic, weak |
+| Oct 15 | Blockbuster / Netflix | 35 s | 13 | | | Founder-legend topic, weakest |
+| Oct 18 | Tesla $250K loan | 43 s | 56 | | | Too new to judge |
+
+Findings (Oct 19, 7 Shorts, small sample): Shorts holding 57-61% got ~1,200 views; those at 48-53% mostly got 100-300. People watch ~25 s regardless of length, so cutting to 28-30 s should lift % viewed to 90%+. Nobody is looping yet (best 61%). Swipe-away data still needed (Studio -> Analytics -> Engagement -> Viewed vs swiped away).
 
 ## Open items (Oct 19)
 - Studio retention screenshots (best 2-3 and worst 2 Shorts) -> fill the table above and confirm where viewers leave.
