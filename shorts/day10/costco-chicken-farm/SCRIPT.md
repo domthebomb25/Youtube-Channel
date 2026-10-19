@@ -13,18 +13,21 @@
 6. Now it raises part of its own chicken to keep the price low.
 7. That's why Costco built its own chicken farm.   (loops into line 1)
 
-## Shots (8 new images + loop repeat)
+## Shots (11 new images + loop repeat; a new picture every ~2.5-3 s, hook up to 4 s)
 | Line | Shot | Image | Top text |
 |---|---|---|---|
-| 1 | 1 | PAYOFF (animated): mascot exec in front of chicken barn, holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
-| 2 | 2 | Giant store, chicken on shelf with "4.99" tag, calendar showing 2009 | SINCE 2009 |
-| 3 | 3 | Mascot watching money fall out of a bag | LOSES MONEY |
-| 4 | 4 | Shoppers rushing toward the chicken | |
-| 4 | 5 | Shoppers leaving with full carts | FULL CARTS |
-| 5 | 6 | Mascot with hard hat and blueprint | 2016 |
-| 5 | 7 | Nebraska farm and plant | NEBRASKA |
-| 6 | 8 | Chickens -> truck -> store shelf, still tagged "4.99" | |
-| 7 | 9 | Repeat of shot 1 (loop frame) | |
+| 1 | 1 | PAYOFF (animated hook): mascot exec in front of chicken barn, holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
+| 2 | 2 | Giant store, chicken on shelf with "4.99" tag | $4.99 |
+| 2 | 3 | Calendar showing 2009 beside the tag | SINCE 2009 |
+| 3 | 4 | Mascot watching money fall out of a bag | LOSES MONEY |
+| 4 | 5 | Shoppers rushing toward the chicken | |
+| 4 | 6 | Shoppers leaving with full carts | FULL CARTS |
+| 5 | 7 | Chicken price chart rising | COSTS RISING |
+| 5 | 8 | Mascot with hard hat and blueprint | 2016 |
+| 5 | 9 | Nebraska farm and plant | NEBRASKA |
+| 6 | 10 | Chickens growing in the barns | |
+| 6 | 11 | Chicken -> truck -> store shelf, still tagged "4.99" | |
+| 7 | 12 | Repeat of shot 1 (loop frame) | |
 
 ## Verified facts (WebSearch Oct 19 2026)
 - $4.99 since 2009 (briefly raised in 2008). Loss leader. Former CFO, 2015 earnings call: holding the price costs multiple millions; exact loss NOT public (don't quote $30-40M).
@@ -32,7 +35,7 @@
 - Don't link Sinegal's hot dog story to the chicken; no back-of-store claim.
 
 ## Credits (quote, don't spend until OK)
-Voice ~1.5 + 8 images x 0.25 = 2.0 + hook 6 = **~9.5**. Balance 14.36 -> ~4.9 left.
+Voice ~1.5 + 11 images x 0.25 = 2.75 + hook 6 = **~10.25**. Balance 14.36 -> ~4.1 left.
 
 ## YouTube description sources
 - https://thehustle.co/the-economics-of-costco-rotisserie-chicken
