@@ -5,13 +5,13 @@
 **Length:** 25-30 s (est. ~29-30 s, 78 spoken words), voice Benji, no music, no end text, invisible loop.
 
 ## Narration (numbers spelled out for alignment)
-1. Costco built its own chicken farm… to keep this chicken at four ninety-nine.
+1. Costco built its own chicken farm… to keep the rotisserie chicken at four ninety-nine.
 2. Costco's rotisserie chicken has cost four ninety-nine since two thousand nine.
 3. It loses money on it. Millions.
 4. But the price keeps people coming back.
 5. When chicken costs got pricier, Costco built its own chicken farm in Nebraska in twenty sixteen.
 6. It raises its own chickens and keeps the price at four ninety-nine.
-7. And the reason it's still four ninety-nine is simple…   (unfinished; restarts into line 1)
+7. So how is the rotisserie still four ninety-nine?   (question; line 1 answers it on restart)
 
 ## Shots (11 new images + loop repeat; new picture every ~2.5-3 s, hook up to 4 s)
 | Line | Shot | Image | Top text |
@@ -30,7 +30,7 @@
 | 7 | 12 | Repeat of shot 1 (loop frame), payoff text already on screen | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
 
 ## Invisible loop
-Line 7 ends on "simple…" and cuts instantly; line 1 starts on frame 0, so it reads as one sentence: "the reason it's still $4.99 is simple… Costco built its own chicken farm to keep this chicken at $4.99." Last image = shot 1; payoff text on screen in the last second and from frame 0 (no fade-in); no trailing silence, fade or end card.
+Line 7 asks "So how is the rotisserie still four ninety-nine?" and cuts instantly; line 1 starts on frame 0 and answers it: "Costco built its own chicken farm… to keep the rotisserie chicken at four ninety-nine." Last image = shot 1; payoff text on screen in the last second and from frame 0 (no fade-in); no trailing silence, fade or end card.
 
 ## Verified facts (WebSearch Oct 19 2026)
 - $4.99 since 2009 (briefly raised in 2008). Loss leader. Former CFO, 2015 earnings call: holding the price costs multiple millions; exact loss NOT public (don't quote $30-40M).
