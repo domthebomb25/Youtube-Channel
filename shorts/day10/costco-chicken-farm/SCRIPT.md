@@ -13,20 +13,21 @@
 6. It raises its own chickens and keeps the price at four ninety-nine.
 7. So how is the rotisserie still four ninety-nine?   (question; line 1 answers it on restart)
 
-## Shots (11 new images + loop repeat; new picture every ~2.5-3 s, hook up to 4 s)
+## Shots (1 new image + 10 reused from the Costco long video + loop repeat; new picture every ~2.5-3 s)
+Reused = `videos/costco-hot-dog/images/imgNN.png`, cropped to 9:16 (renderer adds all text; baked-in overlays seen in the long video are not in the clean files).
 | Line | Shot | Image | Top text |
 |---|---|---|---|
-| 1 | 1 | PAYOFF (animated hook): mascot exec in front of chicken barn, holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
-| 2 | 2 | Giant store, chicken on shelf with "4.99" tag | $4.99 |
-| 2 | 3 | Calendar showing 2009 beside the tag | SINCE 2009 |
-| 3 | 4 | Mascot watching money fall out of a bag | LOSES MONEY |
-| 4 | 5 | Shoppers rushing toward the chicken | |
-| 4 | 6 | Shoppers leaving with full carts | FULL CARTS |
-| 5 | 7 | Chicken price chart rising | COSTS RISING |
-| 5 | 8 | Mascot with hard hat and blueprint | 2016 |
-| 5 | 9 | Nebraska farm and plant | NEBRASKA |
-| 6 | 10 | Chickens growing in the barns | |
-| 6 | 11 | Chicken -> truck -> store shelf, still tagged "4.99" | |
+| 1 | 1 | NEW PAYOFF (animated hook): mascot exec in front of chicken barn holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
+| 2 | 2 | img132 chicken under dome with price sign | $4.99 |
+| 2 | 3 | img133 chicken frozen in ice | SINCE 2009 |
+| 3 | 4 | img139 money pouring out of chicken container (alt img140) | LOSES MONEY |
+| 4 | 5 | img134 shoppers carrying chickens (alt img142, img155) | |
+| 4 | 6 | img153 overflowing cart with chicken | FULL CARTS |
+| 5 | 7 | img141 worker raising chicken price tag on a ladder | COSTS RISING |
+| 5 | 8 | img143 mascot by the Nebraska sign | NEBRASKA |
+| 5 | 9 | img144 aerial chicken complex and farms (long-video graphic says "OPENED 2019": keep that overlay off) | |
+| 6 | 10 | img146 mascot at barn and silos | |
+| 6 | 11 | img147 chicken conveyor belt in the plant | |
 | 7 | 12 | Repeat of shot 1 (loop frame), payoff text already on screen | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |
 
 ## Invisible loop
@@ -35,10 +36,11 @@ Line 7 asks "So how is the rotisserie still four ninety-nine?" and cuts instantl
 ## Verified facts (WebSearch Oct 19 2026)
 - $4.99 since 2009 (briefly raised in 2008). Loss leader. Former CFO, 2015 earnings call: holding the price costs multiple millions; exact loss NOT public (don't quote $30-40M).
 - 2016: Costco created Lincoln Premium Poultry; Nebraska farm + Fremont plant. Covers only PART of Costco's supply; sources disagree how much. Line 6 "raises its own chickens" is true but could be heard as "all"; safer option: "some of its own chickens".
+- OPEN ISSUE: line 5 says Costco built the farm 'in twenty sixteen'. Sources found: Lincoln Premium Poultry was CREATED in 2016; the long video's graphic says the Nebraska plant OPENED 2019. Safer wording: 'in twenty sixteen, Costco started its own poultry company'.
 - Don't link Sinegal's hot dog story to the chicken; no back-of-store claim.
 
 ## Credits (quote, don't spend until OK)
-Voice ~1.5 + 11 images x 0.25 = 2.75 + hook 6 = **~10.25**. Balance 14.36 -> ~4.1 left.
+Voice ~1.5 + 1 new image 0.25 + hook 6 = **~7.75**. Balance 14.36 -> ~6.6 left.
 
 ## YouTube description sources
 - https://thehustle.co/the-economics-of-costco-rotisserie-chicken
