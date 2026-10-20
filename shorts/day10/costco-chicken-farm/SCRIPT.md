@@ -51,3 +51,6 @@ Voice ~1.5 + 1 new image 0.25 + hook 6 = **~7.75**. Balance 14.36 -> ~6.6 left.
 - Current hook clip (pointing at barn, 4 s, 6 credits spent) judged too static. Needs movement from frame 0 to the last frame; no static screen.
 - Every story shot still moves (push-in, pan, punch zoom, shake); no static image for its 2.5-3 s.
 - Balance 7.36; voice ~1.5; 3 s Kling hook = 4.5, 4 s = 6.
+
+## Final text notes (Oct 20)
+- Shot 12 top text (user): SO HOW IS THE ROTISSERIE / STILL $4.99?  The picture is identical to the hook's first frame; only the text box changes at the restart (question -> answer).

@@ -66,11 +66,11 @@ def panel_layer(lines,top=250):
     return lay
 PH={ 'A':['COSTCO BUILT ITS OWN','CHICKEN FARM'],'B':['TO KEEP THE ROTISSERIE','CHICKEN AT $4.99'],
  'P1':['ROTISSERIE CHICKEN','$4.99 SINCE 2009'],'P2':['COSTCO LOSES','MILLIONS'],'P3':['THE PRICE KEEPS','PEOPLE COMING BACK'],
- 'P4':['CHICKEN COSTS','GOT PRICIER'],'P5':['BUILT ITS OWN FARM','NEBRASKA 2016'],'P6':['IT RAISES ITS OWN','CHICKENS'],'P7':['THE PRICE STAYS','AT $4.99']}
+ 'P4':['CHICKEN COSTS','GOT PRICIER'],'P5':['BUILT ITS OWN FARM','NEBRASKA 2016'],'P6':['IT RAISES ITS OWN','CHICKENS'],'P7':['THE PRICE STAYS','AT $4.99'],'Q':['SO HOW IS THE ROTISSERIE','STILL $4.99?']}
 LAY={k:panel_layer(v) for k,v in PH.items()}
 phases=[(0.0,wstart('to'),'A'),(wstart('to'),wstart("costco's"),'B'),(wstart("costco's"),wstart('it',0),'P1'),(wstart('it',0),wstart('but'),'P2'),
  (wstart('but'),wstart('when'),'P3'),(wstart('when'),wstart('costco',1),'P4'),(wstart('costco',1),wstart('it',2),'P5'),(wstart('it',2),wstart('and',0),'P6'),
- (wstart('and',0),wstart('so'),'P7'),(wstart('so'),AUD_LEN+1,'A')]
+ (wstart('and',0),wstart('so'),'P7'),(wstart('so'),AUD_LEN+1,'Q')]
 phases=[(f(a),f(b),k) for a,b,k in phases]
 # ---------- captions (2-token groups, spoken token in yellow)
 toks=[];i=0
