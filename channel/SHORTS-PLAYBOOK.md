@@ -36,6 +36,16 @@ Goal: keep the viewer engaged as much as possible. The video opens with its own 
   - Audio/timing: no music; cut the last word tight with no trailing silence; no fade-out, no end text, no end card; the first word starts at frame 0.
 - Titles state the payoff as a short claim (no hashtags/emoji/"POV" in the title).
 
+## Text style (user-approved "Tesla video" look, Oct 20)
+- Font LuckiestGuy (`videos/costco-hot-dog/assembly/fonts/LuckiestGuy.ttf`), thick black outline.
+- **Top text:** 2 lines, SAME size, line 1 yellow, line 2 white, each line in its own dark rounded box (rgba 20,35,45 at ~70%). Starts at y~250, widest line <= 810 px. It stays up across several shots and changes at story beats (not per word). Never on the character.
+- **Captions:** 2-word groups (break at every sentence pause, never cross a sentence), gray rounded box (rgba 30,30,32,200), size 72. The word being spoken is YELLOW, the other white. Numbers shown as digits ($4.99, 2009, 2016). y=1556 on story shots (below the 16:9 picture); y=1625 on full-screen shots (hook, loop) so they miss the character.
+- Story shots: 16:9 image shown whole at the vertical centre (y 656-1263) over a blurred, darkened copy; every shot has motion (push-in, pan, punch zoom, shake).
+- Pauses between lines are compressed to max 0.45 s in the render (pace).
+- Loop: video starts on the hook's first frame (no intro frame); last shot is that exact frame (pull-out ends at scale 1.00) with the same top text; last narration line sets up line 1.
+- Sound: no music; quiet synthesized chicken clucks (volume 0.16) under the hook only. This audio tool makes speech only, so effects are synthesized in ffmpeg/numpy (assembly/chickens.py) or supplied by the user.
+- Hook clip cost by length (kling3_0 std, no sound): 3 s = 4.5, 4 s = 6, 5 s = 7.5 credits.
+
 ## Token-lean daily workflow (batch, don't chat back and forth)
 1. Read this file + `balance`. Pick today's 6 topics from `SHORTS-TOPICS.md` (mix formats).
 2. WebSearch-verify each (2 searches max each). Write 6 scripts (narration + on-screen text). **Show all 6 at once for one approval.**
