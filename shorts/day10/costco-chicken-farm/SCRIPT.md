@@ -14,7 +14,7 @@
 7. So how is the rotisserie still four ninety-nine?   (question; line 1 answers it on restart)
 
 ## Shots (1 new image + 10 reused from the Costco long video + loop repeat; new picture every ~2.5-3 s)
-Reused = `videos/costco-hot-dog/images/imgNN.png`, cropped to 9:16 (renderer adds all text; baked-in overlays seen in the long video are not in the clean files).
+Reused = `videos/costco-hot-dog/images/imgNN.png`, shown WHOLE as 16:9 in the middle of the vertical frame with blurred fill above/below (no cropping; user decision). Only shot 1 (payoff hook) is full-screen 9:16. Renderer adds all text; baked-in overlays seen in the long video are not in the clean files.
 | Line | Shot | Image | Top text |
 |---|---|---|---|
 | 1 | 1 | NEW PAYOFF (animated hook): mascot exec in front of chicken barn holding rotisserie chicken with "4.99" tag | COSTCO BUILT ITS OWN CHICKEN FARM / TO KEEP THE $4.99 PRICE |

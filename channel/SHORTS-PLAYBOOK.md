@@ -19,6 +19,7 @@ Made so far: Blockbuster, McDonald's ice cream machine, LEGO tires (folders unde
 
 ## Format of one Short (what works)
 - **25-30 s** (user rule, Oct 19; about 70-80 spoken words, one idea per line), 1080x1920, voice Benji, 10-12 stickman images (**new picture every 2.5-3 s** to keep the pace up and protect retention; the animated hook opener may run up to 4 s), word-by-word yellow captions, big top text on key beats, an animated payoff hook (1-4 s) at the very start, and a loop ending.
+- **Layout (user decision, Oct 19):** the animated payoff hook is full screen (9:16). Story shots may be 16:9 images shown WHOLE (width-fit, centered, no cropping) inside the 1080x1920 frame with a blurred, darkened copy of the same image filling the space above and below (same look as the Tesla video). Big top text sits in the open space above the picture, captions below. This lets old 16:9 images be reused as-is.
 - Story formats: "You're the company" (viewer becomes the CEO, problem, would-you-do-it, reveal company name at end) and "Sounds dumb until it's genius" (weird fact -> real reason).
 - Topic pool: `channel/SHORTS-TOPICS.md` (~29 unused ideas). The founder legends (FedEx, Kodak, Airbnb, Nokia, KFC, Nintendo, Play-Doh) are overused; prefer everyday brands, product-design secrets, marketing tricks, surprising numbers. Need ~150 more topics over the 30 days; research them (WebSearch; vidIQ if credits).
 - Quality bar for monetization review: every Short = original script, original visuals, different story. Never near-duplicates.
