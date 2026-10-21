@@ -121,7 +121,7 @@ def main():
     out = ROOT / ("preview-540p.mp4" if preview else "mrbeast-80m-short.mp4")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}",
                            "-r", str(FPS), "-i", "-", "-i", str(AUD), "-i", str(HOOK), "-map", "0:v", "-map", "[a]",
-                           "-filter_complex", f"[1:a]apad,atrim=0:{total:.2f}[v];[2:a]atempo={HOOKLEN / HOOK_END:.4f},atrim=0:{HOOK_END},afade=t=out:st={HOOK_END - 0.5}:d=0.5,volume=0.55,apad,atrim=0:{total:.2f}[h];[v][h]amix=inputs=2:duration=first:normalize=0[a]", "-c:v", "libx264", "-preset", "medium",
+                           "-filter_complex", f"[1:a]apad,atrim=0:{total:.2f}[v];[2:a]atempo={HOOKLEN / HOOK_END:.4f},atrim=0:{HOOK_END},asplit=2[h1][h2];[h1]lowpass=f=250[hl];[h2]highpass=f=5500[hh];[hl][hh]amix=inputs=2:normalize=0,afade=t=out:st={HOOK_END - 0.5}:d=0.5,volume=0.9,apad,atrim=0:{total:.2f}[h];[v][h]amix=inputs=2:duration=first:normalize=0[a]", "-c:v", "libx264", "-preset", "medium",
                            "-crf", "23" if preview else "17", "-pix_fmt", "yuv420p", "-profile:v", "high",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(out)],
                           stdin=subprocess.PIPE)
