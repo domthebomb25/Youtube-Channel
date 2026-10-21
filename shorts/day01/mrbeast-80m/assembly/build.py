@@ -40,11 +40,11 @@ SHOTS = [
     (41.61, "img13", "in"),
     (43.35, "img14", "static"),   # identical to the hook's first frame so the loop is seamless
 ]
-SHAKE = {1.28: 0.40}          # -$80,000,000 slam
+SHAKE = {1.18: 0.40}          # -$80,000,000 slam
 
 # (t0, t1, [lines], top colour[, y, font size]) - big on-screen text near the top
 TEXT = [
-    (1.28, 4.84, ["-$80,000,000"], RED, 300, 150),
+    (1.18, 4.84, ["-$80,000,000"], RED, 300, 150),
     (17.30, 18.54, ["BANKRUPTCY?"], RED),
     (26.71, 30.13, ["$0 ADVERTISEMENT"], m.YEL),
     (32.40, 35.14, ["$200,000,000+"], m.YEL),
@@ -131,7 +131,7 @@ def main():
         k = max(j for j in range(len(SHOTS)) if SHOTS[j][0] <= t)
         t0, name, mo = SHOTS[k]
         if name == "hook":
-            fr = hook[min(i, len(hook) - 1)].copy()
+            fr = view(hook[min(i, len(hook) - 1)], {"z0": 1.0, "z1": 1.14, "at": (.5, .5)}, t / HOOK_END)   # punch-in from frame 1 (ends at 1.0 on the loop)
         else:
             fr = view(imgs[name], mo, (t - t0) / (starts[k + 1] - t0))
         for st, du in SHAKE.items():
@@ -152,6 +152,11 @@ def main():
                 cf = m.font(cf.size - 4)
             widths = [d.textlength(w + " ", font=cf) for w in txt]
             x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
+            bw = sum(widths) - d.textlength(" ", font=cf)
+            box = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            ImageDraw.Draw(box).rounded_rectangle((x - 28, CAP_Y - cf.size * 0.78, x + bw + 28, CAP_Y + cf.size * 0.78), radius=30, fill=(0, 0, 0, 125))
+            fr.alpha_composite(box)
+            d = ImageDraw.Draw(fr)
             for w, wd, (_, a, b) in zip(txt, widths, g):
                 m.outlined(d, (x, CAP_Y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
                 x += wd
