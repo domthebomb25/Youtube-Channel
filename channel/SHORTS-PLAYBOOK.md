@@ -1,23 +1,32 @@
 # THE BUSINESS STICK HQ — SHORT / REEL SCRIPT TEMPLATE (the playbook)
 
-Use for every daily short. One master video → YouTube Shorts + Facebook Reel + Instagram + TikTok. Targets it is built to hit: beat the 9.4s average exit (goal 15.4s+ avg watch time), drive comments + follows, protect Facebook Content Monetization eligibility. **Length: DEFAULT 25–30 seconds · ~70–85 spoken words (at Benji's narration pace) · vertical 1080×1920 · no music**
+Use for every daily short. One master video → YouTube Shorts + Facebook Reel + Instagram + TikTok. Targets it is built to hit: beat the 9.4s average exit (goal 15.4s+ avg watch time), drive comments + follows, protect Facebook Content Monetization eligibility. **Length: 25–30 seconds · roughly 70–85 spoken words at your narration pace · vertical 1080×1920 · no music · images every 2.5-3 seconds**
 
-## LENGTH RULES (user decision Oct 2026)
-- **Default: 25–30 seconds, ~70–85 spoken words.** Shorter improves completion and makes the perfect loop more likely to replay.
-- **31–40 seconds:** only when the story needs a second twist, a multi-step money mechanism, or a comeback/fraud arc that would feel rushed at 30.
-- **45 seconds: hard ceiling,** except for a genuinely exceptional story.
-- **Never pad a simple story to make it longer;** every extra second has to hold attention.
-- Trade-off: shorter helps completion, but cutting the payoff too aggressively can reduce total watch time. Rule: **as short as possible without weakening the story.**
-- Images change every 2.5–3 seconds. No music.
-- The beat timings below are for the 25–30 s default. **If a video runs longer, only the Turn and Payoff expand; the Hook, Setup and Stakes timings, and above all the 0:09 stakes deadline, never move.**
+## LENGTH (the user's exact words)
+
+SCRIPT IS 25-30 SECONDS AND IF AND ONLY IF THE STORY REQUIRES IT NECESSARY TO BE LONGER WE MAKE IT LONGER TO THE GUIDELINES.
+
+Let's make 25–30 seconds the default, not 35–45.
+That's roughly 70–85 spoken words at your narration pace. The shorter default should improve completions and make the perfect loop more likely to replay.
+Go longer only when the story earns it:
+
+* 31–40 seconds: it needs a second twist, a multi-step money mechanism, or a comeback/fraud arc that would feel rushed at 30
+* 45 seconds: hard ceiling, except for a genuinely exceptional story
+* Never pad a simple story just to make it longer — every extra second has to hold attention
+
+The trade-off is important: shorter helps completion, but cutting the payoff too aggressively could reduce total watch time. So the rule is as short as possible without weakening the story.
+
+No music. Images every 2.5-3 seconds.
+
+If a story needs more setup, the extra context goes after the stakes, inside the Turn. And if the video runs longer, only the Turn and Payoff expand — the stakes deadline never moves.
 
 ## THE SCRIPT SKELETON (copy this table for every video)
 
 | Time | Beat | What goes here | Rules |
 |---|---|---|---|
 | 0:00–0:03 | **THE HOOK** | DEFAULT: one searchable QUESTION, spoken AND on screen: "Why did ___ ?" / "How did ___ lose $___?" VARIANT (~3 in 10): a shock STATEMENT when the bare fact beats any question ("Blockbuster could have bought Netflix for $50M"). | Same words spoken + shown (SEO). Either form must contain the money mystery. Test: say both versions aloud — whichever stops a stranger mid-scroll wins; if it's close, take the question. No intro, no greeting, no logo. |
-| 0:03–0:06 | **THE SETUP** | The surprising origin / situation in 1–2 lines. Weirdest true detail goes here. | Viewer must think "wait, what?" by second 6 (the setup ends at 0:06). Keep it to 1–2 lines. |
-| 0:06–0:09 | **THE STAKES ★** | The money line: dollar figure, scale, or "still selling after ___ years" — the business mystery stated out loud. | **Non-negotiable.** **Money hint in the hook when possible; concrete stakes completed by 0:09.** A money hint alone is not enough: the actual stakes must be fully spoken by about 0:09. By 0:12 we are already past the 9.4-second average watch time, so the stakes can never be left for the payoff. If a story needs more setup, the extra context goes AFTER the stakes, inside the Turn. |
+| 0:03–0:06 | **THE SETUP** | The surprising origin / situation in 1–2 lines. Weirdest true detail goes here. | Viewer must think "wait, what?" by second 8. |
+| 0:06–0:09 | **THE STAKES ★** | The money line: dollar figure, scale, or "still selling after ___ years" — the business mystery stated out loud. | **Non-negotiable.** Money hint in the hook when possible; concrete stakes completed by 0:09. A money hint is not enough. The actual stakes need to be fully spoken by about 0:09; by 0:12, we're already past your current 9.4-second average watch time. Never save them for the payoff. If a story needs more setup, the extra context goes after the stakes, inside the Turn. |
 | 0:09–0:16 | **THE TURN** | "But here's the trick / the catch / where it went wrong…" — the mechanism starts. New visual or on-screen text every ~5 seconds (pattern interrupt). | One idea per line. Pauses between lines ≈ 0.2s — never let the energy dip. |
 | 0:16–0:25 | **THE PAYOFF** | The full money mechanic: how they actually make / made / lost the money. End on the sharpest fact. | Every fact verified before animating. If a dollar figure can't be verified, leave it out — never invent numbers. |
 | 0:25–0:30 | **THE PERFECT-LOOP ENDING** | The final spoken line is a bridge back into the hook, over the visual that matches the opening frame. It can be a causal or unfinished line the hook completes, or a question only when the hook directly answers it without a hard stop. | **Perfect loop comes first.** Do not force a standalone viewer question into the narration if it creates a full stop before the restart. Put the debate question in the caption/pinned comment, or as small on-screen text, unless it preserves the seam. |
@@ -26,7 +35,7 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 1. **First frame = last frame.** Same scene, same composition (e.g., product alone on the shelf). The restart must be invisible.
 2. **Circular writing:** the last spoken line must flow into the hook — the hook should feel like the answer or the continuation on rewatch. **Seam test:** read the last line and the first line back-to-back; together they should sound like one continuous thought, with no closing full stop in the narration.
 3. **No endings that announce themselves:** no fade-out, no end card, no logo outro, no "SUBSCRIBE FOR MORE" banner. Endings kill the second watch.
-4. **Tight tail:** trim trailing silence to under ~0.3s so the audio doesn't hiccup at the cut. No music.
+4. **Tight tail:** trim trailing silence to under ~0.3s. No music.
 5. **CTA lives on screen only, small, in the final seconds:** `FOLLOW FOR TOMORROW'S STORY` + a second line naming tomorrow's story: `Tomorrow: [next story's hook question]`.
 
 ## ON-SCREEN & VISUAL RULES
@@ -64,12 +73,12 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 
 ## MONETIZATION GUARDRAILS (baked into every script)
 - 100% original: own character, own script, own researched story — this is the defense against "inauthentic/reused content" flags.
-- Minimum 10 seconds (Facebook Reels eligibility) — the 25–30s default clears it easily.
+- Minimum 10 seconds (Facebook Reels eligibility) — the 25–30s pocket clears it easily.
 - Facts verified before production (the Alphabet rule: one wrong number can cost a whole video — check every figure).
 - Platform-neutral spoken CTA — never say "subscribe" in the video itself; that word only belongs in YouTube's wrapper.
 
 ## THE FORMULA IN ONE LINE
-**Question hook (0–3s) → weird setup (3–6s) → concrete money stakes complete by 0:09 (money hint in the hook when possible) → the turn (9–16s) → the payoff (16–25s) → perfect-loop bridge back into the hook (25–30s), looping forever.**
+**Question hook (0–3s) → weird setup (3–6s) → money stakes (6–9s) → the turn (9–16s) → the payoff (16–25s) → perfect-loop bridge back into the hook (25–30s), looping forever.**
 
 ---
 
@@ -79,7 +88,7 @@ Rule: **quote the Higgsfield credit cost and wait for the user's OK before spend
 
 ## Daily flow
 1. Check Higgsfield `balance` and vidIQ balance. Source ideas from vidIQ trending searches (top 10 ranked, no repeats of anything in `channel/SHORTS-LOG.md`, which also lists what is already on the YouTube channel).
-2. Verify every fact and number with WebSearch (twice for key numbers). Write the script with the skeleton above (default 25–30 s, ~70–85 words, question hook, money stakes complete by 0:09, perfect-loop ending) and show it for approval, with 2 alternate hook lines.
+2. Verify every fact and number with WebSearch (twice for key numbers). Write the script with the skeleton above (25–30 seconds unless the story requires it to be longer, per the LENGTH section) and show it for approval.
 3. Quote credits → wait for OK → voiceover + images → storyboard sheet (use 3 side-by-side A/B/C options for any hero shot) → apply the user's fixes → hook clip → render → send the video + covers → posting text (SEO per vidIQ) → log + commit.
 4. Loop rule applies to visuals: the last shot must match the opening frame (reuse image 1 for the final shot, same composition) so the restart is invisible.
 5. At the end of the day append to `channel/SHORTS-LOG.md`, commit scripts/configs, push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
@@ -87,7 +96,7 @@ Rule: **quote the Higgsfield credit cost and wait for the user's OK before spend
 ## Higgsfield recipes (all proven)
 - **Voice:** `generate_audio`, model `text2speech_v2`, variant `elevenlabs`, voice_type `preset`, voice_id `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` (Benji). About 0.045–0.05 credits per second (≈1.4–1.8 credits for 30 s; ≈2.25 for 45 s). Get the exact cost with `get_cost:true`. Spell numbers out in the narration text for the voice (show digits on screen).
 - **Images:** `generate_image_batch`, model `gpt_image_2_5`, aspect 9:16, 0.25 credits each, ONE style reference passed as `image_references` (media role `image_references`). **Use a plain-background earlier stickman shot as the reference with "use only for art style, not background"** (the old Costco anchor leaked red-stripe backgrounds). **Max ~7 images per batch, otherwise 429 rate_limit; wait, then retry the failures. If a batch stalls "in_progress" for ~10 minutes, resubmit it.** Prompt style block: "Stickman cartoon explainer illustration in the exact style of the reference image: bold clean black ink outlines, flat bright cel-shaded colors, simple shapes, warm saturated background, clean comic look. Vertical 9:16. ... No logos, no brand names, no readable text." Mascot = Business Stick (round white head, dot eyes, thick eyebrows, white collared shirt, gold tie) on royal blue per the template. Fix single details by editing the image (pass it as reference, say "keep everything the same, only change X").
-- **Number of images:** a new picture every 2.5–3 s (about 9–12 images for 25–30 s), with the last shot = image 1.
+- **Images:** every 2.5-3 seconds; the last shot = image 1 (first frame = last frame).
 - **Hook clip:** `generate_video` (or `generate_video_batch`), model `kling3_0`, mode `std`, sound `off`, duration 4, aspect 9:16, start image = image 1's job id. **6 credits.** If a "preset recommendation" notice appears, retry with `declined_preset_id`. Takes 1–3 minutes; poll `jobs_wait`. Check a frame strip before using it.
 - **Cost per Short** ≈ voice 1.5–2.3 + images 2.5–3 + hook 6 ≈ 10–11 credits. Thumbnails: 2 options per Short at 0.25 each.
 
@@ -97,7 +106,7 @@ Rule: **quote the Higgsfield credit cost and wait for the user's OK before spend
 3. **Render:** `python3 shorts/day01/build_short.py <slug>` (from the repo root; use `--preview` for 540p). It burns in word-by-word yellow captions at y=1330, handles year words (e.g. "nineteen seventy one" → 1971), combines the voiceover and writes `<slug>.mp4` (1080×1920). ~3–5 minutes (4 in parallel is fine). Move/copy the script to `shorts/dayNN/` for new days.
 4. **Sending files:** SendUserFile limit 30 MB. If larger, re-encode with ffmpeg `-crf 20 -preset slow -c:a copy` (~22 MB). Write temp files in the scratchpad, NOT the repo.
 5. **Covers:** IG/FB/TikTok cover = chosen image with a 2–3 line title in the lower middle (yellow line 1, white line 2), inside the 3:4 grid crop (y 240–1680), never over faces. YouTube thumbnail = no text. TikTok/Shorts can use the opening frame.
-6. **No music** (user decision). Never add a music bed.
+6. No music.
 
 ## QA checklist (things the user already caught)
 - Top text must not cover faces, key props, or anything doing the emotion; keep inside y 240–1680 and centered; no emoji in the big hook text unless asked.
