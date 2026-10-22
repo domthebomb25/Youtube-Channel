@@ -14,3 +14,8 @@ shorts/**/*.png
 shorts/**/*.jpg
 shorts/**/images/
 shorts/**/clips/
+
+# Compilation clips (media stays out of git; download from chat)
+compilations/**/*.mp4
+compilations/**/*.mp3
+compilations/**/*.png

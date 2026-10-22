@@ -27,3 +27,6 @@ Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order c
 - BS-010 POV: You Just Gave Tesla a $250,000 Interest-Free Loan (Short)
 - BS-011 Tesla's New Car Can FLY? (long video, 3:52)
 Finished but not yet posted (no BS number until scheduled; they take numbers in posting order): LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew. Next free number: BS-012 (unless one of these is scheduled to post first).
+
+## Long-form compilations
+- 2026-10-22 Compilation #1: 8 new clips (intro, bridge-1..6, outro), 1920x1080, Benji voice, full-body mascot still. Folder: compilations/comp1/ (build_comp1.py). ~3.25 credits (8 voices + 1 mascot image). Tesla Fly shorts excluded. Compilation #2 not rendered yet (not locked).
