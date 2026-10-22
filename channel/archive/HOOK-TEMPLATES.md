@@ -1,3 +1,5 @@
+SUPERSEDED by the Shorts Playbook (Oct 21, 2026) — do not use for new shorts.
+
 # Hook templates (from the user — proven to grab attention)
 
 Use these as the opening line / first slide / first on-screen text for slideshows, clips, intros, parts and titles.
