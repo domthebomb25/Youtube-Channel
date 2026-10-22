@@ -61,3 +61,46 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 
 ## THE FORMULA IN ONE LINE
 **Question hook (0–3s) → weird setup (3–10s) → money stakes before 10s is out → the turn → the payoff → perfect-loop bridge back into the hook, looping forever.**
+
+---
+
+# PRODUCTION RECIPE (how to make the video from the script above)
+
+Rule: **quote the Higgsfield credit cost and wait for the user's OK before spending.** Check `balance` first. Show the user every image (storyboard sheet) and the hook clip before rendering; they catch real problems (see QA checklist).
+
+## Daily flow
+1. Check Higgsfield `balance` and vidIQ balance. Source ideas from vidIQ trending searches (top 10 ranked, no repeats of anything in `channel/SHORTS-LOG.md`, which also lists what is already on the YouTube channel).
+2. Verify every fact and number with WebSearch (twice for key numbers). Write the script with the skeleton above (35–45 s, ~105–120 words, question hook, stakes before 10 s, perfect-loop ending) and show it for approval, with 2 alternate hook lines.
+3. Quote credits → wait for OK → voiceover + images → storyboard sheet (use 3 side-by-side A/B/C options for any hero shot) → apply the user's fixes → hook clip → render → send the video + covers → posting text (SEO per vidIQ) → log + commit.
+4. Loop rule applies to visuals: the last shot must match the opening frame (reuse image 1 for the final shot, same composition) so the restart is invisible.
+5. At the end of the day append to `channel/SHORTS-LOG.md`, commit scripts/configs, push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
+
+## Higgsfield recipes (all proven)
+- **Voice:** `generate_audio`, model `text2speech_v2`, variant `elevenlabs`, voice_type `preset`, voice_id `e6f9b893-51b1-51d3-afe9-9e0482cb7ac1` (Benji). About 0.045–0.05 credits per second (≈1.4–1.8 credits for 30 s; ≈2.25 for 45 s). Get the exact cost with `get_cost:true`. Spell numbers out in the narration text for the voice (show digits on screen).
+- **Images:** `generate_image_batch`, model `gpt_image_2_5`, aspect 9:16, 0.25 credits each, ONE style reference passed as `image_references` (media role `image_references`). **Use a plain-background earlier stickman shot as the reference with "use only for art style, not background"** (the old Costco anchor leaked red-stripe backgrounds). **Max ~7 images per batch, otherwise 429 rate_limit; wait, then retry the failures. If a batch stalls "in_progress" for ~10 minutes, resubmit it.** Prompt style block: "Stickman cartoon explainer illustration in the exact style of the reference image: bold clean black ink outlines, flat bright cel-shaded colors, simple shapes, warm saturated background, clean comic look. Vertical 9:16. ... No logos, no brand names, no readable text." Mascot = Business Stick (round white head, dot eyes, thick eyebrows, white collared shirt, gold tie) on royal blue per the template. Fix single details by editing the image (pass it as reference, say "keep everything the same, only change X").
+- **Number of images:** the script template does not fix a count; use a new picture every ~3–4 s (about 10–12 images for 35–45 s), with the last shot = image 1.
+- **Hook clip:** `generate_video` (or `generate_video_batch`), model `kling3_0`, mode `std`, sound `off`, duration 4, aspect 9:16, start image = image 1's job id. **6 credits.** If a "preset recommendation" notice appears, retry with `declined_preset_id`. Takes 1–3 minutes; poll `jobs_wait`. Check a frame strip before using it.
+- **Cost per Short** ≈ voice 1.5–2.3 + images 2.5–3 + hook 6 ≈ 10–11 credits. Thumbnails: 2 options per Short at 0.25 each.
+
+## Render steps (free, CPU only)
+1. **Word timings:** `pip install pocketsphinx`. Per Short put the narration (numbers spelled out) in `shorts/dayNN/<slug>/assembly/script.txt`, copy `shorts/day01/<slug>/assembly/align.py`, add a `SUB` dict entry for any word the dictionary lacks (e.g. "pequod": ["pee","quad"]), run `python3 align.py` → `word_timing.json`.
+2. **Config:** `assembly/config.py` with `NARR` (voiceover length in s), `SHOTS` = list of `(start_time, image_name_or_"hook", motion)` (motions: in, out, left, right, up, hold, or a zoom dict), optional `SHAKE`, and `TEXT` = list of `(t0, t1, [lines], color, y, size)` for on-screen text pops. Cut on the first word of each narration beat from `word_timing.json`. The hook clip is stretched to the first cut.
+3. **Render:** `python3 shorts/day01/build_short.py <slug>` (from the repo root; use `--preview` for 540p). It burns in word-by-word yellow captions at y=1330, handles year words (e.g. "nineteen seventy one" → 1971), combines the voiceover and writes `<slug>.mp4` (1080×1920). ~3–5 minutes (4 in parallel is fine). Move/copy the script to `shorts/dayNN/` for new days.
+4. **Sending files:** SendUserFile limit 30 MB. If larger, re-encode with ffmpeg `-crf 20 -preset slow -c:a copy` (~22 MB). Write temp files in the scratchpad, NOT the repo.
+5. **Covers:** IG/FB/TikTok cover = chosen image with a 2–3 line title in the lower middle (yellow line 1, white line 2), inside the 3:4 grid crop (y 240–1680), never over faces. YouTube thumbnail = no text. TikTok/Shorts can use the opening frame.
+6. **Music note:** the script template mentions looping a music bed; the user earlier decided NO music in the videos. Default to no music unless the user says otherwise.
+
+## QA checklist (things the user already caught)
+- Top text must not cover faces, key props, or anything doing the emotion; keep inside y 240–1680 and centered; no emoji in the big hook text unless asked.
+- Keep real-world layout right (e.g. the McDonald's machine is BEHIND the counter, staff side). Keep character outfits and recurring people consistent between shots; props and signs must be right (a sign should say OPEN).
+- Don't draw misleading outcomes (an unresolved lawsuit → tug-of-war, not a pile of money). Don't claim anything the sources don't; keep honest wording ("As the story goes", "thanks to").
+- Check characters for missing parts (a missing foot was fixed). No cones/objects the user doesn't want.
+- On-screen numbers/words are drawn by the renderer (so they're spelled right), not by the image model. No logos or brand text in images.
+- Every shot must match its narration line. Remove shots the user calls unnecessary (e.g. a 1-second shot) and let the neighbor run longer.
+- The user may ask for 3 options for a hero shot; show them side by side in one sheet and ask for letters.
+
+## Repo and git rules
+- New Shorts go in `shorts/dayNN/<slug>/` (SCRIPT.md, `assembly/` with align.py, script.txt, config.py, word_timing.json). **Do not commit images, clips, mp4, mp3, png/jpg** (`.gitignore` covers `shorts/`); the container is ephemeral and the user downloads files from the chat each day.
+- Keep a log entry per Short in `channel/SHORTS-LOG.md` (date, slug, title, credits). Final file name for posting: `BS-###-slug.mp4`.
+- Commit and push small text files at the end of each day (a stop hook complains about uncommitted files). Don't open a PR unless the user asks.
+- Existing Day 0 folders under `videos/` hold committed media; leave them.
