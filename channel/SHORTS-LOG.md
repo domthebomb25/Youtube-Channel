@@ -14,7 +14,7 @@ Not seen on the channel page on Oct 19 (check whether posted): LEGO tires, Starb
 Topics already used overall: Costco (many), Tesla flying car/interest-free loan, Amazon "Relentless", Blockbuster/Netflix, McDonald's ice cream machine, LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew.
 
 ## BS numbers (the BS number is assigned at final delivery: next number = highest number already used + 1; if the log already assigns a number, the log wins; unposted videos take their numbers in posting order)
-Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order is INFERRED from the channel's newest-first listing (the exact posting order of the Costco long video relative to the Costco Shorts is not known) — correct it here if wrong. No public files are renamed.
+Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order confirmed by the user for the Costco videos: the three Costco Shorts were posted first (co-founder short = BS-001), then the Costco long video (BS-004). The order of the later videos is inferred from the channel's newest-first listing. No public files are renamed.
 - BS-001 Costco's co-founder threatened his exec over a $1.50 hot dog (Short)
 - BS-002 The business stories nobody tells you (Costco Short)
 - BS-003 Costco's real money maker (Short)
