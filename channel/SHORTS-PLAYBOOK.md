@@ -11,11 +11,11 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 | 0:10–0:17 | **THE STAKES ★** | The money line: dollar figure, scale, or "still selling after ___ years" — the business mystery stated out loud. | **Non-negotiable.** The average Facebook viewer leaves at ~9.4s — the stakes must land BEFORE that, never save them for the payoff. |
 | 0:17–0:27 | **THE TURN** | "But here's the trick / the catch / where it went wrong…" — the mechanism starts. New visual or on-screen text every ~5 seconds (pattern interrupt). | One idea per line. Pauses between lines ≈ 0.2s — never let the energy dip. |
 | 0:27–0:37 | **THE PAYOFF** | The full money mechanic: how they actually make / made / lost the money. End on the sharpest fact. | Every fact verified before animating. If a dollar figure can't be verified, leave it out — never invent numbers. |
-| 0:37–0:43 | **THE LOOP ENDING** | A spoken QUESTION to the viewer ("So… ___? Be honest." / "Genius or madness?") over the visual that matches the opening frame. | See Loop Rules below. Spoken ending is ALWAYS a question — it drives comments AND the restart answers it. |
+| 0:37–0:43 | **THE PERFECT-LOOP ENDING** | The final spoken line is a bridge back into the hook, over the visual that matches the opening frame. It can be a causal or unfinished line the hook completes, or a question only when the hook directly answers it without a hard stop. | **Perfect loop comes first.** Do not force a standalone viewer question into the narration if it creates a full stop before the restart. Put the debate question in the caption/pinned comment, or as small on-screen text, unless it preserves the seam. |
 
 ## LOOP RULES (every video, no exceptions)
 1. **First frame = last frame.** Same scene, same composition (e.g., product alone on the shelf). The restart must be invisible.
-2. **Circular writing:** the last spoken line must flow into the hook — the hook should feel like the answer or the continuation on rewatch.
+2. **Circular writing:** the last spoken line must flow into the hook — the hook should feel like the answer or the continuation on rewatch. **Seam test:** read the last line and the first line back-to-back; together they should sound like one continuous thought, with no closing full stop in the narration.
 3. **No endings that announce themselves:** no fade-out, no end card, no logo outro, no "SUBSCRIBE FOR MORE" banner. Endings kill the second watch.
 4. **Tight tail:** trim trailing silence to under ~0.3s. Loop the music bed under the cut so the audio doesn't hiccup.
 5. **CTA lives on screen only, small, in the final seconds:** `FOLLOW FOR TOMORROW'S STORY` + a second line naming tomorrow's story: `Tomorrow: [next story's hook question]`.
@@ -60,4 +60,4 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 - Platform-neutral spoken CTA — never say "subscribe" in the video itself; that word only belongs in YouTube's wrapper.
 
 ## THE FORMULA IN ONE LINE
-**Question hook (0–3s) → weird setup (3–10s) → money stakes before 10s is out → the turn → the payoff → question ending on the opening frame, looping forever.**
+**Question hook (0–3s) → weird setup (3–10s) → money stakes before 10s is out → the turn → the payoff → perfect-loop bridge back into the hook, looping forever.**
