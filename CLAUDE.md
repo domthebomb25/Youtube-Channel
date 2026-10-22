@@ -13,4 +13,4 @@ Trial reel OFF, Related video on every YouTube Short, etc.). Keep it step-by-ste
 READ `channel/SHORTS-PLAYBOOK.md` at the start of every chat. It is the script template (skeleton with the perfect-loop ending, loop rules, on-screen rules, title/captions, posting checklist, monetization guardrails) for every daily Short. Do not spend credits without quoting the cost first.
 
 - Video ideas ALWAYS come from vidIQ trending searches: generate the top 10 ideas, never repeating a video already made (check channel/SHORTS-LOG.md, which also lists what is already on the YouTube channel).
-- `channel/VIDEO-TEMPLATE.md` (10 images, 31-34 s, Pixar 3D style) is an OLDER template. Where it conflicts with `channel/SHORTS-PLAYBOOK.md` (length 35-45 s, character look, hook form), the playbook wins.
+- `channel/VIDEO-TEMPLATE.md` (10 images, 31-34 s, Pixar 3D style) is an OLDER template. Where it conflicts with `channel/SHORTS-PLAYBOOK.md` (length default 25-30 s, 70-85 words, no music, images every 2.5-3 s; character look; hook form), the playbook wins.
