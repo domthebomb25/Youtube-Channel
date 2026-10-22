@@ -9,18 +9,18 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 - **Never pad a simple story to make it longer;** every extra second has to hold attention.
 - Trade-off: shorter helps completion, but cutting the payoff too aggressively can reduce total watch time. Rule: **as short as possible without weakening the story.**
 - Images change every 2.5–3 seconds. No music.
-- The beat timings below are for the 25–30 s default; if a story earns a longer cut, stretch the Turn and Payoff, never the Hook or Setup.
+- The beat timings below are for the 25–30 s default. **If a video runs longer, only the Turn and Payoff expand; the Hook, Setup and Stakes timings, and above all the 0:09 stakes deadline, never move.**
 
 ## THE SCRIPT SKELETON (copy this table for every video)
 
 | Time | Beat | What goes here | Rules |
 |---|---|---|---|
 | 0:00–0:03 | **THE HOOK** | DEFAULT: one searchable QUESTION, spoken AND on screen: "Why did ___ ?" / "How did ___ lose $___?" VARIANT (~3 in 10): a shock STATEMENT when the bare fact beats any question ("Blockbuster could have bought Netflix for $50M"). | Same words spoken + shown (SEO). Either form must contain the money mystery. Test: say both versions aloud — whichever stops a stranger mid-scroll wins; if it's close, take the question. No intro, no greeting, no logo. |
-| 0:03–0:08 | **THE SETUP** | The surprising origin / situation in 1–2 lines. Weirdest true detail goes here. | Viewer must think "wait, what?" by second 8 (the setup ends at 0:08). |
-| 0:08–0:12 | **THE STAKES ★** | The money line: dollar figure, scale, or "still selling after ___ years" — the business mystery stated out loud. | **Non-negotiable.** Concrete money stakes (a dollar figure, scale, or years) must be stated out loud by ~0:12 at the latest. The average Facebook viewer leaves at ~9.4s, so put the money hint in the setup when you can and never save the stakes for the payoff. |
-| 0:12–0:19 | **THE TURN** | "But here's the trick / the catch / where it went wrong…" — the mechanism starts. New visual or on-screen text every ~5 seconds (pattern interrupt). | One idea per line. Pauses between lines ≈ 0.2s — never let the energy dip. |
-| 0:19–0:26 | **THE PAYOFF** | The full money mechanic: how they actually make / made / lost the money. End on the sharpest fact. | Every fact verified before animating. If a dollar figure can't be verified, leave it out — never invent numbers. |
-| 0:26–0:30 | **THE PERFECT-LOOP ENDING** | The final spoken line is a bridge back into the hook, over the visual that matches the opening frame. It can be a causal or unfinished line the hook completes, or a question only when the hook directly answers it without a hard stop. | **Perfect loop comes first.** Do not force a standalone viewer question into the narration if it creates a full stop before the restart. Put the debate question in the caption/pinned comment, or as small on-screen text, unless it preserves the seam. |
+| 0:03–0:06 | **THE SETUP** | The surprising origin / situation in 1–2 lines. Weirdest true detail goes here. | Viewer must think "wait, what?" by second 6 (the setup ends at 0:06). Keep it to 1–2 lines. |
+| 0:06–0:09 | **THE STAKES ★** | The money line: dollar figure, scale, or "still selling after ___ years" — the business mystery stated out loud. | **Non-negotiable.** **Money hint in the hook when possible; concrete stakes (a dollar figure, scale, or years) fully spoken by 0:09.** The average Facebook viewer leaves at ~9.4s, so the stakes must be complete before that and can never be saved for the payoff. If a story needs more setup, the extra context goes AFTER the stakes, inside the Turn. |
+| 0:09–0:16 | **THE TURN** | "But here's the trick / the catch / where it went wrong…" — the mechanism starts. New visual or on-screen text every ~5 seconds (pattern interrupt). | One idea per line. Pauses between lines ≈ 0.2s — never let the energy dip. |
+| 0:16–0:25 | **THE PAYOFF** | The full money mechanic: how they actually make / made / lost the money. End on the sharpest fact. | Every fact verified before animating. If a dollar figure can't be verified, leave it out — never invent numbers. |
+| 0:25–0:30 | **THE PERFECT-LOOP ENDING** | The final spoken line is a bridge back into the hook, over the visual that matches the opening frame. It can be a causal or unfinished line the hook completes, or a question only when the hook directly answers it without a hard stop. | **Perfect loop comes first.** Do not force a standalone viewer question into the narration if it creates a full stop before the restart. Put the debate question in the caption/pinned comment, or as small on-screen text, unless it preserves the seam. |
 
 ## LOOP RULES (every video, no exceptions)
 1. **First frame = last frame.** Same scene, same composition (e.g., product alone on the shelf). The restart must be invisible.
@@ -69,7 +69,7 @@ Use for every daily short. One master video → YouTube Shorts + Facebook Reel +
 - Platform-neutral spoken CTA — never say "subscribe" in the video itself; that word only belongs in YouTube's wrapper.
 
 ## THE FORMULA IN ONE LINE
-**Question hook (0–3s) → weird setup (3–8s) → concrete money stakes by ~12s → the turn (12–19s) → the payoff (19–26s) → perfect-loop bridge back into the hook (26–30s), looping forever.**
+**Question hook (0–3s) → weird setup (3–6s) → concrete money stakes complete by 0:09 (money hint already in the hook when possible) → the turn (9–16s) → the payoff (16–25s) → perfect-loop bridge back into the hook (25–30s), looping forever.**
 
 ---
 
@@ -79,7 +79,7 @@ Rule: **quote the Higgsfield credit cost and wait for the user's OK before spend
 
 ## Daily flow
 1. Check Higgsfield `balance` and vidIQ balance. Source ideas from vidIQ trending searches (top 10 ranked, no repeats of anything in `channel/SHORTS-LOG.md`, which also lists what is already on the YouTube channel).
-2. Verify every fact and number with WebSearch (twice for key numbers). Write the script with the skeleton above (default 25–30 s, ~70–85 words, question hook, money stakes by ~12 s, perfect-loop ending) and show it for approval, with 2 alternate hook lines.
+2. Verify every fact and number with WebSearch (twice for key numbers). Write the script with the skeleton above (default 25–30 s, ~70–85 words, question hook, money stakes complete by 0:09, perfect-loop ending) and show it for approval, with 2 alternate hook lines.
 3. Quote credits → wait for OK → voiceover + images → storyboard sheet (use 3 side-by-side A/B/C options for any hero shot) → apply the user's fixes → hook clip → render → send the video + covers → posting text (SEO per vidIQ) → log + commit.
 4. Loop rule applies to visuals: the last shot must match the opening frame (reuse image 1 for the final shot, same composition) so the restart is invisible.
 5. At the end of the day append to `channel/SHORTS-LOG.md`, commit scripts/configs, push, and tell the user to merge the branch (or open a PR if asked) so tomorrow's chat sees it.
