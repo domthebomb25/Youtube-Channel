@@ -129,3 +129,21 @@ You are my production assistant for The Business Stick HQ (@thebusinessstickhq o
 - Keep a log entry per Short in channel/SHORTS-LOG.md (date, slug, title, credits). Final file name for posting: BS-###-slug.mp4.
 - Commit and push small text files at the end of each day (a stop hook complains about uncommitted files). Don't open a PR unless I ask.
 - Existing Day 0 folders under videos/ hold committed media; leave them.
+
+---
+
+## CLARIFICATIONS (user's answers, Oct 21, 2026)
+
+1. CTA vs loop frame: Yes, your instinct is right. The "FOLLOW FOR TOMORROW'S STORY" and "Tomorrow: …" overlays go on the shot BEFORE the final loop shot, and they must be gone before the final loop shot begins. The final loop shot (image 1) stays clean — no CTA/tease overlays on it, and don't let the text pop off mid-shot. Normal burned-in captions are exempt; they run continuously.
+
+2. Tomorrow's story: Yes. Switch to a rolling two-day pipeline: when you show me today's pick for approval, also show me tomorrow's pick from the same vidIQ top-10 list (both checked against SHORTS-LOG.md). When I approve today's script, tomorrow's topic is locked. If I later change tomorrow's topic after today's video is rendered, don't re-render just for the tease. And if tomorrow isn't locked for any reason, use the generic tease "New business story tomorrow" instead of naming a topic.
+
+3. Day 01 Shorts and LEGO: Post them as they are. The playbook is forward-looking — do not remake finished videos just for old hooks or a missing perfect loop, and do not drop them. Two conditions: they still have to pass fact-check/QA, and they must not duplicate a story already on the channel. One best version of every story still applies — never make or post a second version of a story that already exists.
+
+4. Posting settings: Yes, they still apply. The playbook does not override channel/POSTING-SETTINGS.md or CLAUDE.md. Keep including in every posting package: TikTok "Identify similar products" OFF, Instagram/Facebook "Trial reel" OFF, and the Costco "Related video" on every YouTube Short. If a setting there ever conflicts with the playbook, flag it and ask me — don't silently drop either one.
+
+5. File numbering: Count what already exists — never restart. The BS number is assigned at final delivery from channel/SHORTS-LOG.md: next number = highest number already used + 1. The 11 videos already on the channel count as BS-001 through BS-011 (backfill the log in posting order if they aren't numbered there yet; no need to rename any public files). So the first new playbook video is BS-012, unless one of the unposted finished videos is scheduled to post before it — unposted videos take their numbers in posting order. If the log already assigns a number, the log wins.
+
+6. Character and background: Not every shot. Royal blue + Business Stick is the brand default for Business Stick's own shots — the hook, the loop frame, covers, direct-to-camera moments. Story shots can absolutely use relevant locations, backgrounds, and supporting stick characters (founders, inventors, workers, customers) whenever the narration calls for them — in the same stickman art style, with Business Stick's design kept identical everywhere.
+
+7. Old files: Don't delete VIDEO-TEMPLATE.md and HOOK-TEMPLATES.md. Move them to channel/archive/ and add a header to each: "SUPERSEDED by the Shorts Playbook (Oct 21, 2026) — do not use for new shorts." The playbook is the single source of truth for new shorts; if another file conflicts with it, the playbook wins (except the posting settings in #4).

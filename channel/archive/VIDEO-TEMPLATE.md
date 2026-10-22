@@ -1,3 +1,5 @@
+SUPERSEDED by the Shorts Playbook (Oct 21, 2026) — do not use for new shorts.
+
 # YOUTUBE SHORTS 10/10 TEMPLATE (user's template — use for EVERY Short; it overrides older format notes)
 
 ## VIDEO SPECS (NON-NEGOTIABLE)
