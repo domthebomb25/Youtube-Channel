@@ -201,6 +201,7 @@ class Builder:
             end = self.last_t if k == len(SHOTS) - 1 else self.starts[k + 1]
             fr = view(self.imgs[name], mo, min(max((t - t0) / (end - t0), 0), 1))
         fr = fr.convert("RGBA")
+        if t == 0: return fr.convert("RGB")             # frame 0 = the bare image 1 (identical to the last frame); text starts on frame 1
         if t < HOOK_END: fr.alpha_composite(self.hook_txt)
         if SHOTS[9][0] <= t < SHOTS[10][0]: fr.alpha_composite(self.cta)
         g = next((g for g in self.groups if g[0][1] - 0.05 <= t <= g[-1][2] + (0.0 if g is self.groups[-1] else 0.25)), None)  # last caption ends with the last word: final frames carry no text
@@ -225,7 +226,7 @@ def main():
     nfr = NFR
     wr =subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                            "-i", "-", "-i", str(ROOT / "clips/voiceover.mp3"), "-map", "0:v", "-map", "1:a", "-af", f"atrim=0:{NARR}",
-                           "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-profile:v", "high",
+                           "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-profile:v", "high", "-force_key_frames", f"0,{(NFR - 1) / FPS}",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", "-shortest", str(out)], stdin=subprocess.PIPE)
     for i in range(nfr): wr.stdin.write(b.frame(i / FPS).tobytes())
     wr.stdin.close(); wr.wait(); print(out)
