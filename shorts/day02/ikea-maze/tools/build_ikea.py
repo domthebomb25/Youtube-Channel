@@ -226,7 +226,7 @@ def main():
     nfr = NFR
     wr =subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                            "-i", "-", "-i", str(ROOT / "clips/voiceover.mp3"), "-map", "0:v", "-map", "1:a", "-af", f"atrim=0:{NARR}",
-                           "-c:v", "libx264", "-preset", "medium", "-qp", "19", "-pix_fmt", "yuv420p", "-profile:v", "high", "-force_key_frames", f"0,{(NFR - 1) / FPS}",
+                           "-c:v", "libx264", "-preset", "medium", "-qp", "23", "-pix_fmt", "yuv420p", "-profile:v", "high", "-force_key_frames", f"0,{(NFR - 1) / FPS}",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", "-shortest", str(out)], stdin=subprocess.PIPE)
     for i in range(nfr): wr.stdin.write(b.frame(i / FPS).tobytes())
     wr.stdin.close(); wr.wait(); print(out)
