@@ -17,9 +17,10 @@ W, H, FPS = 1080, 1920, 30
 CAP_Y = 1330
 YEL, WHITE = m.YEL, m.WHITE
 NARR = 28.08                      # voiceover length (s); trailing silence after last word ~0.17 s, no extra tail
+NFR = 841                         # frames written (28.03 s); audio is cut to the video end
 SHOTS = [(0.0, "img1", "hook"), (2.4, "img2", "in"), (5.7, "img3", "right"), (9.6, "img4", "in"), (12.4, "img5", "out"),
          (14.8, "img6", "in"), (17.0, "img7", "left"), (19.1, "img8", "in"), (20.5, "img9", "in"), (22.9, "img10", "in"),
-         (25.7, "img1", "settle")]
+         (25.7, "img1", "pullback")]
 HOOK_END = SHOTS[1][0]
 DIVE_T = 0.75                     # camera has landed close on the mascot by here (<= 0.8 s)
 Z_END = 3.2
@@ -176,7 +177,7 @@ class Builder:
         self.cta = cta_layer()
         self.cap_f = m.font(92)
         self.starts = [s[0] for s in SHOTS] + [NARR]
-        self.last_t = round(NARR * FPS) / FPS - 1 / FPS
+        self.last_t = (NFR - 1) / FPS                  # time of the final written frame (shot 11 reaches the exact wide image here)
 
     def frame(self, t):
         k = max(j for j in range(len(SHOTS)) if SHOTS[j][0] <= t)
@@ -188,13 +189,21 @@ class Builder:
             z, scr = hook_cam(t)
             fr = zoom_view(base, z, scr)
             if z > 1.5: fr = fr.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
+        elif mo == "pullback":
+            # continuous pull-back: the hook's landing framing -> exact wide image 1 on the very last frame; linear in log-zoom, no ease, no hold
+            q = min(max((t - t0) / (self.last_t - t0), 0.0), 1.0)
+            e = 1 - q
+            z = math.exp(math.log(Z_END) * e)
+            scr = (FACE_SRC[0] + (FACE_END[0] - FACE_SRC[0]) * e, FACE_SRC[1] + (FACE_END[1] - FACE_SRC[1]) * e)
+            fr = zoom_view(self.imgs[name], z, scr)
+            if z > 1.5: fr = fr.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
         else:
             end = self.last_t if k == len(SHOTS) - 1 else self.starts[k + 1]
             fr = view(self.imgs[name], mo, min(max((t - t0) / (end - t0), 0), 1))
         fr = fr.convert("RGBA")
         if t < HOOK_END: fr.alpha_composite(self.hook_txt)
         if SHOTS[9][0] <= t < SHOTS[10][0]: fr.alpha_composite(self.cta)
-        g = next((g for g in self.groups if g[0][1] - 0.05 <= t <= g[-1][2] + 0.25), None)
+        g = next((g for g in self.groups if g[0][1] - 0.05 <= t <= g[-1][2] + (0.0 if g is self.groups[-1] else 0.25)), None)  # last caption ends with the last word: final frames carry no text
         if g:
             d = ImageDraw.Draw(fr); txt = [w[0].upper() for w in g]; cf = self.cap_f
             while sum(d.textlength(w + " ", font=cf) for w in txt) > W - 100 and cf.size > 50: cf = m.font(cf.size - 4)
@@ -213,8 +222,8 @@ def main():
         for t in ts: b.frame(t).save(out / f"t{t:06.3f}.png")
         return
     out = Path(sys.argv[sys.argv.index("--render") + 1]) if len(sys.argv) > sys.argv.index("--render") + 1 else ROOT / "BS-012-ikea-maze.mp4"
-    nfr = round(NARR * FPS)
-    wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
+    nfr = NFR
+    wr =subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
                            "-i", "-", "-i", str(ROOT / "clips/voiceover.mp3"), "-map", "0:v", "-map", "1:a", "-af", f"atrim=0:{NARR}",
                            "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-profile:v", "high",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", "-shortest", str(out)], stdin=subprocess.PIPE)
