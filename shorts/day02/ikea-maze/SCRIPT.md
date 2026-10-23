@@ -13,4 +13,4 @@ Images (one every ~3 s; 11th shot = image 1 again for the loop): see storyboard 
 
 Open fact flag: "nearly ten thousand products" and "you pass almost every one" could not be verified (IKEA site lists ~12,000 per Wikipedia). User chose to keep the line as locked.
 
-Voice: Benji (elevenlabs), 1.35 credits. Raw 28.92 s; gaps before line 2 and line 3 tightened (words untouched) → 28.08 s; line 3 ends 8.79 s (pocketsphinx alignment). Stills: 2.5 credits. Spent so far: 3.85.
+Voice: Benji (elevenlabs), 1.35 credits. Raw 28.92 s; gaps before line 2 and line 3 tightened (words untouched) → 28.08 s; line 3 ends 8.79 s (pocketsphinx alignment). Stills: 2.5 credits. Image 1 redone: the model could not draw one-way arrows (2 attempts, 3 images), so the arrow-free maze was generated and the single arrow path is drawn by tools/draw_path.py (arrows follow the open floor, all same direction). Spent so far: 4.85 (voice 1.35 + 10 stills 2.5 + image-1 redo 1.0).
