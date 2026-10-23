@@ -5,7 +5,7 @@
 3. Nearly ten thousand products, and you pass almost every one. (fully spoken by 0:09)
 4. But here's the trick. The path keeps turning, past rooms set up like real homes — so you picture them in yours.
 5. Skip something, and going back means the whole maze again. So it lands in the cart — just in case.
-6. You came for one lamp — that is why IKEA is built like a maze.
+6. You came for one lamp — so before you go, ask yourself —   (REPLACED: was "that is why IKEA is built like a maze." Seam now reads "...ask yourself — why is IKEA built like a maze?")
 
 On-screen: hook line at start; near the end small text only: FOLLOW + "New business story tomorrow." (on the shot before the final loop shot; image 1 stays clean). No "subscribe" in VO. No fade, no end card, tail < 0.3 s.
 
@@ -16,3 +16,5 @@ Open fact flag: "nearly ten thousand products" and "you pass almost every one" c
 FINAL: BS-012-ikea-maze.mp4, 1080x1920, 28.03 s video, line 3 ends 8.79 s (re-measured on the render), last word ends 27.91 s. Hook = programmatic dive on image 1 + animated arrows (tools/build_ikea.py). Kling hook clip (6 credits) generated but NOT used. Total credits 13.35.
 
 Voice: Benji (elevenlabs), 1.35 credits. Raw 28.92 s; gaps before line 2 and line 3 tightened (words untouched) → 28.08 s; line 3 ends 8.79 s (pocketsphinx alignment). Stills: 2.5 credits. Image 1 redone: the model could not draw one-way arrows (2 attempts, 3 images), so the arrow-free maze was generated and the single arrow path is drawn by tools/draw_path.py (arrows follow the open floor, all same direction). Final image 1 = arrow-free maze (user asked to drop the arrows); shots 4 and 7 regenerated. Shot 2 = original top-down winding-path image (reverted), shot 4 = TURN-S (winding path POV) (winding path POV). Spent so far: 7.35 (voice 1.35 + 10 stills 2.5 + image-1 redo 1.0 + shot 4 and 7 redo 0.5 + shot-4 options 0.75 + shot 2 POV and shot-4 arrows 0.75 + turning-path options 0.5).
+
+Line 6 re-recorded (0.3 credits, one take), placed at 23.98 s, extra 0.55 s of pauses at the dash and comma. Final: 28.03 s, 1080x1920, last word "yourself" ends 27.81 s. Total credits 13.65.
