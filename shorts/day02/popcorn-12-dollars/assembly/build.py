@@ -94,12 +94,26 @@ def hook_text_layer():
 
 def hook_frames():
     """Approved Kling eruption clip, upscaled to full frame (cover + centre-crop). Frame 0 is replaced by image 1 itself."""
-    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / "clips/hook_v2_trim.mp4"), "-vf",
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(ROOT / "clips/hook_v2_eruption.mp4"), "-vf",
                           f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}",
                           "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True, check=True).stdout
     fr = [Image.frombuffer("RGB", (W, H), raw[i:i + W * H * 3]) for i in range(0, len(raw), W * H * 3)]
     fr[0] = load("img1")
     return fr
+
+
+def hook_text_at(htext, t):
+    """Hook text is static to 1.00 s, shakes 1.00-1.08 s as the eruption starts, then is blasted up off the top, gone by 1.20 s."""
+    T_SHAKE, T_BLAST, T_GONE = 1.00, 1.08, 1.20
+    if t < T_SHAKE:
+        return htext
+    if t < T_BLAST:
+        a = 16 * (t - T_SHAKE) / (T_BLAST - T_SHAKE) + 6
+        return htext.rotate(0, translate=(round(a * math.sin(t * 260)), round(a * math.cos(t * 210))), resample=Image.BICUBIC)
+    if t < T_GONE:
+        p = (t - T_BLAST) / (T_GONE - T_BLAST)
+        return htext.rotate(10 * p, translate=(round(30 * p), round(-1100 * p * p)), center=(W / 2, 390), resample=Image.BICUBIC)
+    return None
 
 
 def cap_words():
@@ -108,30 +122,34 @@ def cap_words():
 
 
 def main():
-    preview = "--preview" in sys.argv
+    preview = "--preview" in sys.argv or "--hook-segment" in sys.argv
+    seg = "--hook-segment" in sys.argv                         # first 3.0 s only, hook clip held (no cut to shot 2)
     gs = m.groups(cap_words())
     imgs = {n: load(n) for n in {s[1] for s in SHOTS} - {"hook"}}
     hook, htext = hook_frames(), hook_text_layer()
     follow = follow_layer()
-    total = NARR + END_SEC
+    total = 3.0 if seg else NARR + END_SEC
+    shots = [SHOTS[0]] if seg else SHOTS
     nfr = int(round(total * FPS))
     ow, oh = (540, 960) if preview else (W, H)
-    out = ROOT / ("preview-540p.mp4" if preview else "popcorn-12-dollars.mp4")
+    out = ROOT / ("hook-segment-540p.mp4" if seg else "preview-540p.mp4" if preview else "popcorn-12-dollars.mp4")
     wr = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}",
                            "-r", str(FPS), "-i", "-", "-i", str(ROOT / "clips/voiceover.mp3"), "-map", "0:v", "-map", "1:a",
                            "-af", f"apad,atrim=0:{total:.3f}", "-c:v", "libx264", "-preset", "medium",
                            "-crf", "23" if preview else "17", "-pix_fmt", "yuv420p", "-profile:v", "high",
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(out)],
                           stdin=subprocess.PIPE)
-    starts = [s[0] for s in SHOTS] + [total]
+    starts = [s[0] for s in shots] + [total]
     cap_f = m.font(92)
     for i in range(nfr):
         t = i / FPS
-        k = max(j for j in range(len(SHOTS)) if SHOTS[j][0] <= t)
-        t0, name, mo = SHOTS[k]
+        k = max(j for j in range(len(shots)) if shots[j][0] <= t)
+        t0, name, mo = shots[k]
         if name == "hook":
             fr = hook[min(int(t * 24), len(hook) - 1)].copy().convert("RGBA")
-            fr.alpha_composite(htext)
+            ht = hook_text_at(htext, t)
+            if ht is not None:
+                fr.alpha_composite(ht)
         else:
             fr = view(imgs[name], mo, (t - t0) / (starts[k + 1] - t0)).convert("RGBA")
         if name == "img9":
@@ -156,4 +174,5 @@ def main():
     print(out, round(total, 3), "s")
 
 
-main()
+if __name__ == "__main__":
+    main()
