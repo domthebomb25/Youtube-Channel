@@ -26,5 +26,5 @@ for k, (n, t, line) in enumerate(shots):
     d.text((x+8, y+IH+6), f'SHOT {k+1}' + ('  (image 1 again)' if k == 10 else f'  (image {n})'), font=fb, fill=(255, 215, 0))
     d.text((x+8, y+IH+32), t, font=fr, fill=(170, 200, 255))
     for j, l in enumerate(textwrap.wrap(line, 29)[:4]): d.text((x+8, y+IH+58+j*24), l, font=fr, fill=(255, 255, 255))
-S.convert('RGB').save('storyboard_v3.jpg', quality=88)
-S.resize((S.width//2, S.height//2)).convert('RGB').save('storyboard_v3_small.jpg', quality=85)
+S.convert('RGB').save('storyboard_v4.jpg', quality=88)
+S.resize((S.width//2, S.height//2)).convert('RGB').save('storyboard_v4_small.jpg', quality=85)
