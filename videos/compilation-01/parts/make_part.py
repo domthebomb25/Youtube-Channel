@@ -20,7 +20,7 @@ VERT = [(7.4, 14.9), (16.5, 60.5), (67.6, 101.2), (105.9, 121.8), (125.0, 156.2)
 X0, X1 = 656, 1264
 
 
-def is_vert(t): return any(a <= t < b for a, b in VERT)
+def is_vert(t, vert=None): return any(a <= t < b for a, b in (vert or VERT))
 
 
 def main():
@@ -72,7 +72,7 @@ def main():
         if len(buf) < fsz: break
         fr = Image.frombuffer("RGB", (1920, 1080), buf)
         t = i / FPS
-        if is_vert(src_t(t)):
+        if is_vert(src_t(t), spec.get("vert")):
             bg = fr.crop((X0, 0, X1, 1080)).resize((W, H), Image.LANCZOS).convert("RGBA")
             bg.alpha_composite(badge)
         else:
