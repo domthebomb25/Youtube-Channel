@@ -8,6 +8,6 @@
 6. "And that price on the big sign makes every driver wonder —"
 
 Voice: Benji (elevenlabs), trimmed gaps lines 1-3 to 0.2 s (line 3 ends 0:08.9), tail trimmed; total 27.82 s.
-Hook: programmatic build from EDITED image 1 (assembly/eye_redraw.py redraws the eyes (pending approval); assembly/build_hook.py), 2.97 s, no Kling. Seesaw 2.5 cycles/s, open palms. Hook text overlay added at render step.
+Hook: programmatic build from EDITED image 1 (assembly/eye_redraw.py + mouth_redraw.py redraw eyes and mouth frontal (face still pending approval); assembly/build_hook.py), 2.97 s, no Kling. Seesaw 2.5 cycles/s, open palms. Hook text overlay added at render step.
 Images: 10 stills, image 10 = byte-identical copy of image 1 (loop frame). Image 3 = option B.
 Status: hook awaiting approval; no full render yet.
