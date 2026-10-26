@@ -49,6 +49,7 @@ CUTS = [  # (first words of the beat, image, motion)
     (["think"], "img02", "in"),
     (["the", "station", "kept"], "img03", "in"),
     (["but", "here's", "the", "trick"], "img04", "right"),
+    (13.88, "img04b", "hold"),                                         # "The gas pulls your car in." cut 0.5 s early, in the pause, so the magnet holds <= 4.5 s
     (["the", "little", "store"], "img05", "out"),
     (["about", "a", "third"], "img06", "in"),
     (["but", "seventy", "percent"], "img07", "hold"),
@@ -57,7 +58,7 @@ CUTS = [  # (first words of the beat, image, motion)
     (["driver", "wonder"], "img10", None),                            # loop frame: clean, no motion, no overlay
 ]
 HOOK_FR = sorted((HERE / "hook_frames").glob("f*.png"))
-SHOTS = [(0, "hook", None)] + [(int(round(start_of(s) * FPS)), n, m) for s, n, m in CUTS]
+SHOTS = [(0, "hook", None)] + [(int(round((s if isinstance(s, float) else start_of(s)) * FPS)), n, m) for s, n, m in CUTS]
 LOOP_FRAME = SHOTS[-1][0]
 SHOT9 = (SHOTS[-2][0], SHOTS[-1][0])
 
@@ -102,14 +103,14 @@ def cta_layer():
 
 
 HOOK_TEXT, CTA = hook_text_layer(), cta_layer()
-SHAKE_F = {30: (16, -4), 31: (-18, 5), 32: (14, -3)}                   # ~1.0 s: 3-frame shake
-BLAST_F = {33: -120, 34: -260, 35: -420}                               # then up and off the top, gone from frame 35 (1.17 s)
+SHAKE_F = {27: (16, -4), 28: (-18, 5), 29: (14, -3)}                   # 0.90-0.97 s: 3-frame shake
+BLAST_F = {30: -140, 31: -330, 32: -560}                               # then up and off the top, fully gone from frame 32 (1.07 s)
 
 
 def hook_text_offset(i):
     if i in SHAKE_F: return SHAKE_F[i]
     if i in BLAST_F: return (0, BLAST_F[i])
-    if i < 30: return (0, 0)
+    if i < 27: return (0, 0)
     return None
 
 
