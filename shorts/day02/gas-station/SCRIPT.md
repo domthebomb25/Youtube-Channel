@@ -16,3 +16,5 @@ Render (Oct 26): original face for hook + loop frame (user choice). Preview 540x
 Hook text ALL THAT MONEY / THEY KEEP 5c?! from frame 0, shake 30-32, blast up 33-35, gone by 35. CTA on shot 9 only. Final 1080x1920 renders once after preview approval (assembly/render_gas.py --final).
 
 Re-cut (Oct 26, preview v2): one image per script beat + new 4B ("The gas pulls your car in.", cut at 13.88 s in the pause so the magnet holds 4.33 s). Hook text shakes frames 27-29 (0.90-0.97 s), blasts up from 1.00 s, fully off by 1.07 s. Image credits so far 4.0 (4B +0.25); total short ~17.5 credits.
+
+Loop fix (Oct 26): shot 10 = hook frame 0 itself (hook_frames/f000.png), not original image 1, so the last frame matches 0:00 exactly (arms included). Only the hook text + captions differ.

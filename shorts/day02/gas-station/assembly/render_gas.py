@@ -55,7 +55,7 @@ CUTS = [  # (first words of the beat, image, motion)
     (["but", "seventy", "percent"], "img07", "hold"),
     (["that", "is", "why"], "img08", "in"),
     (["and", "that", "price"], "img09", "hold"),
-    (["driver", "wonder"], "img10", None),                            # loop frame: clean, no motion, no overlay
+    (["driver", "wonder"], "img10_loop", None),                            # loop frame: clean, no motion, no overlay
 ]
 HOOK_FR = sorted((HERE / "hook_frames").glob("f*.png"))
 SHOTS = [(0, "hook", None)] + [(int(round((s if isinstance(s, float) else start_of(s)) * FPS)), n, m) for s, n, m in CUTS]
