@@ -30,10 +30,11 @@ RARM_POLY = [(300 + x / 4, 620 + y / 4) for x, y in RARM_POLY]
 HEM_Y, NECK_Y = 852, 640
 SH_L, SH_R = (190, 728), (372, 698)       # where the arms leave the cuffs
 HAND_L0, HAND_R0 = (232, 768), (335, 752)  # neutral hand positions (hip height)
-AMP = 16                                    # hand rise/dip in px
+AMP = 28                                    # hand rise/dip in px
 SWAY = 5                                    # head sway in px each way
-PERIOD = 0.8                                # seconds per full seesaw cycle
+PERIOD = 0.4                                # seconds per full seesaw cycle
 L1 = L2 = 57
+TILT = 16                                   # degrees of hand tilt at peak speed
 
 
 def poly_mask(size, poly, ss=4):
@@ -104,17 +105,58 @@ def ik(S, H, L1, L2, side):
     return best[1]
 
 
+def hand_poly(wrist, fa, side):
+    """Open palm, fingers together, slightly cupped, palm up. Local frame: +x along the forearm, +u = screen-up side."""
+    n = (-math.sin(fa), math.cos(fa))
+    if n[1] > 0:
+        n = (-n[0], -n[1])          # make n point to screen-up
+    ux, uy = math.cos(fa), math.sin(fa)
+    def P(x, u):
+        return (wrist[0] + ux * x + n[0] * u, wrist[1] + uy * x + n[1] * u)
+    pts = []
+    # fingers+palm as one cupped paddle: lower edge, then upper edge, tip curls toward 'up'
+    N = 14
+    low, upp = [], []
+    for k in range(N + 1):
+        x = 4 + 54 * k / N
+        c = 8 * (k / N) ** 2                      # cup: tip lifts
+        half = 19.0 - 4.0 * (k / N) ** 2          # wide flat palm, slight taper
+        low.append(P(x, c - half))
+        upp.append(P(x, c + half))
+    # rounded fingertip
+    tip = [P(58 + 6 * math.sin(th), 9 + (12.5 - 3.5) * math.cos(th) * 0.0 + 0) for th in []]
+    paddle = low + upp[::-1]
+    return paddle, P
+
+def draw_hand(d, wrist, fa, side, SS, off):
+    paddle, P = hand_poly(wrist, fa, side)
+    pts = [((x - off[0]) * SS, (y - off[1]) * SS) for x, y in paddle]
+    d.polygon(pts, fill=255)
+    # rounded fingertip + wrist
+    for (x, u, r) in ((55, 8, 15.0), (6, 0, 19.0)):
+        cx, cy = P(x, u)
+        cx, cy = (cx - off[0]) * SS, (cy - off[1]) * SS
+        d.ellipse([cx - r * SS, cy - r * SS, cx + r * SS, cy + r * SS], fill=255)
+    # thumb: separate capsule splaying up-and-away, with a notch between thumb and fingers
+    t0, t1 = P(14, 19), P(36, 46)
+    d.line([((t0[0] - off[0]) * SS, (t0[1] - off[1]) * SS), ((t1[0] - off[0]) * SS, (t1[1] - off[1]) * SS)], fill=255, width=int(13 * SS))
+    for p in (t0, t1):
+        cx, cy = (p[0] - off[0]) * SS, (p[1] - off[1]) * SS
+        d.ellipse([cx - 6.5 * SS, cy - 6.5 * SS, cx + 6.5 * SS, cy + 6.5 * SS], fill=255)
+
+
 def draw_arms(frame, t, dxrow, part):
     SS = 4
     x0, y0, x1, y1 = 60, 640, 500, 940
     w, h = (x1 - x0), (y1 - y0)
     im = Image.new("L", (w * SS, h * SS), 0)
     d = ImageDraw.Draw(im)
-    s = math.sin(2 * math.pi * t / PERIOD)
-    arms = [(-1, (SH_L[0] + dxrow[SH_L[1]], SH_L[1]), (HAND_L0[0], HAND_L0[1] - AMP * s)),
-            (+1, (SH_R[0] + dxrow[SH_R[1]], SH_R[1]), (HAND_R0[0], HAND_R0[1] + AMP * s))]
+    ph = 2 * math.pi * t / PERIOD
+    s, c = math.sin(ph), math.cos(ph)
+    arms = [(-1, (SH_L[0] + dxrow[SH_L[1]], SH_L[1]), (HAND_L0[0], HAND_L0[1] - AMP * s), c),    # left rises when s grows
+            (+1, (SH_R[0] + dxrow[SH_R[1]], SH_R[1]), (HAND_R0[0], HAND_R0[1] + AMP * s), -c)]  # right rises when s falls
     LW = 24
-    for side, S, Hd in arms:
+    for side, S, Hd, rise in arms:
         E = ik(S, Hd, L1, L2, side)
         P = lambda p: ((p[0] - x0) * SS, (p[1] - y0) * SS)
         if part == "upper":   # behind the shirt: starts well inside the sleeve so no cap shows on the cuff
@@ -129,20 +171,10 @@ def draw_arms(frame, t, dxrow, part):
             cx, cy = P(p)
             r = LW * SS / 2
             d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=255)
-        # open mitten hand: ellipse along the forearm direction + thumb nub on the upper side
+        # hand tilts with the motion: fingertips lift as the hand rises, drop as it dips
         fa = math.atan2(Hd[1] - E[1], Hd[0] - E[0])
-        hc = (Hd[0] + 18 * math.cos(fa), Hd[1] + 18 * math.sin(fa))
-        cx, cy = P(hc)
-        # rotated ellipse via polygon
-        pts = []
-        for k in range(48):
-            th = 2 * math.pi * k / 48
-            ex, ey = 31 * math.cos(th), 20 * math.sin(th)
-            pts.append((cx + (ex * math.cos(fa) - ey * math.sin(fa)) * SS, cy + (ex * math.sin(fa) + ey * math.cos(fa)) * SS))
-        d.polygon(pts, fill=255)
-        up = fa - math.pi / 2 if side > 0 else fa + math.pi / 2
-        tx, ty = cx + (8 * math.cos(fa) + 18 * math.cos(up)) * SS, cy + (8 * math.sin(fa) + 18 * math.sin(up)) * SS
-        d.ellipse([tx - 12 * SS, ty - 8 * SS, tx + 12 * SS, ty + 8 * SS], fill=255)
+        fa = fa - rise * math.radians(TILT) * (1 if side < 0 else -1)
+        draw_hand(d, Hd, fa, side, SS, (x0, y0))
     m = np.asarray(im.resize((w, h), Image.LANCZOS)).astype(float) / 255
     out = frame.astype(float)
     reg = out[y0:y1, x0:x1]
