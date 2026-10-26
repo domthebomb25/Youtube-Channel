@@ -11,3 +11,6 @@ Voice: Benji (elevenlabs), trimmed gaps lines 1-3 to 0.2 s (line 3 ends 0:08.9),
 Hook: programmatic build from EDITED image 1 (assembly/eye_redraw.py + mouth_redraw.py redraw eyes and mouth frontal (face still pending approval); assembly/build_hook.py), 2.97 s, no Kling. Seesaw 2.5 cycles/s, open palms. Hook text overlay added at render step.
 Images: 10 stills, image 10 = byte-identical copy of image 1 (loop frame). Image 3 = option B.
 Status: hook awaiting approval; no full render yet.
+
+Render (Oct 26): original face for hook + loop frame (user choice). Preview 540x960 = 27.80 s (834 frames @30fps). Cuts on word starts: hook 0, img02 2.97, img03 4.50, img04 9.53, img05 16.37, img06 18.07, img07 19.23, img08 21.80, img09 24.67, loop frame (original image 1) 26.67.
+Hook text ALL THAT MONEY / THEY KEEP 5c?! from frame 0, shake 30-32, blast up 33-35, gone by 35. CTA on shot 9 only. Final 1080x1920 renders once after preview approval (assembly/render_gas.py --final).
