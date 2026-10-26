@@ -27,3 +27,4 @@ Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order c
 - BS-010 POV: You Just Gave Tesla a $250,000 Interest-Free Loan (Short)
 - BS-011 Tesla's New Car Can FLY? (long video, 3:52)
 Finished but not yet posted (no BS number until scheduled; they take numbers in posting order): LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew. Next free number: BS-012 (unless one of these is scheduled to post first).
+- 2026-10-26 gas-station (shorts/day02/gas-station): images 3.75 + voice 1.5 + 2 Kling hook takes 12 (rejected) = 17.25 credits so far; hook rebuilt programmatically (0 credits). BS number not assigned yet (assigned at final delivery).
