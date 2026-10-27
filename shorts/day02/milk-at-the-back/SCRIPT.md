@@ -7,5 +7,5 @@
 5. You walk past the chips, the cookies, and the candy to reach it. And most shoppers grab one extra thing along the way. That extra thing is the whole game.
 6. And every shopper makes that same long walk and wonders —
 
-Hook on screen: JUST HERE (white) / FOR MILK?! (yellow) + banner NEW QUEST: GET THE MILK, blasted off the top at ~1.0-1.2s.
+Hook on screen: game banner "NEW QUEST: GET THE MILK" above the yellow objective marker, shakes and blasts off the top at ~1.0-1.2s (no JUST HERE / FOR MILK text).
 Loop: last shot = image 1 (same file), flows into line 1.

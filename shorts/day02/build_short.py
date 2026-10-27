@@ -76,21 +76,23 @@ def title_layer(lines, top, y0, size):
 
 
 def hook_layers():
-    """Hook text (two colored lines) and the game banner, as separate RGBA layers."""
+    """Hook banner (sits above the objective marker, with a small pointer toward it); optional text lines."""
     txt = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    d = ImageDraw.Draw(txt)
-    f = m.font(min(m.fit(t, W - 140, 150).size for t, _ in C.HOOK_LINES))
-    for i, (t, col) in enumerate(C.HOOK_LINES):
-        m.outlined(d, (W / 2, 330 + i * f.size * 1.08), t, f, col)
+    if C.HOOK_LINES:
+        d = ImageDraw.Draw(txt)
+        f = m.font(min(m.fit(t, W - 140, 150).size for t, _ in C.HOOK_LINES))
+        for i, (t, col) in enumerate(C.HOOK_LINES):
+            m.outlined(d, (W / 2, 330 + i * f.size * 1.08), t, f, col)
     ban = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(ban)
-    y0, y1 = 640, 770
-    d.rounded_rectangle((70, y0, W - 70, y1), 26, fill=(10, 25, 60, 235), outline=(255, 200, 0, 255), width=7)
-    d.polygon([(70, y0 + 30), (100, y0), (70, y0)], fill=(255, 200, 0, 255))
     a, b = C.HOOK_BANNER
-    bf = m.fit(a + " " + b, W - 260, 80)
+    cx, y0, y1 = C.HOOK_BANNER_POS            # marker x centre; banner top/bottom
+    bf = m.fit(a + " " + b, 800, 62)
     wa, wb = d.textlength(a + " ", font=bf), d.textlength(b, font=bf)
-    x = (W - wa - wb) / 2
+    half = (wa + wb) / 2 + 40
+    d.rounded_rectangle((cx - half, y0, cx + half, y1), 22, fill=(10, 25, 60, 235), outline=(255, 200, 0, 255), width=6)
+    d.polygon([(cx - 22, y1 - 2), (cx + 22, y1 - 2), (cx, y1 + 22)], fill=(255, 200, 0, 255))   # pointer to the marker
+    x = cx - (wa + wb) / 2
     m.outlined(d, (x, (y0 + y1) / 2), a + " ", bf, m.YEL, anchor="lm")
     m.outlined(d, (x + wa, (y0 + y1) / 2), b, bf, m.WHITE, anchor="lm")
     return txt, ban
