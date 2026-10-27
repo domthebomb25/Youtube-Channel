@@ -27,3 +27,4 @@ Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order c
 - BS-010 POV: You Just Gave Tesla a $250,000 Interest-Free Loan (Short)
 - BS-011 Tesla's New Car Can FLY? (long video, 3:52)
 Finished but not yet posted (no BS number until scheduled; they take numbers in posting order): LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew. Next free number: BS-012 (unless one of these is scheduled to post first).
+- 2026-10-27 Day 02: milk-at-the-back ("Why is the milk always at the back of the store?"), 25.6 s. Folder: shorts/day02/milk-at-the-back/. Renderer: shorts/day02/build_short.py milk-at-the-back [--preview]. Credits so far ~11.5 (voice 1.5, images 3.75 incl. fixes, hook clip 6). Preview approved? pending; no BS number until final delivery.
