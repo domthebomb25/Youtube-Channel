@@ -27,3 +27,5 @@ Backfilled Oct 22 2026 for the 11 videos already on the YouTube channel. Order c
 - BS-010 POV: You Just Gave Tesla a $250,000 Interest-Free Loan (Short)
 - BS-011 Tesla's New Car Can FLY? (long video, 3:52)
 Finished but not yet posted (no BS number until scheduled; they take numbers in posting order): LEGO tires, Starbucks/Moby Dick, Bubble Wrap, Kleenex, Mountain Dew. Next free number: BS-012 (unless one of these is scheduled to post first).
+
+- 2026-10-27 credit-card (shorts/day02/credit-card): "You are not the customer. Your credit card is." In progress: images, voice (25.18s), hook ("The Machine", 1.25x, 2.42s) done; 540p preview sent, 1080p final pending approval. Credits so far ~8.1 (images 2.25 + voice 1.35 + hook 4.5). No BS number yet (assigned at final delivery).
