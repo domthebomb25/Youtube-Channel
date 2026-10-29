@@ -98,7 +98,9 @@ def hook_text(fr, i):
     fr.alpha_composite(lay)
     return fr
 
-def captions(fr, t):
+CAP_Y_SHOT = {"img03": 1560}         # image 3 only: captions below the $500 tag; every other shot keeps CAP_Y
+
+def captions(fr, t, cap_y=CAP_Y):
     g = next((g for g in GROUPS if g[0][1] - 0.05 <= t <= g[-1][2] + 0.25), None)
     if not g:
         return
@@ -110,7 +112,7 @@ def captions(fr, t):
     widths = [d.textlength(w + " ", font=cf) for w in txt]
     x = (W - sum(widths) + d.textlength(" ", font=cf)) / 2
     for w, wd, (_, a, b) in zip(txt, widths, g):
-        m.outlined(d, (x, CAP_Y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
+        m.outlined(d, (x, cap_y), w, cf, m.YEL if a - 0.05 <= t <= b + 0.05 else m.WHITE, anchor="lm")
         x += wd
 
 def main():
@@ -138,7 +140,7 @@ def main():
             fr = fr.convert("RGBA")
         if name == "img10" and CTA[0] <= t < CTA[1]:
             fr.alpha_composite(CTA_TXT); fr.alpha_composite(CTA_TXT2)
-        captions(fr, t)
+        captions(fr, t, CAP_Y_SHOT.get(name, CAP_Y))
         fr = fr.convert("RGB")
         if dump is not None and i in (0, 29, 30, 31, 33, 34, 35, 36, 37, 38):
             fr.save(HERE / f"dump_{i:03d}.png")
