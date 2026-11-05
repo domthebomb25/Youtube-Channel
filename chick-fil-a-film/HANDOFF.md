@@ -21,16 +21,15 @@ These scripts expect the original scratchpad paths. Re-point `S`/paths when rebu
 ## Workflow in use: one image at a time
 Show one review card (image + exact spoken line), offer options (keep / free label / new image with a quote), apply the choice, then the next image. Rebuild and re-send the sheet when it is finished.
 
-## State
-- Sheets 1-9 final. Sheet 10 (CF-076 to CF-084B) in progress at CF-076.
-- Retired (files kept): CF-019B, 025B, 064B, 066, 070B. CF-065B is kept.
-- Remaining after sheet 10: sheets 11-13 (CF-085 to CF-101).
-
-## Pending decision: CF-076
-It is a "(carry)" cell; CF-075's line plays over 075-078. Recommended option 1: put "That is the good part of the deal. And it is real." on CF-076 and "Now here is the part that is just as real." on CF-077. (Options: 2 = free label such as "THE GOOD PART", 3 = new image at 1.00.)
-
-## Flags for the rest of sheet 10
-077 and 078 are silent carries (078 = blank pay line). 079 caption is long (3 sentences). 080 = edit state on 079, overlay LAND / BUILDING / EQUIPMENT / THE BUSINESS — CHICK-FIL-A'S. 081 is a carry. 082 and 083 pictures (sale handshake, key to kid) do not match their lines (what the company owns). 084/084B: deed with company hand; mascot hand beside empty frame.
+## State (updated)
+- ALL 13 sheets are done and confirmed (sheets 1-9 earlier; 10-13 this round). Final sheets are in `sheets/` (PDF + PNG for 10-13) and one combined PDF `sheets/chick-fil-a-storyboard-all-13-sheets.pdf`.
+- `data/cells_v2.json` is the live storyboard in playing order (about 117 cells). New/changed cells carry a `note` and, where generated this round, a `higgsfield_job`. `data/cells_v2.pre-v5-sheet10.json` is the pre-realignment backup.
+- Retired (files kept): CF-019B, 025B, 064B, 066, 070B, 078, 084B, 089B, 094B (rides 094), 099B (rides 099). CF-065B kept.
+- Sheet 10-13 order (map v5): sheet 10 = 076, 077, 079, 081, 082, 083, 080, 084. Sheet 11 = 085, 086, 087, 088, 089, 090, 092, 019 (reuse), 091, 091B. Sheet 12 = 023 (uses CF-022 image), 095, 093, 093B, 041 (reuse), 094, 095B, 096, 097. Sheet 13 = 098, 099, 100, 101.
+- Alternates kept: CF-085-alt-onestore, CF-085-orig-bricks, CF-086-alt-pay, CF-086-orig-fryers, CF-091-v1-restaurant, CF-091B-v1-crown, CF-099-v1-shelf.
+- CF-098 / CF-099 / CF-100 / CF-101 captions were partly inferred (098 = ten-thousand line + "not cheap" lines; 099B rides 099; 100 = last line; 101 silent). Confirm against map v5 if it ever differs.
+- Credits: about 168.25 spent on this job by my tally; balance last read 1,141.46 before the later generations (expected about 1,132.46), not re-checked.
+- Rebuild scripts: `scripts/build_v2.py` (original) and `scripts/build10..13.py` (per-sheet builders used this round; they expect the old scratchpad layout, so re-point paths).
 
 ## Assembly notes
 CF-060: draw the envelope being set aside first, then the pile split. CF-013: chart takes no number (bars only). CF-014 carries the "$9,090,000" plate on the image.

@@ -1056,7 +1056,7 @@
   "id": "076",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry)",
+  "cap": "\"And it is real.\"",
   "crops": [
    {
     "id": "076B",
@@ -1064,13 +1064,13 @@
    }
   ],
   "overlay": "",
-  "caption": "(carry)"
+  "caption": "\"And it is real.\""
  },
  {
   "id": "077",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry)",
+  "cap": "\"Now here is the part that is just as real.\"",
   "crops": [
    {
     "id": "077B",
@@ -1078,16 +1078,7 @@
    }
   ],
   "overlay": "",
-  "caption": "(carry)"
- },
- {
-  "id": "078",
-  "kind": "GEN",
-  "base": null,
-  "cap": "(carry — mood turns toward S7)",
-  "crops": [],
-  "overlay": "",
-  "caption": "(carry — mood turns toward S7)"
+  "caption": "\"Now here is the part that is just as real.\""
  },
  {
   "id": "079",
@@ -1101,22 +1092,25 @@
    }
   ],
   "overlay": "",
-  "caption": "\"In most franchises, the owner is building something he owns. Year after year, his store becomes worth more. One day he can sell it, or hand it to his kids.\""
+  "caption": "\"In most franchises, the owner is building something he owns.\""
  },
  {
   "id": "080",
-  "kind": "EDIT",
-  "base": "079",
-  "cap": "\"You get none of that.\" [four labels appear one by one: LAND / BUILDING / EQUIPMENT / THE BUSINESS — CHICK-FIL-A'S; let this shot hold while the labels land]",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You get none of that.\"",
   "crops": [],
-  "overlay": "four labels appear one by one: LAND / BUILDING / EQUIPMENT / THE BUSINESS — CHICK-FIL-A'S; let this shot hold while the labels land",
-  "caption": "\"You get none of that.\""
+  "overlay": "",
+  "caption": "\"You get none of that.\"",
+  "order_note": "plays after CF-083",
+  "img": "080",
+  "higgsfield_job": "f38415a4-38c9-4a45-a10e-b3bd32b71b27"
  },
  {
   "id": "081",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the generic owner's calendars and rising arrow play out the praise)",
+  "cap": "\"Year after year, his store becomes worth more.\"",
   "crops": [
    {
     "id": "081B",
@@ -1124,27 +1118,31 @@
    }
   ],
   "overlay": "",
-  "caption": "(carry — the generic owner's calendars and rising arrow play out the praise)"
+  "caption": "\"Year after year, his store becomes worth more.\"",
+  "higgsfield_job": "448b56ce-cfda-4a6e-9690-546e511e0632",
+  "note": "generic de-branded store (no Chick-fil-A name or red branding), blank neutral sign plate"
  },
  {
   "id": "082",
   "kind": "GEN",
   "base": null,
-  "cap": "\"The land is the company's.\"",
+  "cap": "\"One day he can sell it,\"",
   "crops": [
    {
     "id": "082B",
     "cap": "\"The building is the company's.\""
    }
   ],
-  "overlay": "",
-  "caption": "\"The land is the company's. The building is the company's.\""
+  "overlay": "SOLD composited on the right sign board (kept)",
+  "caption": "\"One day he can sell it,\"",
+  "higgsfield_job": "bcea5c49-ce32-42fa-ab05-d2b027262dd4",
+  "note": "generic de-branded store (no Chick-fil-A name or red branding), blank neutral sign plate"
  },
  {
   "id": "083",
   "kind": "GEN",
   "base": null,
-  "cap": "\"The kitchen gear is the company's.\"",
+  "cap": "\"or hand it to his kids.\"",
   "crops": [
    {
     "id": "083B",
@@ -1152,122 +1150,121 @@
    }
   ],
   "overlay": "",
-  "caption": "\"The kitchen gear is the company's. Even the company that runs the restaurant belongs to Chick-fil-A.\""
+  "caption": "\"or hand it to his kids.\"",
+  "higgsfield_job": "3861e622-9b3c-4529-8663-a77d3c6d03d7",
+  "note": "generic de-branded store (no Chick-fil-A name or red branding), blank neutral sign plate"
  },
  {
   "id": "084",
   "kind": "GEN",
   "base": null,
-  "cap": "\"You cannot sell the business, because it was never yours to sell.\"",
+  "cap": "\"The land is the company's.\"",
   "crops": [],
-  "overlay": "",
-  "caption": "\"You cannot sell the business, because it was never yours to sell.\""
- },
- {
-  "id": "084B",
-  "kind": "GEN",
-  "base": null,
-  "cap": "\"You cannot pass it to your kids, because you never owned it.\"",
-  "crops": [],
-  "overlay": "",
-  "caption": "\"You cannot pass it to your kids, because you never owned it.\""
+  "overlay": "deed text composited: CHICK-FIL-A / LAND OWNERSHIP",
+  "caption": "\"The land is the company's.\""
  },
  {
   "id": "085",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And for a long time, most people in your seat ran just one store —\"",
-  "crops": [
-   {
-    "id": "085B",
-    "cap": "\"so you cannot grow the way other owners do,\""
-   }
-  ],
+  "cap": "\"The building is the company's.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "\"And for a long time, most people in your seat ran just one store — so you cannot grow the way other owners do,\""
+  "caption": "\"The building is the company's.\"",
+  "higgsfield_job": "bca3ce4f-dfec-47aa-b28e-26e18ebbee7b",
+  "note": "original bricks image + giant hang-tag reading CHICK-FIL-A'S composited across the wall",
+  "zoom": []
  },
  {
   "id": "086",
   "kind": "GEN",
   "base": null,
-  "cap": "\"by opening a second and a third.\"",
-  "crops": [
-   {
-    "id": "086B",
-    "cap": "\"Your money is only the pay.\""
-   }
-  ],
+  "cap": "\"The kitchen gear is the company's.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "\"by opening a second and a third. Your money is only the pay.\""
+  "caption": "\"The kitchen gear is the company's.\"",
+  "higgsfield_job": "b9ef2bca-639f-4488-9b10-6ea2c3f6179e",
+  "note": "original tagged-fryers image restored (new PAY-check image kept as CF-086-alt-pay.jpg)",
+  "zoom": []
  },
  {
   "id": "087",
   "kind": "GEN",
   "base": null,
-  "cap": "\"The year you stop running that store, the money stops too.\"",
-  "crops": [
-   {
-    "id": "087B",
-    "cap": "\"You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\""
-   }
-  ],
-  "overlay": "",
-  "caption": "\"The year you stop running that store, the money stops too. You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\""
+  "cap": "\"Even the company that runs the restaurant belongs to Chick-fil-A.\"",
+  "crops": [],
+  "overlay": "labels composited: CHICK-FIL-A (top box) / THE COMPANY THAT RUNS YOUR STORE (lower box)",
+  "caption": "\"Even the company that runs the restaurant belongs to Chick-fil-A.\"",
+  "zoom": [],
+  "note": "wordmark in red box; THE COMPANY THAT RUNS YOUR STORE in blue box"
  },
  {
   "id": "088",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the for-sale sign with the X plate)",
-  "crops": [
-   {
-    "id": "088B",
-    "cap": "(carry)"
-   }
-  ],
+  "cap": "\"You cannot sell the business, because it was never yours to sell.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "(carry — the for-sale sign with the X plate)"
+  "caption": "\"You cannot sell the business, because it was never yours to sell.\"",
+  "zoom": [],
+  "note": "wordmark on store sign; FOR SALE with red X on held sign"
  },
  {
   "id": "089",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And you do not have to run a restaurant to know this feeling.\"",
+  "cap": "\"You cannot pass it to your kids, because you never owned it.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"And you do not have to run a restaurant to know this feeling.\""
- },
- {
-  "id": "089B",
-  "kind": "GEN",
-  "base": null,
-  "cap": "(carry)",
-  "crops": [],
-  "overlay": "",
-  "caption": "(carry)"
+  "caption": "\"You cannot pass it to your kids, because you never owned it.\"",
+  "zoom": [],
+  "note": "frown face drawn in the empty frame"
  },
  {
   "id": "090",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry)",
-  "crops": [
-   {
-    "id": "090B",
-    "cap": "(carry)"
-   }
-  ],
+  "cap": "\"And for a long time, most people in your seat ran just one store — so you cannot grow the way other owners do, by opening a second and a third.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "(carry)"
+  "caption": "\"And for a long time, most people in your seat ran just one store — so you cannot grow the way other owners do, by opening a second and a third.\"",
+  "zoom": [],
+  "note": "stores recolored blue, signs blank, no wordmark"
+ },
+ {
+  "id": "092",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Your money is only the pay. The year you stop running that store, the money stops too.\"",
+  "crops": [],
+  "overlay": "",
+  "caption": "\"Your money is only the pay. The year you stop running that store, the money stops too.\"",
+  "zoom": [],
+  "note": "headset and bill removed; counter edge now hides hand/check bottom; PAY on check"
+ },
+ {
+  "id": "019R",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\"",
+  "crops": [],
+  "overlay": "",
+  "caption": "\"You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\"",
+  "img": "019",
+  "label": "CF-019 · REUSE (packed store from earlier in the film)",
+  "zoom": []
  },
  {
   "id": "091",
   "kind": "GEN",
   "base": null,
-  "cap": "\"A big title that makes it sound like you own something — while someone else owns everything under it.\"",
+  "cap": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something — while someone else owns everything under it.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"A big title that makes it sound like you own something — while someone else owns everything under it.\""
+  "caption": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something — while someone else owns everything under it.\"",
+  "zoom": [],
+  "note": "new image: office worker (plain, not the mascot) with oversized title plate, boss with blank deed above; MANAGER composited on plate; no restaurant",
+  "higgsfield_job": "a45db2b1-464a-4359-bcab-80012549c061"
  },
  {
   "id": "091B",
@@ -1276,109 +1273,124 @@
   "cap": "\"Almost everybody has lived a small piece of that story.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"Almost everybody has lived a small piece of that story.\""
+  "caption": "\"Almost everybody has lived a small piece of that story.\"",
+  "zoom": [],
+  "note": "tight crop of the new CF-091 office image (worker face, MANAGER plate, boss deed hand). Old restaurant-crown image kept as CF-091B-v1-crown.jpg",
+  "img": "091B"
  },
  {
-  "id": "092",
+  "id": "023R",
   "kind": "GEN",
   "base": null,
-  "cap": "\"You can pay ten thousand dollars, and maybe —\"",
-  "crops": [
-   {
-    "id": "092B",
-    "cap": "\"out of forty thousand people — be the one they pick.\""
-   }
-  ],
   "overlay": "",
-  "caption": "\"You can pay ten thousand dollars, and maybe — out of forty thousand people — be the one they pick.\""
+  "crops": [],
+  "zoom": [],
+  "img": "022",
+  "caption": "\"You can pay ten thousand dollars, and maybe — out of forty thousand people —\"",
+  "cap": "\"You can pay ten thousand dollars, and maybe — out of forty thousand people —\"",
+  "label": "CF-023 · REUSE (uses the CF-022 line-of-applicants image)",
+  "note": "user chose CF-022 image for this reuse beat"
+ },
+ {
+  "id": "095",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"be the one they pick.\"",
+  "crops": [],
+  "overlay": "",
+  "caption": "\"be the one they pick.\"",
+  "img": "095",
+  "zoom": []
  },
  {
   "id": "093",
   "kind": "GEN",
   "base": null,
   "cap": "\"You will run a store that sells millions.\"",
-  "crops": [
-   {
-    "id": "093B",
-    "cap": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\""
-   }
-  ],
+  "crops": [],
+  "overlay": "plates composited: 15% FIRST / 50% OF THE PROFIT",
+  "caption": "\"You will run a store that sells millions.\"",
+  "img": "093",
+  "zoom": []
+ },
+ {
+  "id": "093B",
+  "kind": "GEN",
+  "base": null,
   "overlay": "",
-  "caption": "\"You will run a store that sells millions. The company will take fifteen cents of every dollar first, and half the profit after that.\""
+  "crops": [],
+  "zoom": [],
+  "img": "093B",
+  "caption": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\"",
+  "cap": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\"",
+  "label": "CF-093B · zoom on CF-093"
+ },
+ {
+  "id": "041R",
+  "kind": "GEN",
+  "base": null,
+  "overlay": "",
+  "crops": [],
+  "zoom": [],
+  "img": "041",
+  "caption": "\"You will never own the store.\"",
+  "cap": "\"You will never own the store.\"",
+  "label": "CF-041 · REUSE (the finished building)"
  },
  {
   "id": "094",
   "kind": "GEN",
   "base": null,
-  "cap": "\"You will never own the store.\"",
-  "crops": [],
-  "overlay": "",
-  "caption": "\"You will never own the store.\""
- },
- {
-  "id": "094B",
-  "kind": "GEN",
-  "base": null,
   "cap": "\"And forty thousand people will still line up next year for the chance.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"And forty thousand people will still line up next year for the chance.\""
+  "caption": "\"And forty thousand people will still line up next year for the chance.\"",
+  "img": "094",
+  "zoom": []
  },
  {
-  "id": "095",
+  "id": "095B",
   "kind": "GEN",
   "base": null,
-  "cap": "\"Because if you are one of the few who get picked, the trade is simple:\"",
-  "crops": [
-   {
-    "id": "095B",
-    "cap": "\"you give up owning the business,\""
-   }
-  ],
   "overlay": "",
-  "caption": "\"Because if you are one of the few who get picked, the trade is simple: you give up owning the business,\""
+  "crops": [],
+  "zoom": [],
+  "img": "095B",
+  "caption": "\"Because if you are one of the few who get picked, the trade is simple: you give up owning the business,\"",
+  "cap": "\"Because if you are one of the few who get picked, the trade is simple: you give up owning the business,\"",
+  "label": "CF-095B · zoom on CF-095"
  },
  {
   "id": "096",
   "kind": "GEN",
   "base": null,
   "cap": "\"and in return you skip the million-dollar debt\"",
-  "crops": [
-   {
-    "id": "096B",
-    "cap": "(carry)"
-   }
-  ],
+  "crops": [],
   "overlay": "",
-  "caption": "\"and in return you skip the million-dollar debt\""
+  "caption": "\"and in return you skip the million-dollar debt\"",
+  "img": "096",
+  "zoom": []
  },
  {
   "id": "097",
   "kind": "GEN",
   "base": null,
   "cap": "\"and step straight into the busiest fast food store in the game.\"",
-  "crops": [
-   {
-    "id": "097B",
-    "cap": "\"That is why the cheapest franchise in America costs ten thousand dollars.\""
-   }
-  ],
+  "crops": [],
   "overlay": "",
-  "caption": "\"and step straight into the busiest fast food store in the game. That is why the cheapest franchise in America costs ten thousand dollars.\""
+  "caption": "\"and step straight into the busiest fast food store in the game.\"",
+  "img": "097",
+  "zoom": []
  },
  {
   "id": "098",
   "kind": "GEN",
   "base": null,
-  "cap": "\"It is not cheap because it is small.\"",
-  "crops": [
-   {
-    "id": "098B",
-    "cap": "\"It is cheap because there is nothing to buy.\""
-   }
-  ],
+  "cap": "\"That is why the cheapest franchise in America costs ten thousand dollars. It is not cheap because it is small. It is cheap because there is nothing to buy.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "\"It is not cheap because it is small. It is cheap because there is nothing to buy.\""
+  "caption": "\"That is why the cheapest franchise in America costs ten thousand dollars. It is not cheap because it is small. It is cheap because there is nothing to buy.\"",
+  "zoom": []
  },
  {
   "id": "099",
@@ -1387,7 +1399,10 @@
   "cap": "\"You are not paying for a restaurant.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"You are not paying for a restaurant.\""
+  "caption": "\"You are not paying for a restaurant.\"",
+  "zoom": [],
+  "higgsfield_job": "b5c615f3-8337-4899-aecb-7926f0dc025e",
+  "note": "new image (option B display case); NOT FOR SALE composited on the card. Old shelf image kept as CF-099-v1-shelf.jpg; option A saved as new/CF-099-A.png"
  },
  {
   "id": "099B",
@@ -1396,29 +1411,27 @@
   "cap": "\"You are paying to be chosen to run one.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"You are paying to be chosen to run one.\""
+  "caption": "\"You are paying to be chosen to run one.\"",
+  "note": "rides CF-099 (no caption); off sheet 13, file kept. Its old line moved to CF-100 per user."
  },
  {
   "id": "100",
   "kind": "GEN",
   "base": null,
-  "cap": "(final line echoes — keys in the open hand; no new words)",
-  "crops": [
-   {
-    "id": "100B",
-    "cap": "(carry)"
-   }
-  ],
+  "cap": "\"You are paying to be chosen to run one.\"",
+  "crops": [],
   "overlay": "",
-  "caption": "(final line echoes — keys in the open hand; no new words)"
+  "caption": "\"You are paying to be chosen to run one.\"",
+  "zoom": []
  },
  {
   "id": "101",
   "kind": "GEN",
   "base": null,
-  "cap": "(final frame — slow push-in, end)",
+  "cap": "(silent closing frame)",
   "crops": [],
   "overlay": "",
-  "caption": "(final frame — slow push-in, end)"
+  "caption": "(silent closing frame)",
+  "zoom": []
  }
 ]
