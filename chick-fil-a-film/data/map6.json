@@ -1,0 +1,1154 @@
+[
+ {
+  "id": "001",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You just bought a Chick-fil-A — for ten thousand dollars.\""
+ },
+ {
+  "id": "001B",
+  "kind": "CROP",
+  "base": "001",
+  "cap": "\"At least, that is what it feels like.\""
+ },
+ {
+  "id": "002",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You handed over the check.\""
+ },
+ {
+  "id": "002B",
+  "kind": "CROP",
+  "base": "002",
+  "cap": "\"They handed you the keys.\""
+ },
+ {
+  "id": "003",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the keys land; silent impact beat)"
+ },
+ {
+  "id": "003B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — keys resting in his hands; the handover completes) [CORRECTED 2026-11-03: cars line moved to CF-004 — the brief draws 003B as keys in hands; Muse map error, Claude followed the map as delivered]"
+ },
+ {
+  "id": "004",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The cars are lined up around the building, about to pay your store.\""
+ },
+ {
+  "id": "004B",
+  "kind": "CROP",
+  "base": "004",
+  "cap": "\"Your store.\""
+ },
+ {
+  "id": "005",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Your restaurant.\""
+ },
+ {
+  "id": "005B",
+  "kind": "CROP",
+  "base": "005",
+  "cap": "\"Your business.\""
+ },
+ {
+  "id": "006",
+  "kind": "EDIT",
+  "base": "005",
+  "cap": "\"Except for one small thing. Chick-fil-A never calls you the owner.\" [plate: OPERATOR]"
+ },
+ {
+  "id": "006B",
+  "kind": "CROP",
+  "base": "005",
+  "cap": "\"They call you the operator.\""
+ },
+ {
+  "id": "007",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And that one different word is hiding everything — the money, the building, all of it.\""
+ },
+ {
+  "id": "007B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Because here is the truth under that word: you will run this restaurant for years…\""
+ },
+ {
+  "id": "008",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and you will never own one piece of it.\""
+ },
+ {
+  "id": "008B",
+  "kind": "CROP",
+  "base": "008",
+  "cap": "\"So we are going to do something about that missing piece.\""
+ },
+ {
+  "id": "009",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"We are going to build the paycheck Chick-fil-A never prints — from their own paper, one dollar at a time.\""
+ },
+ {
+  "id": "009B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"So what does the so-called owner of a Chick-fil-A actually walk away with?\""
+ },
+ {
+  "id": "010",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"First, you have to see why so many people want\""
+ },
+ {
+  "id": "010B",
+  "kind": "CROP",
+  "base": "010",
+  "cap": "\"the seat you are now sitting in.\""
+ },
+ {
+  "id": "011",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The big free-standing-style Chick-fil-A stores averaged\""
+ },
+ {
+  "id": "011B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"about nine point one six million dollars in sales in one year.\""
+ },
+ {
+  "id": "012",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That number comes from the company's own filing.\""
+ },
+ {
+  "id": "012B",
+  "kind": "CROP",
+  "base": "012",
+  "cap": "(carry — the counter rush carries it)"
+ },
+ {
+  "id": "013",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And it is not a few super stores\""
+ },
+ {
+  "id": "013B",
+  "kind": "CROP",
+  "base": "013",
+  "cap": "\"pulling that number up.\""
+ },
+ {
+  "id": "014",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The store right in the middle sold\""
+ },
+ {
+  "id": "014B",
+  "kind": "CROP",
+  "base": "014",
+  "cap": "\"about nine point zero nine million.\""
+ },
+ {
+  "id": "015",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That is more than double the average McDonald's restaurant,\""
+ },
+ {
+  "id": "015B",
+  "kind": "CROP",
+  "base": "015",
+  "cap": "(carry — the spotlit store holds)"
+ },
+ {
+  "id": "016",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"which made about four point zero six million.\""
+ },
+ {
+  "id": "016B",
+  "kind": "CROP",
+  "base": "016",
+  "cap": "\"And Chick-fil-A does it while closed on Sundays.\""
+ },
+ {
+  "id": "017",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Every Sunday the doors stay shut —\""
+ },
+ {
+  "id": "017B",
+  "kind": "CROP",
+  "base": "017",
+  "cap": "\"and the store still brings in more money\""
+ },
+ {
+  "id": "018",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"than almost any other fast food place in America.\""
+ },
+ {
+  "id": "018B",
+  "kind": "CROP",
+  "base": "018",
+  "cap": "\"That is the dream people see.\""
+ },
+ {
+  "id": "019",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"A packed store, a line that never stops — and a price to get in that sounds like a joke.\""
+ },
+ {
+  "id": "020",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Ten thousand dollars.\""
+ },
+ {
+  "id": "020B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Most big franchises ask for more money than a house costs.\""
+ },
+ {
+  "id": "021",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Which is why the line to get in is not at the drive-thru.\""
+ },
+ {
+  "id": "021B",
+  "kind": "CROP",
+  "base": "021",
+  "cap": "\"It is at the door. So why don't you just walk through that door and buy one?\" [Alignment corrected 2026-11-03: captions re-anchored to the brief's picture order — chart (013) carries the distribution line, comparison picture (016) carries McDonald's number, calendar/closed-Sunday pictures (017/018) carry the Sunday lines, tags (020) carry the price lines. Edit notes: CF-013's chart plate takes NO number (bars only); CF-015's plate stays blank (spotlight visual only).]"
+ },
+ {
+  "id": "022",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You are not the only one who had this idea.\""
+ },
+ {
+  "id": "022B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"More than forty thousand people apply\""
+ },
+ {
+  "id": "023",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"to run a Chick-fil-A every year.\""
+ },
+ {
+  "id": "023B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"About seventy-five to eighty of them get picked.\""
+ },
+ {
+  "id": "024",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Less than one person out of every five hundred gets in.\""
+ },
+ {
+  "id": "024B",
+  "kind": "CROP",
+  "base": "024",
+  "cap": "\"And having the ten thousand dollars\""
+ },
+ {
+  "id": "025",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"does not move you to the front of that line. Chick-fil-A is not looking for an investor.\""
+ },
+ {
+  "id": "026",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"An investor puts in money, then sits back and collects a check.\""
+ },
+ {
+  "id": "026B",
+  "kind": "CROP",
+  "base": "026",
+  "cap": "\"They are looking for someone who will run the store himself —\""
+ },
+ {
+  "id": "027",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"you, in the building, full time, hands on.\""
+ },
+ {
+  "id": "027B",
+  "kind": "CROP",
+  "base": "027",
+  "cap": "(carry — the refusal holds)"
+ },
+ {
+  "id": "028",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"They pick the person.\""
+ },
+ {
+  "id": "028B",
+  "kind": "CROP",
+  "base": "028",
+  "cap": "(carry)"
+ },
+ {
+  "id": "029",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Then that person pays the ten thousand.\""
+ },
+ {
+  "id": "029B",
+  "kind": "CROP",
+  "base": "029",
+  "cap": "\"And even that ten thousand is not all spent.\""
+ },
+ {
+  "id": "030",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Half of it — five thousand dollars — is a deposit.\""
+ },
+ {
+  "id": "030B",
+  "kind": "CROP",
+  "base": "030",
+  "cap": "\"The company holds it while you run the store,\""
+ },
+ {
+  "id": "031",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and settles up with you when you leave.\""
+ },
+ {
+  "id": "031B",
+  "kind": "CROP",
+  "base": "031",
+  "cap": "\"It is a job you have to be chosen for —\""
+ },
+ {
+  "id": "032",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"that you then pay to start.\""
+ },
+ {
+  "id": "032B",
+  "kind": "CROP",
+  "base": "032",
+  "cap": "\"But hold on. If all you paid was ten thousand dollars… who pays for the restaurant?\" [Alignment corrected 2026-11-03: check-on-desk (030) now carries the deposit line; vault slot (031) carries the settle-up line.]"
+ },
+ {
+  "id": "033",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That is exactly the right question.\""
+ },
+ {
+  "id": "033B",
+  "kind": "CROP",
+  "base": "033",
+  "cap": "\"The company's own paper lists the starting costs of a new store.\""
+ },
+ {
+  "id": "034",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The total runs from about three hundred eighteen thousand dollars\""
+ },
+ {
+  "id": "034B",
+  "kind": "CROP",
+  "base": "034",
+  "cap": "\"to almost three point five million.\""
+ },
+ {
+  "id": "035",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"But look at what is NOT on that list.\""
+ },
+ {
+  "id": "035B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"No line for the land.\""
+ },
+ {
+  "id": "036",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"No line for the building.\""
+ },
+ {
+  "id": "036B",
+  "kind": "CROP",
+  "base": "036",
+  "cap": "\"No line for building the store at all.\""
+ },
+ {
+  "id": "037",
+  "kind": "EDIT",
+  "base": "036",
+  "cap": "\"Chick-fil-A handles that part itself.\" [rows highlight]"
+ },
+ {
+  "id": "038",
+  "kind": "EDIT",
+  "base": "036",
+  "cap": "\"The company finds the spot, buys it or rents it,\" [gap zone circled]"
+ },
+ {
+  "id": "039",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and the building goes up before the operator ever gets the keys.\""
+ },
+ {
+  "id": "039B",
+  "kind": "CROP",
+  "base": "039",
+  "cap": "(carry)"
+ },
+ {
+  "id": "040",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the deed signing plays out the company securing the spot)"
+ },
+ {
+  "id": "040B",
+  "kind": "CROP",
+  "base": "040",
+  "cap": "(carry)"
+ },
+ {
+  "id": "041",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the finished building stands before the operator arrives)"
+ },
+ {
+  "id": "041B",
+  "kind": "CROP",
+  "base": "041",
+  "cap": "(carry)"
+ },
+ {
+  "id": "042",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Your list is different: your ten thousand dollar fee, the first food,\""
+ },
+ {
+  "id": "042B",
+  "kind": "CROP",
+  "base": "042",
+  "cap": "\"the first month of rent, insurance, money to run on at the start.\""
+ },
+ {
+  "id": "043",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That ten thousand is the only check you write up front to get the keys.\""
+ },
+ {
+  "id": "043B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the checklist ticks off the starter list)"
+ },
+ {
+  "id": "044",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"After that, the store runs on the money the store itself brings in —\""
+ },
+ {
+  "id": "044B",
+  "kind": "CROP",
+  "base": "044",
+  "cap": "\"and you pay rent to the company every month for the building you work in.\""
+ },
+ {
+  "id": "045",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"In a normal franchise, the owner borrows a huge pile of money,\""
+ },
+ {
+  "id": "045B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"builds the store, and takes the big risk.\""
+ },
+ {
+  "id": "046",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"If the store fails, the debt is still his.\""
+ },
+ {
+  "id": "046B",
+  "kind": "CROP",
+  "base": "046",
+  "cap": "\"Here, the company takes that risk.\""
+ },
+ {
+  "id": "047",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And when one side pays for almost everything… that side keeps almost everything.\""
+ },
+ {
+  "id": "047B",
+  "kind": "CROP",
+  "base": "047",
+  "cap": "\"It explains every number that comes next.\" [Alignment corrected 2026-11-03 (second pass, from Claude's sheet-9 catch, verified against the images brief): CF-040–041B are carries (deed + finished building play under the company-secures-the-spot lines); your-list lines sit on CF-042/042B (arrival with suitcase + check); the only-check line sits on the CF-043 flat-lay (check + key); store-money line on CF-044, rent line on CF-044B (rent check changing hands); normal-franchise lines on CF-045/045B (buried owner); fail lines on CF-046/046B (failed store); pays-for-everything lines on CF-047 (company holding land + model); bridge line on CF-047B.]"
+ },
+ {
+  "id": "048",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Let's follow one hundred dollars.\""
+ },
+ {
+  "id": "048B",
+  "kind": "CROP",
+  "base": "048",
+  "cap": "\"A customer pays one hundred dollars at the counter.\""
+ },
+ {
+  "id": "049",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Chicken, fries, drinks.\""
+ },
+ {
+  "id": "049B",
+  "kind": "CROP",
+  "base": "049",
+  "cap": "\"Before anyone else gets paid, Chick-fil-A takes fifteen dollars.\""
+ },
+ {
+  "id": "050",
+  "kind": "EDIT",
+  "base": "048",
+  "cap": "\"Not fifteen percent of the profit —\" [$15 slice peels]"
+ },
+ {
+  "id": "051",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"fifteen dollars out of the whole one hundred, right off the top.\""
+ },
+ {
+  "id": "051B",
+  "kind": "CROP",
+  "base": "051",
+  "cap": "\"That rule is in the company's filing: fifteen percent of all sales.\""
+ },
+ {
+  "id": "052",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That slice also covers rent for the kitchen gear\""
+ },
+ {
+  "id": "052B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and a small monthly fee for company services — it all comes out of the same fifteen.\""
+ },
+ {
+  "id": "053",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Fifteen percent of nine point one six million is about\""
+ },
+ {
+  "id": "053B",
+  "kind": "CROP",
+  "base": "053",
+  "cap": "\"one point three seven million dollars a year to the company side — before costs, before profit, before you see a cent from that slice.\""
+ },
+ {
+  "id": "054",
+  "kind": "EDIT",
+  "base": "053",
+  "cap": "\"That is cut number one — and at the end of both cuts sits the number this whole hunt is for.\" [bar full height]"
+ },
+ {
+  "id": "055",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Okay. Eighty-five dollars are left.\""
+ },
+ {
+  "id": "055B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Now the real costs come out: the chicken, the bread, the potatoes, the cups,\""
+ },
+ {
+  "id": "056",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"the people who cook and serve, the lights, the insurance,\""
+ },
+ {
+  "id": "056B",
+  "kind": "CROP",
+  "base": "056",
+  "cap": "(carry — the cook station holds the people line)"
+ },
+ {
+  "id": "057",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and the rent for the building — paid to Chick-fil-A, because the building is theirs.\""
+ },
+ {
+  "id": "057B",
+  "kind": "CROP",
+  "base": "057",
+  "cap": "(carry — the rent envelope holds)"
+ },
+ {
+  "id": "058",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Up to about three dollars and twenty-five cents more can be set aside for ads, under the deal.\""
+ },
+ {
+  "id": "058B",
+  "kind": "CROP",
+  "base": "058",
+  "cap": "(carry)"
+ },
+ {
+  "id": "059",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Whatever is left after all of that is the profit.\""
+ },
+ {
+  "id": "059B",
+  "kind": "CROP",
+  "base": "059",
+  "cap": "\"And here comes the second cut: Chick-fil-A takes half of that too.\""
+ },
+ {
+  "id": "060",
+  "kind": "EDIT",
+  "base": "059",
+  "cap": "\"To be exact, the paper first sets aside a small base amount for the operator — one thousand dollars a month —\" [pile splits]"
+ },
+ {
+  "id": "061",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and then the rest of the profit is split down the middle.\""
+ },
+ {
+  "id": "061B",
+  "kind": "CROP",
+  "base": "061",
+  "cap": "\"Half to the company. Half to the operator.\""
+ },
+ {
+  "id": "062",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"So the company gets paid twice:\""
+ },
+ {
+  "id": "062B",
+  "kind": "CROP",
+  "base": "062",
+  "cap": "\"once on every sale, even if the store makes no profit at all,\""
+ },
+ {
+  "id": "063",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and again on half the profit.\""
+ },
+ {
+  "id": "063B",
+  "kind": "CROP",
+  "base": "063",
+  "cap": "\"You get paid last — only from what survives both cuts.\""
+ },
+ {
+  "id": "064",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "064B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "065",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — section out-breath)"
+ },
+ {
+  "id": "065B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry) [Alignment corrected 2026-11-03: ads line moved onto the billboard (058), profit line onto the small pile (059), split explanation onto the split state (060), payoff line onto the mascot's face crop (063B).]"
+ },
+ {
+  "id": "066",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Here is the honest answer —\""
+ },
+ {
+  "id": "066B",
+  "kind": "CROP",
+  "base": "066",
+  "cap": "\"the one almost nobody tells you straight.\""
+ },
+ {
+  "id": "067",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Chick-fil-A does not publish what you would make.\""
+ },
+ {
+  "id": "067B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"It is not in the filing.\""
+ },
+ {
+  "id": "068",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The filing reports sales — and only sales.\""
+ },
+ {
+  "id": "068B",
+  "kind": "CROP",
+  "base": "068",
+  "cap": "\"No profit. No owner pay. Anywhere.\""
+ },
+ {
+  "id": "069",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Anyone who gives you one exact pay number,\""
+ },
+ {
+  "id": "069B",
+  "kind": "CROP",
+  "base": "069",
+  "cap": "\"and says it like it is a fact, is guessing.\""
+ },
+ {
+  "id": "070",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That missing number is the one number Chick-fil-A never has to tell anyone.\""
+ },
+ {
+  "id": "070B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Outside companies have tried to work it out from the costs.\""
+ },
+ {
+  "id": "071",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Their guesses for a typical store land roughly between\""
+ },
+ {
+  "id": "071B",
+  "kind": "CROP",
+  "base": "071",
+  "cap": "\"one hundred eighty-seven thousand and three hundred thousand dollars a year.\""
+ },
+ {
+  "id": "072",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Read that the right way: that is their estimate, not a promise from Chick-fil-A,\""
+ },
+ {
+  "id": "072B",
+  "kind": "CROP",
+  "base": "072",
+  "cap": "\"and a busy store and a slow store will not land in the same place.\""
+ },
+ {
+  "id": "073",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"But even at the low end, you can see why people want in.\""
+ },
+ {
+  "id": "073B",
+  "kind": "CROP",
+  "base": "073",
+  "cap": "\"You paid ten thousand dollars to start.\""
+ },
+ {
+  "id": "074",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You did not borrow millions to build a store.\""
+ },
+ {
+  "id": "074B",
+  "kind": "CROP",
+  "base": "074",
+  "cap": "\"And you can end up with a pay level most store managers never reach.\""
+ },
+ {
+  "id": "075",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"That is the good part of the deal. And it is real.\""
+ },
+ {
+  "id": "075B",
+  "kind": "CROP",
+  "base": "075",
+  "cap": "\"Now here is the part that is just as real.\""
+ },
+ {
+  "id": "076",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "076B",
+  "kind": "CROP",
+  "base": "076",
+  "cap": "(carry)"
+ },
+ {
+  "id": "077",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "077B",
+  "kind": "CROP",
+  "base": "077",
+  "cap": "(carry)"
+ },
+ {
+  "id": "078",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — mood turns toward S7)"
+ },
+ {
+  "id": "079",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"In most franchises, the owner is building something he owns.\""
+ },
+ {
+  "id": "079B",
+  "kind": "CROP",
+  "base": "079",
+  "cap": "\"Year after year, his store becomes worth more. One day he can sell it, or hand it to his kids.\""
+ },
+ {
+  "id": "080",
+  "kind": "EDIT",
+  "base": "079",
+  "cap": "\"You get none of that.\" [four labels appear one by one: LAND / BUILDING / EQUIPMENT / THE BUSINESS — CHICK-FIL-A'S; let this shot hold while the labels land]"
+ },
+ {
+  "id": "081",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the generic owner's calendars and rising arrow play out the praise)"
+ },
+ {
+  "id": "081B",
+  "kind": "CROP",
+  "base": "081",
+  "cap": "(carry)"
+ },
+ {
+  "id": "082",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The land is the company's.\""
+ },
+ {
+  "id": "082B",
+  "kind": "CROP",
+  "base": "082",
+  "cap": "\"The building is the company's.\""
+ },
+ {
+  "id": "083",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The kitchen gear is the company's.\""
+ },
+ {
+  "id": "083B",
+  "kind": "CROP",
+  "base": "083",
+  "cap": "\"Even the company that runs the restaurant belongs to Chick-fil-A.\""
+ },
+ {
+  "id": "084",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You cannot sell the business, because it was never yours to sell.\""
+ },
+ {
+  "id": "084B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You cannot pass it to your kids, because you never owned it.\""
+ },
+ {
+  "id": "085",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And for a long time, most people in your seat ran just one store —\""
+ },
+ {
+  "id": "085B",
+  "kind": "CROP",
+  "base": "085",
+  "cap": "\"so you cannot grow the way other owners do,\""
+ },
+ {
+  "id": "086",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"by opening a second and a third.\""
+ },
+ {
+  "id": "086B",
+  "kind": "CROP",
+  "base": "086",
+  "cap": "\"Your money is only the pay.\""
+ },
+ {
+  "id": "087",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"The year you stop running that store, the money stops too.\""
+ },
+ {
+  "id": "087B",
+  "kind": "CROP",
+  "base": "087",
+  "cap": "\"You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\""
+ },
+ {
+  "id": "088",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry — the for-sale sign with the X plate)"
+ },
+ {
+  "id": "088B",
+  "kind": "CROP",
+  "base": "088",
+  "cap": "(carry)"
+ },
+ {
+  "id": "089",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And you do not have to run a restaurant to know this feeling.\""
+ },
+ {
+  "id": "089B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "090",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(carry)"
+ },
+ {
+  "id": "090B",
+  "kind": "CROP",
+  "base": "090",
+  "cap": "(carry)"
+ },
+ {
+  "id": "091",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"A big title that makes it sound like you own something — while someone else owns everything under it.\""
+ },
+ {
+  "id": "091B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Almost everybody has lived a small piece of that story.\""
+ },
+ {
+  "id": "092",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You can pay ten thousand dollars, and maybe —\""
+ },
+ {
+  "id": "092B",
+  "kind": "CROP",
+  "base": "092",
+  "cap": "\"out of forty thousand people — be the one they pick.\""
+ },
+ {
+  "id": "093",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You will run a store that sells millions.\""
+ },
+ {
+  "id": "093B",
+  "kind": "CROP",
+  "base": "093",
+  "cap": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\""
+ },
+ {
+  "id": "094",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You will never own the store.\""
+ },
+ {
+  "id": "094B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"And forty thousand people will still line up next year for the chance.\""
+ },
+ {
+  "id": "095",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"Because if you are one of the few who get picked, the trade is simple:\""
+ },
+ {
+  "id": "095B",
+  "kind": "CROP",
+  "base": "095",
+  "cap": "\"you give up owning the business,\""
+ },
+ {
+  "id": "096",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and in return you skip the million-dollar debt\""
+ },
+ {
+  "id": "096B",
+  "kind": "CROP",
+  "base": "096",
+  "cap": "(carry)"
+ },
+ {
+  "id": "097",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"and step straight into the busiest fast food store in the game.\""
+ },
+ {
+  "id": "097B",
+  "kind": "CROP",
+  "base": "097",
+  "cap": "\"That is why the cheapest franchise in America costs ten thousand dollars.\""
+ },
+ {
+  "id": "098",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"It is not cheap because it is small.\""
+ },
+ {
+  "id": "098B",
+  "kind": "CROP",
+  "base": "098",
+  "cap": "\"It is cheap because there is nothing to buy.\""
+ },
+ {
+  "id": "099",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You are not paying for a restaurant.\""
+ },
+ {
+  "id": "099B",
+  "kind": "GEN",
+  "base": null,
+  "cap": "\"You are paying to be chosen to run one.\""
+ },
+ {
+  "id": "100",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(final line echoes — keys in the open hand; no new words)"
+ },
+ {
+  "id": "100B",
+  "kind": "CROP",
+  "base": "100",
+  "cap": "(carry)"
+ },
+ {
+  "id": "101",
+  "kind": "GEN",
+  "base": null,
+  "cap": "(final frame — slow push-in, end) [Alignment corrected 2026-11-03: never-own line moved onto the line visual (094), line-up line onto the back-of-line face (094B), trade clause re-spread across 095–097.] [Alignment corrected 2026-11-03 (third pass, from Claude's sheet-11 catch, verified against the images brief + script order): the cut-number-one tease moved onto CF-054 (the full bar = cut one totaled); CF-053B now carries the full $1.37M sentence including \"before costs…\"; the $85 line sits on CF-055 (crates = what the $85 must cover); the food-costs line sits on CF-055B (crew loading crates); the people line sits on CF-056 (crew at stations); CF-056B is a carry.] [Alignment corrected 2026-11-03 (fourth pass, from Claude's sheet-16 catch, S7 only): the praise lines combine on CF-079B; CF-080 (labels edit state, spec corrected from the stray \"value arrow plate\" bracket to the brief's four labels) carries \"You get none of that.\"; the generic-owner beats CF-081/081B become carries; the company list re-spreads across CF-082–083B; the cannot-sell / cannot-pass lines land on the deed shots CF-084/084B; the recognition lines land on their drawn pictures — the feeling line on the empty frame CF-089, the big-title line on the office worker CF-091, the closing line on CF-091B. Sheet 16 needs caption patches on CF-079B and CF-080 only; all other changes fall in sheet 17's range.]"
+ }
+]
