@@ -11,8 +11,7 @@ end=c
 print('section start',round(START,4),'length',round(end,4),'ends',round(START+end,4))
 HOLD={'z_start':1.04,'z_step':0.0}   # CF-032 picture continues from Section 06's last frame (it ended at 104%)
 beats=[('CF-032.jpg',st[38],st[39],HOLD),     # rest of "That is exactly the right question..." sentence, no crop
-       ('CF-034.jpg',st[39],st[40]),
-       ('CF-036.jpg',st[40],st[41]),          # CF-035 list with TOTAL
+       ('CF-036.jpg',st[39],st[41]),          # CF-035 list with TOTAL holds across BRAM-039 + BRAM-040 (CF-034 truck retired)
        ('CF-036B.jpg',st[41],st[42]),         # CF-035B fenced empty lot
        ('CF-036A.jpg',st[42],st[43]),         # CF-036 dashed outline
        ('CF-040.jpg',st[43],st[44]),          # CF-037 deed signing
