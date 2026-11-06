@@ -1,0 +1,6 @@
+CHICK-FIL-A-FILM-MASTER-v1.mp4 (not in git: 251 MB exceeds GitHub's 100 MB file limit)
+sha256: 96586f7ea8e43ae48c2c96637c7999c7a157ddf8549417c5b48fbeb2ed9a6916
+Built from sections 01-18 FINAL, ffmpeg concat filter (setsar=1), one loudnorm pass (I=-18, TP=-1, linear), libx264 CRF18 slow, AAC 192k stereo 44.1k, +faststart.
+Runtime: 539.40 s (8:59.4). Integrated: -18.0 LUFS. True peak: -2.6 dBFS. LRA 3.2 LU.
+Full decode: no errors. L/R correlation 0.9999 overall (mono source upmixed), >=0.999 in every 10 s window.
+Per-10s RMS -20.1 to -23.2 dBFS, no dropouts. Last 1.2 s is digital silence over the CF-101 hold; hard cut, no fade.
