@@ -3,7 +3,7 @@
   "id": "001",
   "kind": "GEN",
   "base": null,
-  "cap": "\"You just bought a Chick-fil-A — for ten thousand dollars.\"",
+  "cap": "\"You just bought a Chick-fil-A \u2014 for ten thousand dollars.\"",
   "crops": [
    {
     "id": "001B",
@@ -11,7 +11,7 @@
    }
   ],
   "overlay": "",
-  "caption": "\"You just bought a Chick-fil-A — for ten thousand dollars. At least, that is what it feels like.\""
+  "caption": "\"You just bought a Chick-fil-A \u2014 for ten thousand dollars. At least, that is what it feels like.\""
  },
  {
   "id": "002",
@@ -31,19 +31,19 @@
   "id": "003",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the keys land; silent impact beat)",
+  "cap": "(carry \u2014 the keys land; silent impact beat)",
   "crops": [],
   "overlay": "",
-  "caption": "(carry — the keys land; silent impact beat)"
+  "caption": "(carry \u2014 the keys land; silent impact beat)"
  },
  {
   "id": "003B",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — keys resting in his hands; the handover completes)",
+  "cap": "(carry \u2014 keys resting in his hands; the handover completes)",
   "crops": [],
   "overlay": "",
-  "caption": "(carry — keys resting in his hands; the handover completes)"
+  "caption": "(carry \u2014 keys resting in his hands; the handover completes)"
  },
  {
   "id": "004",
@@ -91,19 +91,19 @@
   "id": "007",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And that one different word is hiding everything — the money, the building, all of it.\"",
+  "cap": "\"And that one different word is hiding everything \u2014 the money, the building, all of it.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"And that one different word is hiding everything — the money, the building, all of it.\""
+  "caption": "\"And that one different word is hiding everything \u2014 the money, the building, all of it.\""
  },
  {
   "id": "007B",
   "kind": "GEN",
   "base": null,
-  "cap": "\"Because here is the truth under that word: you will run this restaurant for years…\"",
+  "cap": "\"Because here is the truth under that word: you will run this restaurant for years\u2026\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"Because here is the truth under that word: you will run this restaurant for years…\""
+  "caption": "\"Because here is the truth under that word: you will run this restaurant for years\u2026\""
  },
  {
   "id": "008",
@@ -123,10 +123,10 @@
   "id": "009",
   "kind": "GEN",
   "base": null,
-  "cap": "\"We are going to build the paycheck Chick-fil-A never prints — from their own paper, one dollar at a time.\"",
+  "cap": "\"We are going to build the paycheck Chick-fil-A never prints \u2014 from their own paper, one dollar at a time.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"We are going to build the paycheck Chick-fil-A never prints — from their own paper, one dollar at a time.\""
+  "caption": "\"We are going to build the paycheck Chick-fil-A never prints \u2014 from their own paper, one dollar at a time.\""
  },
  {
   "id": "009B",
@@ -167,7 +167,9 @@
   "cap": "\"about nine point one six million dollars in sales in one year.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"about nine point one six million dollars in sales in one year.\""
+  "caption": "\"about nine point one six million dollars in sales in one year.\"",
+  "note": "v2: packed daytime store, giant blank price-tag plate, \"$9,160,000\" composited (CF-011B-edit.jpg = blank base). Night-line image retired (CF-011B-retired-night.jpg). Job 72c35981-7aae-45cf-a7b2-60d2ac0b5751, 1.00 credit.",
+  "higgsfield_job": "72c35981-7aae-45cf-a7b2-60d2ac0b5751"
  },
  {
   "id": "012",
@@ -177,7 +179,7 @@
   "crops": [
    {
     "id": "012B",
-    "cap": "(carry — the counter rush carries it)"
+    "cap": "(carry \u2014 the counter rush carries it)"
    }
   ],
   "overlay": "",
@@ -219,7 +221,7 @@
   "crops": [
    {
     "id": "015B",
-    "cap": "(carry — the spotlit store holds)"
+    "cap": "(carry \u2014 the spotlit store holds)"
    }
   ],
   "overlay": "",
@@ -243,7 +245,7 @@
   "id": "017",
   "kind": "GEN",
   "base": null,
-  "cap": "\"Every Sunday the doors stay shut —\"",
+  "cap": "\"Every Sunday the doors stay shut \u2014\"",
   "crops": [
    {
     "id": "017B",
@@ -251,7 +253,7 @@
    }
   ],
   "overlay": "",
-  "caption": "\"Every Sunday the doors stay shut — and the store still brings in more money\""
+  "caption": "\"Every Sunday the doors stay shut \u2014 and the store still brings in more money\""
  },
  {
   "id": "018",
@@ -271,10 +273,10 @@
   "id": "019",
   "kind": "GEN",
   "base": null,
-  "cap": "\"A packed store, a line that never stops — and a price to get in that sounds like a joke.\"",
+  "cap": "\"A packed store, a line that never stops \u2014 and a price to get in that sounds like a joke.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"A packed store, a line that never stops — and a price to get in that sounds like a joke.\""
+  "caption": "\"A packed store, a line that never stops \u2014 and a price to get in that sounds like a joke.\""
  },
  {
   "id": "020",
@@ -375,11 +377,11 @@
   "crops": [
    {
     "id": "026B",
-    "cap": "\"They are looking for someone who will run the store himself —\""
+    "cap": "\"They are looking for someone who will run the store himself \u2014\""
    }
   ],
   "overlay": "",
-  "caption": "\"An investor puts in money, then sits back and collects a check. They are looking for someone who will run the store himself —\""
+  "caption": "\"An investor puts in money, then sits back and collects a check. They are looking for someone who will run the store himself \u2014\""
  },
  {
   "id": "027",
@@ -389,7 +391,7 @@
   "crops": [
    {
     "id": "027B",
-    "cap": "(carry — the refusal holds)"
+    "cap": "(carry \u2014 the refusal holds)"
    }
   ],
   "overlay": "",
@@ -437,7 +439,7 @@
   "id": "030",
   "kind": "GEN",
   "base": null,
-  "cap": "\"Half of it — five thousand dollars — is a deposit.\"",
+  "cap": "\"Half of it \u2014 five thousand dollars \u2014 is a deposit.\"",
   "crops": [
    {
     "id": "030B",
@@ -445,7 +447,7 @@
    }
   ],
   "overlay": "",
-  "caption": "\"Half of it — five thousand dollars — is a deposit. The company holds it while you run the store,\""
+  "caption": "\"Half of it \u2014 five thousand dollars \u2014 is a deposit. The company holds it while you run the store,\""
  },
  {
   "id": "031",
@@ -455,11 +457,11 @@
   "crops": [
    {
     "id": "031B",
-    "cap": "\"It is a job you have to be chosen for —\""
+    "cap": "\"It is a job you have to be chosen for \u2014\""
    }
   ],
   "overlay": "",
-  "caption": "\"and settles up with you when you leave. It is a job you have to be chosen for —\"",
+  "caption": "\"and settles up with you when you leave. It is a job you have to be chosen for \u2014\"",
   "zoom": []
  },
  {
@@ -470,11 +472,11 @@
   "crops": [
    {
     "id": "032B",
-    "cap": "\"But hold on. If all you paid was ten thousand dollars… who pays for the restaurant?\""
+    "cap": "\"But hold on. If all you paid was ten thousand dollars\u2026 who pays for the restaurant?\""
    }
   ],
   "overlay": "",
-  "caption": "\"that you then pay to start. But hold on. If all you paid was ten thousand dollars… who pays for the restaurant?\"",
+  "caption": "\"that you then pay to start. But hold on. If all you paid was ten thousand dollars\u2026 who pays for the restaurant?\"",
   "img": "033",
   "zoom": [
    "033B"
@@ -507,7 +509,7 @@
   "overlay": "",
   "caption": "\"The total runs from about three hundred eighteen thousand dollars to almost three point five million.\"",
   "img": "034",
-  "label": "CF-034 · truck + sign",
+  "label": "CF-034 \u00b7 truck + sign",
   "zoom": []
  },
  {
@@ -519,7 +521,7 @@
   "overlay": "",
   "caption": "\"But look at what is NOT on that list.\"",
   "img": "036",
-  "label": "CF-035 · Item 7 list (labels + TOTAL)",
+  "label": "CF-035 \u00b7 Item 7 list (labels + TOTAL)",
   "zoom": []
  },
  {
@@ -531,7 +533,7 @@
   "overlay": "",
   "caption": "\"No line for the land.\"",
   "img": "036B",
-  "label": "CF-035B · CF-036 option B (fenced empty lot)",
+  "label": "CF-035B \u00b7 CF-036 option B (fenced empty lot)",
   "zoom": []
  },
  {
@@ -543,7 +545,7 @@
   "overlay": "",
   "caption": "\"No line for the building. No line for building the store at all.\"",
   "img": "036A",
-  "label": "CF-036 · CF-036 option A (dashed outline)",
+  "label": "CF-036 \u00b7 CF-036 option A (dashed outline)",
   "zoom": []
  },
  {
@@ -555,7 +557,7 @@
   "overlay": "",
   "caption": "\"Chick-fil-A handles that part itself.\"",
   "img": "040",
-  "label": "CF-037 · deed signing (was CF-040)",
+  "label": "CF-037 \u00b7 deed signing (was CF-040)",
   "zoom": []
  },
  {
@@ -567,7 +569,7 @@
   "overlay": "",
   "caption": "\"The company finds the spot,\"",
   "img": "038B",
-  "label": "CF-038 · CF-038 option B (car + empty lot)",
+  "label": "CF-038 \u00b7 CF-038 option B (car + empty lot)",
   "zoom": []
  },
  {
@@ -579,31 +581,31 @@
   "overlay": "",
   "caption": "\"buys it or rents it,\"",
   "img": "035B",
-  "label": "CF-039 · crane (was CF-035B)",
+  "label": "CF-039 \u00b7 crane (was CF-035B)",
   "zoom": []
  },
  {
   "id": "040",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the deed signing plays out the company securing the spot)",
+  "cap": "(carry \u2014 the deed signing plays out the company securing the spot)",
   "crops": [],
   "overlay": "",
   "caption": "\"and the building goes up\"",
   "img": "039B",
-  "label": "CF-040 · CF-039 option B (finished, sunset)",
+  "label": "CF-040 \u00b7 CF-039 option B (finished, sunset)",
   "zoom": []
  },
  {
   "id": "041",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the finished building stands before the operator arrives)",
+  "cap": "(carry \u2014 the finished building stands before the operator arrives)",
   "crops": [],
   "overlay": "",
   "caption": "\"before the operator ever gets the keys.\"",
   "img": "041",
-  "label": "CF-041 · finished building",
+  "label": "CF-041 \u00b7 finished building",
   "zoom": []
  },
  {
@@ -615,7 +617,7 @@
   "overlay": "",
   "caption": "\"Your list is different: your ten thousand dollar fee, the first food, the first month of rent, insurance, money to run on at the start.\"",
   "img": "036",
-  "label": "CF-042 · Item 7 list (again)",
+  "label": "CF-042 \u00b7 Item 7 list (again)",
   "zoom": []
  },
  {
@@ -631,7 +633,7 @@
   "id": "043B",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — the checklist ticks off the starter list)",
+  "cap": "(carry \u2014 the checklist ticks off the starter list)",
   "crops": [],
   "overlay": "",
   "caption": "\"to get the keys.\""
@@ -640,7 +642,7 @@
   "id": "044",
   "kind": "GEN",
   "base": null,
-  "cap": "\"After that, the store runs on the money the store itself brings in —\"",
+  "cap": "\"After that, the store runs on the money the store itself brings in \u2014\"",
   "crops": [
    {
     "id": "044B",
@@ -648,7 +650,7 @@
    }
   ],
   "overlay": "",
-  "caption": "\"After that, the store runs on the money the store itself brings in — and you pay rent to the company every month for the building you work in.\""
+  "caption": "\"After that, the store runs on the money the store itself brings in \u2014 and you pay rent to the company every month for the building you work in.\""
  },
  {
   "id": "045",
@@ -686,7 +688,7 @@
   "id": "047",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And when one side pays for almost everything… that side keeps almost everything.\"",
+  "cap": "\"And when one side pays for almost everything\u2026 that side keeps almost everything.\"",
   "crops": [
    {
     "id": "047B",
@@ -694,7 +696,7 @@
    }
   ],
   "overlay": "",
-  "caption": "\"And when one side pays for almost everything… that side keeps almost everything. It explains every number that comes next.\""
+  "caption": "\"And when one side pays for almost everything\u2026 that side keeps almost everything. It explains every number that comes next.\""
  },
  {
   "id": "048",
@@ -728,10 +730,10 @@
   "id": "050",
   "kind": "EDIT",
   "base": "048",
-  "cap": "\"Not fifteen percent of the profit —\" [$15 slice peels]",
+  "cap": "\"Not fifteen percent of the profit \u2014\" [$15 slice peels]",
   "crops": [],
-  "overlay": "tighter crop of CF-048; dashed tear line at the 15% mark, slice torn away and rolled; \"15% — $15\" is composited on the slice",
-  "caption": "\"Not fifteen percent of the profit —\""
+  "overlay": "tighter crop of CF-048; dashed tear line at the 15% mark, slice torn away and rolled; \"15% \u2014 $15\" is composited on the slice",
+  "caption": "\"Not fifteen percent of the profit \u2014\""
  },
  {
   "id": "051",
@@ -760,10 +762,10 @@
   "id": "052B",
   "kind": "EDIT",
   "base": "052",
-  "cap": "\"and a small monthly fee for company services — it all comes out of the same fifteen.\"",
+  "cap": "\"and a small monthly fee for company services \u2014 it all comes out of the same fifteen.\"",
   "crops": [],
   "overlay": "second blank hang tag added, \"SERVICES\" (the first tag keeps \"GEAR RENT\"); the slice does not change",
-  "caption": "\"and a small monthly fee for company services — it all comes out of the same fifteen.\""
+  "caption": "\"and a small monthly fee for company services \u2014 it all comes out of the same fifteen.\""
  },
  {
   "id": "053",
@@ -773,20 +775,20 @@
   "crops": [
    {
     "id": "053B",
-    "cap": "\"one point three seven million dollars a year to the company side — before costs, before profit, before you see a cent from that slice.\""
+    "cap": "\"one point three seven million dollars a year to the company side \u2014 before costs, before profit, before you see a cent from that slice.\""
    }
   ],
   "overlay": "",
-  "caption": "\"Fifteen percent of nine point one six million is about one point three seven million dollars a year to the company side — before costs, before profit, before you see a cent from that slice.\""
+  "caption": "\"Fifteen percent of nine point one six million is about one point three seven million dollars a year to the company side \u2014 before costs, before profit, before you see a cent from that slice.\""
  },
  {
   "id": "054",
   "kind": "EDIT",
   "base": "053",
-  "cap": "\"That is cut number one — and at the end of both cuts sits the number this whole hunt is for.\" [bar full height]",
+  "cap": "\"That is cut number one \u2014 and at the end of both cuts sits the number this whole hunt is for.\" [bar full height]",
   "crops": [],
   "overlay": "bar widened to full billboard width, \"?\" plate under the end (composited)",
-  "caption": "\"That is cut number one — and at the end of both cuts sits the number this whole hunt is for.\""
+  "caption": "\"That is cut number one \u2014 and at the end of both cuts sits the number this whole hunt is for.\""
  },
  {
   "id": "055",
@@ -814,7 +816,7 @@
   "crops": [
    {
     "id": "056B",
-    "cap": "(carry — the cook station holds the people line)"
+    "cap": "(carry \u2014 the cook station holds the people line)"
    }
   ],
   "overlay": "",
@@ -824,15 +826,15 @@
   "id": "057",
   "kind": "GEN",
   "base": null,
-  "cap": "\"and the rent for the building — paid to Chick-fil-A, because the building is theirs.\"",
+  "cap": "\"and the rent for the building \u2014 paid to Chick-fil-A, because the building is theirs.\"",
   "crops": [
    {
     "id": "057B",
-    "cap": "(carry — the rent envelope holds)"
+    "cap": "(carry \u2014 the rent envelope holds)"
    }
   ],
   "overlay": "",
-  "caption": "\"and the rent for the building — paid to Chick-fil-A, because the building is theirs.\""
+  "caption": "\"and the rent for the building \u2014 paid to Chick-fil-A, because the building is theirs.\""
  },
  {
   "id": "058",
@@ -858,19 +860,19 @@
   "caption": "\"Whatever is left after all of that is the profit. And here comes the second cut: Chick-fil-A takes half of that too.\"",
   "img": "059F",
   "zoom": [],
-  "label": "CF-059 · GEN"
+  "label": "CF-059 \u00b7 GEN"
  },
  {
   "id": "060",
   "kind": "GEN",
   "base": null,
-  "cap": "\"To be exact, the paper first sets aside a small base amount for the operator — one thousand dollars a month —\" [pile splits]",
+  "cap": "\"To be exact, the paper first sets aside a small base amount for the operator \u2014 one thousand dollars a month \u2014\" [pile splits]",
   "crops": [],
   "overlay": "",
-  "caption": "\"To be exact, the paper first sets aside a small base amount for the operator — one thousand dollars a month —\"",
+  "caption": "\"To be exact, the paper first sets aside a small base amount for the operator \u2014 one thousand dollars a month \u2014\"",
   "img": "060F",
   "zoom": [],
-  "label": "CF-060 · GEN"
+  "label": "CF-060 \u00b7 GEN"
  },
  {
   "id": "061",
@@ -882,7 +884,7 @@
   "caption": "\"and then the rest of the profit is split down the middle. Half to the company. Half to the operator.\"",
   "img": "061F",
   "zoom": [],
-  "label": "CF-061 · GEN"
+  "label": "CF-061 \u00b7 GEN"
  },
  {
   "id": "062",
@@ -894,7 +896,7 @@
   "caption": "\"So the company gets paid twice: once on every sale, even if the store makes no profit at all,\"",
   "img": "062F",
   "zoom": [],
-  "label": "CF-062 · GEN"
+  "label": "CF-062 \u00b7 GEN"
  },
  {
   "id": "063",
@@ -906,7 +908,7 @@
   "caption": "\"and again on half the profit.\"",
   "img": "063F",
   "zoom": [],
-  "label": "CF-063 · GEN"
+  "label": "CF-063 \u00b7 GEN"
  },
  {
   "id": "064",
@@ -915,22 +917,22 @@
   "cap": "(carry)",
   "crops": [],
   "overlay": "",
-  "caption": "\"You get paid last —\"",
+  "caption": "\"You get paid last \u2014\"",
   "img": "064F",
   "zoom": [],
-  "label": "CF-064 · GEN"
+  "label": "CF-064 \u00b7 GEN"
  },
  {
   "id": "065",
   "kind": "GEN",
   "base": null,
-  "cap": "(carry — section out-breath)",
+  "cap": "(carry \u2014 section out-breath)",
   "crops": [],
   "overlay": "",
   "caption": "\"only from what survives both cuts.\"",
   "img": "065F",
   "zoom": [],
-  "label": "CF-065 · GEN"
+  "label": "CF-065 \u00b7 GEN"
  },
  {
   "id": "065B",
@@ -939,8 +941,8 @@
   "cap": "(carry)",
   "crops": [],
   "overlay": "",
-  "caption": "\"Here is the honest answer — the one almost nobody tells you straight.\"",
-  "label": "CF-065B · GEN"
+  "caption": "\"Here is the honest answer \u2014 the one almost nobody tells you straight.\"",
+  "label": "CF-065B \u00b7 GEN"
  },
  {
   "id": "067",
@@ -964,13 +966,13 @@
   "id": "068",
   "kind": "GEN",
   "base": null,
-  "cap": "\"The filing reports sales — and only sales.\"",
+  "cap": "\"The filing reports sales \u2014 and only sales.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"The filing reports sales — and only sales. No profit. No owner pay. Anywhere.\"",
+  "caption": "\"The filing reports sales \u2014 and only sales. No profit. No owner pay. Anywhere.\"",
   "img": "068F",
   "zoom": [],
-  "label": "CF-068 · GEN"
+  "label": "CF-068 \u00b7 GEN"
  },
  {
   "id": "069",
@@ -982,7 +984,7 @@
   "caption": "\"Anyone who gives you one exact pay number, and says it like it is a fact, is guessing.\"",
   "img": "069F",
   "zoom": [],
-  "label": "CF-069 · GEN"
+  "label": "CF-069 \u00b7 GEN"
  },
  {
   "id": "070",
@@ -1002,7 +1004,7 @@
   "overlay": "",
   "caption": "\"Outside companies have tried to work it out from the costs.\"",
   "zoom": [],
-  "label": "CF-071 · GEN"
+  "label": "CF-071 \u00b7 GEN"
  },
  {
   "id": "072",
@@ -1014,7 +1016,7 @@
   "caption": "\"Their guesses for a typical store land roughly between one hundred eighty-seven thousand and three hundred thousand dollars a year.\"",
   "img": "072F",
   "zoom": [],
-  "label": "CF-072 · GEN"
+  "label": "CF-072 \u00b7 GEN"
  },
  {
   "id": "073",
@@ -1026,7 +1028,7 @@
   "caption": "\"Read that the right way: that is their estimate, not a promise from Chick-fil-A, and a busy store and a slow store will not land in the same place. But even at the low end, you can see why people want in.\"",
   "img": "073F",
   "zoom": [],
-  "label": "CF-073 · GEN"
+  "label": "CF-073 \u00b7 GEN"
  },
  {
   "id": "074",
@@ -1038,7 +1040,7 @@
   "caption": "\"You paid ten thousand dollars to start. You did not borrow millions to build a store. And you can end up with a pay level most store managers never reach.\"",
   "img": "074F",
   "zoom": [],
-  "label": "CF-074 · GEN"
+  "label": "CF-074 \u00b7 GEN"
  },
  {
   "id": "075",
@@ -1050,7 +1052,7 @@
   "caption": "\"That is the good part of the deal. And it is real. Now here is the part that is just as real.\"",
   "img": "075F",
   "zoom": [],
-  "label": "CF-075 · GEN"
+  "label": "CF-075 \u00b7 GEN"
  },
  {
   "id": "076",
@@ -1224,10 +1226,10 @@
   "id": "090",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And for a long time, most people in your seat ran just one store — so you cannot grow the way other owners do, by opening a second and a third.\"",
+  "cap": "\"And for a long time, most people in your seat ran just one store \u2014 so you cannot grow the way other owners do, by opening a second and a third.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"And for a long time, most people in your seat ran just one store — so you cannot grow the way other owners do, by opening a second and a third.\"",
+  "caption": "\"And for a long time, most people in your seat ran just one store \u2014 so you cannot grow the way other owners do, by opening a second and a third.\"",
   "zoom": [],
   "note": "stores recolored blue, signs blank, no wordmark"
  },
@@ -1251,17 +1253,17 @@
   "overlay": "",
   "caption": "\"You spent years building one of the busiest restaurants in the country. And the thing you built belongs to someone else.\"",
   "img": "019",
-  "label": "CF-019 · REUSE (packed store from earlier in the film)",
+  "label": "CF-019 \u00b7 REUSE (packed store from earlier in the film)",
   "zoom": []
  },
  {
   "id": "091",
   "kind": "GEN",
   "base": null,
-  "cap": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something — while someone else owns everything under it.\"",
+  "cap": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something \u2014 while someone else owns everything under it.\"",
   "crops": [],
   "overlay": "",
-  "caption": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something — while someone else owns everything under it.\"",
+  "caption": "\"And you do not have to run a restaurant to know this feeling. A big title that makes it sound like you own something \u2014 while someone else owns everything under it.\"",
   "zoom": [],
   "note": "new image: office worker (plain, not the mascot) with oversized title plate, boss with blank deed above; MANAGER composited on plate; no restaurant",
   "higgsfield_job": "a45db2b1-464a-4359-bcab-80012549c061"
@@ -1286,9 +1288,9 @@
   "crops": [],
   "zoom": [],
   "img": "022",
-  "caption": "\"You can pay ten thousand dollars, and maybe — out of forty thousand people —\"",
-  "cap": "\"You can pay ten thousand dollars, and maybe — out of forty thousand people —\"",
-  "label": "CF-023 · REUSE (uses the CF-022 line-of-applicants image)",
+  "caption": "\"You can pay ten thousand dollars, and maybe \u2014 out of forty thousand people \u2014\"",
+  "cap": "\"You can pay ten thousand dollars, and maybe \u2014 out of forty thousand people \u2014\"",
+  "label": "CF-023 \u00b7 REUSE (uses the CF-022 line-of-applicants image)",
   "note": "user chose CF-022 image for this reuse beat"
  },
  {
@@ -1323,7 +1325,7 @@
   "img": "093B",
   "caption": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\"",
   "cap": "\"The company will take fifteen cents of every dollar first, and half the profit after that.\"",
-  "label": "CF-093B · zoom on CF-093"
+  "label": "CF-093B \u00b7 zoom on CF-093"
  },
  {
   "id": "041R",
@@ -1335,7 +1337,7 @@
   "img": "041",
   "caption": "\"You will never own the store.\"",
   "cap": "\"You will never own the store.\"",
-  "label": "CF-041 · REUSE (the finished building)"
+  "label": "CF-041 \u00b7 REUSE (the finished building)"
  },
  {
   "id": "094",
@@ -1358,7 +1360,7 @@
   "img": "095B",
   "caption": "\"Because if you are one of the few who get picked, the trade is simple: you give up owning the business,\"",
   "cap": "\"Because if you are one of the few who get picked, the trade is simple: you give up owning the business,\"",
-  "label": "CF-095B · zoom on CF-095"
+  "label": "CF-095B \u00b7 zoom on CF-095"
  },
  {
   "id": "096",
