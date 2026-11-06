@@ -1,0 +1,7 @@
+CHICK-FIL-A-FILM-MASTER-v2.mp4 (movement-pass master; not in git, 97 MB)
+sha256: 0d52caa5deb72367f1dc29a125bc84294abb6d869136cb6d967e8c181b89cb6a
+Built from sections-v2/SECTION-01..18-v2.mp4 (CF-008 v5, CF-044B v7, 8 gentle moves, rest stills), ffmpeg concat filter (setsar=1), one loudnorm pass (I=-18, TP=-1, linear), libx264 CRF17 slow, AAC 192k stereo 44.1k, +faststart.
+Audio stream present: yes (aac, 2 ch, 44.1 kHz). Full video decode: no errors. 16181 frames, 30 fps, 1920x1080.
+Runtime 539.40 s (8:59.4). Integrated -18.0 LUFS, true peak -2.6 dBFS, LRA 3.2 LU.
+Per-10s RMS -20.1 to -23.2 dBFS over 54 windows (no dropouts). L/R correlation >= 0.9991 per window, 1.0000 overall (mono source upmixed).
+Ending: last audible sample at 538.16 s, file ends 539.40 s: 1.23 s silent hold on CF-101, hard cut, no fade/card/text.
