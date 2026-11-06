@@ -1,0 +1,30 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-090.jpg",
+  "frame_start": 0,
+  "frames": 312,
+  "move": "pan {'z': 1.07, 'direction': 'up'}"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-092.jpg",
+  "frame_start": 312,
+  "frames": 175,
+  "move": "still"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-019.jpg",
+  "frame_start": 487,
+  "frames": 202,
+  "move": "still"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-091.jpg",
+  "frame_start": 689,
+  "frames": 278,
+  "move": "still"
+ }
+]

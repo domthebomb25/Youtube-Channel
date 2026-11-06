@@ -1,0 +1,30 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-052.jpg",
+  "frame_start": 0,
+  "frames": 77,
+  "move": "still"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-052B-edit.jpg",
+  "frame_start": 77,
+  "frames": 170,
+  "move": "still"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-053.jpg",
+  "frame_start": 247,
+  "frames": 399,
+  "move": "push {'zend': 1.05, 'target': (0.45, 0.38)}"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-054-edit.jpg",
+  "frame_start": 646,
+  "frames": 182,
+  "move": "still"
+ }
+]

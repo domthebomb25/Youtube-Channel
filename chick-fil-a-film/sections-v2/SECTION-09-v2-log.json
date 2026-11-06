@@ -1,0 +1,37 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-047.jpg",
+  "frame_start": 0,
+  "frames": 264,
+  "move": "pan {'z': 1.07, 'direction': 'down'}"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-048.jpg",
+  "frame_start": 264,
+  "frames": 156,
+  "move": "still"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-049.jpg",
+  "frame_start": 420,
+  "frames": 178,
+  "move": "still"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-050-edit.jpg",
+  "frame_start": 598,
+  "frames": 88,
+  "move": "still"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-051-edit.jpg",
+  "frame_start": 686,
+  "frames": 267,
+  "move": "still"
+ }
+]

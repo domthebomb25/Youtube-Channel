@@ -1,0 +1,79 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-022.jpg",
+  "frame_start": 0,
+  "frames": 79,
+  "move": "still"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-022B.jpg",
+  "frame_start": 79,
+  "frames": 84,
+  "move": "still"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-023.jpg",
+  "frame_start": 163,
+  "frames": 72,
+  "move": "still"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-023B.jpg",
+  "frame_start": 235,
+  "frames": 79,
+  "move": "still"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-024.jpg",
+  "frame_start": 314,
+  "frames": 127,
+  "move": "still"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-024B.jpg",
+  "frame_start": 441,
+  "frames": 77,
+  "move": "still"
+ },
+ {
+  "beat": 7,
+  "picture": "CF-025.jpg",
+  "frame_start": 518,
+  "frames": 103,
+  "move": "still"
+ },
+ {
+  "beat": 8,
+  "picture": "CF-025B.jpg",
+  "frame_start": 621,
+  "frames": 99,
+  "move": "still"
+ },
+ {
+  "beat": 9,
+  "picture": "CF-026.jpg",
+  "frame_start": 720,
+  "frames": 108,
+  "move": "still"
+ },
+ {
+  "beat": 10,
+  "picture": "CF-026B.jpg",
+  "frame_start": 828,
+  "frames": 125,
+  "move": "still"
+ },
+ {
+  "beat": 11,
+  "picture": "CF-028.jpg",
+  "frame_start": 953,
+  "frames": 91,
+  "move": "still"
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-091.jpg",
+  "frame_start": 0,
+  "frames": 113,
+  "move": "still"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-022.jpg",
+  "frame_start": 113,
+  "frames": 161,
+  "move": "still"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-095.jpg",
+  "frame_start": 274,
+  "frames": 33,
+  "move": "still"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-093.jpg",
+  "frame_start": 307,
+  "frames": 240,
+  "move": "still"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-041.jpg",
+  "frame_start": 547,
+  "frames": 63,
+  "move": "still"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-094.jpg",
+  "frame_start": 610,
+  "frames": 110,
+  "move": "push {'zend': 1.05, 'target': (0.55, 0.4)}"
+ }
+]
