@@ -1,0 +1,2 @@
+SECTION 12 FINAL: locked, never rebuild.
+Breath fix applied (BRAM-071/073 tails silenced, durations unchanged).
