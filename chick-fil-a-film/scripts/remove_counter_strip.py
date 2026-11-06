@@ -42,6 +42,14 @@ if len(sys.argv) > 5 and sys.argv[5] == 'flat':
 out = img.copy()
 ys, xs = np.nonzero(mask)
 out[ys, xs] = ref[xs].astype(np.uint8)
+if len(sys.argv) > 5 and sys.argv[5] == 'seams':
+    fx0, fx1 = int(sys.argv[6]), int(sys.argv[7]); seams = [int(v) for v in sys.argv[8].split(',')]; rr = int(sys.argv[9])
+    flat = np.median(img[800:860, fx0:fx1].reshape(-1, 3), axis=0).astype(np.uint8)
+    out[ys, xs] = flat
+    for sx in seams:
+        for dx in range(-4, 5):
+            sel = (xs == sx + dx)
+            out[ys[sel], xs[sel]] = img[rr, sx + dx]
 if len(sys.argv) > 6 and sys.argv[5] == 'tile':
     bx0, bx1, ct = int(sys.argv[6]), int(sys.argv[7]), int(sys.argv[8])
     block = img[ct:r0-3, bx0:bx1].copy(); bh, bw = block.shape[:2]
