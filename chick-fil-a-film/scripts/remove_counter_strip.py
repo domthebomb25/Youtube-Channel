@@ -42,6 +42,10 @@ if len(sys.argv) > 5 and sys.argv[5] == 'flat':
 out = img.copy()
 ys, xs = np.nonzero(mask)
 out[ys, xs] = ref[xs].astype(np.uint8)
+if len(sys.argv) > 6 and sys.argv[5] == 'tile':
+    bx0, bx1, ct = int(sys.argv[6]), int(sys.argv[7]), int(sys.argv[8])
+    block = img[ct:r0-3, bx0:bx1].copy(); bh, bw = block.shape[:2]
+    out[ys, xs] = block[(ys - ct) % bh, (xs - bx0) % bw]
 # soften the filled area edge slightly
 cv2.imwrite(dst, out, [cv2.IMWRITE_JPEG_QUALITY, 95] if dst.endswith('.jpg') else [])
 print(dst, 'masked px', int(mask.sum()))
