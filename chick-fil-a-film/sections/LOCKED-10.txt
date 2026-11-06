@@ -1,1 +1,4 @@
 SECTION 10 FINAL: locked, never rebuild.
+Re-locked after CF-054 label fix (approx sign added).
+SHA-256: ce3fc4e8c7ac96e97455c13a8f57b5c292e351ebd1cd8301c8274a4938683790
+Previous (superseded): 4ffdfdedf4d55637ffcafd56bbd25afc62ce0ea94f4fd427f8d16316c137d642

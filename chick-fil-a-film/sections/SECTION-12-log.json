@@ -1,0 +1,65 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-060F.jpg",
+  "start_exact": 0.0,
+  "frame_start": 0,
+  "cut_time_s": 0.0,
+  "frames": 214,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-061F.jpg",
+  "start_exact": 7.12,
+  "frame_start": 214,
+  "cut_time_s": 7.1333,
+  "frames": 177,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-062F.jpg",
+  "start_exact": 13.04,
+  "frame_start": 391,
+  "cut_time_s": 13.0333,
+  "frames": 180,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-063F.jpg",
+  "start_exact": 19.04,
+  "frame_start": 571,
+  "cut_time_s": 19.0333,
+  "frames": 63,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-064F.jpg",
+  "start_exact": 21.12,
+  "frame_start": 634,
+  "cut_time_s": 21.1333,
+  "frames": 48,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-065F.jpg",
+  "start_exact": 22.72,
+  "frame_start": 682,
+  "cut_time_s": 22.7333,
+  "frames": 84,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 7,
+  "picture": "CF-065B.jpg",
+  "start_exact": 25.52,
+  "frame_start": 766,
+  "cut_time_s": 25.5333,
+  "frames": 124,
+  "move": "push-in 1.00->1.04"
+ }
+]
