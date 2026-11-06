@@ -36,3 +36,13 @@ CF-060: draw the envelope being set aside first, then the pile split. CF-013: ch
 
 ## Higgsfield references (may be reachable in the account)
 Signed CF-001 master media id 7f013de9-ae39-4b4a-ac37-b86abdc7ad74; restaurant/sign ref d3acbfe1-2023-455d-90fd-d285d0406039; counter interior (new CF-048) 217419f3-4d0c-4482-9ef2-51c0136e2451.
+
+
+## ASSEMBLY PHASE (added after storyboard + narration were done)
+Narration voice is BRAM (voice_id 549ff70a-3ee7-4f04-a4d9-89a24fab7709). All narration is in audio/bram-wav (use these) and audio/bram-mp3; 123 files, 540.1 s decoded. Line list: data/narration-lines.json. Timing report: assembly/BRAM-timing-report.csv (decoded durations; never use mp3 header lengths).
+Switch sheet v2 (source of truth for all start times): assembly/chick-fil-a-switch-sheet-v2.pdf.
+Workflow: 18 sections of about 30 s, one at a time, 1080p, minimal movement (one slow push-in 100-104% or hold; zoom only on sheet-marked ZOOM beats; no pans; no silent shots). A section the user calls FINAL is locked and never rebuilt.
+LOCKED: sections/SECTION-01-FINAL.mp4 (beats 1-8, 0:00-0:28.64) and sections/SECTION-02-FINAL.mp4 (beats 9-13, 0:28.64-0:57.60). Checksums beside them.
+Builder: assembly/build_section.py (generic) and assembly/build_s02.py (example with a custom smooth zoom). They expect the old scratchpad paths; re-point S. align_one.py = pocketsphinx word alignment.
+NEXT: Section 03 = sheet beats 14-20 (CF-011, 011B, 012, 013, 014, 015, 016) on BRAM-012..018, 0:57.64 to 1:27.12, ends on "...while closed on Sundays." Confirm with the user whether CF-011B zooms (the sheet shows no ZOOM note on rows 14-20).
+New/changed images this phase: CF-006-owner.jpg (flat face + OWNER plate), new CF-008.jpg (counter shot with wordmark), CF-008-retired-key.jpg (old key image, retired). CF-072 (section 13) needs its THIRD-PARTY ESTIMATE label composited. BRAM-122 plays nowhere.

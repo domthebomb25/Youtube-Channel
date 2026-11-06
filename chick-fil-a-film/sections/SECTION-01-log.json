@@ -1,0 +1,74 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-001.jpg",
+  "start_exact": 0.0,
+  "frame_start": 0,
+  "cut_time_s": 0.0,
+  "frames": 168,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-002.jpg",
+  "start_exact": 5.6,
+  "frame_start": 168,
+  "cut_time_s": 5.6,
+  "frames": 44,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-003.jpg",
+  "start_exact": 7.05,
+  "frame_start": 212,
+  "cut_time_s": 7.0667,
+  "frames": 38,
+  "move": "hold"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-004.jpg",
+  "start_exact": 8.32,
+  "frame_start": 250,
+  "cut_time_s": 8.3333,
+  "frames": 146,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-005.jpg",
+  "start_exact": 13.2,
+  "frame_start": 396,
+  "cut_time_s": 13.2,
+  "frames": 72,
+  "move": "push-in 1.00->1.01"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-006-owner.jpg",
+  "start_exact": 15.6,
+  "frame_start": 468,
+  "cut_time_s": 15.6,
+  "frames": 183,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 7,
+  "picture": "CF-006-edit.jpg",
+  "start_exact": 21.71,
+  "frame_start": 651,
+  "cut_time_s": 21.7,
+  "frames": 26,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 8,
+  "picture": "CF-007.jpg",
+  "start_exact": 22.56,
+  "frame_start": 677,
+  "cut_time_s": 22.5667,
+  "frames": 182,
+  "move": "push-in 1.00->1.04"
+ }
+]
