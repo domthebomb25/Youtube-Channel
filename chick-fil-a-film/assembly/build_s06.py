@@ -9,15 +9,14 @@ st={};c=0.0
 for n in nums: st[n]=c;c+=wd(n)
 end=c
 print('section start',round(off,4),'length',round(end,4),'ends',round(off+end,4))
-C34,C36,C37=2.48,2.17,2.50   # user-given splits (alignment: "and" 2.44, "It" 2.13, "but" 2.42)
+C36,C37=2.17,2.50   # user-given splits (alignment: "It" 2.13, "but" 2.42); the 2.48 split in BRAM-034 was dropped
 beats=[('CF-029.jpg',st[33],st[34]),                 # CF-028 line on the photo board
-       ('CF-NEW029.jpg',st[34],st[34]+C34),          # CF-029 line on the new check-handover image
-       ('CF-029B-check.jpg',st[34]+C34,st[35]),
+       ('CF-NEW029.jpg',st[34],st[35]),              # CF-029 line: check handover holds all of BRAM-034 (no crop)
        ('CF-030.jpg',st[35],st[36]),                 # holds 6.0 s, gentle push only
        ('CF-031.jpg',st[36],st[36]+C36),
-       ('CF-031B.jpg',st[36]+C36,st[37]),
-       ('CF-033.jpg',st[37],st[37]+C37),             # CF-032 line on image file CF-033
-       ('CF-032B.jpg',st[37]+C37,st[38]),
+       ('CF-031B.jpg',st[36]+C36,st[37]),            # own image (company man picks the mascot)
+       ('CF-033.jpg',st[37],st[37]+C37),             # CF-032 line: new store-entrance handover (file CF-033)
+       ('CF-032B.jpg',st[37]+C37,st[38]),            # own image (huge store, puzzled mascot)
        ('CF-032.jpg',st[38],end)]                    # CF-033 line on image file CF-032
 f,log=build('06',beats,nums)
 print(f)
