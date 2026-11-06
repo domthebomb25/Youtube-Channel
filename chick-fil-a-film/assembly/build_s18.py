@@ -8,7 +8,7 @@ START=510.32             # Section 17 end
 st={};c=0.0
 for n in nums: st[n]=c;c+=wd(n)
 end=c
-print('section start',round(START,4),'length',round(end,4),'ends',round(START+end,4))
+print('section start',round(START,4),'narration length',round(end,4),'narration ends',round(START+end,4),'video ends',round(START+end+1.2,4))
 C120=7.30    # gap between "small." (ends 7.14) and "It is cheap" (7.40) inside BRAM-120
 C123=1.55    # start of "to run one" inside BRAM-123 (CF-100 -> CF-101 closer; cut at a word boundary)
 beats=[('CF-095.jpg',st[117],st[118]),          # CF-095B zoom crop dropped: CF-095 holds
@@ -18,6 +18,8 @@ beats=[('CF-095.jpg',st[117],st[118]),          # CF-095B zoom crop dropped: CF-
        ('CF-099.jpg',st[120]+C120,st[123]),     # display case holds through BRAM-120 tail + BRAM-121 (099B ride folded)
        ('CF-100.jpg',st[123],st[123]+C123),
        ('CF-101.jpg',st[123]+C123,end)]         # sunrise closer takes the final line's tail
-f,log=build('18',beats,nums)
+TAIL=1.2     # final breath: CF-101 holds 1.2 s past the last spoken word, silent audio, then cut (no fade, no end card)
+beats[-1]=(beats[-1][0],beats[-1][1],end+TAIL)
+f,log=build('18',beats,nums+[999])
 print(f)
 for l in log: print(l)

@@ -59,7 +59,7 @@
   "start_exact": 26.83,
   "frame_start": 805,
   "cut_time_s": 26.8333,
-  "frames": 23,
-  "move": "hold"
+  "frames": 59,
+  "move": "push-in 1.00->1.04"
  }
 ]
