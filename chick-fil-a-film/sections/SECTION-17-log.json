@@ -1,0 +1,56 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-091.jpg",
+  "start_exact": 0.0,
+  "frame_start": 0,
+  "cut_time_s": 0.0,
+  "frames": 113,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-022.jpg",
+  "start_exact": 3.76,
+  "frame_start": 113,
+  "cut_time_s": 3.7667,
+  "frames": 161,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-095.jpg",
+  "start_exact": 9.12,
+  "frame_start": 274,
+  "cut_time_s": 9.1333,
+  "frames": 33,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-093.jpg",
+  "start_exact": 10.24,
+  "frame_start": 307,
+  "cut_time_s": 10.2333,
+  "frames": 240,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-041.jpg",
+  "start_exact": 18.24,
+  "frame_start": 547,
+  "cut_time_s": 18.2333,
+  "frames": 63,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-094.jpg",
+  "start_exact": 20.32,
+  "frame_start": 610,
+  "cut_time_s": 20.3333,
+  "frames": 110,
+  "move": "push-in 1.00->1.04"
+ }
+]
