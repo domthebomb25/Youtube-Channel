@@ -1,0 +1,1 @@
+BRAM-071 and BRAM-073: last 180 ms silenced (20 ms fade) to remove a clipped breath-in at the CF-060->061 and CF-062->063 joins in Section 12. Duration unchanged. Originals in audio/bram-wav are untouched.
