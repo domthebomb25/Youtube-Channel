@@ -1,0 +1,56 @@
+[
+ {
+  "beat": 1,
+  "picture": "CF-055-edit.jpg",
+  "start_exact": 0.0,
+  "frame_start": 0,
+  "cut_time_s": 0.0,
+  "frames": 65,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 2,
+  "picture": "CF-055B.jpg",
+  "start_exact": 2.16,
+  "frame_start": 65,
+  "cut_time_s": 2.1667,
+  "frames": 149,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 3,
+  "picture": "CF-056.jpg",
+  "start_exact": 7.12,
+  "frame_start": 214,
+  "cut_time_s": 7.1333,
+  "frames": 96,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 4,
+  "picture": "CF-057.jpg",
+  "start_exact": 10.32,
+  "frame_start": 310,
+  "cut_time_s": 10.3333,
+  "frames": 134,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 5,
+  "picture": "CF-058.jpg",
+  "start_exact": 14.8,
+  "frame_start": 444,
+  "cut_time_s": 14.8,
+  "frames": 163,
+  "move": "push-in 1.00->1.04"
+ },
+ {
+  "beat": 6,
+  "picture": "CF-059F.jpg",
+  "start_exact": 20.24,
+  "frame_start": 607,
+  "cut_time_s": 20.2333,
+  "frames": 231,
+  "move": "push-in 1.00->1.04"
+ }
+]
