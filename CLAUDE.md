@@ -6,6 +6,7 @@ Trial reel OFF, Related video on every YouTube Short, etc.). Keep it step-by-ste
 
 - Hooks and script structure: follow the script template in `channel/SHORTS-PLAYBOOK.md` (question hook by default, payoff-statement variant ~3 in 10). Old template files are archived in `channel/archive/` (superseded; do not use).
 - Always quote Higgsfield credit cost and wait for OK before spending.
+- **NARRATION VOICE (standing rule, every short and every film): BRAM.** Higgsfield preset voice_id `549ff70a-3ee7-4f04-a4d9-89a24fab7709`, generate_audio model `text2speech_v2`, variant `elevenlabs`, voice_type `preset`. Benji and Andre are retired as narration voices; never use them. Decided by the user on 2026-11-06 and stays until the user says otherwise.
 - User prefers PDFs over .md for documents.
 - Weekly formula and per-day captions: `videos/costco-hot-dog/shorts/POSTING-PLAN.md`.
 

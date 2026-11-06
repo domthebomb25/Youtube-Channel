@@ -1,7 +1,7 @@
 # Posting settings checklist (use every time)
 
 Channel: **The Business Stick HQ** · handle @TheBusinessStickHQ / thebusinessstickhq on every app.
-Content = AI-generated cartoon images + AI narrator voice (Benji). Upload the original file, never a re-download.
+Content = AI-generated cartoon images + AI narrator voice (Bram). Upload the original file, never a re-download.
 
 ## TikTok
 - Upload → Next → **no music / text / filters** → Next
