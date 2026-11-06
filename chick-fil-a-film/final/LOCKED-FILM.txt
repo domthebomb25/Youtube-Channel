@@ -1,0 +1,3 @@
+CHICK-FIL-A FILM FINAL: locked, never rebuild. Do not modify CHICK-FIL-A-FILM-FINAL.mp4.
+Movement-pass master v2, 8:59.4, -18.0 LUFS, built from sections-v2 (SECTION-01..18-v2).
+See ../MASTER-v2-QA.txt
