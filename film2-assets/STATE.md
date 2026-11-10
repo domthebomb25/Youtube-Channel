@@ -2,14 +2,15 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of session). Higgsfield balance: see CURRENT STATUS (Section 3 generation, 2026-11-10).
 
-## CURRENT STATUS (Section 3 fix round done, 2026-11-10)
-- **Section 3 (Truth 1: The Money, VO-074-104) is now 18 shots, numbered 58-75** (`section3/58.png`-`75.png`, plus `69-state.png`). **Section 4 starts at shot 76.** Map: `docs/SECTION3-MAP.txt`.
-- **CHARACTER COLOR LOCK: Ludwig always wears a GREEN sweatshirt; Ninja always wears a BLUE sweatshirt** (neither has a gold tie; gold tie = lead only).
-- Fix round (4.00 of a 5.00 cap): 59 new generation, 63 model edit (calendar removed), 65 local recolor (green), 69 new full-frame generation + rebuilt 69-state (local), 70 model edit (Ninja). Old 71 split into 71/72/73 (VO-098/099/100, cumulative row highlight, local renames); old 72/73 renumbered 74/75.
-- Spend: Section 3 first pass 16.00 + fix round 4.00. Balance 823.26 -> 807.26 -> **803.26**.
-- Sheets: `storyboards/section3-storyboard-v4-shots-58-67`/`-68-73` (FIRST PASS, now stale for 59/63/65/69/70/71-73), `storyboards/section3-fix-v4-changed-shots.pdf`/`.png` and `section3-fix-v4-shots-71-75.pdf`/`.png` (current). Builders: `tools/sheet-section3.py`, `tools/sheet-section3-fix.py`, `tools/section3-states.py` (its 69-state/71 parts are superseded).
-- Known nits: 59 tag "$6" retouched locally; 59's lead looks forward more than down; 69-state text is smaller than before; shot 64 room angle differs a little from shot 9. AWAITING Dominick's review.
-- NEXT: Dominick reviews; then Sections 4-6 (map + quote first, wait for OK). Next shot number: 76.
+## CURRENT STATUS (close-out of the Section 3 chat, 2026-11-10)
+- **Sections 1-3 are DONE: 71 shots total.** Section 1 = 19 shots, Section 2 = 34 shots, Section 3 = 18 shots (58-75, including the fix round; fix-round commit `9745448`). Files: `section1/`, `section2/`, `section3/` (+ `section3/69-state.png`). Section 3 map: `docs/SECTION3-MAP.txt`.
+- **Higgsfield balance: 803.26 credits.** (823.26 at the start of the Section 3 chat; 16.00 first pass + 4.00 fix round.)
+- **CHARACTER COLOR LOCK: Ludwig ALWAYS wears a GREEN sweatshirt; Ninja ALWAYS wears a BLUE sweatshirt.** Neither wears a gold tie (the gold tie is the lead only).
+- **NEXT JOB: Section 4 (Truth 2: The Power), shots 76-88. The map is approved: 13 generations + 1 free state, expected cost 13.00. It will run in a NEW chat; it was NOT started in this one.** Preflight before any paid call as always (masters/refs attached, live price 1.00 via get_cost; stop and report if the price differs); one generation per shot, no re-rolls without Dominick's OK.
+- Section 3 fix-round summary: 59 new generation ("$6" tag retouched locally); 63 model edit (calendar removed); 65 local green recolor; 69 new full-frame generation + 69-state rebuilt locally; 70 model edit (Ninja in blue); old 71 split into 71/72/73 (VO-098/099/100, cumulative row highlight); old 72/73 renumbered 74/75.
+- Storyboards: current Section 3 sheets are `storyboards/section3-fix-v4-changed-shots.pdf`/`.png` and `storyboards/section3-fix-v4-shots-71-75.pdf`/`.png`; the first-pass `section3-storyboard-v4-shots-58-67`/`-68-73` sheets are stale for the changed shots. Builders: `tools/sheet-section3.py`, `tools/sheet-section3-fix.py`, `tools/section3-states.py` (its 69-state/71 parts are superseded).
+- Known nits (awaiting Dominick's review): 59's lead looks forward more than down at the coin; 69-state text is smaller than before; shot 64 room angle differs a little from shot 9.
+- Video assembly: not started, only on Dominick's word.
 
 ## EARLIER STATUS (Muse process update, 2026-11-10)
 - **Sections 1 and 2 are DONE.** Section 1: 19 shots final. Section 2: 34 shots final (shots 31, 45, 55 cut; shot 54 carries VO-069 2nd half-071; shot 57 is the exact shot 54 frame; shots 51 and 53 approved as-is). Storyboards for Sections 1-2 done; shots 1-57 done.
@@ -91,6 +92,6 @@ Older tools: `tools/sheet-21-30.py`, `tools/sheet-32-40.py`.
 - None open on Sections 1-2 (51 and 53 approved as-is; 57 = shot 54).
 - Go-ahead needed to START the Section 3 re-map (VO-074-104) under the lenient pacing. After the map + new quote are presented, approval of both is needed before any generation or spend.
 
-## 5. NEXT STEP (superseded by CURRENT STATUS above for Section 3)
+## 5. NEXT STEP (superseded: see CURRENT STATUS at the top; next is Section 4, shots 76-88, in a new chat)
 1. Dominick says go, then: re-map Section 3 (VO-074-104) under the lenient pacing rules (fewer images, several lines per image, every shot under 10 s, VO-095 on ONE image with the money figure as a free state) and present the map + a NEW quote (preflight: master + reference attached, live price via get_cost). Generate nothing until both are approved.
 2. Sections 4-6 follow the same pacing.
