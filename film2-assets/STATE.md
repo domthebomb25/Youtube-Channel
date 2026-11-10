@@ -1,8 +1,17 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
-Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of session). Higgsfield balance: see CURRENT STATUS (Section 3 generation, 2026-11-10).
+Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of the Section 5 chat).
 
-## CURRENT STATUS (close-out of the Section 4 chat, 2026-11-10)
+## CURRENT STATUS (close-out of the Section 5 chat, 2026-11-10)
+- **Sections 1-5 are DONE: 111 shots** (S5 = shots 89-111, 23 generations). Files: `section5/89.png`-`111.png` (1920x1080 masters). Map: `docs/SECTION5-MAP.txt`. Storyboards: `storyboards/section5-storyboard-v4-shots-89-94`, `-95-100`, `-101-106`, `-107-111` (.pdf/.png). Builders: `tools/sheet-section5.py`, `tools/crop-section5.py` (raw outputs were in a local `raw5/` folder, not committed).
+- **Higgsfield balance: 766.26 credits** (789.26 at the start; 23.00 generation, exactly 1.00 each; live price re-confirmed 1.00 before any paid call; no re-rolls, no fix round, no failures).
+- All 23 images passed the self-check (whitelist text, locked screen designs, gold tie on the lead only, Ninja BLUE in 93-94, one eyebrow per eye, LIVE states: 89 off; 95, 99, 105 bright). Flags only: 105 calendar grid has 24 squares, 108 has 20 (not 30); 94 right eyebrow tight to the outline. Full list at the bottom of `docs/SECTION5-MAP.txt`.
+- CHARACTER COLOR LOCK unchanged: Ludwig GREEN, Ninja BLUE; gold tie = the lead only. Record holder in 102-103 = unnamed generic gray-hoodie stickman; Kai Cenat (106) = plain generic stickman with the plain label only.
+- Note: there is no separate counter-screen asset file; shot 50 (and 99 for the 1,000,000 design) serve as the counter reference.
+- **NEXT JOB: Section 6 (The Payoff), starts at shot 112 (VO-177 "So that is what it really means...") to the end (VO-195).** It runs in a NEW chat. Map + quote first, wait for OK before any spend; preflight as always (references attached, live price 1.00, stop and report if not).
+
+## EARLIER STATUS (close-out of the Section 4 chat, 2026-11-10)
+
 - **Sections 1-4 are DONE: 84 shots** (S1 19, S2 34, S3 18 = shots 58-75, S4 13 = shots 76-88 plus its fix rounds). Files: `section4/76.png`-`88.png` + `section4/85-state.png`. Map: `docs/SECTION4-MAP.txt`. Committed through the Section 4 fix rounds.
 - **Higgsfield balance: 789.26 credits.** (803.26 at the start of Section 4; 13.00 generation + 1.00 fix-round edit on 86; everything else local.)
 - **FINAL, matter closed:** `section4/85-state.png` (tiny streamer's face repainted quietly happy, closed smile + soft brows, to match shot 88's suited figure; local, 0.00; `tools/section4-states.py` step 5). `section4/86.png` = fix-round edit (happy, hands on hips, no bubble).

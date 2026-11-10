@@ -1,0 +1,91 @@
+FILM #2 — SECTION 5 "TRUTH 3: THE CATCH" — shot map (VO-130 to VO-176), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
+23 shots, numbered 89-111, all under 10 s. Section 6 (The Payoff) starts at shot 112 (VO-177).
+SECTION 5 RUNTIME (sum of shot durations): 150.7s.
+Generation (2026-11-10): 23 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 23.00 (cap 23.00). Live price confirmed 1.00 via get_cost before any paid call. Balance 789.26 -> 766.26.
+One generation per shot, no re-rolls, no failures, no fix round. Raw outputs 2688x1520 -> centre-cropped to 16:9 and resized to 1920x1080 masters (tools/crop-section5.py).
+Refs uploaded: shot 9 (room + style), shot 75 (dusk room bridge), shot 69 (Ninja design), shot 70 (Ninja), stream-screen asset (assets/stream-screen-asset-640x360.png), shot 50 (counter screen; there is no separate counter-screen asset file, so a real counter frame was used).
+Continuity refs by job id: 100 -> 101, 104, 105, 108; 90 -> 109, 111; 98 -> 111; 93 -> 106; 99 -> 102; 102 -> 103 (generated after 102 passed).
+Screen rule kept: only the locked COUNTER design appears (94, 99, 102, 103); other monitors are seen from behind (93, 95, 97, 105, 106, 107). No stream screen was needed.
+
+CHARACTER COLOR LOCK: Ludwig GREEN (not in S5), Ninja BLUE (93, 94). Gold tie = the lead only. Record holder 102/103 = unnamed generic plain stickman (gray hoodie, no label). Kai Cenat (106) = plain generic stickman, no name colors, label only.
+Allowed props that carry text: '#1' glowing on the chair/throne back (89, 90, 92, 97, 98, 99, 109, 111) and the word LIVE on the LIVE box (89 unlit; 95, 96, 99, 105 bright), same as the locked room in earlier sections.
+
+---- MAP ----
+89 VO-130–131  3.5s  BRIDGE. The locked room at dusk; the door from 88 now closed. He stands alone, serious, before the #1 chair. Monitor off, LIVE box UNLIT. Text: none (#1 on chair = locked prop).
+     “This leads you now to the final hidden truth. But.”
+     job e40cd07e-5dd2-4ead-8cbc-3f79ac720125
+90 VO-132–133  9.0s  Long staircase climbing to the glowing #1 throne far above; he stands small at a halfway marker (blank flag), looking up. Text: none (#1 on throne).
+     “In this final hidden truth there lies a catch. And the catch is this: becoming the #1 streamer overnight was only half the battle.”
+     job bada2a85-a7f2-4b7b-a8ae-193f42c18afc
+91 VO-134  4.1s  At the top: he grips the crown with both hands against blowing wind, tie flying, straining to hold on. Text: none.
+     “Staying as the #1 streamer is just as hard — maybe harder.”
+     job f6708eaf-e199-4dc0-b3b4-e3138c01988d
+92 VO-135–136  6.0s  The #1 chair slides away across a tilting floor as he reaches for it. No desk/monitor in frame. Text: none (#1 on chair).
+     “Because your chair does not just stay yours. The moment you stop, you start falling.”
+     job 535c0bb2-29df-4fd9-beb6-9013250ca097
+93 VO-137  9.2s  Ninja at his peak setup: plain stickman, BLUE hoodie, no tie, two monitors seen from behind, wall calendar with two days X'd (no numbers). Text: NINJA (label) only.
+     “One streamer — Ninja, the same man from the twenty-to-thirty-million-dollar deal — took less than two days off while being the #1 streamer in the world.”
+     job a8349595-ece1-4518-ba4b-598990fe2ace
+94 VO-138–139  7.3s  Ninja (BLUE hoodie) staring at the COUNTER screen: 40,000 with a red down arrow; two torn calendar pages on the floor. Text: 40,000 only. Nit: right eyebrow tight to the head outline.
+     “In those two days he lost forty thousand subscribers. Two days off is all it took.”
+     job 46093146-123b-498d-8ddb-fd13570ed404
+95 VO-140–141  7.8s  Three calendar pages in a row (middle and right mid-flip); under each, the same vignette: he streams at his desk, LIVE BRIGHT (today, tomorrow, next day). Monitors from behind. No dates.
+     “So today you go live. And tomorrow. And the next day. There is no day off at number one.”
+     job 97e0e5c0-201e-47f5-a369-32dc7b44962a
+96 VO-142  2.4s  Him beside the bright LIVE sign at the left edge; at the right edge a cliff drops into black nothing. Text: LIVE (sign) only.
+     “There is only live — or falling.”
+     job f9ad9efe-3116-4063-a1ec-7a6b634e3f2e
+97 VO-143–144  5.4s  A sea of plain streamers (gray hoodies, no ties) at small desks, each pressing a red button, every eye on the #1 chair glowing at the top. Text: none (#1 on chair).
+     “And remember the six million people pressing that same button? They all want your chair.”
+     job 15dbfd13-4a6e-4291-a442-75df2fc2ee5d
+98 VO-145–146  7.9s  The #1 chair in shadow-light: a crown passes from one black silhouette's hands to another's; more challenger silhouettes approach from the dark. No faces. Text: none (#1 on chair).
+     “The record you are about to set tonight has been taken before — and taken back. Somebody is always coming for it.”
+     job 92bb507e-938a-43e4-9364-0b68bab74096
+99 VO-147–149  8.3s  His room: monitor on the COUNTER screen 1,000,000; the crowd around the desk and floor is made of gift boxes with bows. He looks uneasy. LIVE bright. Text: 1,000,000 (+ locked #1 / LIVE props).
+     “But here is the hardest part. The part nobody told you on your big night. Most of that million you are about to cross… were gifts.”
+     job c489e8fc-b489-4abe-aec3-7f1ac510a126
+100 VO-150–151  5.4s  One gift box wearing a BLANK expiration tag, sitting on a one-month calendar grid (blank squares, no dates). Text: none.
+     “And a gifted subscriber comes with an expiration date. A gift lasts one month.”
+     job 215b2d4a-fd63-43a9-88e2-9998d45b00aa
+101 VO-152–153  6.9s  The same gift box faded to a pale dashed ghost; beside it an empty, softly lit viewer seat in a row of dark empty seats. Text: none.
+     “Then it is gone — unless that person reaches into their own pocket and pays again. Most of them do not.”
+     job 9b85fae3-4881-49e0-9f25-4491c36b0d08
+102 VO-154–155  7.6s  The record holder: generic plain stickman (gray hoodie, NO tie, NO label) at his desk, arms up, confetti, COUNTER screen 1,000,000. Text: 1,000,000 only.
+     “It already happened to the man who held this record before you. He crossed a million subscribers — the first in history.”
+     job 38609dc3-fe3f-4296-bc65-d104568aed6f
+103 VO-156–158  7.2s  The same man weeks later: slumped, shocked, calendar pages scattered on the floor, room quiet and empty, COUNTER screen 40,000. Text: 40,000 only.
+     “A few weeks later, he looked at his number. About forty thousand were left. More than nine out of ten — gone.”
+     job 67e82c4f-f463-4a17-a672-d853e6538404
+104 VO-159–162  7.5s  A giant calendar page looms over him; one day circled in red: the 30. He is small beneath it, gold tie. Text: 30 only.
+     “Not because he failed. Because the calendar said so. Your customers cancel themselves. Every thirty days.”
+     job 32355686-9225-4eab-9279-382011507209
+105 VO-163–166  5.9s  He is LIVE again, determined, gold tie; behind him a calendar grid with EVERY square checked, no gaps. LIVE bright. Note: the grid has 24 squares (4×6), not 30. Text: none (LIVE sign only).
+     “So how do you win it back? You continue to stream. Every single day. No days off.”
+     job 2f0f0851-6a7e-43f7-8e45-0cee91c2241d
+106 VO-167  6.0s  Plain generic stickman (gray hoodie, no tie, no name colors) at a marathon setup: headphones, mic, cans, snacks, blanket; wall of 30 blank day squares (5×6). Text: KAI CENAT (plain label) only.
+     “When Kai Cenat started losing a lot of his subscribers, he introduced his Mafiathon.”
+     job 91a37fcb-4577-4237-b74d-96961d2bc08d
+107 VO-168–169  7.3s  His room around the clock: bed beside the streaming desk; sun on one half of the window, moon on the other; he sleeps on camera (tripod camera with red dot, mic, headphones). Text: none.
+     “He streamed for thirty days straight. Twenty-four hours a day. He slept on camera. He lived on camera.”
+     job f821fb25-9692-4879-ab55-bc5b14781859
+108 VO-170–171  9.0s  A crown resting on a full calendar grid, every square checked; he stands guard with a spear, tired. Note: the grid has 20 squares (4×5), not 30. Text: none.
+     “One whole month of his life — dedicated to keeping the crown he already won. That is what it might take for you to stay at the top.”
+     job 3076edc4-242b-4438-8f69-c5fa1a734093
+109 VO-172  4.4s  Callback to 90 from the top: he stands at the #1 throne and the road keeps climbing past it, out of frame. Text: none (#1 on throne).
+     “And that is why getting to the throne of #1 is only half the battle.”
+     job 49c20cf3-c44e-48c8-9152-ed0186307ac2
+110 VO-173–174  6.3s  On his desk: an open envelope, a bill with a crown printed on it and a red due-date stamp (tiny calendar icon, nothing readable), coffee mug. Text: none.
+     “The crown is not a prize you get to keep. It is a bill that comes due every thirty days.”
+     job 816012ac-1c94-485b-bbd8-f27f5483baca
+111 VO-175–176  6.3s  Closing: from far below, a swarm of black challenger silhouettes climbs the stairs toward his glowing throne; he stands at the top holding the crown. Text: none (#1 on throne).
+     “And there are millions of people coming for that throne of yours. And they will do whatever it takes to get there.”
+     job 3c2b91b1-1d0f-4091-83e3-1cced1d7370a
+
+FLAGS (cartoon-good, not blocking; no re-roll without OK):
+- 105: the wall calendar grid has 24 squares (4x6), all checked, no gaps; the brief only asked for every day marked. 
+- 108: the calendar grid has 20 squares (4x5), all checked; reads as a full month but is not 30 squares.
+- 94: Ninja's right eyebrow sits tight against the head outline (present, one per eye).
+- 95: three vignettes sit side by side under three calendar pages (middle and right pages mid-flip).
+- 99: the gift-box crowd sits on the desk front and floor around the monitor so the monitor keeps the locked counter design.
+- 110: the due-date stamp is a red rectangle with a tiny calendar icon; nothing readable.
+- 97/111: very small far-background figures are shapes only (anatomy checks apply to the foreground faces, which pass).
