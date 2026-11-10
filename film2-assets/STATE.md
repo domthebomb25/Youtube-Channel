@@ -29,9 +29,15 @@ masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4
   - Spend this chat: 2.00 total (1.00 wasted on a 41 call submitted without its references, 1.00 on the 47 edit). 823.26 left.
   - Sheet: `storyboards/section2-storyboard-v4-shots-41-50.pdf` / `.png` (45 omitted; 44 and 46 show new VO). The old 41-50 JPG in `storyboards/` is now stale. Builder: `tools/sheet-41-50.py`.
 
+- **Section 2 batch 50-57 (2026-11-10), local composites, 0 credits:**
+  - Map: shot 55 CUT (file `section2-cut/55-CUT.png`, no renumbering); shot 54 = VO-069 (2nd half)-071 (~9.0 s); shot 53 = VO-069 (1st half) 4.8 s. Section 2 = 34 shots.
+  - DONE (monitor screen only, rest byte-identical): 52 (stream screen from 41: his preview + genuine chat column, perspective-matched; the chat bars fade out on the right because the real screen is wider than 41's visible part), 56 (landscape replaced: his circular head from 56 on the dark preview + genuine chat column), 57 (sunset replaced by 53's counter design: person icon, 900,000, the one blurred line; darkened for dusk).
+  - CORRECTION to 41: my earlier composite painted the chat panel over the monitor's lower bezel band (about 30 px). Redone from the original master; the panel now stops at the screen's inner rim. Same design and method.
+  - NOT DONE: 51 and 53 (add chat column). The counter (icon + 900,000) fills the screen; the 49/50 chat column starts about 305 px into the screen, so it would sit on top of the 900,000. 50 stays unchanged. Needs Dominick's decision (section 4).
+  - Sheet: `storyboards/section2-storyboard-v4-shots-50-57.pdf` / `.png` (55 omitted). Builder: `tools/sheet-50-57.py`.
+
 ## 2. IN PROGRESS / NOT STARTED
-- **Shots 56 and 57** (stray scenery on the monitor): DEFERRED. No action, no spend. Belongs to the 51-57 batch chat after Muse's audit.
-- Section 2 shots 51-55 and the remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
+- Section 2 shots 51 and 53 and the remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
   re-checked this session; minor: 42 tear, 48 peeking eye, 52 room angle) are for the 41-57 batch chats.
 - Sections 3 (Truth 1: The Money), 4 (Truth 2: The Power), 5 (Truth 3: The Catch), 6 (The Payoff): not started.
 - Video assembly: not started, only on Dominick's word.
@@ -41,19 +47,20 @@ Section 2 approved masters, 1920x1080 PNG, in `section2/`:
 - `23.png`, `24.png`, `25.png`, `26.png`, `28.png`, `30.png` — approved re-roll finals.
 - `33.png`, `36.png`, `38.png`, `39.png`, `40.png` — approved fix-round masters.
 - `41.png`, `47.png` — fixed masters (2026-11-10). `42.png`-`44.png`, `46.png`, `48.png`-`50.png` approved (44/46 new VO only).
-- `21.png`, `22.png`, `29.png`, `32.png`, `34.png`, `35.png`, `37.png`, `51.png`-`57.png` — as first delivered (still valid; 51-57 not re-reviewed).
+- `21.png`, `22.png`, `29.png`, `32.png`, `34.png`, `35.png`, `37.png`, `51.png`, `53.png`, `54.png` — as first delivered (valid; 51 and 53 pending decision). `52.png`, `56.png`, `57.png` — screen composites (2026-11-10).
 Section 1: `section1/11.png`, `section1/16.png` — byte-exact approved finals (replaced old versions). `section1/1.png` = shot 1 = thumbC = Section 2 shot 27.
 Storyboards (v4 format): `storyboards/section2-storyboard-v4-shots-21-30.pdf` / `.png`, `storyboards/section2-storyboard-v4-shots-32-40.pdf` / `.png`.
-  The older `.jpg` sheets in `storyboards/` for Section 1 shots 11-20 and Section 2 shots 21-30, 31-40 and 41-50 are stale (use the v4 PDFs); the 51-57 JPG is current.
+  The older `.jpg` sheets in `storyboards/` for Section 1 shots 11-20 and Section 2 shots 21-30, 31-40 and 41-50 and 51-57 are stale (use the v4 PDFs).
 Records: `docs/SECTION2-MAP.txt` (change log + map), `docs/section2-storyboard-map.pdf` (original map), `STATE.md` (this file), `README.md`.
 Archive, do not use: `discarded/27-first-delivery-STALE.png`, `discarded/27-reroll-DISCARDED.png`, `discarded/28-v1-superseded.png`,
   `discarded/30-v1-superseded.png`, `discarded/31-asm-v1-CUT.png`; also `section2-cut/31-CUT.png`.
 Tools: `tools/sheet-21-30.py`, `tools/sheet-32-40.py` (sheet builders; inner paths point at a scratch folder).
 
 ## 4. DECISIONS WAITING ON DOMINICK
-None open for this branch. (28/30 approved; 56/57 deferred to the 51-57 chat.)
+- Shots 51 and 53 (chat column on the counter screen): pick one. (A) Thin sliver: chat column at the far right edge (~50 px visible), counter untouched. (B) Rebuild the 49/50 layout on these monitors: counter shrinks to 50's size on the left, chat on the right (loses the zoomed-in look). (C) Leave 51 and 53 as they are. Both are free, local.
+- Note: the 49/50 chat is colored name pills + gray bars (no white icons); the white viewer icons are the 36/41 stream-screen chat. I would use the 49/50 version for 51 and 53 unless told otherwise.
 For later: paste the locked script lines + VO timings for Sections 3-6 when he wants those storyboards.
 
 ## 5. NEXT STEP
-1. 51-57 batch chat (after Muse's audit): decide 56 and 57, and the desk-drift / minor items for 41-57 (quote cost before any re-roll).
+1. Decide 51 and 53 (section 4). Then the desk-drift / minor items for the batch (quote cost before any re-roll).
 2. Then Section 3 (Truth 1: The Money): storyboard map + credit quote first, generate nothing until Dominick approves.

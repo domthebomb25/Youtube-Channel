@@ -4,7 +4,7 @@ CHANGE LOG
 - Shot 31 is CUT (no renumbering). VO-040 now plays over shot 30.
   Shot 30 = VO-039-040, 5.9 s (VO list: 3.55 + 2.27 = 5.82 s raw), slow push at assembly covers both lines.
   Do not rebuild shot 31.
-- Section 2 is now 35 shots (37 numbers, 21-57, minus the cut 31 and the cut 45).
+- Section 2 is now 34 shots (37 numbers, 21-57, minus the cuts 31, 45 and 55).
 - Batch 21-30 FINAL: 21, 22, 23, 24, 25, 26, 29 accepted as delivered. 27 = REUSED Section 1 shot 1 (thumbC, no edit).
   28 and 30 re-rolled (2nd generation), APPROVED by Dominick.
 - Fix round DONE (batch 32-40 approved): 33 LIVE unlit; 36 shocked mouth + matching preview face; 38 and 39 monitor shows his
@@ -14,6 +14,10 @@ CHANGE LOG
   Shot 46 now starts at VO-058 ("Your phone won't stop ringing"): shot 46 = VO-058-059 (1.80 + 5.25 = 7.05 s).
   Shots 42, 43, 48, 49, 50 approved as-is.
   Shot 41 FIXED: genuine shot-36 chat column warped onto the monitor (local). Shot 47 FIXED: his stream preview + overloaded established chat (one paid edit, then local repaint of viewer icons 3 and 4). Sheet: storyboards/section2-storyboard-v4-shots-41-50.pdf.
+- 2026-11-10 (50-57 batch, local composites only, 0 credits): Shot 55 is CUT (no renumbering; file moved to section2-cut/55-CUT.png).
+  Shot 54 now carries VO-069 (2nd half) through VO-071, about 9.0 s (VO-070-071 play over the push-in). Shot 53 = VO-069 (1st half), 4.8 s.
+  Monitor-screen composites: 52 (stream screen from 41), 56 (his head + chat column), 57 (53's counter design, darkened). 41 re-done: panel now stops at the screen's inner rim.
+  51 and 53 NOT edited: the chat column cannot be added without moving/shrinking the counter. Sheet: storyboards/section2-storyboard-v4-shots-50-57.pdf.
 
 MAP (GEN unless noted)
 21 VO-028-029   22 VO-030   23 VO-031-032   24 VO-033   25 VO-034   26 VO-035   27 VO-036 (REUSED S1 shot 1)
@@ -21,4 +25,4 @@ MAP (GEN unless noted)
 32 VO-041   33 VO-042-043   34 VO-044-045   35 VO-046 ASM (LIVE flipped bright on 34)   36 VO-047   37 VO-048
 38 VO-049-050   39 VO-051   40 VO-052 ASM (face push on 39)   41 VO-053   42 VO-054   43 VO-055   44 VO-056
 45 VO-057-058   46 VO-059   47 VO-060   48 VO-061-062   49 VO-063-064   50 VO-065 ASM   51 VO-066-067
-52 VO-068   53 VO-069 (first half)   54 VO-069 (second half) ASM   55 VO-070-071   56 VO-072   57 VO-073
+52 VO-068   53 VO-069 (first half)   54 VO-069 (2nd half)-071 ASM   55 CUT   56 VO-072   57 VO-073
