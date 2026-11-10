@@ -2,14 +2,14 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of session). Higgsfield balance: see CURRENT STATUS (Section 3 generation, 2026-11-10).
 
-## CURRENT STATUS (close-out of the Section 4 chat, 2026-11-10)
-- **Sections 1-4 are DONE: 84 shots** (Section 4 = shots 76-88, VO-105-131). Files: `section4/76.png`-`88.png` + `section4/85-state.png`. Map: `docs/SECTION4-MAP.txt`.
-- **Higgsfield balance: 790.26 credits** (803.26 at start; 13 generations at 1.00 = 13.00; local fixes 0.00). Live price re-confirmed 1.00 before spending.
-- Shots 85 and 88 were first rejected by a 429 rate limit before any job existed (no charge), then resubmitted once each: not re-rolls.
-- 82: model drew a non-locked monitor (eye icon + people icons); replaced LOCALLY with the stream-screen asset (original archived in `discarded/82-model-original-wrong-monitor-SUPERSEDED.png`). 85-state built locally with `tools/section4-states.py`.
-- Open flags for Dominick: 78 ringing icons are phone symbols, not platform buildings; 81 one star wears a blue shirt; 76/82 right eyebrow touches the head outline. No re-rolls done.
-- Storyboards: `storyboards/section4-storyboard-v4-shots-76-81`, `-82-87`, `-88-and-85-state` (.pdf/.png). Builder `tools/sheet-section4.py`.
-- **NEXT JOB: Section 5 (Truth 3: The Catch), starting at shot 89 (VO-132 onward), new chat. Section 6 (The Payoff) after.** Preflight as always; Section 4's last shot (88) is the bridge into Section 5.
+## CURRENT STATUS (Section 4 fix round, 2026-11-10)
+- **Sections 1-4 are DONE: 84 shots** (Section 4 = shots 76-88). Files: `section4/76.png`-`88.png` + `section4/85-state.png`. Map: `docs/SECTION4-MAP.txt`.
+- **Higgsfield balance: 789.26 credits** (790.26 after the Section 4 generation; the fix round cost 1.00: one model edit on 86). Live price re-confirmed 1.00 first.
+- **Section 4 runtime: 82.7 s.** Shot 88 = VO-129 only ("And it knocks on your door — politely."), 2.7 s. **VO-130-131 ("This leads you now to the final hidden truth. But.") are the OPENING of SECTION 5**; its first shot will be shot 89, designed in the Section 5 job.
+- Fix round: 86 re-edited (lead HAPPY, hands on hips, speech bubble removed; old 86 in `discarded/86-v1-bubble-sad-SUPERSEDED.png`). 85-state: tiny streamer's face repainted HAPPY locally (0.00, `tools/section4-states.py` step 5). 88: no image change.
+- Open flags still standing: 78 ringing icons are phone symbols, not platform buildings; 81 one star wears a blue shirt; 76/82 right eyebrow touches the head outline. No re-rolls done.
+- Storyboards: `storyboards/section4-storyboard-v4-shots-76-81`, `-82-87`, `-88-and-85-state` (.pdf/.png, rebuilt) + review tiles `section4-fix-tile-*.png`. Builder `tools/sheet-section4.py`.
+- **NEXT JOB: Section 5 (Truth 3: The Catch), opening on VO-130-131, first shot = 89, new chat.** Section 6 (The Payoff) after.
 
 ## EARLIER STATUS (close-out of the Section 3 chat, 2026-11-10)
 - **Sections 1-3 are DONE: 71 shots total.** Section 1 = 19 shots, Section 2 = 34 shots, Section 3 = 18 shots (58-75, including the fix round; fix-round commit `9745448`). Files: `section1/`, `section2/`, `section3/` (+ `section3/69-state.png`). Section 3 map: `docs/SECTION3-MAP.txt`.

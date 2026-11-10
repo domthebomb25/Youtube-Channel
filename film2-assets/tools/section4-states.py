@@ -51,3 +51,45 @@ for row,(ys,s) in enumerate([(420,70),(500,86),(590,104),(700,128),(830,156),(98
         pts.append((y,x,s))
 for y,x,s in sorted(pts): icon(x,y,s)
 im.save(A+"/section4/85-state.png")
+
+# 5) FACE FIX (local, 0.00): the tiny streamer is HAPPY once his room has exploded. Old sad brows removed by masked fill from the
+#    surrounding face pixels; eyes kept; happy raised brows + big open smile drawn at 4x and downsampled. Face only; nothing else changes.
+from PIL import ImageFilter
+OX,OY,CW_,CH_=800,560,220,200; S=4
+im=Image.open(A+"/section4/85-state.png").convert("RGB")
+crop=im.crop((OX,OY,OX+CW_,OY+CH_)); a=np.asarray(crop).astype(float)
+lum=a.mean(2)
+mask=np.zeros(lum.shape,bool)
+for (x0,y0,x1,y1) in [(390,205,525,305),(645,215,745,300)]:   # old brows, 4x-crop coords
+    x0,y0,x1,y1=[v//S for v in (x0,y0,x1,y1)]
+    mask[y0:y1,x0:x1]=lum[y0:y1,x0:x1]<215
+mk=Image.fromarray((mask*255).astype("uint8")).filter(ImageFilter.MaxFilter(7))
+mask=np.asarray(mk)>0
+def blur(x,s):
+    k=np.exp(-0.5*(np.arange(-3*s,3*s+1)/s)**2); k/=k.sum()
+    r=np.apply_along_axis(lambda v:np.convolve(np.pad(v,3*s,mode="edge"),k,"valid"),0,x)
+    return np.apply_along_axis(lambda v:np.convolve(np.pad(v,3*s,mode="edge"),k,"valid"),1,r)
+w=((~mask)&(lum>=215)).astype(float); out=a.copy()
+for c in range(3):
+    num=blur(a[...,c]*w,6); den=blur(w,6)+1e-6
+    out[...,c][mask]=(num/den)[mask]
+fixed=Image.fromarray(np.clip(out,0,255).astype("uint8"))
+ink=tuple(int(v) for v in a[105:112,122:128].reshape(-1,3).min(0))        # the eyes' own ink colour
+big=fixed.resize((CW_*S,CH_*S),Image.LANCZOS); bd=ImageDraw.Draw(big)
+def arc(cx,cy,w_,h_,wd):  # raised, rounded brow: stamped circles along the curve (uniform width, round caps)
+    for k in range(0,101):
+        ang=math.radians(205+130*k/100); px=cx+w_/2*math.cos(ang); py=cy+h_/2*math.sin(ang)
+        bd.ellipse([px-wd/2,py-wd/2,px+wd/2,py+wd/2],fill=ink)
+arc(500,372,150,104,21); arc(693,376,136,100,21)
+# big open smile: D-shaped mouth (flat top, round bottom) with a tongue
+mx0,mx1,my=500,722,528
+bd.pieslice([mx0,my-98,mx1,my+98],0,180,fill=ink)
+bd.pieslice([mx0+34,my+30,mx1-34,my+104],0,180,fill=(222,86,86))
+big=big.filter(ImageFilter.GaussianBlur(0.6))
+face=big.resize((CW_,CH_),Image.LANCZOS)
+# paste back only inside the head interior (circle), so the outline and everything outside stay byte-identical
+diff=(np.abs(np.asarray(face).astype(int)-np.asarray(crop).astype(int)).max(2)>6)
+hm=Image.fromarray((diff*255).astype("uint8")).filter(ImageFilter.MaxFilter(5))
+cm=Image.new("L",(CW_,CH_),0); ImageDraw.Draw(cm).ellipse([112-86,106-86,112+86,106+86],fill=255)   # never touch the head outline
+hm=ImageChops.multiply(hm,cm)
+im.paste(face,(OX,OY),hm); im.save(A+"/section4/85-state.png")
