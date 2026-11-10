@@ -17,7 +17,7 @@ CHANGE LOG
 - 2026-11-10 (50-57 batch, local composites only, 0 credits): Shot 55 is CUT (no renumbering; file moved to section2-cut/55-CUT.png).
   Shot 54 now carries VO-069 (2nd half) through VO-071, about 9.0 s (VO-070-071 play over the push-in). Shot 53 = VO-069 (1st half), 4.8 s.
   Monitor-screen composites: 52 (stream screen from 41), 56 (his head + chat column), 57 (53's counter design, darkened). 41 re-done: panel now stops at the screen's inner rim.
-  51 and 53 NOT edited: the chat column cannot be added without moving/shrinking the counter. Sheet: storyboards/section2-storyboard-v4-shots-50-57.pdf.
+  51 and 53 APPROVED AS-IS (Dominick): no chat column, no layout change; 54 unchanged. Sheet: storyboards/section2-storyboard-v4-shots-50-57.pdf.
 
 MAP (GEN unless noted)
 21 VO-028-029   22 VO-030   23 VO-031-032   24 VO-033   25 VO-034   26 VO-035   27 VO-036 (REUSED S1 shot 1)
