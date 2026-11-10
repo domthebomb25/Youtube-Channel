@@ -31,7 +31,7 @@ masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4
 
 ## 2. IN PROGRESS / NOT STARTED
 - **Shots 56 and 57** (stray scenery on the monitor): DEFERRED. No action, no spend. Belongs to the 51-57 batch chat after Muse's audit.
-- Section 2 shots 41-55 and the remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
+- Section 2 shots 51-55 and the remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
   re-checked this session; minor: 42 tear, 48 peeking eye, 52 room angle) are for the 41-57 batch chats.
 - Sections 3 (Truth 1: The Money), 4 (Truth 2: The Power), 5 (Truth 3: The Catch), 6 (The Payoff): not started.
 - Video assembly: not started, only on Dominick's word.
@@ -44,7 +44,7 @@ Section 2 approved masters, 1920x1080 PNG, in `section2/`:
 - `21.png`, `22.png`, `29.png`, `32.png`, `34.png`, `35.png`, `37.png`, `51.png`-`57.png` — as first delivered (still valid; 51-57 not re-reviewed).
 Section 1: `section1/11.png`, `section1/16.png` — byte-exact approved finals (replaced old versions). `section1/1.png` = shot 1 = thumbC = Section 2 shot 27.
 Storyboards (v4 format): `storyboards/section2-storyboard-v4-shots-21-30.pdf` / `.png`, `storyboards/section2-storyboard-v4-shots-32-40.pdf` / `.png`.
-  The older `.jpg` sheets in `storyboards/` for Section 1 shots 11-20 and Section 2 shots 21-30 and 31-40 are stale; shots 41-50 and 51-57 JPGs are current.
+  The older `.jpg` sheets in `storyboards/` for Section 1 shots 11-20 and Section 2 shots 21-30, 31-40 and 41-50 are stale (use the v4 PDFs); the 51-57 JPG is current.
 Records: `docs/SECTION2-MAP.txt` (change log + map), `docs/section2-storyboard-map.pdf` (original map), `STATE.md` (this file), `README.md`.
 Archive, do not use: `discarded/27-first-delivery-STALE.png`, `discarded/27-reroll-DISCARDED.png`, `discarded/28-v1-superseded.png`,
   `discarded/30-v1-superseded.png`, `discarded/31-asm-v1-CUT.png`; also `section2-cut/31-CUT.png`.
