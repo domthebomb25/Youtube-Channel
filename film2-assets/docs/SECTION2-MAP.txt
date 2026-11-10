@@ -13,7 +13,7 @@ CHANGE LOG
   VO-057 ("And tonight is not even here yet") now plays over shot 44: shot 44 = VO-056-057 (4.52 + 2.04 = 6.56 s).
   Shot 46 now starts at VO-058 ("Your phone won't stop ringing"): shot 46 = VO-058-059 (1.80 + 5.25 = 7.05 s).
   Shots 42, 43, 48, 49, 50 approved as-is.
-  Shot 41 (chat -> established chat design) and shot 47 (burst -> his stream screen + overloaded chat): edits NOT yet delivered, see STATE.md.
+  Shot 41 FIXED: genuine shot-36 chat column warped onto the monitor (local). Shot 47 FIXED: his stream preview + overloaded established chat (one paid edit, then local repaint of viewer icons 3 and 4). Sheet: storyboards/section2-storyboard-v4-shots-41-50.pdf.
 
 MAP (GEN unless noted)
 21 VO-028-029   22 VO-030   23 VO-031-032   24 VO-033   25 VO-034   26 VO-035   27 VO-036 (REUSED S1 shot 1)
