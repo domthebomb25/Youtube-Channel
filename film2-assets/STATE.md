@@ -2,6 +2,11 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of the Section 5 chat).
 
+## SECTION 5 FIX ROUND (2026-11-10, same chat) — OPEN ITEM
+- **Higgsfield balance: 765.26** (766.26 - 1.00 for the 101 regeneration).
+- **93: DONE, local 0.00.** The two scattered red Xs on Ninja's wall calendar were erased and redrawn as two back-to-back Xs in one row (`tools/fix93-calendar.py`). Original in `discarded/93-original.png`. Sheet `storyboards/section5-storyboard-v4-shots-89-94` rebuilt.
+- **101: regenerated (1.00) but the candidate FAILED the "hand at the pocket with a visible coin" check** (one hand in the pocket, the other holds the coin up; nobody pulls it out of the pocket). Passed: 5 ghost boxes + 1 solid, box matches shot 100, no text, no seats, no business stickman. NOT swapped in: `section5/101.png` is still the original theater-seats image; candidate = `pending/101-candidate-NEEDS-OK.png`. **Decision needed from Dominick: accept the candidate as-is, or approve one re-roll (1.00).** If accepted: archive the old 101 to `discarded/101-original.png`, copy the candidate to `section5/101.png`, rebuild sheet 101-106.
+
 ## CURRENT STATUS (close-out of the Section 5 chat, 2026-11-10)
 - **Sections 1-5 are DONE: 111 shots** (S5 = shots 89-111, 23 generations). Files: `section5/89.png`-`111.png` (1920x1080 masters). Map: `docs/SECTION5-MAP.txt`. Storyboards: `storyboards/section5-storyboard-v4-shots-89-94`, `-95-100`, `-101-106`, `-107-111` (.pdf/.png). Builders: `tools/sheet-section5.py`, `tools/crop-section5.py` (raw outputs were in a local `raw5/` folder, not committed).
 - **Higgsfield balance: 766.26 credits** (789.26 at the start; 23.00 generation, exactly 1.00 each; live price re-confirmed 1.00 before any paid call; no re-rolls, no fix round, no failures).

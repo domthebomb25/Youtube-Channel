@@ -15,7 +15,7 @@ S=[
  (90,"VO-132–133","9.0s",line(132,133),"Long staircase climbing to the glowing #1 throne far above; he stands small at a halfway marker (blank flag), looking up. Text: none (#1 on throne)."),
  (91,"VO-134","4.1s",line(134),"At the top: he grips the crown with both hands against blowing wind, tie flying, straining to hold on. Text: none."),
  (92,"VO-135–136","6.0s",line(135,136),"The #1 chair slides away across a tilting floor as he reaches for it. No desk/monitor in frame. Text: none (#1 on chair)."),
- (93,"VO-137","9.2s",line(137),"Ninja at his peak setup: plain stickman, BLUE hoodie, no tie, two monitors seen from behind, wall calendar with two days X'd (no numbers). Text: NINJA (label) only."),
+ (93,"VO-137","9.2s",line(137),"Ninja at his peak setup: plain stickman, BLUE hoodie, no tie, two monitors seen from behind, wall calendar with two CONSECUTIVE days X'd side by side (no numbers). [FIX ROUND: Xs moved locally, 0.00.] Text: NINJA (label) only."),
  (94,"VO-138–139","7.3s",line(138,139),"Ninja (BLUE hoodie) staring at the COUNTER screen: 40,000 with a red down arrow; two torn calendar pages on the floor. Text: 40,000 only. Nit: right eyebrow tight to the head outline."),
  (95,"VO-140–141","7.8s",line(140,141),"Three calendar pages in a row (middle and right mid-flip); under each, the same vignette: he streams at his desk, LIVE BRIGHT (today, tomorrow, next day). Monitors from behind. No dates."),
  (96,"VO-142","2.4s",line(142),"Him beside the bright LIVE sign at the left edge; at the right edge a cliff drops into black nothing. Text: LIVE (sign) only."),

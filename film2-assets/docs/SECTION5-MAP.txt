@@ -23,7 +23,8 @@ Allowed props that carry text: '#1' glowing on the chair/throne back (89, 90, 92
 92 VO-135–136  6.0s  The #1 chair slides away across a tilting floor as he reaches for it. No desk/monitor in frame. Text: none (#1 on chair).
      “Because your chair does not just stay yours. The moment you stop, you start falling.”
      job 535c0bb2-29df-4fd9-beb6-9013250ca097
-93 VO-137  9.2s  Ninja at his peak setup: plain stickman, BLUE hoodie, no tie, two monitors seen from behind, wall calendar with two days X'd (no numbers). Text: NINJA (label) only.
+93 VO-137  9.2s  Ninja at his peak setup: plain stickman, BLUE hoodie, no tie, two monitors seen from behind, wall calendar with two CONSECUTIVE days X'd side by side (no numbers). Text: NINJA (label) only.
+     [FIX ROUND 2026-11-10, LOCAL 0.00: the two scattered Xs erased and redrawn as two back-to-back Xs in one row (tools/fix93-calendar.py); everything outside the calendar byte-identical. Original: discarded/93-original.png]
      “One streamer — Ninja, the same man from the twenty-to-thirty-million-dollar deal — took less than two days off while being the #1 streamer in the world.”
      job a8349595-ece1-4518-ba4b-598990fe2ace
 94 VO-138–139  7.3s  Ninja (BLUE hoodie) staring at the COUNTER screen: 40,000 with a red down arrow; two torn calendar pages on the floor. Text: 40,000 only. Nit: right eyebrow tight to the head outline.
@@ -89,3 +90,10 @@ FLAGS (cartoon-good, not blocking; no re-roll without OK):
 - 99: the gift-box crowd sits on the desk front and floor around the monitor so the monitor keeps the locked counter design.
 - 110: the due-date stamp is a red rectangle with a tiny calendar icon; nothing readable.
 - 97/111: very small far-background figures are shapes only (anatomy checks apply to the foreground faces, which pass).
+
+FIX ROUND 2026-11-10 (cap 1.00):
+- 93: local edit, 0.00 (see above).
+- 101: REGENERATED once (1.00, job d6396c87-f921-430e-a4d3-b84a455a859a, refs = shots 99, 100, 102). Candidate FAILED one stated check, so it is NOT swapped in and section5/101.png is still the original theater-seats image. Candidate saved at pending/101-candidate-NEEDS-OK.png. 
+  Passed: 5 ghost boxes vs exactly 1 solid box; box design matches shot 100 (blue, gold ribbon/bow, blank tag); no text; no theater seats; business stickman absent (viewer = gray hoodie, no tie).
+  FAILED: "hand at the pocket with a visible coin": one hand rests in the hoodie pocket and the OTHER hand holds the coin up beside the solid box; no hand is pulling the coin out of the pocket. 
+  Waiting for Dominick: accept as-is, or approve one re-roll (1.00).
