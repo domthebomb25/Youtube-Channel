@@ -1,0 +1,173 @@
+FILM #2 — SECTION 3 'TRUTH 1: THE MONEY' — shot map and credit quote (VO-074 to VO-104)
+DRAFT for Dominick's approval. NOTHING generated. NOTHING spent.
+
+Read: film2-assets/voiceover/script-locked.txt and timing-report.md. VO-074..104 = 31 lines, 115.58 s.
+Shots 58-85 (continues after Section 2 shot 57). Shot 58 starts at VO-074; VO-073 is already in shot 57.
+
+58  VO-074  2.19s  [GEN]
+   VO: Truth number one is about the money.
+   SCREEN: One big gold coin icon, glowing, centered on the monitor. Nothing else. No text.
+   BRAM: Stops celebrating, leans forward, one brow raised per eye, curious.
+   MEANING: The tiny line from 53/54 is now the subject: money.
+
+59  VO-075  3.87s  [GEN]
+   VO: And the money starts with the counter you could not stop watching.
+   SCREEN: Counter 900,000 with person icon (same as 53). Small gold coins lift off the number and float up.
+   BRAM: Hands on armrests, eyes locked on the number, half smile.
+   MEANING: Every subscriber on the counter is a coin.
+
+60  VO-076  4.21s  [GEN]
+   VO: Every single name on that counter pays about six dollars a month.
+   SCREEN: One person icon with a '$6' tag, in front of a faded crowd of identical person icons. Text: $6
+   BRAM: Head tilted, puzzled-curious.
+   MEANING: Each name is a payer, not a fan.
+
+61  VO-077-078  4.00s  [GEN]
+   VO: Six dollars sounds like nothing. It is the price of a coffee.
+   SCREEN: One coffee-cup icon beside '$6'. Calm and small. Text: $6
+   BRAM: Shrugs, relaxed, unimpressed.
+   MEANING: Set up the trap: tiny price, so it feels harmless.
+
+62  VO-079  3.79s  [GEN]
+   VO: But tonight, you are crossing one million of them.
+   SCREEN: Counter shows 1,000,000 with person icon, glowing. Text: 1,000,000
+   BRAM: Eyes wide, brows up, mouth slightly open.
+   MEANING: The harmless price is about to be multiplied by a crowd.
+
+63  VO-080-081  3.14s  [GEN]
+   VO: One million people. Six dollars each.
+   SCREEN: Left half: crowd icon + 1,000,000. Right half: coin + $6. Big pile of coins between them. Text: 1,000,000 and $6
+   BRAM: Eyes up, doing the math in his head.
+   MEANING: The multiplication moment.
+
+64  VO-082  3.00s  [GEN]
+   VO: Now — the website takes its cut first.
+   SCREEN: Coin pile. A generic website-window icon (no letters, no logo) reaches in and grabs coins off the side.
+   BRAM: Suspicious sideways look, brow raised.
+   MEANING: Someone is skimming before you see it.
+
+65  VO-083  5.56s  [GEN]
+   VO: About half of every subscription goes to the platform before it ever reaches you.
+   SCREEN: One coin split exactly in half. Left half slides to the website-window icon, right half to a small person icon (you). No digits, no %.
+   BRAM: Palms up, small wince. (Slow push at assembly.)
+   MEANING: Half the money never reaches you.
+
+66  VO-084 + VO-085a  5.03s  [GEN]
+   VO: And still. The last time a streamer made a run like yours,
+   SCREEN: Climbing line graph with a small ghost stick-figure at the top (another streamer's run). No text.
+   BRAM: Brows up, watching closely. Split point of VO-085 set at assembly.
+   MEANING: There is precedent: someone already did this.
+
+67  VO-085b + VO-086  4.98s  [GEN]
+   VO: they grossed an estimate in subscriber money alone at about three and a half million dollars. In one month.
+   SCREEN: Big gold coin pile, a blank calendar page icon (NO digits) beside it. Text: $3,500,000
+   BRAM: Hands on cheeks, mouth open.
+   MEANING: Subscriber money alone, one month.
+
+68  VO-087  3.79s  [GEN]
+   VO: And he had fewer subscribers than you are about to have.
+   SCREEN: Two vertical bars with person icons: his short, yours clearly taller. No labels, no digits.
+   BRAM: Grin building, leaning in.
+   MEANING: You are about to beat him.
+
+69  VO-088-089  5.44s  [GEN]
+   VO: That is just the subscribers. You haven't even realized what else is in store for you.
+   SCREEN: Small coin pile bottom-left, rest of the screen dark with big shadowed silhouettes of coin stacks and gift boxes. No text.
+   BRAM: Leans back smug, then a curious frown.
+   MEANING: The subscriber money is only the first slice.
+
+70  VO-090  4.05s  [GEN]
+   VO: Because once a crowd that size exists, the companies come next.
+   SCREEN: Crowd of person icons with a row of generic briefcase and office-building icons walking in from the edge. No text.
+   BRAM: Head tilted, peeking at the screen.
+   MEANING: The crowd attracts companies.
+
+71  VO-091  5.33s  [GEN]
+   VO: One streamer showed his real numbers for one month. His name is Ludwig.
+   SCREEN: A report card with a generic stick-figure portrait, a blank calendar icon, and the name. Text: LUDWIG
+   BRAM: Studying it, chin on hand.
+   MEANING: A real person's real numbers.
+
+72  VO-092a  4.46s  [GEN]
+   VO: His viewers and his streaming sites paid him over three hundred thousand dollars —
+   SCREEN: One short bar with person icon + generic website tile. Text: $300,000
+   BRAM: Calm nod, unimpressed.
+   MEANING: The crowd pays a modest amount.
+
+73  VO-092b  4.45s  [GEN]
+   VO: but the brands paid him eight hundred thousand dollars.
+   SCREEN: Same short bar, now dwarfed by a tall bar with briefcase icons. Text: $300,000 and $800,000
+   BRAM: Jaw drop, wide eyes.
+   MEANING: The brands paid far more.
+
+74  VO-093  4.91s  [GEN]
+   VO: The companies that want to stand next to your crowd pay more than the crowd does.
+   SCREEN: Balance scale: crowd of person icons on one pan, outweighed by briefcase/brand tiles on the other. No text.
+   BRAM: Hand half-raised, 'wait, what?'
+   MEANING: Companies value standing beside the crowd.
+
+75  VO-094  5.56s  [GEN]
+   VO: And then there are the platforms themselves — the websites fighting to be the place you stream.
+   SCREEN: Three generic website tiles (different colors, no letters) pulling toward one monitor icon with tug-of-war arms. No text.
+   BRAM: Overwhelmed, hands up.
+   MEANING: Platforms are fighting over you.
+
+76  VO-095a  3.88s  [GEN]
+   VO: One platform, called Mixer, reportedly paid the streamer named Ninja —
+   SCREEN: A website tile handing a big check/payment stack to a stick-figure silhouette (no bandana, no real likeness). Text: MIXER and NINJA
+   BRAM: Eyebrows up, leaning in.
+   MEANING: Introduce the deal.
+
+77  VO-095b  3.88s  [GEN]
+   VO: the biggest streamer in the world at the time —
+   SCREEN: A podium with one silhouette on top, a huge crowd of tiny figures below, a globe behind. No crown. No text.
+   BRAM: Quiet 'wow' face, brows up.
+   MEANING: How big Ninja was.
+
+78  VO-095c  3.89s  [GEN]
+   VO: between twenty and thirty million dollars.
+   SCREEN: Towering stacks of money. Text: $20,000,000 and $30,000,000
+   BRAM: Eyes bulging, mouth open.
+   MEANING: The size of the number.
+
+79  VO-096  3.00s  [GEN]
+   VO: Just to stream on their site instead of Twitch.
+   SCREEN: Two website tiles: one labeled TWITCH faded and left behind, one glowing with the silhouette stepping across. Text: TWITCH
+   BRAM: Shrug of disbelief.
+   MEANING: They paid to move him.
+
+80  VO-097-098  4.62s  [ASM]
+   VO: So add it up. Millions from the subscribers climbing on your screen.
+   SCREEN: Three coin-stack rows: subscribers (person icon, medium stack), brands (briefcase, small stack), platforms (website tile, huge stack). Row 1 lit, rows 2 and 3 dimmed. No text.
+   BRAM: Same frame as 82 (counting fingers, impressed nod).
+   MEANING: Row 1 of the sum.
+
+81  VO-099  3.55s  [ASM]
+   VO: Hundreds of thousands from the brands lining up behind them.
+   SCREEN: Same screen as 82. Rows 1 and 2 lit, row 3 dimmed.
+   BRAM: Same frame as 82.
+   MEANING: Row 2 of the sum.
+
+82  VO-100  3.40s  [GEN]
+   VO: Tens of millions from the platforms fighting over you.
+   SCREEN: MASTER for 80 and 81. All three rows lit, row 3 stack towering over the others.
+   BRAM: Counting fingers, impressed nod, eyes wide (not extreme).
+   MEANING: Row 3, the biggest number.
+
+83  VO-101-102  5.67s  [GEN]
+   VO: That is truth number one. At number one, the money does not come from one place.
+   SCREEN: Three source icons in a row (crowd, briefcase, website tile), each with its own coin stream. No text, no digits.
+   BRAM: Arms folded, nodding, satisfied.
+   MEANING: Three streams, not one.
+
+84  VO-103  3.16s  [GEN]
+   VO: It comes from everywhere — all at the same time.
+   SCREEN: Coins pouring into the screen from every edge at once. No text.
+   BRAM: Arms out, overwhelmed delight.
+   MEANING: Money from everywhere.
+
+85  VO-104  2.77s  [GEN]
+   VO: Now let's uncover the hidden truth number 2.
+   SCREEN: Coins fade out; a lit crowd silhouette looks in from the dark (foreshadows Truth 2: Power). No text, no digit.
+   BRAM: Turns toward camera, one finger up, 'next'.
+   MEANING: Bridge to Section 4.
