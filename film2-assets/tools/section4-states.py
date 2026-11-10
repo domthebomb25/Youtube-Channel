@@ -76,15 +76,13 @@ for c in range(3):
 fixed=Image.fromarray(np.clip(out,0,255).astype("uint8"))
 ink=tuple(int(v) for v in a[105:112,122:128].reshape(-1,3).min(0))        # the eyes' own ink colour
 big=fixed.resize((CW_*S,CH_*S),Image.LANCZOS); bd=ImageDraw.Draw(big)
-def arc(cx,cy,w_,h_,wd):  # raised, rounded brow: stamped circles along the curve (uniform width, round caps)
-    for k in range(0,101):
-        ang=math.radians(205+130*k/100); px=cx+w_/2*math.cos(ang); py=cy+h_/2*math.sin(ang)
+def stamp(cx,cy,w_,h_,a0,a1,wd):  # a curve of stamped circles: uniform stroke, round caps
+    for k in range(0,121):
+        ang=math.radians(a0+(a1-a0)*k/120); px=cx+w_/2*math.cos(ang); py=cy+h_/2*math.sin(ang)
         bd.ellipse([px-wd/2,py-wd/2,px+wd/2,py+wd/2],fill=ink)
-arc(500,372,150,104,21); arc(693,376,136,100,21)
-# big open smile: D-shaped mouth (flat top, round bottom) with a tongue
-mx0,mx1,my=500,722,528
-bd.pieslice([mx0,my-98,mx1,my+98],0,180,fill=ink)
-bd.pieslice([mx0+34,my+30,mx1-34,my+104],0,180,fill=(222,86,86))
+# quietly happy, matching the suited figure in shot 88: ONE soft curved brow per eye, ONE small closed-smile line, eyes kept
+stamp(500,372,118,92,212,318,15); stamp(693,378,108,88,212,318,15)
+stamp(603,505,150,78,32,148,15)
 big=big.filter(ImageFilter.GaussianBlur(0.6))
 face=big.resize((CW_,CH_),Image.LANCZOS)
 # paste back only inside the head interior (circle), so the outline and everything outside stay byte-identical

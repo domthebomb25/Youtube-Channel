@@ -19,7 +19,7 @@ S=[
  (86,"VO-125–126","5.1s","86.png","“You can make somebody else's whole business in one night. With one sentence.”","[FIX ROUND, model edit 1.00] Night street: the store is lit and open, small crowd inside. He stands frame left, HAPPY, hands on hips, gold tie; speech bubble removed. Blank sign. No text."),
  (87,"VO-127–128","5.9s","87.png","“Yesterday, you needed the world. Today, the world needs you.”","Mirror halves: LEFT dim, small, reaching up to a huge globe; RIGHT bright, tall, globe small by the #1 chair. No text."),
  (88,"VO-129","2.7s","88.png","“And it knocks on your door — politely.”","Closing bridge: calm evening, building figure + company suit + star figure wait, one knocks gently, hats in hand; warm light under the door. No text. [VO-130–131 now OPEN Section 5.]"),
- ("85·STATE","VO-124 (payoff)","9.9s","85-state.png","“…and his room explodes in seconds.”  (free state of shot 85)","FREE STATE, built locally, 0 credits: crowd icons flooding in, light burst, monitor alive with the STREAM screen. [FIX ROUND] his face repainted HAPPY (raised brows, big open smile), face only."),
+ ("85·STATE","VO-124 (payoff)","9.9s","85-state.png","“…and his room explodes in seconds.”  (free state of shot 85)","FREE STATE, built locally, 0 credits: crowd icons flooding in, light burst, monitor alive with the STREAM screen. [FIX ROUND] his face repainted QUIETLY HAPPY to match shot 88's suited figure (closed smile line, soft brows), face only."),
 ]
 def wrap(d,t,font,w):
     out=[];cur=""
