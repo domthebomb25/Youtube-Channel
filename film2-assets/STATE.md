@@ -1,8 +1,21 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
-Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 5 chat, including its fix round).
+Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
-## CURRENT STATUS — CLOSE-OUT OF THE SECTION 5 CHAT (2026-11-10)
+## CURRENT STATUS — CLOSE-OUT OF THE SECTION 6 CHAT (2026-11-10)
+### DONE
+- **ALL 117 SHOTS OF THE FILM ARE NOW GENERATED.** Section 6 (The Payoff) = shots 112-121 (VO-177-195), generated, AWAITING REVIEW. Totals: S1 19, S2 34, S3 18, S4 13, S5 23, S6 10 = 117.
+- Section 6 spend: exactly 10.00 (10 x gpt_image_2_5 16:9 2k medium at 1.00; live price confirmed 1.00 via get_cost first). No re-rolls. Two submissions (112, 121) were rejected with a 429 rate limit before any job existed (balance showed only 8.00 charged), and were resubmitted unchanged.
+- **Higgsfield balance: 755.26 credits.** (765.26 at the start.)
+- Masters: `section6/112.png`-`121.png` (1920x1080). Map: `docs/SECTION6-MAP.txt` (job ids, self-check, flags). Storyboards (v4): `storyboards/section6-storyboard-v4-shots-112-117` and `-118-121` (.png and .pdf); builder `tools/sheet-section6.py`.
+- Self-check passed on all ten (whitelist text = only the locked #1 and LIVE props, STREAM screen only on 113/121, gold tie = lead only, one brow per eye, LIVE bright on 113/121). Flags in the map (116 smug smile, 121 determined rather than calm, 118 lead seen from behind, 119 challenger missing one brow).
+- Script wording: the sheets use the LOCKED lines; the shot brief paraphrased some (e.g. VO-179 locked = "biggest show on Earth").
+### IN PROGRESS
+- Nothing. Section 6 awaits Dominick's review (only meaning failures, wrong text, broken anatomy or wrong screen design come back for fixes).
+### NEXT STEP
+- Dominick reviews Section 6 (and any standing flags). Fixes only on his word, with a stated cost. Then video assembly (not started; only on Dominick's word).
+
+## EARLIER STATUS (close-out of the Section 5 chat, 2026-11-10)
 ### DONE
 - **Sections 1-5 are COMPLETE: 107 shots** (S1 19, S2 34, S3 18, S4 13, S5 23; shot numbers run 1-111 because of the cut/reused numbers in S1-S2). Section 5 = shots 89-111 (VO-130-176), fix round included.
 - **Higgsfield balance: 765.26 credits.** (789.26 at the start; 23.00 first pass, exactly 1.00 each; +1.00 for the 101 regeneration; 93 local, 0.00.) Live price re-confirmed 1.00 before every paid call.

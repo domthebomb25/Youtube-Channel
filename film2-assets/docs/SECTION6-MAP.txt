@@ -1,0 +1,59 @@
+FILM #2 — SECTION 6 "THE PAYOFF" — shot map (VO-177 to VO-195), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
+10 shots, numbered 112-121, all under 10 s. THIS IS THE FINAL SECTION: with it, ALL 117 SHOTS OF THE FILM ARE GENERATED (S1 19, S2 34, S3 18, S4 13, S5 23, S6 10).
+SECTION 6 RUNTIME (sum of shot durations): 52.0s  (7.0+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
+Generation (2026-11-10): 10 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 10.00 (cap 10.00). Live price confirmed 1.00 via get_cost before any paid call.
+Balance 765.26 -> 755.26. One generation per shot, no re-rolls, no failures, no fix round.
+Submission note: the first batch of 10 had two submissions (112, 121) rejected with 429 rate_limit_reached BEFORE a job was created; balance after the batch was 757.26 (exactly 8.00 charged), so nothing was charged for them. They were submitted once more unchanged (same prompt, same refs) = a retry of a rejected submission, not a re-roll.
+Raw outputs 2688x1520 -> centre-cropped to 16:9 and resized to 1920x1080 masters (same method as tools/crop-section5.py).
+Refs uploaded (9): shot 90 (staircase), shot 75 (dusk room), shot 100 + 108 (calendar), shot 110 (the bill), shot 97 (streamer sea), shot 105 (at the desk, determined), stream-screen asset (assets/stream-screen-asset-640x360.png), shot 1 (the #1 chair). Shot 91's crown and shot 104's calendar page were NOT attached (not on the preflight list); 116/118 describe them in the prompt.
+Screen rule kept: only the locked STREAM design appears (113, 121). 112's monitor is OFF/dark; 120's monitors are seen from behind; 114-119 have no screens.
+Colour lock: gold tie = the lead only. Other figures (suited company men in 115, gray-hoodie viewers in 118, challenger in 119, streamers in 120) have NO gold tie.
+Script wording: the sheets and this map use the LOCKED lines (voiceover/script-locked.txt) verbatim. The shot brief paraphrased some of them (e.g. "biggest show in the world" for VO-179, locked = "biggest show on Earth").
+
+---- MAP ----
+112 VO-177–178  7.0s  Callback: the locked room DIM at morning, plain SMALL chair (no #1), him just woken, small in frame, looking at the little chair. Text: none.
+     “So that is what it really means — to become the #1 streamer overnight. You woke up as nobody.”
+     job 03d1d1b2-83b1-486e-9db7-dddf9ef3f5eb  (submitted on the second attempt, see note)
+113 VO-179      3.7s  Night: asleep in the giant #1 chair, crown slipped on his head, dark room, monitor glow; STREAM screen with his sleeping face as preview; LIVE bright. Text: none (#1 / LIVE props).
+     “You went to sleep as the biggest show on Earth.”
+     job 1251f4a1-d0c2-49a8-9226-8090ddcae0ce
+114 VO-180–181  3.4s  Gold coins pile on the desk and spill toward the #1 chair where he sits watching. No monitor. Text: none.
+     “The money is real. Millions from the subscribers.”
+     job 840cbc4b-666e-49b8-a070-49ea786284fc
+115 VO-182–183  7.4s  Him centered in the #1 chair; suited company stickmen and platform spotlights lean in with packages/envelopes, a crowd behind. Text: none.
+     “Even more from the brands standing behind them. Tens of millions possibly from the platforms fighting to hold you.”
+     job 6a7b161f-2ab7-473f-8ce9-e0e82492ddba
+116 VO-184–185  3.5s  He stands tall holding the CROWN HIGH in both hands, warm golden glow, no wind/strain. Text: none.
+     “The power is real. Yesterday, nobody answered you.”
+     job 1cec0e85-7fb6-468b-8c87-43515dce951a
+117 VO-186–187  6.6s  Reprise of 108: crown on top of a full one-month calendar grid (blank, 30 squares, 6x5); him small beside it, looking at it. Text: none.
+     “Today, the whole world knocks on your door — politely. But the catch is also just as real.”
+     job c2faacd2-c996-416f-b398-4b1c0ffda264
+118 VO-188–189  4.9s  Giant calendar page with the paper BILL pinned (crown + red stamp with tiny calendar icon, nothing readable); gray-hoodie viewer crowd faces him, deciding; he stands before them. Text: none.
+     “Your crown runs on a thirty-day clock. Your subscribers expire.”
+     job 54970f85-375b-428b-8cf0-7fddb5e4265c
+119 VO-190      4.0s  Plain challenger (gray hoodie, NO tie) grips the arm of the #1 chair and pulls; the business stickman turns, startled. Text: none (#1 on chair).
+     “Your days off can cost you forty thousand people.”
+     job 36ea03b4-a828-4362-a776-4af020438406
+120 VO-191–192  7.1s  Endless sea of plain streamers at little desks to the horizon, every face toward the glowing #1 chair at the top. Text: none (#1 on chair).
+     “And six million streamers are pressing that same button, coming for your chair. That is the business of being number one.”
+     job ed878ef0-abb0-4e7c-aeaf-6ff23acde78a
+121 VO-193–195  5.4s  FINAL FRAME. Morning light, locked room, him at the desk in the #1 chair, hands on keyboard, LIVE bright; STREAM screen with his exact face as preview. Text: none (#1 / LIVE props).
+     “You became the #1 streamer overnight. Staying there? That is the real job.”
+     job 87f96756-9c95-4e4b-b8ac-5df2785ccb69  (submitted on the second attempt, see note)
+
+SELF-CHECK (all ten pass; no hard failure, nothing stopped):
+- Whitelist text: no readable text anywhere except the locked props: "#1" on the chair (113, 114, 115, 119, 120, 121) and "LIVE" on the LIVE sign (113, 121). No numbers or words on calendars, the bill, screens or desks.
+- Screens: 113 and 121 = locked STREAM design (his exact face as preview, white viewer-icon column, colored chat bars). 112 monitor off. No other screen designs.
+- Gold tie: only the lead (112, 113, 114, 115, 116, 117, 119, 121). 118: lead seen from behind, tie not visible. Nobody else has gold.
+- Brows: one per eye on every foreground face checked.
+- LIVE: 113 bright, 121 bright; unlit/absent elsewhere (112 no sign in frame).
+
+FLAGS (cartoon-good, not blocking; no re-roll without OK):
+- 116: his expression is a smug/determined smile with slanted brows rather than pure joy; crown held high, no wind or strain as asked.
+- 121: slanted brows read "determined, confident" more than "calm"; the stream-screen preview matches the main face exactly.
+- 118: the lead is seen from behind (white shirt, no face); a small sweat drop and a tiny mark show on his head, so the "gold tie" is not visible in this one.
+- 119: the challenger's right eye has no eyebrow (left brow angled); the crown floats above the chair as a glow prop.
+- 115: a crown floats above the #1 chair (not on his head); crowd members have varied expressions; some background heads are partly cropped.
+- 113: the viewer icons on the screen are the locked smiling face icons; the preview face shows closed eyes with no separate brow arcs.
+- 112: no LIVE sign in frame (fine for "woke up as nobody"); a second small box sits on the desk beside the dark monitor.
