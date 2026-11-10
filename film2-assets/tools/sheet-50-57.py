@@ -12,7 +12,7 @@ shots=[
  (53,"VO-069 (1st half)","4.8s","53.png","“Under all these new hundreds of thousands of subscribers on your screen,”","APPROVED AS-IS: no chat column, no layout change."),
  (54,"VO-069 (2nd half)–071","9.0s","54.png","“…there is one small line containing the first hidden truth. You don’t read it. It is the last thing on your mind at this current time.”","Push-in state of 53 (unchanged master). NOW CARRIES VO-070–071 (shot 55 is cut)."),
  (56,"VO-072","3.4s","56.png","“You are too busy becoming the biggest streamer in the world.”","EDITED: landscape removed; stream screen with his own beaming head (copied from this shot) on the dark preview + genuine chat column. Local, 0 credits."),
- (57,"VO-073","2.4s","57.png","“Let’s jump in to the first hidden truth.”","EDITED: sunset removed; shot 53’s counter design (person icon, 900,000, the one unreadable blurred line), perspective-matched and darkened for the dusk room. Local, 0 credits."),
+ (57,"VO-073","2.4s","54.png","“Let’s jump in to the first hidden truth.”","REUSED shot 54 exactly (same image, unedited). No separate 57 file."),
 ]
 def wrap(d,t,font,w):
     out=[];cur=""
