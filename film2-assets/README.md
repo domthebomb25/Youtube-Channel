@@ -24,4 +24,4 @@ Everything generated in the working chat, so any chat/session can read it straig
 One eyebrow per eye on the head, head one closed outline. Room: royal blue, controller picture above play-button picture and plant left,
 #1 gaming chair center, window + desk right. Desk standard = Section 1 shot 9. LIVE light bright from VO-046 on, off before.
 Crown/spotlight only in shot 1. Only listed text on screens; unreadable blurred digits before the climb (800,000 then 900,000).
-Credits: balance 838.26 after Section 2 (VO 41.40 + stills ~108).
+Credits: 967.91 at start, 838.26 after Section 2 = 129.65 spent (voiceover 41.40, images and thumbnails 88.25).
