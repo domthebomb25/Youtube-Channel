@@ -1,5 +1,6 @@
 # Free assembly states for Section 3 (local, 0 credits). Run from film2-assets/section3.
 # 71-state3 = the generated image (all three rows lit). 71 / 71-state2 are made by dimming rows locally.
+# 69-state (OLD layout; superseded by the inline rebuild noted in docs/SECTION3-MAP.txt)
 # 69-state = 69 + "$20,000,000 – $30,000,000" text under the contract.
 import os, shutil
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
@@ -17,6 +18,7 @@ def dim(img, rows):
     return out
 dim(full,[2,3]).save('71.png')
 dim(full,[3]).save('71-state2.png')
+# 69-state (OLD layout; superseded by the inline rebuild noted in docs/SECTION3-MAP.txt)
 # 69-state
 im = Image.open('69.png').convert('RGB')
 text = "$20,000,000 – $30,000,000"

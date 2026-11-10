@@ -2,11 +2,14 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of session). Higgsfield balance: see CURRENT STATUS (Section 3 generation, 2026-11-10).
 
-## CURRENT STATUS (Section 3 generated, 2026-11-10)
-- **Section 3 (Truth 1: The Money, VO-074-104) is GENERATED: 16 shots, numbered 58-73**, `section3/58.png`-`73.png` + free states `69-state.png`, `71-state2.png`, `71-state3.png` (71.png = row 1 lit). Map: `docs/SECTION3-MAP.txt`. Sheets: `storyboards/section3-storyboard-v4-shots-58-67.pdf`/`.png` and `...-68-73.pdf`/`.png` (builder `tools/sheet-section3.py`; state builder `tools/section3-states.py`).
-- Spend: 16.00 (16 x 1.00, one generation per shot, no re-rolls). Balance 823.26 -> 807.26. All 16 passed the self-check. AWAITING Dominick's review; nothing redone yet.
-- Review flags: shot 64 room angle/framing differs a little from shot 9 (door added); 69 and 71 are approved over-cap exceptions with free states.
-- NEXT: Dominick reviews 58-73; then Sections 4-6 (same lenient pacing; map + quote first, wait for OK). Shot numbering continues at 74.
+## CURRENT STATUS (Section 3 fix round done, 2026-11-10)
+- **Section 3 (Truth 1: The Money, VO-074-104) is now 18 shots, numbered 58-75** (`section3/58.png`-`75.png`, plus `69-state.png`). **Section 4 starts at shot 76.** Map: `docs/SECTION3-MAP.txt`.
+- **CHARACTER COLOR LOCK: Ludwig always wears a GREEN sweatshirt; Ninja always wears a BLUE sweatshirt** (neither has a gold tie; gold tie = lead only).
+- Fix round (4.00 of a 5.00 cap): 59 new generation, 63 model edit (calendar removed), 65 local recolor (green), 69 new full-frame generation + rebuilt 69-state (local), 70 model edit (Ninja). Old 71 split into 71/72/73 (VO-098/099/100, cumulative row highlight, local renames); old 72/73 renumbered 74/75.
+- Spend: Section 3 first pass 16.00 + fix round 4.00. Balance 823.26 -> 807.26 -> **803.26**.
+- Sheets: `storyboards/section3-storyboard-v4-shots-58-67`/`-68-73` (FIRST PASS, now stale for 59/63/65/69/70/71-73), `storyboards/section3-fix-v4-changed-shots.pdf`/`.png` and `section3-fix-v4-shots-71-75.pdf`/`.png` (current). Builders: `tools/sheet-section3.py`, `tools/sheet-section3-fix.py`, `tools/section3-states.py` (its 69-state/71 parts are superseded).
+- Known nits: 59 tag "$6" retouched locally; 59's lead looks forward more than down; 69-state text is smaller than before; shot 64 room angle differs a little from shot 9. AWAITING Dominick's review.
+- NEXT: Dominick reviews; then Sections 4-6 (map + quote first, wait for OK). Next shot number: 76.
 
 ## EARLIER STATUS (Muse process update, 2026-11-10)
 - **Sections 1 and 2 are DONE.** Section 1: 19 shots final. Section 2: 34 shots final (shots 31, 45, 55 cut; shot 54 carries VO-069 2nd half-071; shot 57 is the exact shot 54 frame; shots 51 and 53 approved as-is). Storyboards for Sections 1-2 done; shots 1-57 done.

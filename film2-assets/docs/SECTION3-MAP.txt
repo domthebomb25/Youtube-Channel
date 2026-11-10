@@ -1,28 +1,42 @@
 FILM #2 — SECTION 3 "TRUTH 1: THE MONEY" — shot map (VO-074 to VO-104), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
-16 shots, numbered 58-73. All generated 2026-11-10, gpt_image_2_5 16:9 2k medium, 1.00 each = 16.00. Free states: 69-state, 71-state2, 71-state3 (local, 0 credits).
-Masters: section3/58.png-73.png (1920x1080, downscaled from the 2688x1520 model output). Refs attached: shot 9 (room/style), shot 50 (counter screen), stream-screen asset (64, 72).
+CURRENT: 18 shots, numbered 58-75 (after the fix round of 2026-11-10). SECTION 4 STARTS AT SHOT 76.
 
+CHARACTER COLOR LOCK: Ludwig ALWAYS wears a GREEN sweatshirt. Ninja ALWAYS wears a BLUE sweatshirt. Neither wears a gold tie (the gold tie is the lead only).
+
+FIX ROUND (2026-11-10), 4.00 credits (cap 5.00), balance 807.26 -> 803.26:
+- 59 NEW generation (1.00): lead at desk in the locked room, ONE big gold coin with "$6" tag on the desk, coffee cup, unimpressed (raised brow, flat mouth), STREAM screen on the monitor. The model garbled the tag glyph; the "$6" was retouched LOCALLY (0.00, rendered text on the tag). The lead looks forward at the coin more than straight down; kept (cartoon-good).
+- 63 MODEL EDIT (1.00): wall calendar removed completely; bars/icons/arrow/faces unchanged. No text.
+- 65 LOCAL recolor (0.00): Ludwig's sweatshirt GREEN (garment only; mask on the gray hoodie pixels; drawstrings stay gray). LUDWIG label untouched.
+- 69 NEW generation (1.00): art now fills the whole 16:9 frame. MIXER building left, contract + money on the table, Ninja (plain stickman, BLUE sweatshirt, no gold tie) right with NINJA label. Old 69 replaced.
+- 69-state.png REBUILT locally (0.00) from the new 69: "$20,000,000 – $30,000,000" on a dark banner under the contract (the new composition has no empty band, so the text is smaller than the old state and its banner touches the contract's bottom edge). Old state replaced.
+- 70 MODEL EDIT (1.00): walking figure replaced by Ninja (BLUE sweatshirt, no gold tie), referenced to the new 69. Doors, MIXER/TWITCH labels, lighting unchanged.
+- 71 SPLIT into three shots (local file work, 0.00), cumulative highlighting: 71 = VO-098 row 1 lit; 72 = VO-099 rows 1-2 lit (was 71-state2); 73 = VO-100 all rows lit (was 71-state3). Old 72 -> 74 (VO-101-103), old 73 -> 75 (VO-104). Shot 71's old 10.5 s exception is gone.
+
+---- MAP (current) ----
 58 VO-074-075  6.0s  ROOM. Him at desk, COUNTER screen 900,000 + one blurred line. Text: 900,000
-59 VO-076-078  8.1s  One name pill, $6 coin tag, coffee cup with $6 tag. Dark bg. Text: $6
+59 VO-076-078  8.1s  [REPLACED] Lead at desk, big $6 gold coin + coffee cup, unimpressed. Text: $6
 60 VO-079-081  6.9s  Sea of viewer icons + coin stacks, him small. Text: 1,000,000, $6
 61 VO-082-083  8.6s  Coin split in half; website window's hand takes one half; he reaches from right. No text
 62 VO-084-085  8.8s  Precedent streamer (plain hoodie, no gold tie) + coin pile. Text: $3,500,000
-63 VO-086-088  7.1s  Calendar; precedent bar shorter (plain icon), lead bar taller + arrow (gold-tie icon). No text
+63 VO-086-088  7.1s  [EDITED] Two bars (precedent shorter, lead taller + arrow), no calendar. No text
 64 VO-089-090  7.5s  ROOM, LIVE bright. Door side: viewer crowd + suits/briefcases + office building. No text
-65 VO-091      5.3s  Plain streamer (no gold tie) holds blurred ledger. Text: LUDWIG
+65 VO-091      5.3s  [RECOLORED] Ludwig (GREEN sweatshirt) holds blurred ledger. Text: LUDWIG
 66 VO-092      8.9s  Two bars, left $300,000+ (with plus), right taller $800,000. Text: $300,000+, $800,000
 67 VO-093      4.9s  Balance scale, company pan sinks lower. No text
 68 VO-094      5.6s  Three blank storefronts with spotlights toward him at the #1 chair. No text
-69 VO-095     11.6s  APPROVED OVER-CAP (payoff withheld). Contract between MIXER building and NINJA (plain stickman). Text: MIXER, NINJA
-   69-state.png  FREE STATE: identical image + "$20,000,000 – $30,000,000" under the contract (lands at "between twenty and thirty million dollars"). Local text overlay.
-70 VO-096-097  4.1s  MIXER doorway lit, he walks through; TWITCH doorway dim behind. Text: MIXER, TWITCH
-71 VO-098-100 10.5s  APPROVED EXCEPTION (a row lights on every line). Three rows of coin stacks: viewers / briefcases / platform buildings. No text
-   71.png        row 1 lit, rows 2-3 dim
-   71-state2.png rows 1-2 lit, row 3 dim
-   71-state3.png all three rows lit (= the generated image)
-   NOTE: the model was asked for all three rows lit; the dimming for 71 and 71-state2 was done locally (tools/section3-states.py), so the lit rows are pixel-identical across the three files.
-72 VO-101-103  8.8s  ROOM, LIVE bright. Coin streams converge from window, door, monitor (stream screen), above. No text
-73 VO-104      2.8s  BRIDGE echoing 58: COUNTER 900,000 + TWO blurred lines. Text: 900,000
+69 VO-095     11.6s  [REPLACED] APPROVED OVER-CAP. Full-frame: MIXER building, contract + money, Ninja (BLUE sweatshirt). Text: MIXER, NINJA
+   69-state.png  [REBUILT] FREE STATE: + "$20,000,000 – $30,000,000" under the contract at the payoff
+70 VO-096-097  4.1s  [EDITED] MIXER doorway lit, Ninja (BLUE sweatshirt, no gold tie) walks through; TWITCH doorway dim. Text: MIXER, TWITCH
+71 VO-098      3.6s  Row 1 lit (viewers); rows 2-3 dark. No text.   "Every viewer pays."
+72 VO-099      3.6s  Rows 1-2 lit (viewers + briefcases); row 3 dark. No text.   "Every company pays more."   (file = old 71-state2)
+73 VO-100      3.4s  All three rows lit (+ platform buildings). No text.   "Even the platforms take their cut."   (file = old 71-state3)
+74 VO-101-103  8.8s  ROOM, LIVE bright. Coins converge from window, door, monitor (stream screen), above. No text   (renumbered from 72)
+75 VO-104      2.8s  BRIDGE echoing 58: COUNTER 900,000 + TWO blurred lines. LIVE bright. Text: 900,000   (renumbered from 73)
+
+Section 4 starts at shot 76.
+
+---- ORIGINAL SECTION 3 RECORD (first generation, 16 shots 58-73; superseded where noted above) ----
+(The first-generation map is replaced by the CURRENT map above. Flags from the first generation:)
 
 FLAGS / NOTES
 - Shots 69 (11.6s) and 71 (10.5s) are the two approved exceptions; each has free assembly states so it never sits still. No other shot exceeds 10 s.
