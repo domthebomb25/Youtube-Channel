@@ -1,0 +1,29 @@
+FILM #2 — SECTION 4 "TRUTH 2: THE POWER" — shot map (VO-105 to VO-131), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
+13 shots, numbered 76-88, plus ONE free state (85-state.png). Section 5 starts at shot 89.
+Generation (2026-11-10): 13 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 13.00 (cap 13.00). Balance 803.26 -> 790.26.
+Refs attached: shot 9 (room + style) on every shot; stream-screen asset on 76, 78, 81; shot 75 (room bridge) on 76, 77, 78, 82, 87; shot 50 (counter) uploaded, not used (no counter screen in Section 4).
+Two submissions (85, 88) were rejected by a 429 rate limit BEFORE any job existed (no charge, balance confirmed 792.26 after 11 jobs) and were resubmitted once each. Not re-rolls.
+Raw outputs 2688x1520 -> centre-cropped to 16:9 and resized to 1920x1080 masters.
+
+CHARACTER COLOR LOCK: Ludwig GREEN, Ninja BLUE (neither appears in Section 4). Gold tie = the lead only.
+
+---- MAP ----
+76 VO-105-106  4.1s  Locked room, morning. Coin stacks shoved to the desk edge; he stands tall in front of the #1 chair. STREAM screen (his confident face). LIVE bright. No text.
+77 VO-107-109  9.7s  YESTERDAY: dim evening, small plain chair + desk. He sits slumped; three gray bubbles toward person / brand-tag / building icons, unanswered. LIVE unlit, monitor dark. No text.
+78 VO-110-111  6.3s  TODAY: #1 chair, morning. Phone lit with blurred incoming reply bubbles; ringing-phone symbols around it. STREAM screen, LIVE bright. No readable text.
+                     FLAG: the "ringing" icons came out as colored phone-app icons, not platform BUILDING icons (brief asked for buildings). Meaning (calls coming in) holds; accepted unless Dominick wants a fix.
+79 VO-112-114  8.9s  Three generic platform buildings lean in; huge viewer-icon crowd behind him; he is center-front, gold tie, calm. No text, no logos.
+80 VO-115-116  7.2s  His front door: line of suits with briefcases, hats in hand, waiting; he relaxed at the door, crowd icons visible inside. No text.
+81 VO-117-118  4.9s  Three generic star stickmen (sunglasses, sparkles) ask to come on HIS stream; he is surprised. STREAM screen, LIVE bright. No text.
+                     NOTE: one star wears a blue shirt (could be read as the Ninja color); they are unnamed generic stars. Flag only.
+82 VO-119-120  7.9s  Room glowing gold, packed with viewer icons; stars outside the door/window looking in; he is inside among the crowd. No text.
+                     LOCAL FIX (0.00): the model drew an eye-icon + people-icons screen (not a locked design). Replaced with the genuine stream-screen asset (perspective-warped, inside the screen's inner rim; rest byte-identical). Original archived: discarded/82-model-original-wrong-monitor-SUPERSEDED.png.
+83 VO-121-122  7.9s  One crowd, three forms: storefront, TV, billboard arranged around him, gold tie. Blank signs. No text.
+84 VO-123      2.3s  Shelf with ONE blank box, his gold-tie sleeve points from frame left. Text: "SOLD OUT" (tag only).
+85 VO-124      9.9s  BASE: tiny plain streamer (no tie) alone in a small dim room, ONE viewer icon on the dark monitor, lead's pointing silhouette + glow entering from the left. No text.
+   85-state.png        FREE STATE (local, 0.00; tools/section4-states.py): same image + warm room glow, light-burst rays, crowd icons flooding the room, monitor alive with the stream-screen asset. Lands at "explodes in seconds."
+86 VO-125-126  5.1s  Night street: dark storefront now lit and open with a small crowd inside; he stands frame left speaking ONE empty bubble. Blank sign. No text.
+87 VO-127-128  5.9s  Mirror halves: LEFT dim, he is small reaching up to a huge globe; RIGHT bright, he stands tall, globe small by the #1 chair. No text.
+88 VO-129-131  6.1s  Closing bridge: calm evening outside his door; building figure + company suit + star figure wait, one knocks gently, hats in hand; warm light under the door. Carries into Section 5. No text.
+
+Known nits (cartoon-good, not blocking): 76/82 lead's right eyebrow sits tight against the head outline; 85 base lead silhouette is a dark blue arm with a white cuff (no tie visible, by design); 85-state crowd icons are flat vector-style (drawn locally) against the painted base.
