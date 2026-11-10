@@ -27,3 +27,4 @@ One eyebrow per eye on the head, head one closed outline. Room: royal blue, cont
 #1 gaming chair center, window + desk right. Desk standard = Section 1 shot 9. LIVE light bright from VO-046 on, off before.
 Crown/spotlight only in shot 1. Only listed text on screens; unreadable blurred digits before the climb (800,000 then 900,000).
 Credits: 967.91 at start, 838.26 after Section 2 = 129.65 spent (voiceover 41.40, images and thumbnails 88.25).
+- `storyboards/full-film/` 21-sheet full-film v4 storyboard (117 shots + state tiles). `assembly/` = section1..6-assembly.zip + MANIFEST.txt (handoff bundle for local assembly). `section4/`, `section5/`, `section6/` = Sections 4-6 masters (112-121 final; 121 monitor back fixed, original in `discarded/`).

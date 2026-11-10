@@ -1,0 +1,129 @@
+FILM #2 — "POV: You Became the #1 Streamer Overnight." — ASSEMBLY MANIFEST
+All 117 shots in playing order (shots 7, 31, 45, 55 are CUT and do not exist; no renumbering). Masters 1920x1080 PNG. Voice = Bram (631.41 s total, voiceover/timing-report.md).
+Durations = sum of the VO files each shot carries (repo timing report). Shot 53/54 split VO-069 (9.64 s): 53 = first half (4.8 s), 54 = second half + VO-070 + VO-071 (about 9.0 s).
+Zip layout: masters/NNN.png (shot order) · voiceover/VO-NNN.mp3 · states/ (separate state files, sections 3 and 4 only) · SECTION-MANIFEST.txt.
+Reused images: shot 27 = shot 1 (masters/027-REUSE-of-001.png in the section 2 zip; the original is in the section 1 zip). Shot 57 = shot 54 (masters/057-REUSE-of-054.png).
+VO-178 is the NEW take ('You went to sleep as nobody.', 2.12 s); the old take is NOT in any zip.
+VO NOT carried by any shot: none (VO-001..VO-195 are all carried).
+
+Shot | Image (path inside the zip)    | VO files carried       | Dur (s) | Assembly state / trigger
+--------------------------------------------------------------------------------------------------------------------------------------------
+[S1]    1 | masters/001.png                | VO-001                 |    2.85 | 
+[S1]    2 | masters/002.png                | VO-002..003            |    4.55 | 
+[S1]    3 | masters/003.png                | VO-004                 |    3.97 | 
+[S1]    4 | masters/004.png                | VO-005                 |    2.93 | 
+[S1]    5 | masters/005.png                | VO-006                 |    3.47 | 
+[S1]    6 | masters/006.png                | VO-007..008            |    3.06 | 
+[S1]    8 | masters/008.png                | VO-009..010            |    6.80 | 
+[S1]    9 | masters/009.png                | VO-011..013            |    6.42 | Counter flips 10,000 -> 50,000 (VO-012), then 100,000 (VO-013). Text swap at assembly, NO separate file in the repo. TRIGGER: VO-012 'Fifty thousand.' ; VO-013 'One hundred thousand'
+[S1]   10 | masters/010.png                | VO-014..015            |    4.31 | Alert flips 100 GIFTED SUBS -> 1,000 GIFTED SUBS. Text swap at assembly, NO separate file in the repo. TRIGGER: VO-015 'Then a thousand.'
+[S1]   11 | masters/011.png                | VO-016                 |    4.68 | 
+[S1]   12 | masters/012.png                | VO-017..018            |    4.57 | 
+[S1]   13 | masters/013.png                | VO-019                 |    3.87 | 
+[S1]   14 | masters/014.png                | VO-020                 |    3.08 | 
+[S1]   15 | masters/015.png                | VO-021                 |    3.40 | 
+[S1]   16 | masters/016.png                | VO-022                 |    4.91 | 
+[S1]   17 | masters/017.png                | VO-023                 |    5.41 | 
+[S1]   18 | masters/018.png                | VO-024                 |    3.79 | Shot 18 IS the assembly state of shot 17 (own file): tighter crop, counter 999,999. TRIGGER: plays on VO-024; shot 17 (950,000) plays on VO-023
+[S1]   19 | masters/019.png                | VO-025..026            |    4.73 | 
+[S1]   20 | masters/020.png                | VO-027                 |    3.55 | 
+[S2]   21 | masters/021.png                | VO-028..029            |    4.49 | 
+[S2]   22 | masters/022.png                | VO-030                 |    3.47 | 
+[S2]   23 | masters/023.png                | VO-031..032            |    5.59 | 
+[S2]   24 | masters/024.png                | VO-033                 |    5.15 | 
+[S2]   25 | masters/025.png                | VO-034                 |    5.41 | 
+[S2]   26 | masters/026.png                | VO-035                 |    3.00 | 
+[S2]   27 | masters/027-REUSE-of-001.png   | VO-036                 |    2.77 | 
+[S2]   28 | masters/028.png                | VO-037                 |    3.55 | 
+[S2]   29 | masters/029.png                | VO-038                 |    4.28 | 
+[S2]   30 | masters/030.png                | VO-039..040            |    5.82 | 
+[S2]   32 | masters/032.png                | VO-041                 |    3.00 | 
+[S2]   33 | masters/033.png                | VO-042..043            |    4.80 | 
+[S2]   34 | masters/034.png                | VO-044..045            |    3.03 | 
+[S2]   35 | masters/035.png                | VO-046                 |    1.72 | Shot 35 IS the assembly state of shot 34 (own file): LIVE light flipped bright. TRIGGER: plays on VO-046 'The red light turns on.'
+[S2]   36 | masters/036.png                | VO-047                 |    4.52 | 
+[S2]   37 | masters/037.png                | VO-048                 |    2.85 | 
+[S2]   38 | masters/038.png                | VO-049..050            |    5.36 | 
+[S2]   39 | masters/039.png                | VO-051                 |    5.41 | 
+[S2]   40 | masters/040.png                | VO-052                 |    2.27 | Shot 40 IS the assembly state of shot 39 (own file): x2 push-in. TRIGGER: plays on VO-052 'Hello everyone, welcome to my stream!'
+[S2]   41 | masters/041.png                | VO-053                 |    3.40 | 
+[S2]   42 | masters/042.png                | VO-054                 |    5.88 | 
+[S2]   43 | masters/043.png                | VO-055                 |    4.44 | 
+[S2]   44 | masters/044.png                | VO-056..057            |    6.56 | 
+[S2]   46 | masters/046.png                | VO-058..059            |    7.05 | 
+[S2]   47 | masters/047.png                | VO-060                 |    3.87 | 
+[S2]   48 | masters/048.png                | VO-061..062            |    4.89 | 
+[S2]   49 | masters/049.png                | VO-063..064            |    3.53 | 
+[S2]   50 | masters/050.png                | VO-065                 |    1.72 | Shot 50 IS the assembly state of shot 49 (own file): counter flipped to 900,000. TRIGGER: plays on VO-065 'Nine hundred thousand.'
+[S2]   51 | masters/051.png                | VO-066..067            |    5.98 | 
+[S2]   52 | masters/052.png                | VO-068                 |    5.56 | 
+[S2]   53 | masters/053.png                | VO-069 (1st half)      |    4.80 | 
+[S2]   54 | masters/054.png                | VO-069 (2nd half)..071 |    8.99 | Shot 54 IS the push-in state of shot 53 (own file). Split VO-069 between 53 and 54 at the comma after 'on your screen,'. TRIGGER: VO-069 2nd half 'there is one small line...' through VO-071
+[S2]   56 | masters/056.png                | VO-072                 |    3.40 | 
+[S2]   57 | masters/057-REUSE-of-054.png   | VO-073                 |    2.43 | 
+[S3]   58 | masters/058.png                | VO-074..075            |    6.06 | 
+[S3]   59 | masters/059.png                | VO-076..078            |    8.21 | 
+[S3]   60 | masters/060.png                | VO-079..081            |    6.93 | 
+[S3]   61 | masters/061.png                | VO-082..083            |    8.56 | 
+[S3]   62 | masters/062.png                | VO-084..085            |    8.78 | 
+[S3]   63 | masters/063.png                | VO-086..088            |    7.06 | 
+[S3]   64 | masters/064.png                | VO-089..090            |    7.45 | 
+[S3]   65 | masters/065.png                | VO-091                 |    5.33 | 
+[S3]   66 | masters/066.png                | VO-092                 |    8.91 | 
+[S3]   67 | masters/067.png                | VO-093                 |    4.91 | 
+[S3]   68 | masters/068.png                | VO-094                 |    5.56 | 
+[S3]   69 | masters/069.png                | VO-095                 |   11.65 | 69-state.png: '$20,000,000 - $30,000,000' banner added under the contract. TRIGGER: payoff clause of VO-095: 'between twenty and thirty million dollars.' (final words of the 11.65 s line)  FILE: states/069-state.png
+[S3]   70 | masters/070.png                | VO-096..097            |    4.07 | 
+[S3]   71 | masters/071.png                | VO-098                 |    3.55 | 
+[S3]   72 | masters/072.png                | VO-099                 |    3.55 | 
+[S3]   73 | masters/073.png                | VO-100                 |    3.40 | 
+[S3]   74 | masters/074.png                | VO-101..103            |    8.83 | 
+[S3]   75 | masters/075.png                | VO-104                 |    2.77 | 
+[S4]   76 | masters/076.png                | VO-105..106            |    4.08 | 
+[S4]   77 | masters/077.png                | VO-107..109            |    9.72 | 
+[S4]   78 | masters/078.png                | VO-110..111            |    6.30 | 
+[S4]   79 | masters/079.png                | VO-112..114            |    8.85 | 
+[S4]   80 | masters/080.png                | VO-115..116            |    7.18 | 
+[S4]   81 | masters/081.png                | VO-117..118            |    4.89 | 
+[S4]   82 | masters/082.png                | VO-119..120            |    7.91 | 
+[S4]   83 | masters/083.png                | VO-121..122            |    7.92 | 
+[S4]   84 | masters/084.png                | VO-123                 |    2.27 | 
+[S4]   85 | masters/085.png                | VO-124                 |    9.87 | 85-state.png: room floods with the crowd, monitor alive, light rays. TRIGGER: VO-124 at 'and his room explodes in seconds.' (end of the 9.87 s line)  FILE: states/085-state.png
+[S4]   86 | masters/086.png                | VO-125..126            |    5.12 | 
+[S4]   87 | masters/087.png                | VO-127..128            |    5.85 | 
+[S4]   88 | masters/088.png                | VO-129                 |    2.69 | 
+[S5]   89 | masters/089.png                | VO-130..131            |    3.45 | 
+[S5]   90 | masters/090.png                | VO-132..133            |    9.04 | 
+[S5]   91 | masters/091.png                | VO-134                 |    4.13 | 
+[S5]   92 | masters/092.png                | VO-135..136            |    6.01 | 
+[S5]   93 | masters/093.png                | VO-137                 |    9.17 | 
+[S5]   94 | masters/094.png                | VO-138..139            |    7.26 | 
+[S5]   95 | masters/095.png                | VO-140..141            |    7.76 | 
+[S5]   96 | masters/096.png                | VO-142                 |    2.43 | 
+[S5]   97 | masters/097.png                | VO-143..144            |    5.35 | 
+[S5]   98 | masters/098.png                | VO-145..146            |    7.92 | 
+[S5]   99 | masters/099.png                | VO-147..149            |    8.28 | 
+[S5]  100 | masters/100.png                | VO-150..151            |    5.35 | 
+[S5]  101 | masters/101.png                | VO-152..153            |    6.87 | 
+[S5]  102 | masters/102.png                | VO-154..155            |    7.60 | 
+[S5]  103 | masters/103.png                | VO-156..158            |    7.16 | 
+[S5]  104 | masters/104.png                | VO-159..162            |    7.45 | 
+[S5]  105 | masters/105.png                | VO-163..166            |    5.93 | 
+[S5]  106 | masters/106.png                | VO-167                 |    5.96 | 
+[S5]  107 | masters/107.png                | VO-168..169            |    7.29 | 
+[S5]  108 | masters/108.png                | VO-170..171            |    9.04 | 
+[S5]  109 | masters/109.png                | VO-172                 |    4.44 | 
+[S5]  110 | masters/110.png                | VO-173..174            |    6.25 | 
+[S5]  111 | masters/111.png                | VO-175..176            |    6.25 | 
+[S6]  112 | masters/112.png                | VO-177..178            |    7.61 | 
+[S6]  113 | masters/113.png                | VO-179                 |    3.71 | 
+[S6]  114 | masters/114.png                | VO-180..181            |    3.35 | 
+[S6]  115 | masters/115.png                | VO-182..183            |    7.42 | 
+[S6]  116 | masters/116.png                | VO-184..185            |    3.45 | 
+[S6]  117 | masters/117.png                | VO-186..187            |    6.56 | 
+[S6]  118 | masters/118.png                | VO-188..189            |    4.94 | 
+[S6]  119 | masters/119.png                | VO-190                 |    3.97 | 
+[S6]  120 | masters/120.png                | VO-191..192            |    7.10 | 
+[S6]  121 | masters/121.png                | VO-193..195            |    5.41 | 
+
+Sum of shot durations (timing-report rounded values): 631.48 s ; exact VO total 631.41 s (difference is per-file rounding only).

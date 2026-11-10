@@ -2,7 +2,22 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
-## CURRENT STATUS — CLOSE-OUT OF THE SECTION 6 CHAT (2026-11-10)
+## CURRENT STATUS — FULL-FILM STORYBOARD + ASSEMBLY BUNDLE BUILT (2026-11-10)
+### DONE (0.00 spent; no generations, no re-records)
+- **FULL-FILM STORYBOARD BUILT, awaiting Dominick's final review before assembly.** All 117 shots in playing order (7, 31, 45, 55 cut), final masters (fixed 93 and 121, accepted 101), final voice timings (VO-178 = 2.12 s, shot 112 = 7.6 s, quote "You went to sleep as nobody."). 122 tiles = 117 shots + 5 free state tiles (9 -> 50,000, 9 -> 100,000, 10 -> 1,000 GIFTED SUBS, 69-state, 85-state), 6 tiles per sheet, **21 sheets**: `storyboards/full-film/fullfilm-storyboard-v4-sheet-01-of-21.png` ... `-21-of-21.png`. Builders: `tools/fullfilm-data.py`, `tools/sheet-fullfilm.py`, `tools/fullfilm-crosscheck.py`.
+- Shots 18, 35, 40, 50 and 54 are NUMBERED shots whose own file is an assembly state; they play in their place and carry the ASSEMBLY STATE label (yellow frame), no duplicate tiles.
+- **ASSEMBLY HANDOFF BUNDLE built:** `assembly/section1-assembly.zip` ... `section6-assembly.zip` + `assembly/MANIFEST.txt` (shot, image, VO files, duration, state + trigger). Zips hold masters in shot order (`masters/NNN.png`), that section's VO mp3s, and the state files (069-state in section 3, 085-state in section 4). Builder `tools/build-assembly.py`.
+- Balance unchanged: **755.11 credits.**
+### FLAGS FROM THE CROSS-CHECK (nothing silently fixed)
+- Shots 9 and 10 state flips (50,000, 100,000, 1,000 GIFTED SUBS) have NO files in the repo; the tiles show the base image with a badge, and the manifest says "text swap at assembly". Nothing generated.
+- `docs/SECTION2-MAP.txt` MAP block is stale vs its own change log (it lists 44 = VO-056, 45 = VO-057-058, 46 = VO-059); the change log (44 = VO-056-057, 45 CUT, 46 = VO-058-059) is used, as on the Section 2 sheets.
+- `docs/SECTION3-MAP.txt` labels for 71/72/73 ("Every viewer pays." etc.) do not match locked VO-098/099/100 text; the VO ranges match. Tiles use the locked lines.
+- Durations (timing report vs map): every shot is within 0.15 s; the two largest: shot 30 = 5.82 s vs map 5.9 (map rounds up for the push), shot 59 = 8.21 s vs map 8.1. Shot 69 = 11.65 s (map 11.6). Per-row timing-report sum is 631.48 s vs exact 631.41 s (row rounding).
+- Zip sizes exceed the 25 MB standing limit except section 6 (S1 41.2, S2 75.7, S3 36.2, S4 29.3, S5 49.4, S6 22.8 MB) because the masters are PNG; they are repo files under GitHub's 100 MB cap, not file cards.
+### NEXT STEP
+- Dominick's final review of the 21 sheets; then assembly (Muse, locally, from the zips).
+
+## EARLIER STATUS — CLOSE-OUT OF THE SECTION 6 CHAT (2026-11-10)
 ### DONE
 - **ALL 117 SHOTS OF THE FILM ARE NOW GENERATED.** Section 6 (The Payoff) = shots 112-121 (VO-177-195), generated, AWAITING REVIEW. Totals: S1 19, S2 34, S3 18, S4 13, S5 23, S6 10 = 117.
 - Section 6 spend: exactly 10.00 (10 x gpt_image_2_5 16:9 2k medium at 1.00; live price confirmed 1.00 via get_cost first). No re-rolls. Two submissions (112, 121) were rejected with a 429 rate limit before any job existed (balance showed only 8.00 charged), and were resubmitted unchanged.
