@@ -1,6 +1,6 @@
 FILM #2 — SECTION 6 "THE PAYOFF" — shot map (VO-177 to VO-195), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
 10 shots, numbered 112-121, all under 10 s. THIS IS THE FINAL SECTION: with it, ALL 117 SHOTS OF THE FILM ARE GENERATED (S1 19, S2 34, S3 18, S4 13, S5 23, S6 10).
-SECTION 6 RUNTIME (sum of shot durations): 52.0s  (7.0+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
+SECTION 6 RUNTIME (sum of shot durations): 52.6s  (7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
 Generation (2026-11-10): 10 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 10.00 (cap 10.00). Live price confirmed 1.00 via get_cost before any paid call.
 Balance 765.26 -> 755.26. One generation per shot, no re-rolls, no failures, no fix round.
 Submission note: the first batch of 10 had two submissions (112, 121) rejected with 429 rate_limit_reached BEFORE a job was created; balance after the batch was 757.26 (exactly 8.00 charged), so nothing was charged for them. They were submitted once more unchanged (same prompt, same refs) = a retry of a rejected submission, not a re-roll.
@@ -11,8 +11,8 @@ Colour lock: gold tie = the lead only. Other figures (suited company men in 115,
 Script wording: the sheets and this map use the LOCKED lines (voiceover/script-locked.txt) verbatim. The shot brief paraphrased some of them (e.g. "biggest show in the world" for VO-179, locked = "biggest show on Earth").
 
 ---- MAP ----
-112 VO-177–178  7.0s  Callback: the locked room DIM at morning, plain SMALL chair (no #1), him just woken, small in frame, looking at the little chair. Text: none.
-     “So that is what it really means — to become the #1 streamer overnight. You woke up as nobody.”
+112 VO-177–178  7.6s  Callback: the locked room DIM at morning (picture unchanged; the line now says "went to sleep" over it), plain SMALL chair (no #1), him just woken, small in frame, looking at the little chair. Text: none.
+     “So that is what it really means — to become the #1 streamer overnight. You went to sleep as nobody.”
      job 03d1d1b2-83b1-486e-9db7-dddf9ef3f5eb  (submitted on the second attempt, see note)
 113 VO-179      3.7s  Night: asleep in the giant #1 chair, crown slipped on his head, dark room, monitor glow; STREAM screen with his sleeping face as preview; LIVE bright. Text: none (#1 / LIVE props).
      “You went to sleep as the biggest show on Earth.”
@@ -57,3 +57,10 @@ FLAGS (cartoon-good, not blocking; no re-roll without OK):
 - 115: a crown floats above the #1 chair (not on his head); crowd members have varied expressions; some background heads are partly cropped.
 - 113: the viewer icons on the screen are the locked smiling face icons; the preview face shows closed eyes with no separate brow arcs.
 - 112: no LIVE sign in frame (fine for "woke up as nobody"); a second small box sits on the desk beside the dark monitor.
+
+FIX 2 (2026-11-10): VO-178 LINE CHANGE (approved change to the locked script): "You woke up as nobody." -> "You went to sleep as nobody."
+- Re-recorded with Bram: generate_audio, text2speech_v2, variant elevenlabs, voice_type preset, voice_id 549ff70a-3ee7-4f04-a4d9-89a24fab7709 (same route as the original batch; same mp3 format, 44.1 kHz mono 128 kbps). Cost 0.15 (quoted by get_cost first; cap 1.00). Job 2be07156-96e8-464e-ab5c-09a1a73c71ca. One take, no re-record.
+- Old file archived in place as voiceover/VO-178-OLD-woke-up.mp3 (1.489 s). New voiceover/VO-178.mp3 = 2.116 s (2.12). Difference +0.63 s.
+- Shot 112 total = VO-177 (5.49) + VO-178 (2.12) = 7.60 s (was 6.97 s, listed as 7.0 s). Still under 10 s. Section 6 runtime 52.6 s. Whole VO 631.41 s.
+- Shot 112's picture is unchanged (dim morning room, small chair, him woken). The new line "You went to sleep as nobody" now plays over it; flag for review if the "just woken" image no longer fits the words. No image was regenerated.
+- Shot 121 monitor fix: no such instruction reached this chat; nothing was run for it (0.00).

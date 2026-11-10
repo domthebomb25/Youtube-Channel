@@ -6,10 +6,15 @@ Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-ass
 ### DONE
 - **ALL 117 SHOTS OF THE FILM ARE NOW GENERATED.** Section 6 (The Payoff) = shots 112-121 (VO-177-195), generated, AWAITING REVIEW. Totals: S1 19, S2 34, S3 18, S4 13, S5 23, S6 10 = 117.
 - Section 6 spend: exactly 10.00 (10 x gpt_image_2_5 16:9 2k medium at 1.00; live price confirmed 1.00 via get_cost first). No re-rolls. Two submissions (112, 121) were rejected with a 429 rate limit before any job existed (balance showed only 8.00 charged), and were resubmitted unchanged.
-- **Higgsfield balance: 755.26 credits.** (765.26 at the start.)
+- **Higgsfield balance: 755.11 credits** after Fix 2 (755.26 after the shots; 765.26 at the start of the chat).
 - Masters: `section6/112.png`-`121.png` (1920x1080). Map: `docs/SECTION6-MAP.txt` (job ids, self-check, flags). Storyboards (v4): `storyboards/section6-storyboard-v4-shots-112-117` and `-118-121` (.png and .pdf); builder `tools/sheet-section6.py`.
 - Self-check passed on all ten (whitelist text = only the locked #1 and LIVE props, STREAM screen only on 113/121, gold tie = lead only, one brow per eye, LIVE bright on 113/121). Flags in the map (116 smug smile, 121 determined rather than calm, 118 lead seen from behind, 119 challenger missing one brow).
 - Script wording: the sheets use the LOCKED lines; the shot brief paraphrased some (e.g. VO-179 locked = "biggest show on Earth").
+### FIX 2 (same chat): VO-178 LINE CHANGE
+- Approved change to the locked script: VO-178 is now "You went to sleep as nobody." (was "You woke up as nobody."). `voiceover/script-locked.txt`, `voiceover/timing-report.md` (row + total 631.41 s / 10:31.41), `README.md`, `docs/SECTION6-MAP.txt` and sheet 1 updated.
+- Re-recorded with Bram (text2speech_v2 / elevenlabs / preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709), cost 0.15, one take. Old file kept as `voiceover/VO-178-OLD-woke-up.mp3` (1.49 s). New `voiceover/VO-178.mp3` = 2.12 s (+0.63). Shot 112 = 5.49 + 2.12 = 7.60 s (was 7.0). Section 6 runtime 52.6 s.
+- **Higgsfield balance: 755.11 credits.** (755.26 - 0.15.) Shot 112's picture unchanged; flag if "just woken" no longer fits the new words.
+- The "shot 121 monitor fix" mentioned in the instruction never reached this chat: nothing run (0.00).
 ### IN PROGRESS
 - Nothing. Section 6 awaits Dominick's review (only meaning failures, wrong text, broken anatomy or wrong screen design come back for fixes).
 ### NEXT STEP
@@ -88,7 +93,7 @@ Process rules (full text in CLAUDE.md):
   (calm closed-eyes smile / beaming open mouth); 40 rebuilt from new 39 (crop (500,180)-(1460,720), x2). 32, 34, 35, 37 unchanged.
 - **Merge:** everything from `claude/dreamy-goodall-axrmtw` moved into this folder; approved masters replaced the stale first-delivery copies
   (23, 24, 25, 26, 28, 30, 33, 36, 38, 39, 40 in `section2/`). The dreamy-goodall branch no longer holds Film #2 files.
-- Voiceover VO-001-195 (Bram, 630.78 s), Section 2 shots 21-57 generated earlier.
+- Voiceover VO-001-195 (Bram, 631.41 s after the VO-178 re-record), Section 2 shots 21-57 generated earlier.
 
 - **Section 2 batch 41-50 (2026-11-10):** DONE, 0 further credits.
   - Map: shot 45 CUT (no renumbering, file `section2-cut/45-CUT.png`); shot 44 = VO-056-057 (6.56 s); shot 46 = VO-058-059 (7.05 s); Section 2 = 35 shots. 42, 43, 48, 49, 50 approved as-is.

@@ -11,7 +11,7 @@ V={i:l for i,l in enumerate(sp,1)}
 def line(a,b=None):
     b=b or a; return "“"+" ".join(V[i] for i in range(a,b+1))+"”"
 S=[
- (112,"VO-177–178","7.0s",line(177,178),"Callback to yesterday: the locked room DIM at morning, the plain SMALL chair (not the #1 chair), him just woken, small in frame, looking at the little chair. Text: none."),
+ (112,"VO-177–178","7.6s",line(177,178),"Callback to yesterday: the locked room DIM at morning, the plain SMALL chair (not the #1 chair), him just woken, small in frame, looking at the little chair. Text: none."),
  (113,"VO-179","3.7s",line(179),"Night: him ASLEEP in the giant #1 chair, crown slipped on his head, room dark except monitor glow; STREAM screen with his exact sleeping face as preview. LIVE bright. Text: none (#1 / LIVE props only)."),
  (114,"VO-180–181","3.4s",line(180,181),"Gold coins piling up on the desk, spilling toward the #1 chair where he sits watching them land. No monitor in frame. Text: none."),
  (115,"VO-182–183","7.4s",line(182,183),"Him centered in the #1 chair; plain suited company stickmen and platform spotlights lean IN with packages and envelopes, a crowd behind. Everyone paying to be close. Text: none."),

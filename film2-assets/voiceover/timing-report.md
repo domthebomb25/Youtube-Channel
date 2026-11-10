@@ -177,7 +177,7 @@
 | VO-175 | And there are | 3.32 |
 | VO-176 | And they will | 2.93 |
 | VO-177 | So that is | 5.49 |
-| VO-178 | You woke up | 1.49 |
+| VO-178 | You went to | 2.12 |
 | VO-179 | You went to | 3.71 |
 | VO-180 | The money is | 1.23 |
 | VO-181 | Millions from the | 2.12 |
@@ -195,4 +195,4 @@
 | VO-193 | You became the | 2.69 |
 | VO-194 | Staying there? | 0.76 |
 | VO-195 | That is the | 1.96 |
-| **TOTAL** | 195 files | **630.78 s (10:30.78)** |
+| **TOTAL** | 195 files | **631.41 s (10:31.41)** |
