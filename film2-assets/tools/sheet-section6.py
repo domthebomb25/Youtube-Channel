@@ -20,7 +20,7 @@ S=[
  (118,"VO-188–189","4.9s",line(188,189),"Giant calendar page with the paper BILL pinned to it (crown, red stamp, nothing readable); below, the crowd of plain viewer stickmen faces him, deciding. He stands before them. Text: none."),
  (119,"VO-190","4.0s",line(190),"A plain challenger stickman (NO tie, hungry) grips the arm of the #1 chair and pulls; the business stickman turns toward him, startled. Text: none (#1 on chair = prop)."),
  (120,"VO-191–192","7.1s",line(191,192),"The endless sea of plain streamers at little desks to the horizon, every face turned toward the glowing #1 chair at the top. Text: none (#1 on chair)."),
- (121,"VO-193–195","5.4s",line(193,195),"FINAL FRAME. Morning light, the locked room, him AT THE DESK in the #1 chair, hands on keyboard, LIVE bright; STREAM screen with his exact face as preview. Text: none (LIVE prop only)."),
+ (121,"VO-193–195","5.4s",line(193,195),"FINAL FRAME. Morning light, the locked room, him AT THE DESK in the #1 chair, hands on keyboard, LIVE bright; monitor seen from behind (plain back, fix round). Text: none (LIVE prop only)."),
 ]
 W=2640; M=60; G=40; CW=(W-2*M-2*G)//3; IH=CW*9//16
 def wrap(d,t,font,w):
@@ -51,4 +51,4 @@ if __name__=="__main__":
     P=A+"/storyboards/section6-storyboard-v4-"
     T="Section 6 (The Payoff)"
     sheet(S[0:6],"112–117",T+" · sheet 1 of 2 · all generated, awaiting review",P+"shots-112-117")
-    sheet(S[6:10],"118–121",T+" · sheet 2 of 2 · FINAL SHOTS OF THE FILM · all generated, awaiting review",P+"shots-118-121")
+    sheet(S[6:10],"118–121",T+" · sheet 2 of 2 · FINAL SHOTS OF THE FILM · 121 monitor back fixed (local, 0.00) · awaiting review",P+"shots-118-121")

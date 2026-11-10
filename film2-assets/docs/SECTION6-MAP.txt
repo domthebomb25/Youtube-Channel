@@ -1,6 +1,6 @@
 FILM #2 — SECTION 6 "THE PAYOFF" — shot map (VO-177 to VO-195), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
 10 shots, numbered 112-121, all under 10 s. THIS IS THE FINAL SECTION: with it, ALL 117 SHOTS OF THE FILM ARE GENERATED (S1 19, S2 34, S3 18, S4 13, S5 23, S6 10).
-SECTION 6 RUNTIME (sum of shot durations): 52.6s  (7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
+SECTION 6 RUNTIME (sum of shot durations): 53.6s  (7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
 Generation (2026-11-10): 10 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 10.00 (cap 10.00). Live price confirmed 1.00 via get_cost before any paid call.
 Balance 765.26 -> 755.26. One generation per shot, no re-rolls, no failures, no fix round.
 Submission note: the first batch of 10 had two submissions (112, 121) rejected with 429 rate_limit_reached BEFORE a job was created; balance after the batch was 757.26 (exactly 8.00 charged), so nothing was charged for them. They were submitted once more unchanged (same prompt, same refs) = a retry of a rejected submission, not a re-roll.
@@ -38,13 +38,13 @@ Script wording: the sheets and this map use the LOCKED lines (voiceover/script-l
 120 VO-191–192  7.1s  Endless sea of plain streamers at little desks to the horizon, every face toward the glowing #1 chair at the top. Text: none (#1 on chair).
      “And six million streamers are pressing that same button, coming for your chair. That is the business of being number one.”
      job ed878ef0-abb0-4e7c-aeaf-6ff23acde78a
-121 VO-193–195  5.4s  FINAL FRAME. Morning light, locked room, him at the desk in the #1 chair, hands on keyboard, LIVE bright; STREAM screen with his exact face as preview. Text: none (#1 / LIVE props).
+121 VO-193–195  5.4s  FINAL FRAME. Morning light, locked room, him at the desk in the #1 chair, hands on keyboard, LIVE bright. The monitor is seen from behind: PLAIN dark monitor back, no screen content (FIX ROUND: the generated stream screen was removed, local edit 0.00). Text: none (#1 / LIVE props).
      “You became the #1 streamer overnight. Staying there? That is the real job.”
      job 87f96756-9c95-4e4b-b8ac-5df2785ccb69  (submitted on the second attempt, see note)
 
 SELF-CHECK (all ten pass; no hard failure, nothing stopped):
 - Whitelist text: no readable text anywhere except the locked props: "#1" on the chair (113, 114, 115, 119, 120, 121) and "LIVE" on the LIVE sign (113, 121). No numbers or words on calendars, the bill, screens or desks.
-- Screens: 113 and 121 = locked STREAM design (his exact face as preview, white viewer-icon column, colored chat bars). 112 monitor off. No other screen designs.
+- Screens: 113 = locked STREAM design (his exact face as preview, white viewer-icon column, colored chat bars). 121 = plain monitor back after the fix round (no screen). 112 monitor off. No other screen designs.
 - Gold tie: only the lead (112, 113, 114, 115, 116, 117, 119, 121). 118: lead seen from behind, tie not visible. Nobody else has gold.
 - Brows: one per eye on every foreground face checked.
 - LIVE: 113 bright, 121 bright; unlit/absent elsewhere (112 no sign in frame).
@@ -61,6 +61,12 @@ FLAGS (cartoon-good, not blocking; no re-roll without OK):
 FIX 2 (2026-11-10): VO-178 LINE CHANGE (approved change to the locked script): "You woke up as nobody." -> "You went to sleep as nobody."
 - Re-recorded with Bram: generate_audio, text2speech_v2, variant elevenlabs, voice_type preset, voice_id 549ff70a-3ee7-4f04-a4d9-89a24fab7709 (same route as the original batch; same mp3 format, 44.1 kHz mono 128 kbps). Cost 0.15 (quoted by get_cost first; cap 1.00). Job 2be07156-96e8-464e-ab5c-09a1a73c71ca. One take, no re-record.
 - Old file archived in place as voiceover/VO-178-OLD-woke-up.mp3 (1.489 s). New voiceover/VO-178.mp3 = 2.116 s (2.12). Difference +0.63 s.
-- Shot 112 total = VO-177 (5.49) + VO-178 (2.12) = 7.60 s (was 6.97 s, listed as 7.0 s). Still under 10 s. Section 6 runtime 52.6 s. Whole VO 631.41 s.
+- Shot 112 total = VO-177 (5.49) + VO-178 (2.12) = 7.60 s (was 6.97 s, listed as 7.0 s). Still under 10 s. Section 6 runtime 53.6 s (corrected in the combined fix-round entry below; 52.6 was an arithmetic slip). Whole VO 631.41 s.
 - Shot 112's picture is unchanged (dim morning room, small chair, him woken). The new line "You went to sleep as nobody" now plays over it; flag for review if the "just woken" image no longer fits the words. No image was regenerated.
 - Shot 121 monitor fix: no such instruction reached this chat; nothing was run for it (0.00).
+
+FIX ROUND — COMBINED ENTRY (2026-11-10, same chat), total fix-round spend 0.15, balance 755.11:
+- VO-178 line change "You woke up as nobody." -> "You went to sleep as nobody." DONE at 0.15 (see FIX 2 above). Verified in the repo before this entry: script-locked.txt line 268 (the VO-178 line), timing-report row (2.12) and total (631.41 s), VO-178.mp3 = 2.116 s, VO-178-OLD-woke-up.mp3 = 1.489 s, map, STATE, sheet 1 rebuilt, all committed (4b953fc). Nothing differed.
+- Shot 121 monitor back: DONE as a LOCAL EDIT, 0.00, no generation (tools/fix121-monitor-back.py). The stream screen painted on the monitor's back panel (face preview, viewer-icon column, chat bars) was removed and the panel repainted as flat dark plastic using the panel's own measured colours (clean bottom-strip colour blended up to the clean top-strip colour for the window glare). Outline, bezel, thickness and stand untouched; changed pixels confined to x 1368-1919, y 319-718 (inside the panel); outside that box the file is pixel-identical to the original (him, the #1 chair, LIVE sign, keyboard, desk, room, window light). Original archived at discarded/121-original.png. The first two repaint attempts (fitted gradient + grain) left a visible patch and were discarded; the third matches cleanly.
+- Shot 121's meaning now relies on his working pose + LIVE bright; no screen design appears in the shot. LIVE: still bright.
+- Housekeeping: Bram voice_id added to CLAUDE.md. Section 6 runtime corrected: 52.6 s -> 53.6 s (sheet durations 7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4; exact timing-report sums give 53.52 s).

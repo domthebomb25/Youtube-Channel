@@ -10,6 +10,11 @@ Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-ass
 - Masters: `section6/112.png`-`121.png` (1920x1080). Map: `docs/SECTION6-MAP.txt` (job ids, self-check, flags). Storyboards (v4): `storyboards/section6-storyboard-v4-shots-112-117` and `-118-121` (.png and .pdf); builder `tools/sheet-section6.py`.
 - Self-check passed on all ten (whitelist text = only the locked #1 and LIVE props, STREAM screen only on 113/121, gold tie = lead only, one brow per eye, LIVE bright on 113/121). Flags in the map (116 smug smile, 121 determined rather than calm, 118 lead seen from behind, 119 challenger missing one brow).
 - Script wording: the sheets use the LOCKED lines; the shot brief paraphrased some (e.g. VO-179 locked = "biggest show on Earth").
+### COMBINED FIX ROUND (same chat): VO-178 line change (0.15) + shot 121 monitor back (local, 0.00)
+- Total fix-round spend 0.15. **Balance 755.11 credits (confirmed).** No new generations.
+- Shot 121: the stream screen on the monitor's back panel was removed and repainted as a plain dark monitor back (local edit, `tools/fix121-monitor-back.py`; original at `discarded/121-original.png`; outside the panel the file is pixel-identical). Sheet 2 (118-121) rebuilt.
+- Housekeeping: Bram voice_id now in `CLAUDE.md`; Section 6 runtime corrected to 53.6 s in `docs/SECTION6-MAP.txt`.
+- Details: `docs/SECTION6-MAP.txt` (combined fix-round entry at the bottom).
 ### FIX 2 (same chat): VO-178 LINE CHANGE
 - Approved change to the locked script: VO-178 is now "You went to sleep as nobody." (was "You woke up as nobody."). `voiceover/script-locked.txt`, `voiceover/timing-report.md` (row + total 631.41 s / 10:31.41), `README.md`, `docs/SECTION6-MAP.txt` and sheet 1 updated.
 - Re-recorded with Bram (text2speech_v2 / elevenlabs / preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709), cost 0.15, one take. Old file kept as `voiceover/VO-178-OLD-woke-up.mp3` (1.49 s). New `voiceover/VO-178.mp3` = 2.12 s (+0.63). Shot 112 = 5.49 + 2.12 = 7.60 s (was 7.0). Section 6 runtime 52.6 s.

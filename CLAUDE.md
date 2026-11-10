@@ -7,6 +7,7 @@ Trial reel OFF, Related video on every YouTube Short, etc.). Keep it step-by-ste
 - Hooks and script structure: follow the script template in `channel/SHORTS-PLAYBOOK.md` (question hook by default, payoff-statement variant ~3 in 10). Old template files are archived in `channel/archive/` (superseded; do not use).
 - Always quote Higgsfield credit cost and wait for OK before spending.
 - User prefers PDFs over .md for documents.
+- Bram voice (channel + Film #2 voiceover): generate_audio, model text2speech_v2, variant elevenlabs, voice_type preset, voice_id 549ff70a-3ee7-4f04-a4d9-89a24fab7709 (same recipe as `channel/SHORTS-PLAYBOOK.md`).
 - Weekly formula and per-day captions: `videos/costco-hot-dog/shorts/POSTING-PLAN.md`.
 
 ## 30-day Shorts plan (1 Short per day, best possible quality + SEO)
