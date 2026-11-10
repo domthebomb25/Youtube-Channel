@@ -1,0 +1,20 @@
+FILM #2 — LOCAL SCREEN COMPOSITE NOTES (how the Section 2 screen fixes were made; 0 credits unless stated)
+Library: tools/screen-composite-lib.py (persp(), warp(), polymask()). Method: perspective-warp a genuine asset onto the monitor's screen quad,
+paste it only inside a polygon mask of the screen interior; everything outside the mask is byte-identical (verified by diff each time).
+Coordinates are full-frame 1920x1080 pixels. Screen interior stops at the monitor's INNER rim (black line); the bezel band below it must stay.
+
+SHOT 41 (base = original master, git 6b16d18): chat column from shot 36's master.
+  dst quad (1747,242) (1919,208) (1919,610) (1754,610); src quad in 36: (1611,128) (1830,59) (1830,619) (1642,622); mask (1748,243) (1920,209) (1920,610) (1755,610).
+  (First version wrongly ran to y=640 over the bezel; fixed 2026-11-10.)
+SHOT 47: ONE paid model edit (gpt_image_2_5, 16:9, 2k, medium, 1.00, job e03b01a8-ad81-4ee8-8708-42ecc610933a, refs = 47 master + 36 master).
+  Screen pasted back with a mask built from the old burst's colored pixels inside (1412,228) (1920,114) (1920,622) (1430,624).
+  Viewer icons 3 and 4 repainted locally: rows 255-337 x 1634-1672 rebuilt by vertical interpolation, then clean icons pasted (icon 2 at 1652,236.5 -> 1654,278.5; icon 6 at 1656.5,392.5 scaled 0.92 -> 1654.5,320.5).
+SHOT 52: stream screen asset (assets/stream-screen-asset-640x360.png) onto quad (1103,150) (1408,261) (1392,447) (1099,324).
+  The asset = shot 41's visible screen, quad (1441,304) (1919,208) (1919,610) (1441,610) rectified to 472x360, then extended 168 px by stretching the last 24 columns and fading to the panel color (33,45,68).
+SHOT 56: same asset, preview rectangle (21,19)-(331,305) filled (15,21,38) with HIS head cut from shot 56 (white-face flood fill + 7 px outline, scaled 0.72);
+  source = asset columns 0-430, dst quad (1425,253) (1919,133) (1919,628) (1441,632).
+SHOT 57 (SUPERSEDED, now a reuse of shot 54): counter design from shot 53, src (1313,234) (1919,40) (1919,686) (1316,695) -> dst (1380,206) (1919,45) (1919,621) (1396,626), darkened x(0.74,0.78,0.88). Archived in discarded/.
+Screen vocabulary (locked): STREAM screen = his face preview + white viewer-icon column + colored chat bars (shots 36, 41, 47, 52, 56). COUNTER screen = person icon + number + colored name pills / gray bars, no white icons (shots 49, 50).
+
+SPEND LOG (this session): 2.00 total. 1.00 lost on a shot-41 edit submitted without its reference images (job 9abb00ee-1ba0-47a0-bc97-8049128d48e9, result discarded);
+1.00 on the shot-47 edit above. Balance 825.26 -> 823.26. Everything else was local.

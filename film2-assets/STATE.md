@@ -1,7 +1,6 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
-Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10.
-Higgsfield balance: 823.26 credits.
+Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of session). Higgsfield balance: 823.26 credits (this session spent 2.00; see docs/SCREEN-COMPOSITE-NOTES.txt).
 
 ## CURRENT STATUS (Muse process update, 2026-11-10)
 - **Sections 1 and 2 are DONE.** Section 1: 19 shots final. Section 2: 34 shots final (shots 31, 45, 55 cut; shot 54 carries VO-069 2nd half-071; shot 57 is the exact shot 54 frame; shots 51 and 53 approved as-is). Storyboards for Sections 1-2 done; shots 1-57 done.
@@ -55,23 +54,34 @@ Process rules (full text in CLAUDE.md):
 - Sections 3 (Truth 1: The Money, VO-074-104), 4 (Truth 2: The Power), 5 (Truth 3: The Catch), 6 (The Payoff): not started. Section 3 map must be redone on the lenient pacing; the earlier draft is void.
 - Video assembly: not started, only on Dominick's word.
 
-## 3. FILES (all paths under `film2-assets/`)
-Section 2 approved masters, 1920x1080 PNG, in `section2/`:
-- `23.png`, `24.png`, `25.png`, `26.png`, `28.png`, `30.png` — approved re-roll finals.
-- `33.png`, `36.png`, `38.png`, `39.png`, `40.png` — approved fix-round masters.
-- `41.png`, `47.png` — fixed masters (2026-11-10). `42.png`-`44.png`, `46.png`, `48.png`-`50.png` approved (44/46 new VO only).
-- `21.png`, `22.png`, `29.png`, `32.png`, `34.png`, `35.png`, `37.png`, `51.png`, `53.png`, `54.png` — approved as-is. `52.png`, `56.png` — screen composites (2026-11-10). Shot 57 has no file: reused `54.png`.
-Section 1: `section1/11.png`, `section1/16.png` — byte-exact approved finals (replaced old versions). `section1/1.png` = shot 1 = thumbC = Section 2 shot 27.
-Storyboards (v4 format): `storyboards/section2-storyboard-v4-shots-21-30.pdf` / `.png`, `storyboards/section2-storyboard-v4-shots-32-40.pdf` / `.png`.
-  The older `.jpg` sheets in `storyboards/` for Section 1 shots 11-20 and Section 2 shots 21-30, 31-40 and 41-50 and 51-57 are stale (use the v4 PDFs).
-Records: `docs/SECTION2-MAP.txt` (change log + map), `docs/section2-storyboard-map.pdf` (original map), `STATE.md` (this file), `README.md`.
-Archive, do not use: `discarded/57-sunset-counter-composite-SUPERSEDED.png`, `discarded/27-first-delivery-STALE.png`, `discarded/27-reroll-DISCARDED.png`, `discarded/28-v1-superseded.png`,
-  `discarded/30-v1-superseded.png`, `discarded/31-asm-v1-CUT.png`; also `section2-cut/31-CUT.png`.
-Tools: `tools/sheet-21-30.py`, `tools/sheet-32-40.py` (sheet builders; inner paths point at a scratch folder).
+## 3. FILES (all paths under `film2-assets/` on branch `claude/happy-mccarthy-4tfabg`)
+### Created or changed THIS session (exact paths)
+Masters (1920x1080 PNG):
+- `section2/41.png` — chat column from 36 composited (fixed version, panel stops at the inner rim)
+- `section2/47.png` — his stream preview + overloaded chat, icons 3 and 4 repainted
+- `section2/52.png` — stream screen composited onto the wide-shot monitor
+- `section2/56.png` — his head on the dark preview + chat column
+- Shot 57: NO file (reuses `section2/54.png`). Shots 51, 53, 54 unchanged, approved as-is.
+Moved (cut shots): `section2-cut/45-CUT.png` (from section2/45.png), `section2-cut/55-CUT.png` (from section2/55.png).
+Archived, do not use: `discarded/57-sunset-counter-composite-SUPERSEDED.png`, `discarded/47-candidate-failed-icons-SUPERSEDED.png`,
+  `discarded/section3-dense-draft-VOID/SECTION3-MAP-VOID.txt`, `discarded/section3-dense-draft-VOID/section3-storyboard-map-VOID.pdf` (old 28-shot Section 3 map + 26.00 quote, VOID).
+Storyboards (v4): `storyboards/section2-storyboard-v4-shots-41-50.pdf`, `.png`; `storyboards/section2-storyboard-v4-shots-50-57.pdf`, `.png` (45 and 55 omitted).
+Records: `docs/SECTION2-MAP.txt` (updated), `docs/SCREEN-COMPOSITE-NOTES.txt` (recipes + spend log), `STATE.md` (this file), `../CLAUDE.md` (repo root; new Film #2 standing rules).
+Tools: `tools/sheet-41-50.py`, `tools/sheet-50-57.py` (sheet builders), `tools/screen-composite-lib.py` (perspective warp + mask helpers).
+Reusable asset: `assets/stream-screen-asset-640x360.png` (rectified stream screen: shot 41's preview + viewer-icon column + chat bars, extended to 16:9).
+### Earlier files still valid
+Section 2 approved masters in `section2/`:
+- `23.png`, `24.png`, `25.png`, `26.png`, `28.png`, `30.png` — approved re-roll finals. `33.png`, `36.png`, `38.png`, `39.png`, `40.png` — approved fix-round masters.
+- `42.png`-`44.png`, `46.png`, `48.png`-`50.png`, `21.png`, `22.png`, `29.png`, `32.png`, `34.png`, `35.png`, `37.png`, `51.png`, `53.png`, `54.png` — approved. Shot 27 = `section1/1.png` reused.
+Section 1: `section1/` shots 1-6, 8-20 (11 and 16 byte-exact approved finals). Thumbnails `thumbnails/` (thumbC locked = shot 1). Voiceover `voiceover/` (VO-001..195, `script-locked.txt`, `timing-report.md`).
+Storyboards earlier: `storyboards/section2-storyboard-v4-shots-21-30.pdf`/`.png`, `...-32-40.pdf`/`.png`. The `.jpg` sheets in `storyboards/` are stale (use the v4 PDFs).
+Records earlier: `docs/section2-storyboard-map.pdf`, `README.md`. Other archive: `discarded/27-*`, `discarded/28-v1-superseded.png`, `discarded/30-v1-superseded.png`, `discarded/31-asm-v1-CUT.png`, `section2-cut/31-CUT.png`.
+Older tools: `tools/sheet-21-30.py`, `tools/sheet-32-40.py`.
 
 ## 4. DECISIONS WAITING ON DOMINICK
-None open for this branch. (51 and 53 closed 2026-11-10: approved as-is, no chat column, no layout change.)
+- None open on Sections 1-2 (51 and 53 approved as-is; 57 = shot 54).
+- Go-ahead needed to START the Section 3 re-map (VO-074-104) under the lenient pacing. After the map + new quote are presented, approval of both is needed before any generation or spend.
 
 ## 5. NEXT STEP
-1. Dominick says go, then: re-map Section 3 (VO-074-104) under the lenient pacing rules and present the map + a new quote. Generate nothing until both are approved.
+1. Dominick says go, then: re-map Section 3 (VO-074-104) under the lenient pacing rules (fewer images, several lines per image, every shot under 10 s, VO-095 on ONE image with the money figure as a free state) and present the map + a NEW quote (preflight: master + reference attached, live price via get_cost). Generate nothing until both are approved.
 2. Sections 4-6 follow the same pacing.
