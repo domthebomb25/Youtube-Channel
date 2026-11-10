@@ -1,11 +1,24 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10.
-Higgsfield balance: 823.26 credits (825.26 before the 41-50 batch chat, which spent 2.00; see section 1).
+Higgsfield balance: 823.26 credits.
 
-Standing rules (unchanged, plus preflight): before ANY paid call, confirm (1) master attached, (2) reference attached, (3) live price confirmed (get_cost). Local/free fixes first when possible.
-Standing rules (unchanged): quote credit cost and wait for OK before any spend; Bram voice; gpt_image_2_5 16:9 2k medium = 1.00/image;
-masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4 format, 10 shots at a time; documents as PDF.
+## CURRENT STATUS (Muse process update, 2026-11-10)
+- **Sections 1 and 2 are DONE.** Section 1: 19 shots final. Section 2: 34 shots final (shots 31, 45, 55 cut; shot 54 carries VO-069 2nd half-071; shot 57 is the exact shot 54 frame; shots 51 and 53 approved as-is). Storyboards for Sections 1-2 done; shots 1-57 done.
+- **Sections 3-6 (VO-074 onward) run on the NEW LENIENT PACING** (fewer images, multiple lines per image, every shot under 10 s, new image only when the beat changes; Chick-fil-A standard). Full rules and process rules are in `CLAUDE.md` ("Film #2 ... standing production rules") and summarized below.
+- **The drafted 28-shot Section 3 map and its 26.00 quote are VOID** (they were drafted on the old dense pacing; the files live on branch `claude/laughing-lovelace-fnekay`, not here). Do not use them.
+- **NEXT JOB (do not start until told):** re-map Section 3 (VO-074-104) under the new pacing and present the map + a NEW quote. Generate nothing until the map and quote are approved.
+
+Standing rules: quote credit cost and wait for OK before any spend; Bram voice; gpt_image_2_5 16:9 2k medium = 1.00/image;
+masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4 format (DISPLAYED in chat, not just committed); documents as PDF.
+Process rules (full text in CLAUDE.md):
+- Sections 3-6 pacing: fewer images, several lines per image, every shot under 10 s (a single line may exceed 10 s only when it carries the hold; prefer ONE free assembly state at the payoff; flag drag in the map, never silently add images). New image only on a true beat change. Grouped lines must fit the image's meaning. VO-095 (11.60 s) = ONE image, money figure as a free state at "between twenty and thirty million dollars."
+- Consistency over creativity: screen vocabulary is locked. STREAM screen = his exact-face preview + white viewer-icon column + colored chat bars. COUNTER screen = person icon + number + colored name pills/gray bars (NO white icons).
+- Checks inside the prompt: exact on-screen text whitelist, LIVE on/off per timeline, digit-legibility where blur is required, face anatomy (one eyebrow per eye, connected head outline).
+- Preflight before any paid call: master attached, reference attached, live price confirmed (get_cost). Local composites first; model edits only when a composite can't do it, with a stated cost.
+- One prompt per job with a hard spend cap; no re-rolls without Dominick's OK; a failed check = stop and report, never auto-retry.
+- Repo: commit each approved file to this branch as approved; update STATE.md at the end of every chat.
+- Review bar for Sections 3-6: cartoon-good passes; only meaning failures, wrong text, broken anatomy, or wrong screen design come back.
 
 ## 1. DONE
 - **Section 1 (shots 1-20, no 7):** FINAL. Shots 11 and 16 swapped to the byte-exact approved finals (11 with smiles, 16 v3) on 2026-11-10,
@@ -38,9 +51,8 @@ masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4
   - Sheet: `storyboards/section2-storyboard-v4-shots-50-57.pdf` / `.png` (55 omitted). Builder: `tools/sheet-50-57.py`.
 
 ## 2. IN PROGRESS / NOT STARTED
-- Remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
-  re-checked this session; minor: 42 tear, 48 peeking eye, 52 room angle) are for the 41-57 batch chats.
-- Sections 3 (Truth 1: The Money), 4 (Truth 2: The Power), 5 (Truth 3: The Catch), 6 (The Payoff): not started.
+- Sections 1-2: nothing open. (The old minor items, desk-standard drift and 42 tear / 48 eye / 52 room angle, are closed by Muse's "Sections 1 and 2 are DONE".)
+- Sections 3 (Truth 1: The Money, VO-074-104), 4 (Truth 2: The Power), 5 (Truth 3: The Catch), 6 (The Payoff): not started. Section 3 map must be redone on the lenient pacing; the earlier draft is void.
 - Video assembly: not started, only on Dominick's word.
 
 ## 3. FILES (all paths under `film2-assets/`)
@@ -61,5 +73,5 @@ Tools: `tools/sheet-21-30.py`, `tools/sheet-32-40.py` (sheet builders; inner pat
 None open for this branch. (51 and 53 closed 2026-11-10: approved as-is, no chat column, no layout change.)
 
 ## 5. NEXT STEP
-1. Desk-drift / minor items for the batch (quote cost before any re-roll). Section 2 shots 21-57 are otherwise closed.
-2. Then Section 3 (Truth 1: The Money): storyboard map + credit quote first, generate nothing until Dominick approves.
+1. Dominick says go, then: re-map Section 3 (VO-074-104) under the lenient pacing rules and present the map + a new quote. Generate nothing until both are approved.
+2. Sections 4-6 follow the same pacing.
