@@ -1,7 +1,7 @@
 FILM #2 — SECTION 5 "TRUTH 3: THE CATCH" — shot map (VO-130 to VO-176), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
 23 shots, numbered 89-111, all under 10 s. Section 6 (The Payoff) starts at shot 112 (VO-177).
 SECTION 5 RUNTIME (sum of shot durations): 150.7s.
-Generation (2026-11-10): 23 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 23.00 (cap 23.00). Live price confirmed 1.00 via get_cost before any paid call. Balance 789.26 -> 766.26.
+Generation (2026-11-10): 23 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 23.00 (cap 23.00). Live price confirmed 1.00 via get_cost before any paid call. Balance 789.26 -> 766.26 (first pass) -> 765.26 after the fix round (+1.00 for the 101 regeneration; 93 was local, 0.00).
 One generation per shot, no re-rolls, no failures, no fix round. Raw outputs 2688x1520 -> centre-cropped to 16:9 and resized to 1920x1080 masters (tools/crop-section5.py).
 Refs uploaded: shot 9 (room + style), shot 75 (dusk room bridge), shot 69 (Ninja design), shot 70 (Ninja), stream-screen asset (assets/stream-screen-asset-640x360.png), shot 50 (counter screen; there is no separate counter-screen asset file, so a real counter frame was used).
 Continuity refs by job id: 100 -> 101, 104, 105, 108; 90 -> 109, 111; 98 -> 111; 93 -> 106; 99 -> 102; 102 -> 103 (generated after 102 passed).
@@ -48,9 +48,10 @@ Allowed props that carry text: '#1' glowing on the chair/throne back (89, 90, 92
 100 VO-150–151  5.4s  One gift box wearing a BLANK expiration tag, sitting on a one-month calendar grid (blank squares, no dates). Text: none.
      “And a gifted subscriber comes with an expiration date. A gift lasts one month.”
      job 215b2d4a-fd63-43a9-88e2-9998d45b00aa
-101 VO-152–153  6.9s  The same gift box faded to a pale dashed ghost; beside it an empty, softly lit viewer seat in a row of dark empty seats. Text: none.
+101 VO-152–153  6.9s  In his room beside the desk: five faded, washed-out ghost gift boxes (drooping ribbons) and exactly ONE solid bright box (blue, gold ribbon and bow, blank tag, same as shot 100); beside it ONE plain viewer stickman (gray hoodie, no tie) holds up a gold coin, paying again; his other hand rests in his hoodie pocket. No text. The business stickman does not appear.
+     [FIX ROUND 2026-11-10: REGENERATED 1.00 (job d6396c87-f921-430e-a4d3-b84a455a859a, refs = shots 99, 100, 102), ACCEPTED AS-IS by Dominick (his coin hand is raised beside the box rather than pulling from the pocket; he approved it, smile unchanged). Replaces the theater-seats image, archived at discarded/101-original.png.]
      “Then it is gone — unless that person reaches into their own pocket and pays again. Most of them do not.”
-     job 9b85fae3-4881-49e0-9f25-4491c36b0d08
+     job d6396c87-f921-430e-a4d3-b84a455a859a (fix-round regeneration; first-pass job 9b85fae3-4881-49e0-9f25-4491c36b0d08 = archived theater-seats image)
 102 VO-154–155  7.6s  The record holder: generic plain stickman (gray hoodie, NO tie, NO label) at his desk, arms up, confetti, COUNTER screen 1,000,000. Text: 1,000,000 only.
      “It already happened to the man who held this record before you. He crossed a million subscribers — the first in history.”
      job 38609dc3-fe3f-4296-bc65-d104568aed6f
@@ -91,9 +92,8 @@ FLAGS (cartoon-good, not blocking; no re-roll without OK):
 - 110: the due-date stamp is a red rectangle with a tiny calendar icon; nothing readable.
 - 97/111: very small far-background figures are shapes only (anatomy checks apply to the foreground faces, which pass).
 
-FIX ROUND 2026-11-10 (cap 1.00):
-- 93: local edit, 0.00 (see above).
-- 101: REGENERATED once (1.00, job d6396c87-f921-430e-a4d3-b84a455a859a, refs = shots 99, 100, 102). Candidate FAILED one stated check, so it is NOT swapped in and section5/101.png is still the original theater-seats image. Candidate saved at pending/101-candidate-NEEDS-OK.png. 
-  Passed: 5 ghost boxes vs exactly 1 solid box; box design matches shot 100 (blue, gold ribbon/bow, blank tag); no text; no theater seats; business stickman absent (viewer = gray hoodie, no tie).
-  FAILED: "hand at the pocket with a visible coin": one hand rests in the hoodie pocket and the OTHER hand holds the coin up beside the solid box; no hand is pulling the coin out of the pocket. 
-  Waiting for Dominick: accept as-is, or approve one re-roll (1.00).
+FIX ROUND 2026-11-10 (cap 1.00) — COMPLETE:
+- 93: LOCAL edit, 0.00 (tools/fix93-calendar.py). Wall-calendar Xs moved to two consecutive squares in one row; everything outside the calendar byte-identical. Original: discarded/93-original.png.
+- 101: REGENERATED once, 1.00, accepted as-is (see 101 above). Original: discarded/101-original.png.
+- Fix-round spend 1.00 (cap 1.00). Section 5 total 24.00. Final balance 765.26.
+- Section 5 is COMPLETE. No open decisions.

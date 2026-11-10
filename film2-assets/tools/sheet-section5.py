@@ -23,7 +23,7 @@ S=[
  (98,"VO-145–146","7.9s",line(145,146),"The #1 chair in shadow-light: a crown passes from one black silhouette's hands to another's; more challenger silhouettes approach from the dark. No faces. Text: none (#1 on chair)."),
  (99,"VO-147–149","8.3s",line(147,149),"His room: monitor on the COUNTER screen 1,000,000; the crowd around the desk and floor is made of gift boxes with bows. He looks uneasy. LIVE bright. Text: 1,000,000 (+ locked #1 / LIVE props)."),
  (100,"VO-150–151","5.4s",line(150,151),"One gift box wearing a BLANK expiration tag, sitting on a one-month calendar grid (blank squares, no dates). Text: none."),
- (101,"VO-152–153","6.9s",line(152,153),"The same gift box faded to a pale dashed ghost; beside it an empty, softly lit viewer seat in a row of dark empty seats. Text: none."),
+ (101,"VO-152–153","6.9s",line(152,153),"[FIX ROUND: regenerated 1.00, accepted as is.] In his room: five faded ghost gift boxes and ONE solid bright box; beside it a plain viewer (gray hoodie, no tie) holding up a gold coin, paying again. No text."),
  (102,"VO-154–155","7.6s",line(154,155),"The record holder: generic plain stickman (gray hoodie, NO tie, NO label) at his desk, arms up, confetti, COUNTER screen 1,000,000. Text: 1,000,000 only."),
  (103,"VO-156–158","7.2s",line(156,158),"The same man weeks later: slumped, shocked, calendar pages scattered on the floor, room quiet and empty, COUNTER screen 40,000. Text: 40,000 only."),
  (104,"VO-159–162","7.5s",line(159,162),"A giant calendar page looms over him; one day circled in red: the 30. He is small beneath it, gold tie. Text: 30 only."),
@@ -65,5 +65,5 @@ if __name__=="__main__":
     T="Section 5 (Truth 3: The Catch)"
     sheet(S[0:6],"89–94",T+" · sheet 1 of 4 · all generated, all passed self-check",P+"shots-89-94")
     sheet(S[6:12],"95–100",T+" · sheet 2 of 4 · all generated, all passed self-check",P+"shots-95-100")
-    sheet(S[12:18],"101–106",T+" · sheet 3 of 4 · 105 grid has 24 squares (flag)",P+"shots-101-106")
+    sheet(S[12:18],"101–106",T+" · sheet 3 of 4 · 101 regenerated (fix round, 1.00, accepted) · 105 grid: 24 squares (flag)",P+"shots-101-106")
     sheet(S[18:23],"107–111",T+" · sheet 4 of 4 · 108 grid has 20 squares (flag)",P+"shots-107-111")

@@ -1,21 +1,31 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
-Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (end of the Section 5 chat).
+Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 5 chat, including its fix round).
 
-## SECTION 5 FIX ROUND (2026-11-10, same chat) — OPEN ITEM
-- **Higgsfield balance: 765.26** (766.26 - 1.00 for the 101 regeneration).
-- **93: DONE, local 0.00.** The two scattered red Xs on Ninja's wall calendar were erased and redrawn as two back-to-back Xs in one row (`tools/fix93-calendar.py`). Original in `discarded/93-original.png`. Sheet `storyboards/section5-storyboard-v4-shots-89-94` rebuilt.
-- **101: regenerated (1.00) but the candidate FAILED the "hand at the pocket with a visible coin" check** (one hand in the pocket, the other holds the coin up; nobody pulls it out of the pocket). Passed: 5 ghost boxes + 1 solid, box matches shot 100, no text, no seats, no business stickman. NOT swapped in: `section5/101.png` is still the original theater-seats image; candidate = `pending/101-candidate-NEEDS-OK.png`. **Decision needed from Dominick: accept the candidate as-is, or approve one re-roll (1.00).** If accepted: archive the old 101 to `discarded/101-original.png`, copy the candidate to `section5/101.png`, rebuild sheet 101-106.
-
-## CURRENT STATUS (close-out of the Section 5 chat, 2026-11-10)
-- **Sections 1-5 are DONE: 111 shots** (S5 = shots 89-111, 23 generations). Files: `section5/89.png`-`111.png` (1920x1080 masters). Map: `docs/SECTION5-MAP.txt`. Storyboards: `storyboards/section5-storyboard-v4-shots-89-94`, `-95-100`, `-101-106`, `-107-111` (.pdf/.png). Builders: `tools/sheet-section5.py`, `tools/crop-section5.py` (raw outputs were in a local `raw5/` folder, not committed).
-- **Higgsfield balance: 766.26 credits** (789.26 at the start; 23.00 generation, exactly 1.00 each; live price re-confirmed 1.00 before any paid call; no re-rolls, no fix round, no failures).
-- All 23 images passed the self-check (whitelist text, locked screen designs, gold tie on the lead only, Ninja BLUE in 93-94, one eyebrow per eye, LIVE states: 89 off; 95, 99, 105 bright). Flags only: 105 calendar grid has 24 squares, 108 has 20 (not 30); 94 right eyebrow tight to the outline. Full list at the bottom of `docs/SECTION5-MAP.txt`.
-- CHARACTER COLOR LOCK unchanged: Ludwig GREEN, Ninja BLUE; gold tie = the lead only. Record holder in 102-103 = unnamed generic gray-hoodie stickman; Kai Cenat (106) = plain generic stickman with the plain label only.
-- Note: there is no separate counter-screen asset file; shot 50 (and 99 for the 1,000,000 design) serve as the counter reference.
-- **NEXT JOB: Section 6 (The Payoff), starts at shot 112 (VO-177 "So that is what it really means...") to the end (VO-195).** It runs in a NEW chat. Map + quote first, wait for OK before any spend; preflight as always (references attached, live price 1.00, stop and report if not).
+## CURRENT STATUS — CLOSE-OUT OF THE SECTION 5 CHAT (2026-11-10)
+### DONE
+- **Sections 1-5 are COMPLETE: 107 shots** (S1 19, S2 34, S3 18, S4 13, S5 23; shot numbers run 1-111 because of the cut/reused numbers in S1-S2). Section 5 = shots 89-111 (VO-130-176), fix round included.
+- **Higgsfield balance: 765.26 credits.** (789.26 at the start; 23.00 first pass, exactly 1.00 each; +1.00 for the 101 regeneration; 93 local, 0.00.) Live price re-confirmed 1.00 before every paid call.
+- Section 5 fix round: **93** = local edit, 0.00 (the two scattered red Xs on Ninja's wall calendar erased and redrawn as TWO CONSECUTIVE squares in one row; everything else byte-identical). **101** = regenerated once, 1.00, ACCEPTED AS-IS by Dominick: five ghost gift boxes + one solid box, a plain gray-hoodie viewer holding up a coin (no re-roll; his smile stays). The old theater-seats 101 is archived.
+- Standing flags (cartoon-good, accepted): 105 calendar grid has 24 squares and 108 has 20 (not 30); 94 Ninja's right eyebrow is tight to the head outline. Full list at the bottom of `docs/SECTION5-MAP.txt`.
+- CHARACTER COLOR LOCK unchanged: Ludwig GREEN, Ninja BLUE; gold tie = the lead only. 102-103 record holder = unnamed generic gray-hoodie stickman; 106 Kai Cenat = plain generic stickman, label only.
+- Section 5 storyboards (v4, up to date): `storyboards/section5-storyboard-v4-shots-89-94`, `-95-100`, `-101-106`, `-107-111` (.png and .pdf). Note: the displayed-in-chat requirement could not be met with inline images in this chat (my tools can only send file cards); the four PNGs were sent as file cards.
+### IN PROGRESS
+- Nothing.
+### EVERY FILE CREATED OR CHANGED IN THIS CHAT (paths under `film2-assets/`)
+- Masters: `section5/89.png` ... `section5/111.png` (23 files, 1920x1080). `section5/93.png` = locally edited. `section5/101.png` = regenerated and accepted.
+- Archived originals: `discarded/93-original.png` (scattered-X version), `discarded/101-original.png` (theater-seats version).
+- Records: `docs/SECTION5-MAP.txt` (new), `STATE.md` (this file).
+- Storyboards: `storyboards/section5-storyboard-v4-shots-89-94.png`/`.pdf`, `storyboards/section5-storyboard-v4-shots-95-100.png`/`.pdf`, `storyboards/section5-storyboard-v4-shots-101-106.png`/`.pdf`, `storyboards/section5-storyboard-v4-shots-107-111.png`/`.pdf`.
+- Tools: `tools/sheet-section5.py` (sheet builder), `tools/crop-section5.py` (raw 2688x1520 -> 16:9 1920x1080 masters), `tools/fix93-calendar.py` (shot 93 local edit; reads `discarded/93-original.png`, writes `section5/93.png`).
+- Not in the repo: the raw 2688x1520 Higgsfield outputs (kept only in the session scratchpad). Generated assets live on Higgsfield by job id; the job ids are in `docs/SECTION5-MAP.txt`.
+### DECISIONS STILL WAITING
+- None for Section 5.
+### NEXT STEP
+- **Section 6 (The Payoff), shots 112-121 (VO-177 onward, "So that is what it really means...", to the end of the film at VO-195). It runs in a NEW chat, from the map in Muse's message (that map is NOT stored in this repo).** Start of that chat: read `CLAUDE.md` and this file, give production standing, then preflight (references attached, live price 1.00 via get_cost; stop and report if not); one generation per shot, no re-rolls without an OK, quote the credit cost and wait for OK before spending. Useful references: shot 9 (room + style), shot 75 (dusk room), stream-screen asset `assets/stream-screen-asset-640x360.png`, shot 50 or 99 (counter screen), shots 90 and 109 (staircase/throne), shot 100 (gift box).
 
 ## EARLIER STATUS (close-out of the Section 4 chat, 2026-11-10)
+
 
 - **Sections 1-4 are DONE: 84 shots** (S1 19, S2 34, S3 18 = shots 58-75, S4 13 = shots 76-88 plus its fix rounds). Files: `section4/76.png`-`88.png` + `section4/85-state.png`. Map: `docs/SECTION4-MAP.txt`. Committed through the Section 4 fix rounds.
 - **Higgsfield balance: 789.26 credits.** (803.26 at the start of Section 4; 13.00 generation + 1.00 fix-round edit on 86; everything else local.)
