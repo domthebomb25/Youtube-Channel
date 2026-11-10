@@ -1,7 +1,7 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10.
-Higgsfield balance: 825.26 credits (838.26 after Section 2; this session spent 13.00 = 7.00 re-rolls 23-28/30, 2.00 re-rolls 28/30, 4.00 fix-round edits 33/36/38/39).
+Higgsfield balance: 823.26 credits (825.26 before the 41-50 batch chat; that chat spent 2.00 on shot 41 and 47 edits, neither delivered, see section 2).
 
 Standing rules (unchanged): quote credit cost and wait for OK before any spend; Bram voice; gpt_image_2_5 16:9 2k medium = 1.00/image;
 masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4 format, 10 shots at a time; documents as PDF.
@@ -22,6 +22,13 @@ masters 1920x1080 PNG; every delivered file under 25 MB; storyboard sheets in v4
 - Voiceover VO-001-195 (Bram, 630.78 s), Section 2 shots 21-57 generated earlier.
 
 ## 2. IN PROGRESS / NOT STARTED
+- **Section 2 batch 41-50 (2026-11-10):** map updated, edits NOT delivered.
+  - Map: shot 45 CUT (no renumbering, file now `section2-cut/45-CUT.png`); shot 44 = VO-056-057; shot 46 = VO-058-059; Section 2 = 35 shots.
+    42, 43, 48, 49, 50 approved as-is.
+  - Shot 41 edit (chat -> established chat design from 36/38/39): NOT done. The one paid call was submitted without its reference images (my error), so the result was discarded. 1.00 lost.
+  - Shot 47 edit (burst -> his stream preview + overloaded chat): one paid edit run, screen paste-back clean, but FAILED the check: viewer icon 3 is a malformed double blob and icon 4 has glitched eyes. Not delivered; `section2/47.png` is still the old master. Candidate kept outside the repo.
+  - Needs Dominick's decision: OK for further credits (1.00 per edit) to redo 41 and re-run 47, or fix 47's two icons locally (no spend). The 2.00 approved was fully used.
+  - Rebuilt 41-50 sheet NOT built (waits for the final 41 and 47 masters).
 - **Shots 56 and 57** (stray scenery on the monitor): DEFERRED. No action, no spend. Belongs to the 51-57 batch chat after Muse's audit.
 - Section 2 shots 41-55 and the remaining open items from the first bundle (desk-standard drift on 21, 27, 32, 34, 38, 41, 45, 55 was not
   re-checked this session; minor: 42 tear, 48 peeking eye, 52 room angle) are for the 41-57 batch chats.
@@ -46,5 +53,6 @@ None open for this branch. (28/30 approved; 56/57 deferred to the 51-57 chat.)
 For later: paste the locked script lines + VO timings for Sections 3-6 when he wants those storyboards.
 
 ## 5. NEXT STEP
+0. Finish 41 and 47 (see section 2), then rebuild the 41-50 sheet (45 omitted, 44 and 46 with new VO).
 1. 51-57 batch chat (after Muse's audit): decide 56 and 57, and the desk-drift / minor items for 41-57 (quote cost before any re-roll).
 2. Then Section 3 (Truth 1: The Money): storyboard map + credit quote first, generate nothing until Dominick approves.
