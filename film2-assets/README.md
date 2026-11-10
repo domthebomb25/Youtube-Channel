@@ -13,6 +13,7 @@ Everything generated in the working chat, so any chat/session can read it straig
   * Assembly states in this folder: 35 (LIVE flipped bright on 34), 40 (face push on 39), 50 (counter flipped to 900,000 on 49), 54 (blur push on 53).
   * 23, 24, 25, 26, 28, 30 are the approved re-roll finals; 33, 36, 38, 39, 40 are the approved fix-round masters.
     Shot 27 has no file here: its final is `section1/1.png` reused exactly (the old 27 is in `discarded/`).
+- `section3/` shots 58-73 (Section 3, Truth 1: The Money) + free states 69-state, 71-state2, 71-state3; 71.png = row 1 lit. Map: `docs/SECTION3-MAP.txt`.
 - `storyboards/` sheets (Section 1 shots 1-10 and 11-20; Section 2 in four 10-shot sheets)
 - `docs/section2-storyboard-map.pdf` Section 2 map (36 shots); `docs/SECTION2-MAP.txt` current change log
 - `discarded/` superseded/cut images, do not use; `tools/` storyboard-sheet builder scripts
