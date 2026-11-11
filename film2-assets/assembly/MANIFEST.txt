@@ -1,10 +1,10 @@
 FILM #2 — "POV: You Became the #1 Streamer Overnight." — ASSEMBLY MANIFEST
-All 117 shots in playing order (shots 7, 31, 45, 55 are CUT and do not exist; no renumbering). Masters 1920x1080 PNG. Voice = Bram (631.17 s total, voiceover/timing-report.md).
+All 117 shots in playing order (shots 7, 31, 45, 55 are CUT and do not exist; no renumbering). Masters 1920x1080 PNG. Voice = Bram (631.22 s total, voiceover/timing-report.md).
 Durations = sum of the VO files each shot carries (repo timing report). Shot 53/54 split VO-069 (9.64 s): 53 = first half (4.8 s), 54 = second half + VO-070 + VO-071 (about 9.0 s).
 Zip layout: masters/NNN.png (shot order) · voiceover/VO-NNN.mp3 · states/ (separate state files, sections 3 and 4 only) · SECTION-MANIFEST.txt.
 Reused images: shot 27 = shot 1 (masters/027-REUSE-of-001.png in the section 2 zip; the original is in the section 1 zip). Shot 57 = shot 54 (masters/057-REUSE-of-054.png).
-NEW takes: VO-178 ('You went to sleep as nobody.', 2.12 s), VO-179 ('And you woke up as the biggest show on Earth.', 3.47 s). Old takes are NOT in any zip.
-VO NOT carried by any shot: none (VO-001..VO-195 are all carried).
+NEW takes: VO-178 ('You went to sleep as nobody.', 2.12 s), VO-179 ('And you woke up as the biggest show on Earth.', 3.47 s), VO-195 ('Staying at #1 is just as hard.', 2.77 s). VO-193 is the ORIGINAL take (untouched). Old takes are NOT in any zip.
+VO-194 ('Staying there?') is RETIRED: not carried by any shot, not counted in the total, and NOT in any zip (the file stays in voiceover/ as VO-194-UNUSED-staying-there.mp3). Shot 121 = VO-193 + VO-195 only. Every other VO file (001..195 minus 194) is carried exactly once.
 
 Shot | Image (path inside the zip)    | VO files carried       | Dur (s) | Assembly state / trigger
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -124,6 +124,6 @@ Shot | Image (path inside the zip)    | VO files carried       | Dur (s) | Assem
 [S6]  118 | masters/118.png                | VO-188..189            |    4.94 | 
 [S6]  119 | masters/119.png                | VO-190                 |    3.97 | 
 [S6]  120 | masters/120.png                | VO-191..192            |    7.10 | 
-[S6]  121 | masters/121.png                | VO-193..195            |    5.41 | 
+[S6]  121 | masters/121.png                | VO-193 + VO-195        |    5.46 | 
 
-Sum of shot durations (timing-report rounded values): 631.24 s ; exact VO total 631.17 s (difference is per-file rounding only).
+Sum of shot durations (timing-report rounded values): 631.29 s ; exact VO total 631.22 s (difference is per-file rounding only).

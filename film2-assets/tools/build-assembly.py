@@ -32,8 +32,8 @@ lines=["FILM #2 — \"POV: You Became the #1 Streamer Overnight.\" — ASSEMBLY 
 "Durations = sum of the VO files each shot carries (repo timing report). Shot 53/54 split VO-069 (9.64 s): 53 = first half (4.8 s), 54 = second half + VO-070 + VO-071 (about 9.0 s).",
 "Zip layout: masters/NNN.png (shot order) · voiceover/VO-NNN.mp3 · states/ (separate state files, sections 3 and 4 only) · SECTION-MANIFEST.txt.",
 "Reused images: shot 27 = shot 1 (masters/027-REUSE-of-001.png in the section 2 zip; the original is in the section 1 zip). Shot 57 = shot 54 (masters/057-REUSE-of-054.png).",
-"NEW takes: VO-178 ('You went to sleep as nobody.', 2.12 s), VO-179 ('And you woke up as the biggest show on Earth.', 3.47 s). Old takes are NOT in any zip.",
-"VO NOT carried by any shot: none (VO-001..VO-195 are all carried).",""]
+"NEW takes: VO-178 ('You went to sleep as nobody.', 2.12 s), VO-179 ('And you woke up as the biggest show on Earth.', 3.47 s), VO-195 ('Staying at #1 is just as hard.', 2.77 s). VO-193 is the ORIGINAL take (untouched). Old takes are NOT in any zip.",
+"VO-194 ('Staying there?') is RETIRED: not carried by any shot, not counted in the total, and NOT in any zip (the file stays in voiceover/ as VO-194-UNUSED-staying-there.mp3). Shot 121 = VO-193 + VO-195 only. Every other VO file (001..195 minus 194) is carried exactly once.",""]
 hdr="{:>4} | {:<30} | {:<22} | {:>7} | {}"
 lines.append(hdr.format("Shot","Image (path inside the zip)","VO files carried","Dur (s)","Assembly state / trigger"))
 lines.append("-"*140)
@@ -43,6 +43,7 @@ for n in d.SHOTS:
     s=next(k for k,(a,b,_,_) in SEC.items() if a<=n<=b)
     a,b=d.MAPVO[n]
     vf=f"VO-{a:03d}" if a==b else f"VO-{a:03d}..{b:03d}"
+    if n==121: vf="VO-193 + VO-195"
     if n==53: vf="VO-069 (1st half)"
     if n==54: vf="VO-069 (2nd half)..071"
     z=f"section{s}-assembly.zip:{zname(n)}"
@@ -63,7 +64,9 @@ for s,(a,b,v0,v1) in SEC.items():
     with zipfile.ZipFile(zp,"w",zipfile.ZIP_DEFLATED) as z:
         for n in d.SHOTS:
             if a<=n<=b: z.write(A+"/"+d.img(n),zname(n))
-        for i in range(v0,v1+1): z.write(A+f"/voiceover/VO-{i:03d}.mp3",f"voiceover/VO-{i:03d}.mp3")
+        for i in range(v0,v1+1):
+            if i in d.RETIRED: continue
+            z.write(A+f"/voiceover/VO-{i:03d}.mp3",f"voiceover/VO-{i:03d}.mp3")
         for n,src in STSRC.items():
             if a<=n<=b: z.write(A+"/"+src,STATE[n][2])
         sm=[f"SECTION {s}: {TITLE[s]} — shots {a}-{b}, VO-{v0:03d}..VO-{v1:03d}","(see ../MANIFEST.txt for the whole film)",""]+per[s]

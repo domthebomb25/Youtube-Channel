@@ -19,5 +19,5 @@ for n in d.SHOTS:
     m=d.MAPDUR.get(n)
     diff=None if m is None else round(s-m,2)
     if m is None or abs(diff)>=0.15: print(f"  shot {n}: timing-report {s} s, map {m}  diff {diff}")
-print("  total shot durations (timing report):",round(sum(tr.values()),2),"s;  VO total 631.41")
+print("  total shot durations (timing report):",round(sum(tr.values()),2),"s;  VO total",d.TOTAL)
 for n in (112,): print("  shot",n,tr[n])

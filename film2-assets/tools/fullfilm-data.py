@@ -13,12 +13,16 @@ for l in open(A+"/voiceover/timing-report.md",encoding="utf-8"):
 assert len(DUR)==195
 import re as _re
 TOTAL=_re.search(r"\*\*([\d.]+) s",open(A+"/voiceover/timing-report.md",encoding="utf-8").read()).group(1)
+RETIRED={194}   # VO-194 "Staying there?" is retired: it never plays and is never counted
+def _r(a,b): return [i for i in range(a,b+1) if i not in RETIRED]
 def quote(a,b=None):
-    b=b or a; return "“"+" ".join(V[i] for i in range(a,b+1))+"”"
+    b=b or a; return "“"+" ".join(V[i] for i in _r(a,b))+"”"
 def vsum(a,b=None):
-    b=b or a; return round(sum(DUR[i] for i in range(a,b+1)),2)
+    b=b or a; return round(sum(DUR[i] for i in _r(a,b)),2)
 def vlabel(a,b=None):
-    return f"VO-{a:03d}" if (b is None or b==a) else f"VO-{a:03d}–{b:03d}"
+    b=b or a
+    if any(i in RETIRED for i in range(a,b+1)): return " + ".join(f"VO-{i:03d}" for i in _r(a,b))
+    return f"VO-{a:03d}" if b==a else f"VO-{a:03d}–{b:03d}"
 # --- map durations (as written in each section's own map / sheet), for the cross-check
 MAPDUR={}
 S1={1:2.9,2:4.6,3:4.0,4:2.9,5:3.5,6:3.1,8:6.8,9:6.4,10:4.3,11:4.7,12:4.6,13:3.9,14:3.1,15:3.4,16:4.9,17:5.4,18:3.8,19:4.7,20:3.6}
@@ -71,7 +75,7 @@ for sec,fn in ((3,"SECTION3-MAP.txt"),(4,"SECTION4-MAP.txt"),(5,"SECTION5-MAP.tx
         if line.startswith("---- MAP"): inmap=True; continue
         if line.startswith("---- ORIGINAL"): inmap=False
         if not inmap: continue
-        m=re.match(r'^(\d+)\s+VO-(\d+)(?:[–-](\d+))?\s+([\d.]+)s\s+(.*)$',line.rstrip())
+        m=re.match(r'^(\d+)\s+VO-(\d+)(?:(?:[–-]|\s*\+\s*VO-)(\d+))?\s+([\d.]+)s\s+(.*)$',line.rstrip())
         if m:
             n=int(m.group(1)); a=int(m.group(2)); b=int(m.group(3) or a)
             MAPVO[n]=(a,b); MAPDUR[n]=float(m.group(4))
@@ -81,7 +85,7 @@ NOTE[85]="BASE: tiny plain streamer alone in a small dim room, one viewer icon o
 NOTE[88]="Closing bridge: calm evening outside his door; building figure + company suit + star figure wait, one knocks gently. Ends at VO-129 (VO-130-131 open Section 5)."
 NOTE[93]="Ninja (BLUE hoodie, no tie) at his peak setup; wall calendar with two CONSECUTIVE days X'd. FIX ROUND: local edit. Text: NINJA label."
 NOTE[101]="Five faded ghost gift boxes + one solid bright box; a plain viewer holds up a gold coin. ACCEPTED as-is after the fix round."
-NOTE[121]="FINAL FRAME. Morning light, him at the desk, hands on keyboard, LIVE bright; monitor seen from behind (plain back, FIX ROUND local edit)."
+NOTE[121]="FINAL FRAME (VO-193 + VO-195 only; VO-194 retired). Morning light, him at the desk, hands on keyboard, LIVE bright; monitor seen from behind (plain back, FIX ROUND local edit)."
 NOTE[112]="Callback: the locked room DIM at morning, the plain SMALL chair, him just woken, small in frame. Line changed (VO-178 now 'went to sleep'). Text: none."
 NOTE[71]="Cumulative rows: row 1 lit (viewers); rows 2-3 dark. No text."
 NOTE[72]="Cumulative rows: rows 1-2 lit (viewers + briefcases); row 3 dark. No text. (file = old 71-state2)"

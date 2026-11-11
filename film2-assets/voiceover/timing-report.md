@@ -193,6 +193,6 @@
 | VO-191 | And six million | 4.75 |
 | VO-192 | That is the | 2.35 |
 | VO-193 | You became the | 2.69 |
-| VO-194 | Staying there? | 0.76 |
-| VO-195 | That is the | 1.96 |
-| **TOTAL** | 195 files | **631.17 s (10:31.17)** |
+| VO-194 | Staying there? [RETIRED — unused; file VO-194-UNUSED-staying-there.mp3; not counted in the total] | 0.76 |
+| VO-195 | Staying at #1 | 2.77 |
+| **TOTAL** | 194 played files (VO-194 retired, not counted) | **631.22 s (10:31.22)** |

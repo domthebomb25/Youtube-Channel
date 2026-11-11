@@ -1,6 +1,6 @@
 FILM #2 — SECTION 6 "THE PAYOFF" — shot map (VO-177 to VO-195), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
 10 shots, numbered 112-121, all under 10 s. THIS IS THE FINAL SECTION: with it, ALL 117 SHOTS OF THE FILM ARE GENERATED (S1 19, S2 34, S3 18, S4 13, S5 23, S6 10).
-SECTION 6 RUNTIME (sum of shot durations): 53.4s  (7.6+3.5+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
+SECTION 6 RUNTIME (sum of shot durations): 53.5s  (7.6+3.5+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.5).
 Generation (2026-11-10): 10 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 10.00 (cap 10.00). Live price confirmed 1.00 via get_cost before any paid call.
 Balance 765.26 -> 755.26. One generation per shot, no re-rolls, no failures, no fix round.
 Submission note: the first batch of 10 had two submissions (112, 121) rejected with 429 rate_limit_reached BEFORE a job was created; balance after the batch was 757.26 (exactly 8.00 charged), so nothing was charged for them. They were submitted once more unchanged (same prompt, same refs) = a retry of a rejected submission, not a re-roll.
@@ -38,8 +38,8 @@ Script wording: the sheets and this map use the LOCKED lines (voiceover/script-l
 120 VO-191–192  7.1s  Endless sea of plain streamers at little desks to the horizon, every face toward the glowing #1 chair at the top. Text: none (#1 on chair).
      “And six million streamers are pressing that same button, coming for your chair. That is the business of being number one.”
      job ed878ef0-abb0-4e7c-aeaf-6ff23acde78a
-121 VO-193–195  5.4s  FINAL FRAME. Morning light, locked room, him at the desk in the #1 chair, hands on keyboard, LIVE bright. The monitor is seen from behind: PLAIN dark monitor back, no screen content (FIX ROUND: the generated stream screen was removed, local edit 0.00). Text: none (#1 / LIVE props).
-     “You became the #1 streamer overnight. Staying there? That is the real job.”
+121 VO-193 + VO-195  5.5s  FINAL FRAME (VO-194 "Staying there?" is RETIRED and never plays). Morning light, locked room, him at the desk in the #1 chair, hands on keyboard, LIVE bright. The monitor is seen from behind: PLAIN dark monitor back, no screen content (FIX ROUND: the generated stream screen was removed, local edit 0.00). Text: none (#1 / LIVE props).
+     “You became the #1 streamer overnight. Staying at #1 is just as hard.”
      job 87f96756-9c95-4e4b-b8ac-5df2785ccb69  (submitted on the second attempt, see note)
 
 SELF-CHECK (all ten pass; no hard failure, nothing stopped):
@@ -77,3 +77,10 @@ JOB 2 (2026-11-11) — VO-179 LINE CHANGE (approved change to the locked script;
 - Old file archived as voiceover/VO-179-OLD-went-to-sleep.mp3 (3.709 s). New voiceover/VO-179.mp3 = 3.474 s (3.47). Difference -0.235 s.
 - Shot 113 total = 3.47 s (was 3.71 s). Section 6 runtime 53.4 s (sheet durations). Whole VO 631.17 s (exact: 631.406 - 3.709 + 3.474).
 - The section 6 assembly zip is rebuilt once in Job 3 (both VO changes inside).
+
+JOB 3 (2026-11-11) — END-LINE CHANGE (approved change to the locked script; supersedes any earlier end-line instruction; shot 121's IMAGE unchanged):
+- The ending is now two lines: VO-193 "You became the #1 streamer overnight." (ORIGINAL take, untouched, checksum verified) + NEW VO-195 "Staying at #1 is just as hard." VO-194 ("Staying there?") is RETIRED: renamed voiceover/VO-194-UNUSED-staying-there.mp3 (stays in the folder, must never be assembled; not counted in any total).
+- Old VO-195 ("That is the real job.", 1.959 s) archived as voiceover/VO-195-OLD-real-job.mp3. New voiceover/VO-195.mp3 recorded with Bram (text2speech_v2, elevenlabs, preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709; same route as the VO-178/179 changes), cost 0.15 (quoted first), job a5ca4daf-de3a-4865-b677-9549410b9ba0, one take. Balance 754.96 -> 754.81.
+- New VO-195 = 2.769 s (2.77). Shot 121 total = VO-193 (2.69) + VO-195 (2.77) = 5.46 s (was 5.41 s with VO-193+194+195). Section 6 runtime 53.5 s.
+- Whole VO: 194 played files, 631.22 s (exact: 631.406 - 3.709 + 3.474 - 0.758 (VO-194 retired) - 1.959 + 2.769 = 631.223).
+- Rebuilt: section6-assembly.zip (ORIGINAL VO-193, NEW VO-178, VO-179, VO-195; no VO-194 under any name), full-film sheet 21, section 6 storyboard sheets (112-117 and 118-121).

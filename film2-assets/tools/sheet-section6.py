@@ -12,7 +12,7 @@ def line(a,b=None):
     b=b or a; return "“"+" ".join(V[i] for i in range(a,b+1))+"”"
 S=[
  (112,"VO-177–178","7.6s",line(177,178),"Callback to yesterday: the locked room DIM at morning, the plain SMALL chair (not the #1 chair), him just woken, small in frame, looking at the little chair. Text: none."),
- (113,"VO-179","3.7s",line(179),"Night: him ASLEEP in the giant #1 chair, crown slipped on his head, room dark except monitor glow; STREAM screen with his exact sleeping face as preview. LIVE bright. Text: none (#1 / LIVE props only)."),
+ (113,"VO-179","3.5s",line(179),"Night: him ASLEEP in the giant #1 chair, crown slipped on his head, room dark except monitor glow; STREAM screen with his exact sleeping face as preview. LIVE bright. Text: none (#1 / LIVE props only)."),
  (114,"VO-180–181","3.4s",line(180,181),"Gold coins piling up on the desk, spilling toward the #1 chair where he sits watching them land. No monitor in frame. Text: none."),
  (115,"VO-182–183","7.4s",line(182,183),"Him centered in the #1 chair; plain suited company stickmen and platform spotlights lean IN with packages and envelopes, a crowd behind. Everyone paying to be close. Text: none."),
  (116,"VO-184–185","3.5s",line(184,185),"He stands tall holding the CROWN HIGH in both hands, warm golden one-night glow, no wind, no strain. Text: none."),
@@ -20,7 +20,7 @@ S=[
  (118,"VO-188–189","4.9s",line(188,189),"Giant calendar page with the paper BILL pinned to it (crown, red stamp, nothing readable); below, the crowd of plain viewer stickmen faces him, deciding. He stands before them. Text: none."),
  (119,"VO-190","4.0s",line(190),"A plain challenger stickman (NO tie, hungry) grips the arm of the #1 chair and pulls; the business stickman turns toward him, startled. Text: none (#1 on chair = prop)."),
  (120,"VO-191–192","7.1s",line(191,192),"The endless sea of plain streamers at little desks to the horizon, every face turned toward the glowing #1 chair at the top. Text: none (#1 on chair)."),
- (121,"VO-193–195","5.4s",line(193,195),"FINAL FRAME. Morning light, the locked room, him AT THE DESK in the #1 chair, hands on keyboard, LIVE bright; monitor seen from behind (plain back, fix round). Text: none (LIVE prop only)."),
+ (121,"VO-193 + VO-195","5.5s","“"+V[193]+" "+V[195]+"”","FINAL FRAME. Morning light, the locked room, him AT THE DESK in the #1 chair, hands on keyboard, LIVE bright; monitor seen from behind (plain back, fix round). Text: none (LIVE prop only)."),
 ]
 W=2640; M=60; G=40; CW=(W-2*M-2*G)//3; IH=CW*9//16
 def wrap(d,t,font,w):

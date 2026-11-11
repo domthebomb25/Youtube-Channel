@@ -3,6 +3,9 @@
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
 ## FINAL-REVIEW UPDATES (2026-11-11, this chat) — Job log
+### JOB 3 DONE: end-line change (0.15)
+- Ending is now VO-193 "You became the #1 streamer overnight." (original take, untouched) + NEW VO-195 "Staying at #1 is just as hard." VO-194 ("Staying there?") is RETIRED: `voiceover/VO-194-UNUSED-staying-there.mp3` (never assemble; not counted). Old VO-195 = `voiceover/VO-195-OLD-real-job.mp3`. New `voiceover/VO-195.mp3` = 2.769 s (2.77); cost 0.15; **balance 754.81**. Shot 121 = 2.69 + 2.77 = 5.46 s. Film VO total **631.22 s** (194 played files). Shot 121's image unchanged. Script, timing report, SECTION6 map, README, MANIFEST, full-film sheet 21, section 6 sheets and `assembly/section6-assembly.zip` rebuilt (zip has original VO-193 + new VO-178/179/195, no VO-194).
+
 ### JOB 2 DONE: VO-179 line change (0.15)
 - VO-179 is now "And you woke up as the biggest show on Earth." (was "You went to sleep as the biggest show on Earth."). Bram, same route/settings as the VO-178 change; cost 0.15; **balance 754.96**. Old file `voiceover/VO-179-OLD-went-to-sleep.mp3` (3.71 s); new `voiceover/VO-179.mp3` = 3.474 s (3.47). Shot 113 = 3.47 s (was 3.71). Film VO total 631.17 s (10:31.17). Shot 113's image unchanged. `script-locked.txt`, timing report (row + total), `docs/SECTION6-MAP.txt`, README, MANIFEST (regenerated), sheet 19 updated. Section 6 zip is rebuilt in Job 3.
 
