@@ -84,6 +84,10 @@ NOTE[112]="Callback: the locked room DIM at morning, the plain SMALL chair, him 
 NOTE[71]="Cumulative rows: row 1 lit (viewers); rows 2-3 dark. No text."
 NOTE[72]="Cumulative rows: rows 1-2 lit (viewers + briefcases); row 3 dark. No text. (file = old 71-state2)"
 NOTE[73]="Cumulative rows: all three rows lit (+ platform buildings). No text. (file = old 71-state3)"
+NOTE[32]="Hand on cheek, 'is this real?'. LIVE off. FINAL REVIEW FIX: monitor now shows shot 28's dashboard screen (blurred, unreadable number), local composite 0.00."
+NOTE[33]="Phone ringing, chat bubbles. LIVE off. FINAL REVIEW FIX: monitor now shows shot 28's dashboard screen (blurred), local composite 0.00."
+NOTE[34]="Deep breath, hand on the button, LIVE still OFF. FINAL REVIEW FIX: monitor now shows shot 28's dashboard screen (blurred), local composite 0.00. Base for 35."
+NOTE[35]="ASSEMBLY STATE of shot 34 (own file): LIVE light flipped bright red; same fixed dashboard screen as 34."
 SHOTS=sorted(MAPVO)
 CUTS=[7,31,45,55]
 def img(n):

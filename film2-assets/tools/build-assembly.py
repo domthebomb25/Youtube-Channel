@@ -56,7 +56,9 @@ for n in d.SHOTS:
 lines+=["",f"Sum of shot durations (timing-report rounded values): {tot:.2f} s ; exact VO total 631.41 s (difference is per-file rounding only).",""]
 os.makedirs(A+"/assembly",exist_ok=True)
 open(A+"/assembly/MANIFEST.txt","w",encoding="utf-8").write("\n".join(lines))
+ONLY=[int(x) for x in sys.argv[2:]] or list(SEC)
 for s,(a,b,v0,v1) in SEC.items():
+    if s not in ONLY: continue
     zp=A+f"/assembly/section{s}-assembly.zip"
     with zipfile.ZipFile(zp,"w",zipfile.ZIP_DEFLATED) as z:
         for n in d.SHOTS:

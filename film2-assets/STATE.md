@@ -2,6 +2,13 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
+## FINAL-REVIEW UPDATES (2026-11-11, this chat) — Job log
+### JOB 1 DONE: shots 32-35 monitor fix (local composite, 0.00)
+- The dead/black desk monitor in `section2/32.png`, `33.png`, `34.png`, `35.png` now shows shot 28's dashboard screen (person icon, motion-blurred UNREADABLE number box, graph off-frame to the right), perspective-warped to each monitor's inner rim, glow toned for the morning light. 28's face occluder was patched from the screen's own dark margin first. Number stays blurred (no sharpening, no invented digits).
+- Only the screen area changed in each shot (verified by pixel diff: 0 changed pixels outside the screen polygon). LIVE states unchanged (unlit 32, 33, 34; bright 35). 35 = same composite as 34 on 35's own original; 34 vs 35 differ only at the LIVE light (and its glow on the bezel corner, max 15 levels).
+- Originals archived: `discarded/32-original.png` ... `35-original.png`. Tool: `tools/fix-shots-32-35.py`. Full-film sheet 6 and `assembly/section2-assembly.zip` rebuilt with the fixed masters.
+- Notes: the monitor's right edge is off-frame in 32, 33, 34 and 35, so the right part of the screen (graph) is not visible; the quad's off-frame corners were extrapolated.
+
 ## CURRENT STATUS — FULL-FILM STORYBOARD + ASSEMBLY BUNDLE BUILT (2026-11-10)
 ### DONE (0.00 spent; no generations, no re-records)
 - **FULL-FILM STORYBOARD BUILT, awaiting Dominick's final review before assembly.** All 117 shots in playing order (7, 31, 45, 55 cut), final masters (fixed 93 and 121, accepted 101), final voice timings (VO-178 = 2.12 s, shot 112 = 7.6 s, quote "You went to sleep as nobody."). 122 tiles = 117 shots + 5 free state tiles (9 -> 50,000, 9 -> 100,000, 10 -> 1,000 GIFTED SUBS, 69-state, 85-state), 6 tiles per sheet, **21 sheets**: `storyboards/full-film/fullfilm-storyboard-v4-sheet-01-of-21.png` ... `-21-of-21.png`. Builders: `tools/fullfilm-data.py`, `tools/sheet-fullfilm.py`, `tools/fullfilm-crosscheck.py`.
