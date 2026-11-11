@@ -3,6 +3,10 @@
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
 ## FINAL-REVIEW UPDATES (2026-11-11, this chat) — Job log
+### SHOT 113 REGENERATED AWAKE (1.00)
+- New line VO-179 ("And you woke up...") needs him awake: shot 113 regenerated once (gpt_image_2_5 16:9 2k medium, 1.00, price confirmed via get_cost, refs = old 113 + stream-screen asset, job 2c6a463d-29c2-4851-9f6d-6d4ec75f16b8). He is awake (eyes open, raised brows, crown), the monitor preview shows his awake face (locked stream design), bright morning light. Self-check passed (flag: wide open-mouth smile, not "small"). Old image archived `discarded/113-original.png`. Duration unchanged 3.5 s. Map, sheets (full-film 19, section 6 sheet 1) and `assembly/section6-assembly.zip` rebuilt.
+- **Balance 749.71 credits** (754.81 at the end of the last job; this chat's spend = 1.00). NOTE: the balance read 750.71 BEFORE this generation, i.e. 4.10 lower than 754.81: the transaction log shows eight 0.25 GPT Image 2.5 charges and three Voiceover charges at 00:32-00:33 UTC that this chat did not make (another session/tool spending on the same account). Expected 753.81; actual 749.71.
+
 ### JOB 3 DONE: end-line change (0.15)
 - Ending is now VO-193 "You became the #1 streamer overnight." (original take, untouched) + NEW VO-195 "Staying at #1 is just as hard." VO-194 ("Staying there?") is RETIRED: `voiceover/VO-194-UNUSED-staying-there.mp3` (never assemble; not counted). Old VO-195 = `voiceover/VO-195-OLD-real-job.mp3`. New `voiceover/VO-195.mp3` = 2.769 s (2.77); cost 0.15; **balance 754.81**. Shot 121 = 2.69 + 2.77 = 5.46 s. Film VO total **631.22 s** (194 played files). Shot 121's image unchanged. Script, timing report, SECTION6 map, README, MANIFEST, full-film sheet 21, section 6 sheets and `assembly/section6-assembly.zip` rebuilt (zip has original VO-193 + new VO-178/179/195, no VO-194).
 

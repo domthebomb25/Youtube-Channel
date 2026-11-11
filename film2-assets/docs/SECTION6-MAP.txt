@@ -14,7 +14,7 @@ Script wording: the sheets and this map use the LOCKED lines (voiceover/script-l
 112 VO-177–178  7.6s  Callback: the locked room DIM at morning (picture unchanged; the line now says "went to sleep" over it), plain SMALL chair (no #1), him just woken, small in frame, looking at the little chair. Text: none.
      “So that is what it really means — to become the #1 streamer overnight. You went to sleep as nobody.”
      job 03d1d1b2-83b1-486e-9db7-dddf9ef3f5eb  (submitted on the second attempt, see note)
-113 VO-179      3.5s  Night: asleep in the giant #1 chair, crown slipped on his head, dark room, monitor glow; STREAM screen with his sleeping face as preview; LIVE bright. Text: none (#1 / LIVE props).
+113 VO-179      3.5s  Morning: him AWAKE, sitting up in the giant #1 chair, eyes open, brows raised, stunned-amazed, crown on his head; bright morning light through the right windows (contrast with the dim shot 112); STREAM screen shows his AWAKE face as the preview; LIVE bright. Text: none (#1 / LIVE props).
      “And you woke up as the biggest show on Earth.”
      job 1251f4a1-d0c2-49a8-9226-8090ddcae0ce
 114 VO-180–181  3.4s  Gold coins pile on the desk and spill toward the #1 chair where he sits watching. No monitor. Text: none.
@@ -84,3 +84,9 @@ JOB 3 (2026-11-11) — END-LINE CHANGE (approved change to the locked script; su
 - New VO-195 = 2.769 s (2.77). Shot 121 total = VO-193 (2.69) + VO-195 (2.77) = 5.46 s (was 5.41 s with VO-193+194+195). Section 6 runtime 53.5 s.
 - Whole VO: 194 played files, 631.22 s (exact: 631.406 - 3.709 + 3.474 - 0.758 (VO-194 retired) - 1.959 + 2.769 = 631.223).
 - Rebuilt: section6-assembly.zip (ORIGINAL VO-193, NEW VO-178, VO-179, VO-195; no VO-194 under any name), full-film sheet 21, section 6 storyboard sheets (112-117 and 118-121).
+
+FIX (2026-11-11) — SHOT 113 REGENERATED AWAKE (one image, 1.00):
+- Why: the new VO-179 is "And you woke up as the biggest show on Earth." but the old 113 showed him asleep (sleeping face on the stream screen, night). The old image is archived at discarded/113-original.png (asleep, night).
+- New 113: gpt_image_2_5, 16:9, 2k, medium, price confirmed 1.00 via get_cost first; refs = the old 113 (exact composition) + the stream-screen asset; job 2c6a463d-29c2-4851-9f6d-6d4ec75f16b8; one generation, no re-roll. Raw 2688x1520 centre-cropped to the 1920x1080 master.
+- Self-check PASSED: eyes open, one eyebrow per eye (raised), head one connected outline; the monitor preview face = his awake face in the chair (open eyes, smile, crown) and NOT sleeping; stream screen uses only the locked design (face preview + white viewer-icon column + colored chat bars); crown on his head; LIVE bright red; bright morning light from the right windows; no text except the #1 on the chair and the LIVE sign.
+- Flag (cartoon-good): his smile is a wide open-mouth smile rather than the "small wondering smile" asked; brows are raised. Duration unchanged: 3.5 s (VO-179 = 3.474 s).
