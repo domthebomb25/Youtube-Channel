@@ -1,6 +1,6 @@
 FILM #2 — SECTION 6 "THE PAYOFF" — shot map (VO-177 to VO-195), lenient pacing (CLAUDE.md "Sections 3-6 pacing")
 10 shots, numbered 112-121, all under 10 s. THIS IS THE FINAL SECTION: with it, ALL 117 SHOTS OF THE FILM ARE GENERATED (S1 19, S2 34, S3 18, S4 13, S5 23, S6 10).
-SECTION 6 RUNTIME (sum of shot durations): 53.6s  (7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
+SECTION 6 RUNTIME (sum of shot durations): 53.4s  (7.6+3.5+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4).
 Generation (2026-11-10): 10 x gpt_image_2_5, 16:9, 2k, medium = 1.00 each = 10.00 (cap 10.00). Live price confirmed 1.00 via get_cost before any paid call.
 Balance 765.26 -> 755.26. One generation per shot, no re-rolls, no failures, no fix round.
 Submission note: the first batch of 10 had two submissions (112, 121) rejected with 429 rate_limit_reached BEFORE a job was created; balance after the batch was 757.26 (exactly 8.00 charged), so nothing was charged for them. They were submitted once more unchanged (same prompt, same refs) = a retry of a rejected submission, not a re-roll.
@@ -8,14 +8,14 @@ Raw outputs 2688x1520 -> centre-cropped to 16:9 and resized to 1920x1080 masters
 Refs uploaded (9): shot 90 (staircase), shot 75 (dusk room), shot 100 + 108 (calendar), shot 110 (the bill), shot 97 (streamer sea), shot 105 (at the desk, determined), stream-screen asset (assets/stream-screen-asset-640x360.png), shot 1 (the #1 chair). Shot 91's crown and shot 104's calendar page were NOT attached (not on the preflight list); 116/118 describe them in the prompt.
 Screen rule kept: only the locked STREAM design appears (113, 121). 112's monitor is OFF/dark; 120's monitors are seen from behind; 114-119 have no screens.
 Colour lock: gold tie = the lead only. Other figures (suited company men in 115, gray-hoodie viewers in 118, challenger in 119, streamers in 120) have NO gold tie.
-Script wording: the sheets and this map use the LOCKED lines (voiceover/script-locked.txt) verbatim. The shot brief paraphrased some of them (e.g. "biggest show in the world" for VO-179, locked = "biggest show on Earth").
+Script wording: the sheets and this map use the LOCKED lines (voiceover/script-locked.txt) verbatim. The shot brief paraphrased some of them (e.g. "biggest show in the world" for VO-179; the locked line is now "And you woke up as the biggest show on Earth." after the 2026-11-11 change).
 
 ---- MAP ----
 112 VO-177–178  7.6s  Callback: the locked room DIM at morning (picture unchanged; the line now says "went to sleep" over it), plain SMALL chair (no #1), him just woken, small in frame, looking at the little chair. Text: none.
      “So that is what it really means — to become the #1 streamer overnight. You went to sleep as nobody.”
      job 03d1d1b2-83b1-486e-9db7-dddf9ef3f5eb  (submitted on the second attempt, see note)
-113 VO-179      3.7s  Night: asleep in the giant #1 chair, crown slipped on his head, dark room, monitor glow; STREAM screen with his sleeping face as preview; LIVE bright. Text: none (#1 / LIVE props).
-     “You went to sleep as the biggest show on Earth.”
+113 VO-179      3.5s  Night: asleep in the giant #1 chair, crown slipped on his head, dark room, monitor glow; STREAM screen with his sleeping face as preview; LIVE bright. Text: none (#1 / LIVE props).
+     “And you woke up as the biggest show on Earth.”
      job 1251f4a1-d0c2-49a8-9226-8090ddcae0ce
 114 VO-180–181  3.4s  Gold coins pile on the desk and spill toward the #1 chair where he sits watching. No monitor. Text: none.
      “The money is real. Millions from the subscribers.”
@@ -70,3 +70,10 @@ FIX ROUND — COMBINED ENTRY (2026-11-10, same chat), total fix-round spend 0.15
 - Shot 121 monitor back: DONE as a LOCAL EDIT, 0.00, no generation (tools/fix121-monitor-back.py). The stream screen painted on the monitor's back panel (face preview, viewer-icon column, chat bars) was removed and the panel repainted as flat dark plastic using the panel's own measured colours (clean bottom-strip colour blended up to the clean top-strip colour for the window glare). Outline, bezel, thickness and stand untouched; changed pixels confined to x 1368-1919, y 319-718 (inside the panel); outside that box the file is pixel-identical to the original (him, the #1 chair, LIVE sign, keyboard, desk, room, window light). Original archived at discarded/121-original.png. The first two repaint attempts (fitted gradient + grain) left a visible patch and were discarded; the third matches cleanly.
 - Shot 121's meaning now relies on his working pose + LIVE bright; no screen design appears in the shot. LIVE: still bright.
 - Housekeeping: Bram voice_id added to CLAUDE.md. Section 6 runtime corrected: 52.6 s -> 53.6 s (sheet durations 7.6+3.7+3.4+7.4+3.5+6.6+4.9+4.0+7.1+5.4; exact timing-report sums give 53.52 s).
+
+JOB 2 (2026-11-11) — VO-179 LINE CHANGE (approved change to the locked script; shot 113's IMAGE unchanged):
+- "You went to sleep as the biggest show on Earth." -> "And you woke up as the biggest show on Earth."
+- Re-recorded with Bram (text2speech_v2, elevenlabs, preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709; same route as the VO-178 change), cost 0.15 (quoted first), job 0e6f4fe6-2901-4364-afc8-b6e0e209ca9d, one take. Balance 755.11 -> 754.96.
+- Old file archived as voiceover/VO-179-OLD-went-to-sleep.mp3 (3.709 s). New voiceover/VO-179.mp3 = 3.474 s (3.47). Difference -0.235 s.
+- Shot 113 total = 3.47 s (was 3.71 s). Section 6 runtime 53.4 s (sheet durations). Whole VO 631.17 s (exact: 631.406 - 3.709 + 3.474).
+- The section 6 assembly zip is rebuilt once in Job 3 (both VO changes inside).

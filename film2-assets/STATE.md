@@ -3,6 +3,9 @@
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
 ## FINAL-REVIEW UPDATES (2026-11-11, this chat) — Job log
+### JOB 2 DONE: VO-179 line change (0.15)
+- VO-179 is now "And you woke up as the biggest show on Earth." (was "You went to sleep as the biggest show on Earth."). Bram, same route/settings as the VO-178 change; cost 0.15; **balance 754.96**. Old file `voiceover/VO-179-OLD-went-to-sleep.mp3` (3.71 s); new `voiceover/VO-179.mp3` = 3.474 s (3.47). Shot 113 = 3.47 s (was 3.71). Film VO total 631.17 s (10:31.17). Shot 113's image unchanged. `script-locked.txt`, timing report (row + total), `docs/SECTION6-MAP.txt`, README, MANIFEST (regenerated), sheet 19 updated. Section 6 zip is rebuilt in Job 3.
+
 ### JOB 1 DONE: shots 32-35 monitor fix (local composite, 0.00)
 - The dead/black desk monitor in `section2/32.png`, `33.png`, `34.png`, `35.png` now shows shot 28's dashboard screen (person icon, motion-blurred UNREADABLE number box, graph off-frame to the right), perspective-warped to each monitor's inner rim, glow toned for the morning light. 28's face occluder was patched from the screen's own dark margin first. Number stays blurred (no sharpening, no invented digits).
 - Only the screen area changed in each shot (verified by pixel diff: 0 changed pixels outside the screen polygon). LIVE states unchanged (unlit 32, 33, 34; bright 35). 35 = same composite as 34 on 35's own original; 34 vs 35 differ only at the LIVE light (and its glow on the bezel corner, max 15 levels).

@@ -11,6 +11,8 @@ for l in open(A+"/voiceover/timing-report.md",encoding="utf-8"):
     m=re.match(r'\| VO-(\d+) \|.*\| ([\d.]+) \|',l)
     if m: DUR[int(m.group(1))]=float(m.group(2))
 assert len(DUR)==195
+import re as _re
+TOTAL=_re.search(r"\*\*([\d.]+) s",open(A+"/voiceover/timing-report.md",encoding="utf-8").read()).group(1)
 def quote(a,b=None):
     b=b or a; return "“"+" ".join(V[i] for i in range(a,b+1))+"”"
 def vsum(a,b=None):

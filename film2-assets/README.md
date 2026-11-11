@@ -4,7 +4,7 @@ Everything generated in the working chat, so any chat/session can read it straig
 (branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/`). All images are 1920x1080 PNG.
 
 ## Contents
-- `voiceover/` VO-001..VO-195.mp3 (Bram, 631.41 s), `timing-report.md`, `script-locked.txt` (FINAL LOCKED script)
+- `voiceover/` VO-001..VO-195.mp3 (Bram, 631.17 s), `timing-report.md`, `script-locked.txt` (FINAL LOCKED script)
 - `section1/` FINAL LOCKED masters, shots 1-6 and 8-20 (no shot 7). 1 = thumbC. 18 = assembly state of 17 (counter 999,999).
   * 11 and 16 are the byte-exact approved finals (11 with smiles; 16 v3), swapped in 2026-11-10.
 - `section1-cut-and-alternates/` 7A/7B/7C (shot 7 is CUT, do not use)

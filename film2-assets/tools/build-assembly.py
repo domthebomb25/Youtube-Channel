@@ -28,11 +28,11 @@ STATE={ # shot -> (state description, trigger, file in zip or None)
 }
 STSRC={69:"section3/69-state.png",85:"section4/85-state.png"}
 lines=["FILM #2 — \"POV: You Became the #1 Streamer Overnight.\" — ASSEMBLY MANIFEST",
-"All 117 shots in playing order (shots 7, 31, 45, 55 are CUT and do not exist; no renumbering). Masters 1920x1080 PNG. Voice = Bram (631.41 s total, voiceover/timing-report.md).",
+"All 117 shots in playing order (shots 7, 31, 45, 55 are CUT and do not exist; no renumbering). Masters 1920x1080 PNG. Voice = Bram ("+d.TOTAL+" s total, voiceover/timing-report.md).",
 "Durations = sum of the VO files each shot carries (repo timing report). Shot 53/54 split VO-069 (9.64 s): 53 = first half (4.8 s), 54 = second half + VO-070 + VO-071 (about 9.0 s).",
 "Zip layout: masters/NNN.png (shot order) · voiceover/VO-NNN.mp3 · states/ (separate state files, sections 3 and 4 only) · SECTION-MANIFEST.txt.",
 "Reused images: shot 27 = shot 1 (masters/027-REUSE-of-001.png in the section 2 zip; the original is in the section 1 zip). Shot 57 = shot 54 (masters/057-REUSE-of-054.png).",
-"VO-178 is the NEW take ('You went to sleep as nobody.', 2.12 s); the old take is NOT in any zip.",
+"NEW takes: VO-178 ('You went to sleep as nobody.', 2.12 s), VO-179 ('And you woke up as the biggest show on Earth.', 3.47 s). Old takes are NOT in any zip.",
 "VO NOT carried by any shot: none (VO-001..VO-195 are all carried).",""]
 hdr="{:>4} | {:<30} | {:<22} | {:>7} | {}"
 lines.append(hdr.format("Shot","Image (path inside the zip)","VO files carried","Dur (s)","Assembly state / trigger"))
@@ -53,7 +53,7 @@ for n in d.SHOTS:
     dd=dur(n); tot+=dd
     row=hdr.format(n,f"{zname(n)}",vf,f"{dd:.2f}",st)
     per[s].append(row); lines.append(f"[S{s}] "+row)
-lines+=["",f"Sum of shot durations (timing-report rounded values): {tot:.2f} s ; exact VO total 631.41 s (difference is per-file rounding only).",""]
+lines+=["",f"Sum of shot durations (timing-report rounded values): {tot:.2f} s ; exact VO total "+d.TOTAL+" s (difference is per-file rounding only).",""]
 os.makedirs(A+"/assembly",exist_ok=True)
 open(A+"/assembly/MANIFEST.txt","w",encoding="utf-8").write("\n".join(lines))
 ONLY=[int(x) for x in sys.argv[2:]] or list(SEC)

@@ -71,7 +71,7 @@ for si in range(N):
     im=Image.new("RGB",(W,H),(14,14,16)); dr=ImageDraw.Draw(im)
     dr.text((M,50),f"FILM #2 · #1 STREAMER OVERNIGHT · Full-Film Storyboard v4 · Sheet {si+1} of {N} · Shots {rng}",font=f(B,52),fill="white")
     dr.text((M,135),"FINAL REVIEW BOARD · all 117 shots generated, in playing order (shots 7, 31, 45, 55 are CUT) · awaiting final review before assembly",font=f(Rg,32),fill=(230,200,60))
-    dr.text((M,195),"Final masters 1920×1080 · voice timings from the repo timing report (VO total 631.41 s) · ASSEMBLY STATE tiles play inside their shot",font=f(Rg,28),fill=(160,160,160))
+    dr.text((M,195),"Final masters 1920×1080 · voice timings from the repo timing report (VO total "+d.TOTAL+" s) · ASSEMBLY STATE tiles play inside their shot",font=f(Rg,28),fill=(160,160,160))
     for r,row in enumerate(rows):
         for c,t in enumerate(row):
             x=M+c*(CW+G); y=290+r*RH
