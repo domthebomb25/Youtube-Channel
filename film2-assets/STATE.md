@@ -2,6 +2,12 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
+## CLOSE-OUT OF THE ASSEMBLY/RENDER CHAT (2026-11-11) — READ THIS FIRST
+- **Film v1 is RENDERED AND DELIVERED.** `render/film2-streamer-FINAL.mp4` (79 MB, CRF 18, 631.30 s, high-quality master) and `render/film2-streamer-FINAL-v2.mp4` (23.4 MB, under 25 MB) were sent to Dominick; QA reports `render/QA-REPORT.txt` and `render/QA-REPORT-v2.txt` (all gates pass). Never overwrite a delivered render; a re-render gets a NEW filename.
+- **A full script REWRITE has since been APPROVED by Dominick** (new front sections, revised lines across all six sections). It is NOT in this repo yet. **The next chat brings the complete build job with ALL revised line texts.** Do NOT start any rebuild, re-recording, image generation, re-render or re-assembly from anything in the current v1 files; everything under `voiceover/script-locked.txt`, the section MAP files, `assembly/` and `render/` describes v1 and is superseded once the rewrite arrives (keep it as the v1 archive).
+- The reusable pipeline stays valid: `tools/render-film2/` (timeline+audio, state builders, concat-filter render, QA gates), `tools/verify-assembly.py`, `tools/build-assembly.py`, storyboard builders `tools/sheet-fullfilm.py`.
+- Credits: last confirmed balance 741.96 (this chat spent 0 on the render; ~7.75 of unrelated spend by another session/tool is logged below).
+
 ## SMALL VERSION (2026-11-11): `render/film2-streamer-FINAL-v2.mp4` = 23.4 MB (22.4 MiB), under 25 MB
 - Same picture, timeline and audio as FINAL.mp4 (not overwritten); only the encode changed: x264 CRF 32 preset slow, AAC 96 kbps stereo, loudnorm true-peak target -2.5 (lower bitrates overshoot more in AAC). QA (all PASS, `render/QA-REPORT-v2.txt`): duration 631.300 s, 18,939 frames decoded with no errors, L/R correlation min 0.99331, quietest/loudest 10 s window -19.7 / -16.7 dBFS, -14.3 LUFS, true peak -1.2 dBTP. Two earlier v2 attempts (80 kbps audio: -0.3... true peak +0.3 dBTP) failed a gate and were replaced before delivery.
 - `render/film2-streamer-FINAL.mp4` (79 MB, CRF 18) stays the high-quality master.
