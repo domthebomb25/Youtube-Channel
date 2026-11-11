@@ -1,0 +1,20 @@
+FILM #2 REBUILD v3 (Chick-fil-A narration method) - QA REPORT (2026-11-11)
+
+Spend: 29.70 credits (quote 27.45 + 2.25 to resubmit 4 lost passages P34/P36/P37/P38). 51 passages recorded, one generation each. Balance 718.71 -> 689.01.
+Method: no per-line leveling, no gap rule, no gain matching; passages joined as performed; ONE loudnorm pass (two-pass measured, TP target -2.0) at the final render.
+Edges: only dead silence (< -50 dBFS) trimmed at passage edges, 10 ms kept each side. Takes end almost on the last sound, so passage seams carry ~0 s of silence (dead silence at passage tails: median 0.000 s, leads median 0.040 s); pauses INSIDE passages are as performed (median 0.32 s).
+Cuts: in-passage shot changes at the middle of the performed pause (forced alignment, pocketsphinx, all 51 passages matched word-for-word); passage-seam shot changes at the actual join.
+Cues: shot 85 pop on the word 'explodes'; shot 69 money figure on 'between'; shot 9 states and shot 10 flip at their performed line boundaries.
+
+Finished narration (joined, as performed, mono, before loudnorm): 544.235 s, integrated -18.1 LUFS, LRA 3.5 LU, peak -0.3 dBFS.
+
+film2-streamer-REBUILD-v3.mp4: 69072196 bytes | duration 544.800 s | video h264 1920x1080 30/1 frames 16342 | audio aac 2ch 48000 Hz 191266 b/s
+   faststart (moov before mdat): True
+   loudness: integrated -14.1 LUFS, true peak -1.5 dBFS, LRA 3.1 LU
+film2-streamer-REBUILD-v3-under25mb.mp4: 22808108 bytes | duration 544.800 s | video h264 1280x720 30/1 frames 16342 | audio aac 2ch 48000 Hz 159174 b/s
+   faststart (moov before mdat): True
+   loudness: integrated -14.1 LUFS, true peak -1.3 dBFS, LRA 3.1 LU
+LINEAR decode: 544.747 s, 55 ten-second windows | L/R correlation min 0.99992 max 1.00000 | RMS dBFS min -19.3 max -16.1 (spread 3.2 dB) | largest step between adjacent windows 2.1 dB | silent windows (<-60 dBFS): 0
+RMS contour per 10 s: -19.0 -18.1 -17.0 -17.7 -16.9 -18.2 -16.7 -18.1 -17.7 -17.9 -19.1 -17.1 -17.2 -17.5 -17.6 -18.0 -18.3 -18.5 -17.3 -16.9 -18.4 -17.5 -17.5 -17.7 -17.5 -18.3 -17.9 -19.0 -17.9 -18.0 -16.8 -16.4 -18.6 -17.5 -18.0 -17.1 -16.1 -17.6 -17.3 -18.7 -16.9 -18.3 -17.6 -17.5 -17.7 -17.0 -18.1 -17.2 -17.0 -17.9 -17.1 -18.1 -19.3 -17.2 -18.5
+video frame-check: 96 segments (91 positions + 5 in-shot state frames), 3 exact-seek samples each, compared to the intended source image; min corr 0.9684; below 0.96: []
+final frame vs shot 121: corr 0.9991

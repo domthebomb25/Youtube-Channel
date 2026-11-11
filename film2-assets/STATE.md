@@ -1,5 +1,8 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — FILM #2 REBUILD v3 RENDERED (2026-11-11): `render/film2-streamer-REBUILD-v3.mp4` (69,072,196 B, 1080p) + `render/film2-streamer-REBUILD-v3-under25mb.mp4` (22,808,108 B, 720p), 544.800 s. Narration v3 = 51 Bram passages joined as performed (`narration-v3/`), single loudnorm at render (master -14.1 LUFS, TP -1.5 dBTP; small file -14.1 / -1.3). QA `render/QA-REPORT-REBUILD-v3.txt`. Spend 29.70 (quote 27.45 + 2.25 resubmit), balance 689.01. v2 files/narration untouched. Tools: `tools/render-film2/10_v3_align.py`, `11_v3_join.py`, `12_assemble_v3.py`, `09_final_qa.py`.
+- Flag: passage seams are tight (takes end on the last sound; median seam silence ~0.04 s). Pauses inside passages are performed (median 0.32 s). A seam pad would be one parameter in 11_v3_join.py if wanted.
+
 # STATE — NARRATION v3 (Chick-fil-A method) IN PROGRESS (2026-11-11): 51 Bram passages, one generation each; no per-line leveling/gap/gain rules; ONE loudnorm at the final render. v2 renders/narration untouched.
 - Passages in `tools/render-film2/v3_passages.py` (lines separated by newlines); takes in `narration-v3/takes/Pnn.mp3`, job ids in `narration-v3/jobs-sN.txt`. Quote ~27.45 credits (0.15 per 50 chars, rounded up per passage; verified exactly on section 1). Start balance 718.71.
 - SECTION 1 DONE (P01-P08): spent 4.20, balance 714.51.
