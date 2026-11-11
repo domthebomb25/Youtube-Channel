@@ -1,5 +1,14 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — Film #2 REBUILD v2 (2026-11-11) — NARRATION APPROVED; 4 NEW S2 IMAGES DELIVERED (awaiting review); NOTHING ELSE STARTED
+- Recordings: 44 Bram takes (spent 11.10, not the 6.60 quoted: Higgsfield prices by line length; always price the LONGEST lines). Old takes = `voiceover/VO-NNN-OLD-v1.mp3`; new lines = `VO-201`..`VO-212`.
+- NARRATION APPROVED AS DELIVERED (Dominick, 9:15 length and 0.30 s gap kept): `narration/narration-v2.m4a` (AAC 256k mono 48 kHz, 555.61 s, -14.0 LUFS, -1.4 dBTP), `narration/narration-v2-timeline.json` (154 lines in play order, with start / speech on / speech off), `narration/QA-NARRATION-v2.txt`. Builders `tools/render-film2/05_narration_v2.py` (args `. <workdir> -13.8 -2.8`) + `06_narration_qa.py`. Per-line spread 7.50 LU before -> 0.30 LU after; limiter makeup avg 2.9 dB.
+- 4 NEW S2 IMAGES (4.00, approved, one generation each, no re-rolls): `section2-v2/chair-empty.png`, `ninja.png`, `ludwig.png`, `kai.png` (1920x1080). Check results + job ids in `docs/SECTION2-V2-NEW-IMAGES.txt`. All four PASS the stated FAIL checks. FLAGS for Dominick: ninja.png and ludwig.png show an unrequested gold crown + glow above the chair (crown/spotlight were reserved for shot 1); kai.png has a glowing LIVE sign (extra text) and a blue banner label instead of a plain one. Fixes only on Dominick's word (re-roll 1.00 each, within the one-re-roll allowance).
+- BALANCE 720.86 (724.86 - 4.00). Spend this job: 11.10 recordings + 4.00 images.
+- NOT STARTED (separate jobs, only on Dominick's word): storyboard pass, assembly, render. Delivered v1 renders untouched. The new render must use a NEW filename (film2-streamer-FINAL-v2.mp4 already exists as the small v1).
+
+# STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
+
 # STATE — Film #2 REBUILD v2 (2026-11-11) — NARRATION DONE; 4 S2 IMAGES AWAITING A PRICE APPROVAL (4.00); NOTHING ELSE STARTED
 - Recordings: 44 Bram takes done earlier (spent 11.10, not the 6.60 quoted: Higgsfield prices by line length; always price the LONGEST lines). Old takes = `voiceover/VO-NNN-OLD-v1.mp3`; new lines = `VO-201`..`VO-212`.
 - NARRATION DELIVERED: `narration/narration-v2.m4a` (AAC 256k mono 48 kHz, 555.61 s = 9:15.61, -14.0 LUFS, -1.4 dBTP), `narration/narration-v2-timeline.json` (154 lines in final play order with line start / speech on / speech off), `narration/QA-NARRATION-v2.txt`. Builders `tools/render-film2/05_narration_v2.py` (args: `. <workdir> -13.8 -2.8`) and `06_narration_qa.py`.
