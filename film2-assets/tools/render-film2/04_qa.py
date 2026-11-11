@@ -71,4 +71,4 @@ for name,t,srcp,desc in checks:
 P("(each frame was also viewed by eye; see the visual verdicts appended below)")
 open(W+"/qa_numbers.txt","w").write("\n".join(out)); 
 P("="*80); P("AUTOMATED GATES:","ALL PASS" if ok else "FAILURES PRESENT")
-open(A+"/render/QA-REPORT.txt","w").write("\n".join(out)+"\n")
+open(A+("/render/QA-REPORT-v2.txt" if "v2" in MP4 else "/render/QA-REPORT.txt"),"w").write("\n".join(out)+"\n")

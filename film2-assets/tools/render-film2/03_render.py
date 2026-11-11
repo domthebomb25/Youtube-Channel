@@ -29,7 +29,7 @@ print("segments:",len(segs),"| frames:",total_frames,"=",round(total_frames/FPS,
 for img,t0,t1,lab in segs: assert os.path.exists(img),img
 # True-peak target of the loudnorm filter: -1.5 dBTP. The AAC encode adds ~0.3 dB of inter-sample overshoot, so a -1.0 target measured -0.7 dBTP on the
 # encoded file (v1 attempt); -1.5 leaves the headroom so the FINAL FILE measures <= -1.0 dBTP.
-TPT='-1.5'
+TPT=os.environ.get('TPT','-1.5')
 # ---- audio loudness: pass 1 measure, pass 2 apply (linear) -> I=-14 LUFS, TP<=-1, LRA 11
 nar=W+"/narration.wav"
 p=subprocess.run(["ffmpeg","-hide_banner","-nostats","-i",nar,"-af","pan=stereo|c0=c0|c1=c0,loudnorm=I=-14:TP=%s:LRA=11:print_format=json"%TPT+"","-f","null","-"],capture_output=True,text=True)
@@ -47,8 +47,8 @@ lines.append(f"[{len(segs)}:a]{af}[aout]")
 open(W+"/filter.txt","w").write(";\n".join(lines))
 cmd=["ffmpeg","-y","-hide_banner","-nostats","-loglevel","info"]+ins+["-i",nar,"-filter_complex_script",W+"/filter.txt",
      "-map","[vout]","-map","[aout]","-r",str(FPS),"-fps_mode","cfr",
-     "-c:v","libx264","-preset","medium","-crf","18","-pix_fmt","yuv420p","-colorspace","bt709","-color_primaries","bt709","-color_trc","bt709","-color_range","tv",
-     "-c:a","aac","-b:a","192k","-ar","48000","-ac","2","-movflags","+faststart",OUT]
+     "-c:v","libx264","-preset",os.environ.get("PRESET","medium"),"-crf",os.environ.get("CRF","18"),"-pix_fmt","yuv420p","-colorspace","bt709","-color_primaries","bt709","-color_trc","bt709","-color_range","tv",
+     "-c:a","aac","-b:a",os.environ.get("ABR","192k"),"-ar","48000","-ac","2","-movflags","+faststart",OUT]
 open(W+"/ffmpeg_cmd.txt","w").write(" ".join(cmd))
 r=subprocess.run(cmd,capture_output=True,text=True)
 open(W+"/render.log","w").write(r.stderr)

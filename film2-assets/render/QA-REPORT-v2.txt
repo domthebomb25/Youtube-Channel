@@ -1,0 +1,31 @@
+FILM #2 — QA REPORT for film2-streamer-FINAL-v2.mp4
+================================================================================
+FILE: /home/user/Youtube-Channel/film2-assets/render/film2-streamer-FINAL-v2.mp4
+size: 23435706 bytes (22.4 MB)
+video stream: codec_name=h264 | profile=High | width=1920 | height=1080 | pix_fmt=yuv420p | color_range=tv | color_space=bt709 | avg_frame_rate=30/1 | duration=631.300000 | nb_frames=18939
+audio stream: codec_name=aac | profile=LC | sample_rate=48000 | channels=2 | duration=631.300000 | bit_rate=95483
+[PASS] 1. DURATION: final file 631.300 s (spec 631.22 s ± 1 s; narration track 631.290 s = sum of the 194 timing-report durations)
+[PASS] 1b. A/V length match: video 631.300 s, audio 631.300 s, difference 0 ms
+[PASS] 1c. FULL LINEAR VIDEO DECODE: decoded 18939 frames (expected 18939), decoder errors: none
+decoded audio: 631.296 s in 64 windows of 10 s (last window 1.30 s)
+[PASS] 2a. L/R CORRELATION per 10 s window (dual-mono): minimum 0.99331 (window #64, t=630-640s), maximum 0.99991; windows below 0.99: 0
+[PASS] 2b. RMS per 10 s window (none silent): quietest window #51 (t=500-510s) -19.7 dBFS; loudest window #39 (t=380-390s) -16.7 dBFS; windows below -50 dBFS: 0
+[PASS] 3a. INTEGRATED LOUDNESS: -14.3 LUFS (target -14 ± 1), LRA 3.4 LU
+[PASS] 3b. TRUE PEAK: -1.2 dBTP (must be <= -1.0)
+[PASS] 3c. AUDIO STREAM: codec_name=aac | profile=LC | sample_rate=48000 | channels=2 | duration=631.300000 | bit_rate=95483
+--------------------------------------------------------------------------------
+GATE 4: frames extracted from the FINAL file and compared with the intended source image (PSNR; >30 dB = same picture):
+  shot9_VO012     t=  30.320s  PSNR vs render/states/09-50000.png         =  36.7 dB  -> shot 9 during VO-012: counter reads 50,000
+  shot9_VO013     t=  31.970s  PSNR vs render/states/09-100000.png        =  36.6 dB  -> shot 9 during VO-013: counter reads 100,000
+  shot10_VO015    t=  37.710s  PSNR vs render/states/10-1000.png          =  34.8 dB  -> shot 10 during VO-015: banner reads 1,000 GIFTED SUBS
+  shot35          t= 135.210s  PSNR vs section2/35.png                    =  35.6 dB  -> shot 35 (VO-046): LIVE bright
+  shot50          t= 197.260s  PSNR vs section2/50.png                    =  34.9 dB  -> shot 50 (VO-065): counter reads 900,000
+  shot69_after    t= 316.150s  PSNR vs section3/69-state.png              =  36.2 dB  -> shot 69 after its trigger: $20,000,000 – $30,000,000 visible
+  shot85_after    t= 412.750s  PSNR vs section4/85-state.png              =  35.0 dB  -> shot 85 after its trigger: crowd flood visible
+  final_frame     t= 631.240s  PSNR vs section6/121.png                   =  37.6 dB  -> final frame (shot 121): plain monitor back
+  shot69_before   t= 310.100s  PSNR vs section3/69.png                    =  36.5 dB  -> (control) shot 69 BEFORE the trigger: base frame, no figure
+  shot85_before   t= 407.040s  PSNR vs section4/85.png                    =  41.1 dB  -> (control) shot 85 BEFORE the trigger: base frame
+  shot1_first     t=   0.050s  PSNR vs section1/1.png                     =  35.6 dB  -> (control) first frame = shot 1
+(each frame was also viewed by eye; see the visual verdicts appended below)
+================================================================================
+AUTOMATED GATES: ALL PASS

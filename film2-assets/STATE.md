@@ -2,6 +2,10 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
+## SMALL VERSION (2026-11-11): `render/film2-streamer-FINAL-v2.mp4` = 23.4 MB (22.4 MiB), under 25 MB
+- Same picture, timeline and audio as FINAL.mp4 (not overwritten); only the encode changed: x264 CRF 32 preset slow, AAC 96 kbps stereo, loudnorm true-peak target -2.5 (lower bitrates overshoot more in AAC). QA (all PASS, `render/QA-REPORT-v2.txt`): duration 631.300 s, 18,939 frames decoded with no errors, L/R correlation min 0.99331, quietest/loudest 10 s window -19.7 / -16.7 dBFS, -14.3 LUFS, true peak -1.2 dBTP. Two earlier v2 attempts (80 kbps audio: -0.3... true peak +0.3 dBTP) failed a gate and were replaced before delivery.
+- `render/film2-streamer-FINAL.mp4` (79 MB, CRF 18) stays the high-quality master.
+
 ## FILM RENDERED (2026-11-11): `render/film2-streamer-FINAL.mp4`
 - Rendered locally in this chat from the repo (0 credits spent by this chat; balance was 749.71 when the render started): 1920x1080, 30 fps cfr, H.264 High yuv420p (bt709), CRF 18, AAC-LC 192 kbps stereo 48 kHz, ffmpeg CONCAT FILTER (never -c copy), 117 shots + 5 state splits = 122 segments, 18,939 frames. **Duration 631.300 s**, size 82,857,437 bytes (79.0 MB, committed; under 100 MB).
 - QA (all gates PASS, numbers in `render/QA-REPORT.txt`): full linear decode OK (18,939 frames, no decoder errors); dual-mono L/R correlation min 0.99973 over 64 ten-second windows; quietest/loudest window RMS -19.8 / -16.3 dBFS (none silent); integrated loudness -14.1 LUFS, true peak -1.1 dBTP, LRA 3.6 LU; the 8 required frames verified (shot 9 50,000 / 100,000, shot 10 1,000 GIFTED SUBS, shot 35 LIVE bright, shot 50 900,000, shot 69 figure after trigger, shot 85 flood after trigger, final frame = shot 121 plain monitor back).
