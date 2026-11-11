@@ -3,11 +3,12 @@
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
 ## FILM RENDERED (2026-11-11): `render/film2-streamer-FINAL.mp4`
-- Rendered locally in this chat from the repo (0 credits; balance 749.71): 1920x1080, 30 fps cfr, H.264 High yuv420p (bt709), CRF 18, AAC-LC 192 kbps stereo 48 kHz, ffmpeg CONCAT FILTER (never -c copy), 117 shots + 5 state splits = 122 segments, 18,939 frames. **Duration 631.300 s**, size 82,857,437 bytes (79.0 MB, committed; under 100 MB).
+- Rendered locally in this chat from the repo (0 credits spent by this chat; balance was 749.71 when the render started): 1920x1080, 30 fps cfr, H.264 High yuv420p (bt709), CRF 18, AAC-LC 192 kbps stereo 48 kHz, ffmpeg CONCAT FILTER (never -c copy), 117 shots + 5 state splits = 122 segments, 18,939 frames. **Duration 631.300 s**, size 82,857,437 bytes (79.0 MB, committed; under 100 MB).
 - QA (all gates PASS, numbers in `render/QA-REPORT.txt`): full linear decode OK (18,939 frames, no decoder errors); dual-mono L/R correlation min 0.99973 over 64 ten-second windows; quietest/loudest window RMS -19.8 / -16.3 dBFS (none silent); integrated loudness -14.1 LUFS, true peak -1.1 dBTP, LRA 3.6 LU; the 8 required frames verified (shot 9 50,000 / 100,000, shot 10 1,000 GIFTED SUBS, shot 35 LIVE bright, shot 50 900,000, shot 69 figure after trigger, shot 85 flood after trigger, final frame = shot 121 plain monitor back).
 - Built locally (no file existed): shot 9 counter flips and shot 10 banner flip (`render/states/`); cues from audio analysis: 69-state at 7.85 s into VO-095, 85-state at 8.01 s into VO-124. Existing state files used for 35, 40, 50, 54, 69, 85.
 - Deviations (in the QA report): loudnorm true-peak target -1.5 (a -1.0 target measured -0.7 dBTP after AAC and failed the gate; the first render was never delivered); shot 40 follows the manifest (39 on VO-051, 40 push-in on VO-052); total is 631.30 s because per-line timing-report durations are rounded (exact VO total 631.22 s).
 - Reproducible: `tools/render-film2/` (01..04 scripts + README), `render/build-info/`. Any re-render gets a NEW filename (`film2-streamer-FINAL-v2.mp4`); never overwrite.
+- BALANCE NOTE: the balance now reads **741.96**. This chat made NO paid calls during the render; the transaction log shows 7 x 0.25 GPT Image 2.5 (01:02 UTC) + 1 x 6.00 Kling v3.0 (01:10 UTC) = 7.75 charged by another session/tool on the same account (Shorts-recipe prices), exactly 749.71 -> 741.96.
 - NEXT: Dominick's review of the final film.
 
 ## ASSEMBLY HANDOFF (2026-11-11): BUNDLE REBUILT, VERIFIED AND HANDED OFF FOR RENDERING
