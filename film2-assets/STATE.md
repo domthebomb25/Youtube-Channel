@@ -1,5 +1,10 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — SHOT 161 REPLACED BY THE SIMPLE VERSION (2026-11-11) — one generation, 1.00
+- `section5/shot-161-draining-counter.png` is now the SIMPLE version (lead slumped left, one monitor right showing only a person icon + red down arrow + ONE short row of 8 pills whose last two are gray and crumbling; bare royal-blue wall, plain wooden desk; no calendar/plant/frames/LIVE sign). Plays under "Your customers cancel themselves." / "Every thirty days.". The earlier busy version is archived as `discarded/shot-161-draining-counter-v1-busy.png` (its generation, job 987c63ef..., cost 1.00).
+- gpt_image_2_5 16:9 2k medium, price confirmed 1.00 via get_cost with refs (shot 94 composition, shot 1 lead/chair, shot 50 counter), job 846b74ed-1a11-4da1-a83b-decf418a6c79, no re-roll. All stated FAIL checks passed (viewed + face zoom). Flags: monitor is slightly 3/4 rather than strictly face-on; the lead's right eyebrow sits very close to the head outline (present, one per eye); chair backrest has no "#1" (no-text rule).
+- Balance after both shot-161 generations: 718.86.
+
 # STATE — SHOT 161 "DRAINING COUNTER" GENERATED (2026-11-11, later job) — one generation, 1.00
 - `section5/shot-161-draining-counter.png` (1920x1080): plays under "Your customers cancel themselves." / "Every thirty days." / "So how do you win it back?". gpt_image_2_5 16:9 2k medium, live price 1.00 via get_cost with refs attached, job 987c63ef-047c-4027-bb83-454c73fc0930, no re-roll. Refs: shot 94 (composition), shot 1 (lead + chair), shot 50 (counter screen), shot 9 (room).
 - All 7 FAIL checks PASSED (viewed + face zoom). Decisions/flags: (1) "no text anywhere" was applied literally, so the chair backrest has NO "#1" and the unlit LIVE box has NO lettering; the next shot's lit sign will need its letters. (2) The monitor is in 3/4 perspective, not strictly face-on. (3) Left-half pills are two-tone (color + blue fill). (4) Calendar is partly behind his head; check grid has no numbers.
