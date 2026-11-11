@@ -21,8 +21,10 @@ def compose(gen_path, band_path, out_path):
     gw=cv2.remap(g,gx+flow[...,0],gy+flow[...,1],cv2.INTER_LANCZOS4,borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
     bf=b.astype(np.float32)
     # per-column colour match at each seam (measured on the edge rows, light smoothing along x only)
-    sm=lambda v:cv2.GaussianBlur(v[None],(0,0),sigmaX=6,sigmaY=0.01)[0]
-    dtop=sm(bf[:PROBE].mean(0)-gw[Y0:Y0+PROBE].mean(0)); dbot=sm(bf[-PROBE:].mean(0)-gw[Y1-PROBE:Y1].mean(0))
+    sm=lambda v:cv2.GaussianBlur(v[None],(0,0),sigmaX=28,sigmaY=0.01)[0]
+    # per-column offset between the GENERATED art's own edge rows at each seam and the original band's edge rows
+    dtop=sm(bf[:PROBE].mean(0)-gw[Y0-PROBE:Y0].mean(0)); dbot=sm(bf[-PROBE:].mean(0)-gw[Y1:Y1+PROBE].mean(0))
+    CL=28.; dtop=np.clip(dtop,-CL,CL); dbot=np.clip(dbot,-CL,CL)   # cap so isolated bright details (moon, LIVE glow) cannot streak up/down a column
     for y in range(0,Y0):   gw[y]+=dtop*(0.5*(1+np.cos(np.pi*min(1,(Y0-y)/RAMP))))
     for y in range(Y1,H):   gw[y]+=dbot*(0.5*(1+np.cos(np.pi*min(1,(y-Y1+1)/RAMP))))
     # also colour-match the generated art inside the crossfade zone so both sides of the blend agree
