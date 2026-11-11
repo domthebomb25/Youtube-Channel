@@ -1,0 +1,60 @@
+FILM #2 — QA REPORT for film2-streamer-FINAL.mp4
+================================================================================
+FILE: /home/user/Youtube-Channel/film2-assets/render/film2-streamer-FINAL.mp4
+size: 82857437 bytes (79.0 MB)
+video stream: codec_name=h264 | profile=High | width=1920 | height=1080 | pix_fmt=yuv420p | color_range=tv | color_space=bt709 | avg_frame_rate=30/1 | duration=631.300000 | nb_frames=18939
+audio stream: codec_name=aac | profile=LC | sample_rate=48000 | channels=2 | duration=631.300000 | bit_rate=192980
+[PASS] 1. DURATION: final file 631.300 s (spec 631.22 s ± 1 s; narration track 631.290 s = sum of the 194 timing-report durations)
+[PASS] 1b. A/V length match: video 631.300 s, audio 631.300 s, difference 0 ms
+[PASS] 1c. FULL LINEAR VIDEO DECODE: decoded 18939 frames (expected 18939), decoder errors: none
+decoded audio: 631.296 s in 64 windows of 10 s (last window 1.30 s)
+[PASS] 2a. L/R CORRELATION per 10 s window (dual-mono): minimum 0.99973 (window #4, t=30-40s), maximum 1.00000; windows below 0.99: 0
+[PASS] 2b. RMS per 10 s window (none silent): quietest window #51 (t=500-510s) -19.8 dBFS; loudest window #39 (t=380-390s) -16.3 dBFS; windows below -50 dBFS: 0
+[PASS] 3a. INTEGRATED LOUDNESS: -14.1 LUFS (target -14 ± 1), LRA 3.6 LU
+[PASS] 3b. TRUE PEAK: -1.1 dBTP (must be <= -1.0)
+[PASS] 3c. AUDIO STREAM: codec_name=aac | profile=LC | sample_rate=48000 | channels=2 | duration=631.300000 | bit_rate=192980
+--------------------------------------------------------------------------------
+GATE 4: frames extracted from the FINAL file and compared with the intended source image (PSNR; >30 dB = same picture):
+  shot9_VO012     t=  30.320s  PSNR vs render/states/09-50000.png         =  39.0 dB  -> shot 9 during VO-012: counter reads 50,000
+  shot9_VO013     t=  31.970s  PSNR vs render/states/09-100000.png        =  39.0 dB  -> shot 9 during VO-013: counter reads 100,000
+  shot10_VO015    t=  37.710s  PSNR vs render/states/10-1000.png          =  37.3 dB  -> shot 10 during VO-015: banner reads 1,000 GIFTED SUBS
+  shot35          t= 135.210s  PSNR vs section2/35.png                    =  37.8 dB  -> shot 35 (VO-046): LIVE bright
+  shot50          t= 197.260s  PSNR vs section2/50.png                    =  38.2 dB  -> shot 50 (VO-065): counter reads 900,000
+  shot69_after    t= 316.150s  PSNR vs section3/69-state.png              =  38.5 dB  -> shot 69 after its trigger: $20,000,000 – $30,000,000 visible
+  shot85_after    t= 412.750s  PSNR vs section4/85-state.png              =  38.6 dB  -> shot 85 after its trigger: crowd flood visible
+  final_frame     t= 631.240s  PSNR vs section6/121.png                   =  40.0 dB  -> final frame (shot 121): plain monitor back
+  shot69_before   t= 310.100s  PSNR vs section3/69.png                    =  38.7 dB  -> (control) shot 69 BEFORE the trigger: base frame, no figure
+  shot85_before   t= 407.040s  PSNR vs section4/85.png                    =  43.6 dB  -> (control) shot 85 BEFORE the trigger: base frame
+  shot1_first     t=   0.050s  PSNR vs section1/1.png                     =  39.1 dB  -> (control) first frame = shot 1
+(each frame was also viewed by eye; see the visual verdicts appended below)
+
+GATE 4 — VISUAL VERDICTS (each frame pulled from the FINAL file and looked at):
+  [PASS] shot 9 during VO-012 (t=30.320 s): the counter reads 50,000 (eye icon above, same white bold condensed style, glow).
+  [PASS] shot 9 during VO-013 (t=31.970 s): the counter reads 100,000.
+  [PASS] shot 10 during VO-015 (t=37.710 s): the banner reads "1,000 GIFTED SUBS" (comma and third zero inserted, line fitted inside the banner).
+  [PASS] shot 35 (t=135.210 s, VO-046): LIVE sign bright red (the monitor shows the fixed dashboard screen from shot 28).
+  [PASS] shot 50 (t=197.260 s, VO-065): the counter reads 900,000.
+  [PASS] shot 69 after its trigger (t=316.150 s): "0,000,000 – 0,000,000" banner visible; control frame at t=310.100 s (before the trigger) shows the base frame without it.
+  [PASS] shot 85 after its trigger (t=412.750 s): the crowd flood (rays, crowd icons, monitor alive) visible; control frame before the trigger (t=407.040 s) shows the base frame.
+  [PASS] final frame (t=631.240 s): shot 121, plain monitor back, LIVE bright. First frame (t=0.050 s) = shot 1.
+  (PSNR of every extracted frame vs its source master is 37-44 dB, i.e. the same picture after one H.264 encode; no colour shift: bt709 tagged.)
+
+BUILD FACTS
+  Picture: 122 segments = 117 shots + 5 state splits (shot 9 x3, shot 10 x2, shot 69 x2, shot 85 x2). 18939 frames at 30 fps constant = 631.300 s. Hard cuts only; no fades, zooms, intro or end card. Frame boundaries rounded once from cumulative times (no drift).
+  Audio: 194 VO lines (VO-194 retired, absent), decoded to 48 kHz mono WAV and trimmed/padded to EXACTLY each timing-report duration, concatenated with no gaps/overlaps. Every mp3 decoded SHORTER than its timing-report duration (the report's durations include mp3 padding): 194 lines padded with silence (largest pad 0.050 s, total 7.61 s), 0 lines trimmed. Narration track = 631.290 s (sum of the rounded per-line durations; the 631.22 s in the timing report is the exact file total, so the track is 0.07 s longer; within the +-1 s gate).
+  Encode: concat FILTER (122 video segments, full decode, one libx264 encode; never -c copy), 1920x1080, 30 fps cfr, High profile yuv420p (bt709, tv range), CRF 18, preset medium, +faststart. Audio: narration -> dual-mono stereo -> loudnorm (two-pass: measured, then applied) -> AAC-LC 192 kbps, 48 kHz stereo. No amix, no music, no effects.
+  Reproduce: tools/render-film2/01_timeline_audio.py, 02_states.py, 03_render.py, 04_qa.py (see README.txt there); intermediate build info in render/build-info/.
+
+ASSEMBLY-STATE CUES (audio-derived, inside the narration):
+  VO-095 (11.60 s decoded): pauses (>=80 ms, below peak-32 dB): 0.55-0.69, 1.75-2.00, 2.57-2.65, 3.93-4.01, 4.56-4.91, 5.07-5.21, 5.61-5.70, 7.47-7.85, 8.78-9.07, 9.28-9.42, 9.82-9.99, 10.63-10.76 s. The two long pauses that mark the two dashes in the line are 4.56-4.91 (after "...named Ninja -") and 7.47-7.85 (after "...at the time -"), with "called Mixer," at 1.75-2.00 and "One platform," at 0.55-0.69: all four punctuation marks line up, and the last speech block (7.85-11.60 = 3.75 s) is the 6-word clause "between twenty and thirty million dollars." CUE: 69-state starts at 7.85 s into VO-095 (clause start).
+  VO-124 (9.84 s decoded): pauses at 2.25-2.59 ("...nobody knows -"), 4.02-4.31 ("a kid in a small room,"), 5.31-5.59 ("talking to nobody,"), 6.78-7.25 ("...just like you were yesterday -"): all four punctuation marks line up; the final block 7.25-9.63 is "and his room explodes in seconds." Inside it the energy dips at 8.01 (between "room" and "explodes"), 8.30 (the "p" closure of "ex-plo-des"), 8.82 ("in") and 9.27-9.43 (the "k" closure of "sec-onds") fit that wording syllable for syllable. CUE: 85-state starts at 8.01 s into VO-124 (onset of "explodes"). Confidence: high for the clause boundary (4/4 punctuation pauses), good (about +-0.1 s) for the word onset.
+
+DEVIATIONS / NOTES (nothing hidden)
+  1. True-peak target: loudnorm was run with TP=-1.5 instead of the spec's -1.0. A first render with TP=-1.0 measured -0.7 dBTP on the encoded file (AAC inter-sample overshoot) and FAILED gate 3b; the -1.5 setting leaves headroom so the final file measures <= -1.0. That first render was never delivered and was replaced.
+  2. loudnorm ran in dynamic mode (linear gain would have exceeded the true-peak limit because the narration peaks at -0.2 dBTP before normalisation); output loudness is still -14 LUFS.
+  3. Shot 40: the manifest has shot 39 on VO-051 and shot 40 (the existing push-in state file section2/40.png) on VO-052; the render follows the manifest (the spec text said "VO-051-052"). Shot 50 and shot 54 use their repo state files as the manifest lists them.
+  4. Shots 9 and 10 flips had no files: BUILT locally (render/states/): shot 9 number box repainted with a smooth background and the new number composed from the original glyphs ("5" taken from shot 17's counter, same condensed bold style); shot 10 banner text re-laid with the original glyphs, a drawn comma, fitted at 0.91x inside the banner. Outside the edited areas the frames are the original masters.
+  5. Total duration is 631.300 s, not exactly 631.22 s: see "Audio" above (rounded per-line durations).
+
+================================================================================
+AUTOMATED GATES: ALL PASS | VISUAL FRAME CHECKS: ALL PASS

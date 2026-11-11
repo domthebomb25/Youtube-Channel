@@ -1,0 +1,548 @@
+Input #0, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/1.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #1, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/2.png':
+  Duration: N/A, bitrate: N/A
+  Stream #1:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #2, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/3.png':
+  Duration: N/A, bitrate: N/A
+  Stream #2:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #3, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/4.png':
+  Duration: N/A, bitrate: N/A
+  Stream #3:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #4, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/5.png':
+  Duration: N/A, bitrate: N/A
+  Stream #4:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #5, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/6.png':
+  Duration: N/A, bitrate: N/A
+  Stream #5:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #6, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/8.png':
+  Duration: N/A, bitrate: N/A
+  Stream #6:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #7, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/9.png':
+  Duration: N/A, bitrate: N/A
+  Stream #7:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #8, png_pipe, from '/home/user/Youtube-Channel/film2-assets/render/states/09-50000.png':
+  Duration: N/A, bitrate: N/A
+  Stream #8:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #9, png_pipe, from '/home/user/Youtube-Channel/film2-assets/render/states/09-100000.png':
+  Duration: N/A, bitrate: N/A
+  Stream #9:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #10, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/10.png':
+  Duration: N/A, bitrate: N/A
+  Stream #10:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #11, png_pipe, from '/home/user/Youtube-Channel/film2-assets/render/states/10-1000.png':
+  Duration: N/A, bitrate: N/A
+  Stream #11:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #12, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/11.png':
+  Duration: N/A, bitrate: N/A
+  Stream #12:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #13, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/12.png':
+  Duration: N/A, bitrate: N/A
+  Stream #13:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #14, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/13.png':
+  Duration: N/A, bitrate: N/A
+  Stream #14:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #15, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/14.png':
+  Duration: N/A, bitrate: N/A
+  Stream #15:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #16, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/15.png':
+  Duration: N/A, bitrate: N/A
+  Stream #16:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #17, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/16.png':
+  Duration: N/A, bitrate: N/A
+  Stream #17:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #18, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/17.png':
+  Duration: N/A, bitrate: N/A
+  Stream #18:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #19, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/18.png':
+  Duration: N/A, bitrate: N/A
+  Stream #19:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #20, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/19.png':
+  Duration: N/A, bitrate: N/A
+  Stream #20:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #21, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/20.png':
+  Duration: N/A, bitrate: N/A
+  Stream #21:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #22, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/21.png':
+  Duration: N/A, bitrate: N/A
+  Stream #22:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #23, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/22.png':
+  Duration: N/A, bitrate: N/A
+  Stream #23:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #24, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/23.png':
+  Duration: N/A, bitrate: N/A
+  Stream #24:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #25, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/24.png':
+  Duration: N/A, bitrate: N/A
+  Stream #25:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #26, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/25.png':
+  Duration: N/A, bitrate: N/A
+  Stream #26:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #27, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/26.png':
+  Duration: N/A, bitrate: N/A
+  Stream #27:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #28, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section1/1.png':
+  Duration: N/A, bitrate: N/A
+  Stream #28:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #29, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/28.png':
+  Duration: N/A, bitrate: N/A
+  Stream #29:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #30, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/29.png':
+  Duration: N/A, bitrate: N/A
+  Stream #30:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #31, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/30.png':
+  Duration: N/A, bitrate: N/A
+  Stream #31:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #32, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/32.png':
+  Duration: N/A, bitrate: N/A
+  Stream #32:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #33, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/33.png':
+  Duration: N/A, bitrate: N/A
+  Stream #33:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #34, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/34.png':
+  Duration: N/A, bitrate: N/A
+  Stream #34:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #35, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/35.png':
+  Duration: N/A, bitrate: N/A
+  Stream #35:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #36, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/36.png':
+  Duration: N/A, bitrate: N/A
+  Stream #36:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #37, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/37.png':
+  Duration: N/A, bitrate: N/A
+  Stream #37:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #38, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/38.png':
+  Duration: N/A, bitrate: N/A
+  Stream #38:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #39, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/39.png':
+  Duration: N/A, bitrate: N/A
+  Stream #39:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #40, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/40.png':
+  Duration: N/A, bitrate: N/A
+  Stream #40:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #41, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/41.png':
+  Duration: N/A, bitrate: N/A
+  Stream #41:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #42, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/42.png':
+  Duration: N/A, bitrate: N/A
+  Stream #42:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #43, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/43.png':
+  Duration: N/A, bitrate: N/A
+  Stream #43:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #44, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/44.png':
+  Duration: N/A, bitrate: N/A
+  Stream #44:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #45, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/46.png':
+  Duration: N/A, bitrate: N/A
+  Stream #45:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #46, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/47.png':
+  Duration: N/A, bitrate: N/A
+  Stream #46:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #47, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/48.png':
+  Duration: N/A, bitrate: N/A
+  Stream #47:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #48, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/49.png':
+  Duration: N/A, bitrate: N/A
+  Stream #48:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #49, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/50.png':
+  Duration: N/A, bitrate: N/A
+  Stream #49:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #50, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/51.png':
+  Duration: N/A, bitrate: N/A
+  Stream #50:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #51, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/52.png':
+  Duration: N/A, bitrate: N/A
+  Stream #51:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #52, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/53.png':
+  Duration: N/A, bitrate: N/A
+  Stream #52:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #53, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/54.png':
+  Duration: N/A, bitrate: N/A
+  Stream #53:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #54, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/56.png':
+  Duration: N/A, bitrate: N/A
+  Stream #54:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #55, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section2/54.png':
+  Duration: N/A, bitrate: N/A
+  Stream #55:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #56, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/58.png':
+  Duration: N/A, bitrate: N/A
+  Stream #56:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #57, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/59.png':
+  Duration: N/A, bitrate: N/A
+  Stream #57:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #58, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/60.png':
+  Duration: N/A, bitrate: N/A
+  Stream #58:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #59, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/61.png':
+  Duration: N/A, bitrate: N/A
+  Stream #59:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #60, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/62.png':
+  Duration: N/A, bitrate: N/A
+  Stream #60:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #61, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/63.png':
+  Duration: N/A, bitrate: N/A
+  Stream #61:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #62, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/64.png':
+  Duration: N/A, bitrate: N/A
+  Stream #62:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #63, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/65.png':
+  Duration: N/A, bitrate: N/A
+  Stream #63:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #64, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/66.png':
+  Duration: N/A, bitrate: N/A
+  Stream #64:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #65, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/67.png':
+  Duration: N/A, bitrate: N/A
+  Stream #65:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #66, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/68.png':
+  Duration: N/A, bitrate: N/A
+  Stream #66:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #67, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/69.png':
+  Duration: N/A, bitrate: N/A
+  Stream #67:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #68, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/69-state.png':
+  Duration: N/A, bitrate: N/A
+  Stream #68:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #69, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/70.png':
+  Duration: N/A, bitrate: N/A
+  Stream #69:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #70, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/71.png':
+  Duration: N/A, bitrate: N/A
+  Stream #70:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #71, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/72.png':
+  Duration: N/A, bitrate: N/A
+  Stream #71:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #72, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/73.png':
+  Duration: N/A, bitrate: N/A
+  Stream #72:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #73, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/74.png':
+  Duration: N/A, bitrate: N/A
+  Stream #73:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #74, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section3/75.png':
+  Duration: N/A, bitrate: N/A
+  Stream #74:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #75, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/76.png':
+  Duration: N/A, bitrate: N/A
+  Stream #75:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #76, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/77.png':
+  Duration: N/A, bitrate: N/A
+  Stream #76:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #77, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/78.png':
+  Duration: N/A, bitrate: N/A
+  Stream #77:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #78, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/79.png':
+  Duration: N/A, bitrate: N/A
+  Stream #78:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #79, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/80.png':
+  Duration: N/A, bitrate: N/A
+  Stream #79:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #80, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/81.png':
+  Duration: N/A, bitrate: N/A
+  Stream #80:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #81, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/82.png':
+  Duration: N/A, bitrate: N/A
+  Stream #81:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #82, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/83.png':
+  Duration: N/A, bitrate: N/A
+  Stream #82:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #83, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/84.png':
+  Duration: N/A, bitrate: N/A
+  Stream #83:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #84, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/85.png':
+  Duration: N/A, bitrate: N/A
+  Stream #84:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #85, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/85-state.png':
+  Duration: N/A, bitrate: N/A
+  Stream #85:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #86, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/86.png':
+  Duration: N/A, bitrate: N/A
+  Stream #86:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #87, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/87.png':
+  Duration: N/A, bitrate: N/A
+  Stream #87:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #88, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section4/88.png':
+  Duration: N/A, bitrate: N/A
+  Stream #88:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #89, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/89.png':
+  Duration: N/A, bitrate: N/A
+  Stream #89:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #90, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/90.png':
+  Duration: N/A, bitrate: N/A
+  Stream #90:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #91, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/91.png':
+  Duration: N/A, bitrate: N/A
+  Stream #91:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #92, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/92.png':
+  Duration: N/A, bitrate: N/A
+  Stream #92:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #93, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/93.png':
+  Duration: N/A, bitrate: N/A
+  Stream #93:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #94, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/94.png':
+  Duration: N/A, bitrate: N/A
+  Stream #94:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #95, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/95.png':
+  Duration: N/A, bitrate: N/A
+  Stream #95:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #96, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/96.png':
+  Duration: N/A, bitrate: N/A
+  Stream #96:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #97, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/97.png':
+  Duration: N/A, bitrate: N/A
+  Stream #97:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #98, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/98.png':
+  Duration: N/A, bitrate: N/A
+  Stream #98:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #99, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/99.png':
+  Duration: N/A, bitrate: N/A
+  Stream #99:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #100, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/100.png':
+  Duration: N/A, bitrate: N/A
+  Stream #100:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #101, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/101.png':
+  Duration: N/A, bitrate: N/A
+  Stream #101:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #102, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/102.png':
+  Duration: N/A, bitrate: N/A
+  Stream #102:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #103, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/103.png':
+  Duration: N/A, bitrate: N/A
+  Stream #103:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #104, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/104.png':
+  Duration: N/A, bitrate: N/A
+  Stream #104:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #105, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/105.png':
+  Duration: N/A, bitrate: N/A
+  Stream #105:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #106, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/106.png':
+  Duration: N/A, bitrate: N/A
+  Stream #106:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #107, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/107.png':
+  Duration: N/A, bitrate: N/A
+  Stream #107:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #108, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/108.png':
+  Duration: N/A, bitrate: N/A
+  Stream #108:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #109, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/109.png':
+  Duration: N/A, bitrate: N/A
+  Stream #109:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #110, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/110.png':
+  Duration: N/A, bitrate: N/A
+  Stream #110:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #111, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section5/111.png':
+  Duration: N/A, bitrate: N/A
+  Stream #111:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #112, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/112.png':
+  Duration: N/A, bitrate: N/A
+  Stream #112:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #113, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/113.png':
+  Duration: N/A, bitrate: N/A
+  Stream #113:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #114, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/114.png':
+  Duration: N/A, bitrate: N/A
+  Stream #114:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #115, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/115.png':
+  Duration: N/A, bitrate: N/A
+  Stream #115:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #116, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/116.png':
+  Duration: N/A, bitrate: N/A
+  Stream #116:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #117, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/117.png':
+  Duration: N/A, bitrate: N/A
+  Stream #117:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #118, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/118.png':
+  Duration: N/A, bitrate: N/A
+  Stream #118:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #119, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/119.png':
+  Duration: N/A, bitrate: N/A
+  Stream #119:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #120, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/120.png':
+  Duration: N/A, bitrate: N/A
+  Stream #120:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+Input #121, png_pipe, from '/home/user/Youtube-Channel/film2-assets/section6/121.png':
+  Duration: N/A, bitrate: N/A
+  Stream #121:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1920x1080, 30 fps, 30 tbr, 30 tbn
+[aist#122:0/pcm_s16le @ 0x55aba1310f40] Guessed Channel Layout: mono
+Input #122, wav, from '/tmp/claude-0/-home-user-Youtube-Channel/b8dc324d-030f-5e19-a681-c5e947128430/scratchpad/render/narration.wav':
+  Duration: 00:10:31.29, bitrate: 768 kb/s
+  Stream #122:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 1 channels, s16, 768 kb/s
+Stream mapping:
+  Stream #0:0 (png) -> scale:default
+  Stream #1:0 (png) -> scale:default
+  Stream #2:0 (png) -> scale:default
+  Stream #3:0 (png) -> scale:default
+  Stream #4:0 (png) -> scale:default
+  Stream #5:0 (png) -> scale:default
+  Stream #6:0 (png) -> scale:default
+  Stream #7:0 (png) -> scale:default
+  Stream #8:0 (png) -> scale:default
+  Stream #9:0 (png) -> scale:default
+  Stream #10:0 (png) -> scale:default
+  Stream #11:0 (png) -> scale:default
+  Stream #12:0 (png) -> scale:default
+  Stream #13:0 (png) -> scale:default
+  Stream #14:0 (png) -> scale:default
+  Stream #15:0 (png) -> scale:default
+  Stream #16:0 (png) -> scale:default
+  Stream #17:0 (png) -> scale:default
+  Stream #18:0 (png) -> scale:default
+  Stream #19:0 (png) -> scale:default
+  Stream #20:0 (png) -> scale:default
+  Stream #21:0 (png) -> scale:default
+  Stream #22:0 (png) -> scale:default
+  Stream #23:0 (png) -> scale:default
+  Stream #24:0 (png) -> scale:default
+  Stream #25:0 (png) -> scale:default
+  Stream #26:0 (png) -> scale:default
+  Stream #27:0 (png) -> scale:default
+  Stream #28:0 (png) -> scale:default
+  Stream #29:0 (png) -> scale:default
+  Stream #30:0 (png) -> scale:default
+  Stream #31:0 (png) -> scale:default
+  Stream #32:0 (png) -> scale:default
+  Stream #33:0 (png) -> scale:default
+  Stream #34:0 (png) -> scale:default
+  Stream #35:0 (png) -> scale:default
+  Stream #36:0 (png) -> scale:default
+  Stream #37:0 (png) -> scale:default
+  Stream #38:0 (png) -> scale:default
+  Stream #39:0 (png) -> scale:default
+  Stream #40:0 (png) -> scale:default
+  Stream #41:0 (png) -> scale:default
+  Stream #42:0 (png) -> scale:default
+  Stream #43:0 (png) -> scale:default
+  Stream #44:0 (png) -> scale:default
+  Stream #45:0 (png) -> scale:default
+  Stream #46:0 (png) -> scale:default
+  Stream #47:0 (png) -> scale:default
+  Stream #48:0 (png) -> scale:default
+  Stream #49:0 (png) -> scale:default
+  Stream #50:0 (png) -> scale:default
+  Stream #51:0 (png) -> scale:default
+  Stream #52:0 (png) -> scale:default
+  Stream #53:0 (png) -> scale:default
+  Stream #54:0 (png) -> scale:default
+  Stream #55:0 (png) -> scale:default
+  Stream #56:0 (png) -> scale:default
+  Stream #57:0 (png) -> scale:default
+  Stream #58:0 (png) -> scale:default
+  Stream #59:0 (png) -> scale:default
+  Stream #60:0 (png) -> scale:default
+  Stream #61:0 (png) -> scale:default
+  Stream #62:0 (png) -> scale:default
+  Stream #63:0 (png) -> scale:default
+  Stream #64:0 (png) -> scale:default
+  Stream #65:0 (png) -> scale:default
+  Stream #66:0 (png) -> scale:default
+  Stream #67:0 (png) -> scale:default
+  Stream #68:0 (png) -> scale:default
+  Stream #69:0 (png) -> scale:default
+  Stream #70:0 (png) -> scale:default
+  Stream #71:0 (png) -> scale:default
+  Stream #72:0 (png) -> scale:default
+  Stream #73:0 (png) -> scale:default
+  Stream #74:0 (png) -> scale:default
+  Stream #75:0 (png) -> scale:default
+  Stream #76:0 (png) -> scale:default
+  Stream #77:0 (png) -> scale:default
+  Stream #78:0 (png) -> scale:default
+  Stream #79:0 (png) -> scale:default
+  Stream #80:0 (png) -> scale:default
+  Stream #81:0 (png) -> scale:default
+  Stream #82:0 (png) -> scale:default
+  Stream #83:0 (png) -> scale:default
+  Stream #84:0 (png) -> scale:default
+  Stream #85:0 (png) -> scale:default
+  Stream #86:0 (png) -> scale:default
+  Stream #87:0 (png) -> scale:default
+  Stream #88:0 (png) -> scale:default
+  Stream #89:0 (png) -> scale:default
+  Stream #90:0 (png) -> scale:default
+  Stream #91:0 (png) -> scale:default
+  Stream #92:0 (png) -> scale:default
+  Stream #93:0 (png) -> scale:default
+  Stream #94:0 (png) -> scale:default
+  Stream #95:0 (png) -> scale:default
+  Stream #96:0 (png) -> scale:default
+  Stream #97:0 (png) -> scale:default
+  Stream #98:0 (png) -> scale:default
+  Stream #99:0 (png) -> scale:default
+  Stream #100:0 (png) -> scale:default
+  Stream #101:0 (png) -> scale:default
+  Stream #102:0 (png) -> scale:default
+  Stream #103:0 (png) -> scale:default
+  Stream #104:0 (png) -> scale:default
+  Stream #105:0 (png) -> scale:default
+  Stream #106:0 (png) -> scale:default
+  Stream #107:0 (png) -> scale:default
+  Stream #108:0 (png) -> scale:default
+  Stream #109:0 (png) -> scale:default
+  Stream #110:0 (png) -> scale:default
+  Stream #111:0 (png) -> scale:default
+  Stream #112:0 (png) -> scale:default
+  Stream #113:0 (png) -> scale:default
+  Stream #114:0 (png) -> scale:default
+  Stream #115:0 (png) -> scale:default
+  Stream #116:0 (png) -> scale:default
+  Stream #117:0 (png) -> scale:default
+  Stream #118:0 (png) -> scale:default
+  Stream #119:0 (png) -> scale:default
+  Stream #120:0 (png) -> scale:default
+  Stream #121:0 (png) -> scale:default
+  Stream #122:0 (pcm_s16le) -> pan:default
+  concat:out:v0 -> Stream #0:0 (libx264)
+  aresample:default -> Stream #0:1 (aac)
+Press [q] to stop, [?] for help
+[Parsed_pan_855 @ 0x55abb44a5000] Pure channel mapping detected: 0 0
+[libx264 @ 0x55aba4e2c900] using SAR=1/1
+[libx264 @ 0x55aba4e2c900] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x55aba4e2c900] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x55aba4e2c900] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/home/user/Youtube-Channel/film2-assets/render/film2-streamer-FINAL.mp4':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 15360 tbn
+    Metadata:
+      encoder         : Lavc60.31.102 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+[mp4 @ 0x55aba4e2b8c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x55aba4e2b7c0] video:65362kB audio:14872kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.848680%
+frame=18939 fps= 88 q=-1.0 Lsize=   80915kB time=00:10:31.28 bitrate=1050.0kbits/s speed=2.93x    
+[Parsed_loudnorm_856 @ 0x55abb44a2940] 
+Input Integrated:    -15.2 LUFS
+Input True Peak:      -0.2 dBTP
+Input LRA:             3.7 LU
+Input Threshold:     -25.7 LUFS
+
+Output Integrated:   -14.1 LUFS
+Output True Peak:     -1.5 dBTP
+Output LRA:            3.4 LU
+Output Threshold:    -24.6 LUFS
+
+Normalization Type:   Dynamic
+Target Offset:        +0.1 LU
+[libx264 @ 0x55aba4e2c900] frame I:121   Avg QP: 8.32  size:507811
+[libx264 @ 0x55aba4e2c900] frame P:4757  Avg QP:11.91  size:   923
+[libx264 @ 0x55aba4e2c900] frame B:14061 Avg QP:16.30  size:    78
+[libx264 @ 0x55aba4e2c900] consecutive B-frames:  0.9%  0.2%  0.5% 98.4%
+[libx264 @ 0x55aba4e2c900] mb I  I16..4: 11.8% 49.2% 39.0%
+[libx264 @ 0x55aba4e2c900] mb P  I16..4:  0.0%  0.1%  0.0%  P16..4:  0.6%  0.0%  0.0%  0.0%  0.0%    skip:99.2%
+[libx264 @ 0x55aba4e2c900] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  0.1%  0.0%  0.0%  direct: 0.0%  skip:99.9%  L0:20.3% L1:79.7% BI: 0.0%
+[libx264 @ 0x55aba4e2c900] 8x8 transform intra:50.3% inter:83.6%
+[libx264 @ 0x55aba4e2c900] coded y,uvDC,uvAC intra: 95.9% 94.7% 93.8% inter: 0.0% 0.0% 0.0%
+[libx264 @ 0x55aba4e2c900] i16 v,h,dc,p: 17% 11% 47% 25%
+[libx264 @ 0x55aba4e2c900] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 16% 19% 35%  5%  5%  3%  5%  4%  8%
+[libx264 @ 0x55aba4e2c900] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 25% 13%  7%  7%  6%  7%  6%  9%
+[libx264 @ 0x55aba4e2c900] i8c dc,h,v,p: 49% 24% 18%  9%
+[libx264 @ 0x55aba4e2c900] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x55aba4e2c900] ref P L0: 94.5%  1.5%  3.4%  0.5%  0.0%
+[libx264 @ 0x55aba4e2c900] ref B L0: 16.3% 83.6%  0.1%
+[libx264 @ 0x55aba4e2c900] ref B L1: 96.0%  4.0%
+[libx264 @ 0x55aba4e2c900] kb/s:848.16
+[aac @ 0x55aba4e2e480] Qavg: 1882.530
