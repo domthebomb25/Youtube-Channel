@@ -1,5 +1,15 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — Film #2 REBUILD v2 (2026-11-11) — NARRATION DONE; 4 S2 IMAGES AWAITING A PRICE APPROVAL (4.00); NOTHING ELSE STARTED
+- Recordings: 44 Bram takes done earlier (spent 11.10, not the 6.60 quoted: Higgsfield prices by line length; always price the LONGEST lines). Old takes = `voiceover/VO-NNN-OLD-v1.mp3`; new lines = `VO-201`..`VO-212`.
+- NARRATION DELIVERED: `narration/narration-v2.m4a` (AAC 256k mono 48 kHz, 555.61 s = 9:15.61, -14.0 LUFS, -1.4 dBTP), `narration/narration-v2-timeline.json` (154 lines in final play order with line start / speech on / speech off), `narration/QA-NARRATION-v2.txt`. Builders `tools/render-film2/05_narration_v2.py` (args: `. <workdir> -13.8 -2.8`) and `06_narration_qa.py`.
+- Method: every clip decoded, leveled to -13.8 LUFS ON ITS OWN (after peak limiting at -2.8 dBFS ceiling), speech edges found with ABSOLUTE thresholds (-38 / -44 dBFS, sustained), kept lead 0.04 s / trail 0.06 s faded to zero, exact 0.30 s speech-to-speech gap, one uniform gain at the end. Per-line spread 7.50 LU before -> 0.30 LU after. Limiter makeup averages 2.9 dB (takes have ~16.7 dB peak-to-loudness; -14 LUFS with true peak <= -1 needs it).
+- NOTE: total is 9:15.6 (the film's expected 8:58 assumed the old pacing); 153 gaps x 0.30 s = 45.9 s of it.
+- PART C: live price 1.00/image (gpt_image_2_5 16:9 2k medium), 4.00 total, AWAITING Dominick's OK. Nothing generated. Balance 724.86.
+- NOT STARTED (separate jobs, only on Dominick's word): storyboard pass, assembly, render. Delivered v1 renders untouched.
+
+# STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
+
 # STATE — Film #2 REBUILD v2 (2026-11-11) — IN PROGRESS, PART 1 DONE, PARTS 2-4 BLOCKED ON THE FULL REVISED SCRIPT ORDER
 - PART 1 DONE: all 44 Bram takes recorded (text2speech_v2 / elevenlabs / preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709). 32 replaced old takes archived as `voiceover/VO-NNN-OLD-v1.mp3`; the 12 [NEW] lines are `voiceover/VO-201.mp3`..`VO-212.mp3` (201-204 = S1 lines 17, 20, 21, 22; 205-212 = S2 lines 8-15). Replaced ids: 002 011 012 013 015 016 030 074 075 076 079 082 095 102 106 125 137 147 148 149 150 151 154 167 176 177 183 184 185 186 188 190.
 - SPEND: 11.10 credits (balance 735.96 -> 724.86), NOT the 6.60 quoted. Pricing is by line length (0.15 short, 0.30/0.45/0.60 longer); the preflight only priced one short line. 44 charges, all matched in the transaction log. Three 429 rejections created no job and no charge.
