@@ -5,6 +5,7 @@
 - SECTION 1 DONE (P01-P08): spent 4.20, balance 714.51.
 - SECTION 2 DONE (P09-P16): spent 4.05, balance 710.46.
 - SECTION 3 DONE (P17-P25): spent 5.40, balance 705.06 (two 429 rate-limit rejections, no job/no charge, resubmitted unchanged).
+- SECTION 4 DONE (P26-P33): spent 4.20, balance 700.86.
 
 # STATE — FILM #2 REBUILD v2 RENDERED (2026-11-11): `render/film2-streamer-REBUILD-v2.mp4` (68,595,606 B, 1080p) + `render/film2-streamer-REBUILD-v2-under25mb.mp4` (18,450,107 B, 720p). 553.400 s, 91 positions + 5 state flips, 153-line narration (`narration/narration-153.m4a`), new VO-212 recorded (0.15; old kept as `voiceover/VO-212-OLD-and-that-is.mp3`), holder masters in `section2-final/` (from film2-holder-masters.pdf). QA: `render/QA-REPORT-REBUILD-v2.txt`; timeline `render/REBUILD-v2-timeline.json`; tools `tools/render-film2/05..09`. Balance 718.71. Delivered v1 renders untouched.
 - Flags: pos 29 uses section3/59.png (brief) so 29 and 30 show the same frame; no state files exist for pos 30 coin->coffee or pos 32 coin split (static frames); shot 69 money-figure state (4.80 s into VO-095) and shot 85 pop (8.01 s into VO-124) kept; 0.5 s silent tail after the last word; master loudness is stereo -14 LUFS (narration file is mono -14 = -11 stereo, trimmed -2.95 dB).
