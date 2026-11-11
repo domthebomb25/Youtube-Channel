@@ -1,5 +1,10 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — SHOT 161 "DRAINING COUNTER" GENERATED (2026-11-11, later job) — one generation, 1.00
+- `section5/shot-161-draining-counter.png` (1920x1080): plays under "Your customers cancel themselves." / "Every thirty days." / "So how do you win it back?". gpt_image_2_5 16:9 2k medium, live price 1.00 via get_cost with refs attached, job 987c63ef-047c-4027-bb83-454c73fc0930, no re-roll. Refs: shot 94 (composition), shot 1 (lead + chair), shot 50 (counter screen), shot 9 (room).
+- All 7 FAIL checks PASSED (viewed + face zoom). Decisions/flags: (1) "no text anywhere" was applied literally, so the chair backrest has NO "#1" and the unlit LIVE box has NO lettering; the next shot's lit sign will need its letters. (2) The monitor is in 3/4 perspective, not strictly face-on. (3) Left-half pills are two-tone (color + blue fill). (4) Calendar is partly behind his head; check grid has no numbers.
+- Balance after: see below. Not started: storyboard, assembly, render.
+
 # STATE — Film #2 REBUILD v2 (2026-11-11) — NARRATION APPROVED; 4 NEW S2 IMAGES DELIVERED (awaiting review); NOTHING ELSE STARTED
 - Recordings: 44 Bram takes (spent 11.10, not the 6.60 quoted: Higgsfield prices by line length; always price the LONGEST lines). Old takes = `voiceover/VO-NNN-OLD-v1.mp3`; new lines = `VO-201`..`VO-212`.
 - NARRATION APPROVED AS DELIVERED (Dominick, 9:15 length and 0.30 s gap kept): `narration/narration-v2.m4a` (AAC 256k mono 48 kHz, 555.61 s, -14.0 LUFS, -1.4 dBTP), `narration/narration-v2-timeline.json` (154 lines in play order, with start / speech on / speech off), `narration/QA-NARRATION-v2.txt`. Builders `tools/render-film2/05_narration_v2.py` (args `. <workdir> -13.8 -2.8`) + `06_narration_qa.py`. Per-line spread 7.50 LU before -> 0.30 LU after; limiter makeup avg 2.9 dB.
