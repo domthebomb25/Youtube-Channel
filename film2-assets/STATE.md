@@ -1,5 +1,11 @@
 # STATE — Film #2 "POV: You Became the #1 Streamer Overnight." (long-form)
 
+# STATE — Film #2 REBUILD v2 (2026-11-11) — IN PROGRESS, PART 1 DONE, PARTS 2-4 BLOCKED ON THE FULL REVISED SCRIPT ORDER
+- PART 1 DONE: all 44 Bram takes recorded (text2speech_v2 / elevenlabs / preset 549ff70a-3ee7-4f04-a4d9-89a24fab7709). 32 replaced old takes archived as `voiceover/VO-NNN-OLD-v1.mp3`; the 12 [NEW] lines are `voiceover/VO-201.mp3`..`VO-212.mp3` (201-204 = S1 lines 17, 20, 21, 22; 205-212 = S2 lines 8-15). Replaced ids: 002 011 012 013 015 016 030 074 075 076 079 082 095 102 106 125 137 147 148 149 150 151 154 167 176 177 183 184 185 186 188 190.
+- SPEND: 11.10 credits (balance 735.96 -> 724.86), NOT the 6.60 quoted. Pricing is by line length (0.15 short, 0.30/0.45/0.60 longer); the preflight only priced one short line. 44 charges, all matched in the transaction log. Three 429 rejections created no job and no charge.
+- BLOCKED: the 44 lines alone do not define the film. Needed: the complete ordered revised script (every S1/S2 line incl. retained old takes, and which S3-S5 lines are cut) so the 154-line timeline can be built. Also S2 new-image quote needs approval. Nothing rendered; v1 renders untouched.
+
+
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
 ## CLOSE-OUT OF THE ASSEMBLY/RENDER CHAT (2026-11-11) — READ THIS FIRST
