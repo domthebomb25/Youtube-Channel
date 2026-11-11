@@ -10,18 +10,19 @@ LEAD, TRAIL, GAP = 0.04, 0.06, 0.30          # kept lead/trail around speech; un
 ORDER_TXT = """
 S1: 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 19 201 23 24 202 203 204
 S2: 30 31 32 33 34 35 36 205 206 207 208 209 210 211 212
-S3: 74 75 76 77 78 79 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104
+S3: 74 76 77 78 79 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104
 S4: 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131
 S5: 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 167 168 169 170 171 161 162 163 164 165 166 172 173 174 175 176
 S6: 177 178 179 180 181 182 183 184 185 186 188 189 190 191 192 193 195
 """
-NEW44 = [2,11,12,13,15,16,201,202,203,204,30,205,206,207,208,209,210,211,212,74,75,76,79,82,95,102,106,125,137,147,148,149,150,151,154,167,176,177,183,184,185,186,188,190]
+NEW44 = [2,11,12,13,15,16,201,202,203,204,30,205,206,207,208,209,210,211,212,74,76,79,82,95,102,106,125,137,147,148,149,150,151,154,167,176,177,183,184,185,186,188,190]
 order = []; sect = []
 for l in ORDER_TXT.strip().splitlines():
     s, ids = l.split(":");
     for i in ids.split(): order.append(int(i)); sect.append(s)
-assert len(order) == 154 and len(set(order)) == 154, len(order)
-assert len(NEW44) == 44 and set(NEW44) <= set(order)
+assert len(order) == 153 and len(set(order)) == 153, len(order)
+assert 75 not in order
+assert len(NEW44) == 43 and set(NEW44) <= set(order)
 for i in order: assert os.path.exists(f"{A}/voiceover/VO-{i:03d}.mp3"), i
 
 def dec(path):
@@ -69,7 +70,8 @@ for k, i in enumerate(order):
         seg = y[a:b].copy(); ln = s_on - a; tn = b - s_off
         if ln > 0: seg[:ln] *= np.linspace(0, 1, ln)           # fade the whole kept lead in from zero (kills any breath/click ahead of the word)
         seg[:int(0.004 * SR)] *= np.linspace(0, 1, int(0.004 * SR))
-        if tn > 0: seg[-tn:] *= np.linspace(1, 0, tn)          # fade the whole kept trail out
+        fo = max(tn, int(0.015 * SR))                           # fade the whole kept trail out; clips that end right on a word get a 15 ms fade so there is no hard cut
+        seg[-fo:] *= np.linspace(1, 0, fo)
         return y, s_on, s_off, a, b, seg
     for _ in range(14):                                 # gain so the TRIMMED line (as it plays) lands on TARGET after peak limiting
         y, s_on, s_off, a, b, seg = process(g); I1, _tp = lufs(seg)
@@ -99,7 +101,7 @@ G = -14.0 - I
 if abs(G) > 0.02: nar = nar * (10 ** (G / 20)); I, TP = lufs(nar); print(f"after uniform trim {G:+.2f} dB: {I:.2f} LUFS, {TP:.2f} dBTP")
 assert TP <= -1.0, TP
 np.save(W + "/narration_final.npy", nar.astype(np.float32))
-with wave.open(W + "/narration-v2.wav", "wb") as w:
+with wave.open(W + "/narration-153.wav", "wb") as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(nar, -1, 1) * 32767).astype('<i2').tobytes())
 for r in rows: r['uniform_trim_db'] = float(G)
 json.dump(dict(total=len(nar) / SR, integrated=I, true_peak=TP, rows=rows), open(W + "/rows.json", "w"), indent=1)
