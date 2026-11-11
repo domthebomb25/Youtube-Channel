@@ -2,6 +2,11 @@
 
 Single source of truth: branch `claude/happy-mccarthy-4tfabg`, folder `film2-assets/` (this folder). Updated 2026-11-10 (CLOSE-OUT of the Section 6 chat).
 
+## ASSEMBLY HANDOFF (2026-11-11): BUNDLE REBUILT, VERIFIED AND HANDED OFF FOR RENDERING
+- All six `assembly/sectionN-assembly.zip` rebuilt from the current canonical state and verified against `assembly/MANIFEST.txt` with `tools/verify-assembly.py`: **117 masters, 194 played VO files**, each file byte-identical to the repo (S1 19/27, S2 34/46, S3 18/31 + 069-state, S4 13/25 + 085-state, S5 23/47, S6 10/18). Fixes inside: composited 32-35, fixed 93, accepted 101, awake 113, fixed 121; new VO-178, VO-179, VO-195; ORIGINAL VO-193. No OLD/UNUSED take and no VO-194 in any zip. (35 is a numbered master in section 2; 69-state and 85-state are separate state files.) Zip contents were byte-identical to the already-committed zips, so those were not re-pushed.
+- Sent to Dominick as attachments (zips 1-6, then MANIFEST.txt) for Muse to assemble and render locally. **Balance 749.71 (unchanged; 0 credits spent).**
+- NEXT: Muse assembles/renders; nothing else open.
+
 ## FINAL-REVIEW UPDATES (2026-11-11, this chat) — Job log
 ### SHOT 113 REGENERATED AWAKE (1.00)
 - New line VO-179 ("And you woke up...") needs him awake: shot 113 regenerated once (gpt_image_2_5 16:9 2k medium, 1.00, price confirmed via get_cost, refs = old 113 + stream-screen asset, job 2c6a463d-29c2-4851-9f6d-6d4ec75f16b8). He is awake (eyes open, raised brows, crown), the monitor preview shows his awake face (locked stream design), bright morning light. Self-check passed (flag: wide open-mouth smile, not "small"). Old image archived `discarded/113-original.png`. Duration unchanged 3.5 s. Map, sheets (full-film 19, section 6 sheet 1) and `assembly/section6-assembly.zip` rebuilt.
